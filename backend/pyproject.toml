@@ -1,0 +1,24 @@
+[project]
+name = "showmethemoney-backend"
+version = "0.1.0"
+description = "FastAPI backend for the show-me-the-money dashboard"
+readme = "../README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic-settings",
+    "python-dotenv",
+    "httpx",
+    "opentelemetry-api",
+    "opentelemetry-sdk",
+    "azure-core-tracing-opentelemetry",
+    "azure-monitor-opentelemetry",
+    "azure-monitor-opentelemetry-exporter",
+    "opentelemetry-instrumentation-httpx",
+    "opentelemetry-instrumentation-fastapi",
+    "opentelemetry-instrumentation-openai",
+]
+
+[tool.uv]
+managed = true
