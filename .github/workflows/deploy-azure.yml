@@ -148,7 +148,8 @@ jobs:
           BACKEND_APP_NAME="ca-${{ env.APP_NAME }}-backend-${{ env.ENVIRONMENT }}"
           ACR_LOGIN_SERVER="${{ steps.create_acr.outputs.login_server }}"
           ACR_NAME="${{ steps.create_acr.outputs.acr_name }}"
-          APPINSIGHTS_CONNECTION_STRING="${{ steps.create_app_insights.outputs.connection_string }}"
+          # GitHub Secrets에서 가져오거나, 없으면 동적으로 생성된 값 사용
+          APPINSIGHTS_CONNECTION_STRING="${{ secrets.APPLICATIONINSIGHTS_CONNECTION_STRING || steps.create_app_insights.outputs.connection_string }}"
           CONTAINERAPP_ENV_NAME="${{ steps.create_container_env.outputs.container_env_name }}"
 
           if ! az containerapp show --name $BACKEND_APP_NAME --resource-group ${{ env.RESOURCE_GROUP }} 2>/dev/null; then
@@ -173,6 +174,7 @@ jobs:
                 GITHUB_REPO_OWNER=dotnetpower \
                 GITHUB_REPO_NAME=showmethemoney \
                 CORS_ORIGINS="https://${FRONTEND_FQDN},http://localhost:3000,http://localhost:5173" \
+                DATA_DIR=/app/data \
               --cpu 0.5 \
               --memory 1Gi \
               --min-replicas 1 \
@@ -360,6 +362,13 @@ jobs:
           ACR_NAME="${{ needs.setup-infrastructure.outputs.acr_name }}"
           ACR_LOGIN_SERVER="${{ needs.setup-infrastructure.outputs.acr_login_server }}"
           
+          # Application Insights 연결 문자열 가져오기
+          APPINSIGHTS_CONNECTION_STRING="${{ secrets.APPLICATIONINSIGHTS_CONNECTION_STRING }}"
+          if [ -z "$APPINSIGHTS_CONNECTION_STRING" ]; then
+            APPINSIGHTS_NAME="appi-${{ env.APP_NAME }}-${{ env.ENVIRONMENT }}"
+            APPINSIGHTS_CONNECTION_STRING=$(az monitor app-insights component show --app $APPINSIGHTS_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query connectionString -o tsv)
+          fi
+          
           # ACR 인증 정보 가져오기
           ACR_USERNAME=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query username -o tsv)
           ACR_PASSWORD=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query passwords[0].value -o tsv)
@@ -371,6 +380,13 @@ jobs:
             --server $ACR_LOGIN_SERVER \
             --username $ACR_USERNAME \
             --password $ACR_PASSWORD || true
+          
+          # Secret 업데이트
+          az containerapp secret set \
+            --name ca-showmethemoney-backend-${{ env.ENVIRONMENT }} \
+            --resource-group ${{ env.RESOURCE_GROUP }} \
+            --secrets appinsights-connection-string="$APPINSIGHTS_CONNECTION_STRING" \
+                      github-token="${{ secrets.GITHUB_TOKEN }}"
           
           # Container App 업데이트
           # 프론트엔드 FQDN 가져오기
@@ -385,7 +401,8 @@ jobs:
               GITHUB_TOKEN=secretref:github-token \
               GITHUB_REPO_OWNER=dotnetpower \
               GITHUB_REPO_NAME=showmethemoney \
-              CORS_ORIGINS="https://${FRONTEND_FQDN},http://localhost:3000,http://localhost:5173"
+              CORS_ORIGINS="https://${FRONTEND_FQDN},http://localhost:3000,http://localhost:5173" \
+              DATA_DIR=/app/data
           
           # Ingress 설정 확인 및 업데이트
           az containerapp ingress update \

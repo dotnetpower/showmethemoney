@@ -1,12 +1,14 @@
 """Application configuration powered by Pydantic settings."""
 
+import os
 from functools import lru_cache
 from pathlib import Path
 from typing import List
 
 from pydantic_settings import BaseSettings
 
-_REPO_ROOT = Path(__file__).resolve().parents[3]
+# 기본 데이터 디렉토리 (환경변수로 재정의 가능)
+_DEFAULT_DATA_DIR = Path(__file__).resolve().parents[3] / "data"
 
 # 기본 CORS 허용 도메인 (개발 환경용)
 DEFAULT_CORS_ORIGINS = [
@@ -19,7 +21,8 @@ DEFAULT_CORS_ORIGINS = [
 
 class Settings(BaseSettings):
     app_name: str = "show-me-the-money"
-    github_data_dir: Path = _REPO_ROOT / "data"
+    # 환경변수 DATA_DIR로 재정의 가능, 기본값은 /app/data
+    github_data_dir: Path = Path(os.getenv("DATA_DIR", str(_DEFAULT_DATA_DIR)))
     application_insights_connection_string: str | None = None
     # CORS 허용 도메인 (콤마로 구분된 문자열 또는 기본값 사용)
     cors_origins: str | None = None

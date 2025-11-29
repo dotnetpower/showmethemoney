@@ -1,7 +1,10 @@
 """FastAPI entrypoint for show-me-the-money."""
+import logging
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from observability import (TracingMiddleware, initialize_metrics,
+                           setup_telemetry)
 from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
 from opentelemetry.instrumentation.httpx import HTTPXClientInstrumentor
 
@@ -44,6 +47,15 @@ app = FastAPI(
     redoc_url="/redoc",  # ReDoc
     openapi_url="/openapi.json",
 )
+setup_telemetry(app)
+
+# 로깅 설정 (텔레메트리 설정 이후)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    force=True  # 기존 핸들러를 유지하면서 설정 적용
+)
+logger = logging.getLogger(__name__)
 app.include_router(api_router, prefix="/api")
 
 # CORS 설정: 환경 변수 CORS_ORIGINS에서 허용 도메인을 로드
@@ -56,6 +68,11 @@ app.add_middleware(
     allow_headers=["Content-Type", "Authorization", "X-Requested-With"],
 )
 
+# 커스텀 메트릭 초기화 (Live Metrics용)
+initialize_metrics(service_name=app.title)
+
+# Tracing 미들웨어 추가 (Live Metrics 데이터 수집)
+app.add_middleware(TracingMiddleware)
 
 @app.on_event("startup")
 async def startup_event() -> None:
@@ -64,6 +81,14 @@ async def startup_event() -> None:
     FastAPIInstrumentor.instrument_app(app)
     HTTPXClientInstrumentor().instrument()
     logger.info("show-me-the-money API started")
+    
+    # 데이터 디렉토리 확인
+    logger.info(f"Data directory: {settings.github_data_dir}")
+    logger.info(f"Data directory exists: {settings.github_data_dir.exists()}")
+    if settings.github_data_dir.exists():
+        import os
+        subdirs = [d for d in os.listdir(settings.github_data_dir) if os.path.isdir(settings.github_data_dir / d)]
+        logger.info(f"Subdirectories in data: {len(subdirs)} - {subdirs[:5]}")
     
     # 초기 데이터 로드 확인
     from .services.etf_updater import ETFUpdater
@@ -76,10 +101,10 @@ async def startup_event() -> None:
         
         # 데이터가 없으면 경고
         if total_etfs == 0:
-            logger.warning("No ETF data found. Please run initial data collection using /api/v1/etf/update/all endpoint")
+            logger.warning("No ETF data found. Please run initial data collection using /api/v1/etf/update endpoint")
             logger.warning("You can trigger it manually or wait for the scheduled update")
     except Exception as e:
-        logger.error(f"Error checking initial data: {e}")
+        logger.error(f"Error checking initial data: {e}", exc_info=True)
     
     # 데이터 업데이트 스케줄러 시작 (매일 미국 동부시간 오후 6시)
     scheduler.start(hour=18, minute=0, timezone="America/New_York")

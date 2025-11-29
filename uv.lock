@@ -33,6 +33,15 @@ wheels = [
 ]
 
 [[package]]
+name = "applicationinsights"
+version = "0.11.10"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d3/f2/46a75ac6096d60da0e71a068015b610206e697de01fa2fb5bba8564b0798/applicationinsights-0.11.10.tar.gz", hash = "sha256:0b761f3ef0680acf4731906dfc1807faa6f2a57168ae74592db0084a6099f7b3", size = 44722, upload-time = "2021-04-22T23:22:45.71Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f4/0d/cb6b23164eb55eebaa5f9f302dfe557cfa751bd7b2779863f1abd0343b6b/applicationinsights-0.11.10-py2.py3-none-any.whl", hash = "sha256:e89a890db1c6906b6a7d0bcfd617dac83974773c64573147c8d6654f9cf2a6ea", size = 55068, upload-time = "2021-04-22T23:22:44.451Z" },
+]
+
+[[package]]
 name = "apscheduler"
 version = "3.11.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1311,6 +1320,7 @@ name = "showmethemoney"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "applicationinsights" },
     { name = "apscheduler" },
     { name = "azure-core-tracing-opentelemetry" },
     { name = "azure-monitor-opentelemetry" },
@@ -1336,6 +1346,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "applicationinsights", specifier = ">=0.11.10" },
     { name = "apscheduler", specifier = ">=3.10.4" },
     { name = "azure-core-tracing-opentelemetry" },
     { name = "azure-monitor-opentelemetry" },
