@@ -11,7 +11,6 @@ on:
 
 env:
   RESOURCE_GROUP: rg-showmethemoney
-  ACR_RESOURCE_GROUP: rg-smtm
   LOCATION: koreacentral
   ENVIRONMENT: dev
   APP_NAME: showmethemoney
@@ -60,7 +59,7 @@ jobs:
         run: |
           # 기존 컨테이너 레지스트리 사용
           ACR_NAME="${{ env.ACR_NAME }}"
-          ACR_RG="${{ env.ACR_RESOURCE_GROUP }}"
+          ACR_RG="${{ env.RESOURCE_GROUP }}"
           
           echo "✅ Using existing Container Registry: $ACR_NAME"
           echo "   Resource Group: $ACR_RG"
@@ -179,7 +178,7 @@ jobs:
             PRINCIPAL_ID=$(az containerapp show --name $BACKEND_APP_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query identity.principalId -o tsv)
             
             # Grant AcrPull role to the managed identity
-            ACR_ID=$(az acr show --name $ACR_NAME --resource-group ${{ env.ACR_RESOURCE_GROUP }} --query id -o tsv)
+            ACR_ID=$(az acr show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query id -o tsv)
             az role assignment create --assignee $PRINCIPAL_ID --role AcrPull --scope $ACR_ID
           fi
 
@@ -218,7 +217,7 @@ jobs:
             PRINCIPAL_ID=$(az containerapp show --name $FRONTEND_APP_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query identity.principalId -o tsv)
             
             # Grant AcrPull role to the managed identity
-            ACR_ID=$(az acr show --name $ACR_NAME --resource-group ${{ env.ACR_RESOURCE_GROUP }} --query id -o tsv)
+            ACR_ID=$(az acr show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query id -o tsv)
             az role assignment create --assignee $PRINCIPAL_ID --role AcrPull --scope $ACR_ID
           fi
 
@@ -346,8 +345,8 @@ jobs:
           ACR_LOGIN_SERVER="${{ needs.setup-infrastructure.outputs.acr_login_server }}"
           
           # ACR 인증 정보 가져오기
-          ACR_USERNAME=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.ACR_RESOURCE_GROUP }} --query username -o tsv)
-          ACR_PASSWORD=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.ACR_RESOURCE_GROUP }} --query passwords[0].value -o tsv)
+          ACR_USERNAME=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query username -o tsv)
+          ACR_PASSWORD=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query passwords[0].value -o tsv)
           
           # Registry 설정 (이미 설정되어 있으면 에러 무시)
           az containerapp registry set \
@@ -400,8 +399,8 @@ jobs:
           ACR_LOGIN_SERVER="${{ needs.setup-infrastructure.outputs.acr_login_server }}"
           
           # ACR 인증 정보 가져오기
-          ACR_USERNAME=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.ACR_RESOURCE_GROUP }} --query username -o tsv)
-          ACR_PASSWORD=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.ACR_RESOURCE_GROUP }} --query passwords[0].value -o tsv)
+          ACR_USERNAME=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query username -o tsv)
+          ACR_PASSWORD=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query passwords[0].value -o tsv)
           
           # Registry 설정 (이미 설정되어 있으면 에러 무시)
           az containerapp registry set \
