@@ -62,6 +62,7 @@ body {
   z-index: 200;
   box-shadow: 0 2px 4px var(--shadow);
   min-height: var(--app-header-height);
+  transition: transform 0.2s ease;
 }
 
 .header-content {
@@ -207,8 +208,8 @@ body {
 
 .etf-table thead {
   position: sticky;
-  top: var(--app-header-height);
-  z-index: 150;
+  top: 0;
+  z-index: 10;
   background: var(--bg-tertiary);
 }
 
@@ -219,11 +220,13 @@ body {
   font-weight: 600;
   color: var(--text-secondary);
   border-bottom: 2px solid var(--border-color);
-  position: sticky;
-  top: var(--app-header-height);
-  z-index: 160;
   white-space: nowrap;
   box-shadow: 0 2px 4px var(--shadow);
+}
+
+/* ETF 목록 제목이 화면에서 사라졌을 때 메인 헤더 숨김 */
+.hide-app-header .app-header {
+  transform: translateY(-100%);
 }
 
 .etf-table th.sortable {

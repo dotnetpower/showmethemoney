@@ -216,7 +216,7 @@ const EtfList = () => {
 
   return (
     <article className="card etf-list-card">
-      <h2>전체 ETF 목록</h2>
+      <h2 id="etf-list-title">전체 ETF 목록</h2>
 
       {/* 검색 및 필터 바 */}
       <div className="search-container">
