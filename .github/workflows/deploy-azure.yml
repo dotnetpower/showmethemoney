@@ -312,10 +312,21 @@ jobs:
 
       - name: Deploy Backend Container App
         run: |
+          ACR_NAME="${{ needs.setup-infrastructure.outputs.acr_name }}"
+          ACR_LOGIN_SERVER="${{ needs.setup-infrastructure.outputs.acr_login_server }}"
+          
+          # ACR 인증 정보 가져오기
+          ACR_USERNAME=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query username -o tsv)
+          ACR_PASSWORD=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query passwords[0].value -o tsv)
+          
+          # Container App 업데이트
           az containerapp update \
             --name ca-showmethemoney-backend-${{ env.ENVIRONMENT }} \
             --resource-group ${{ env.RESOURCE_GROUP }} \
             --image ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:${{ github.sha }} \
+            --registry-server $ACR_LOGIN_SERVER \
+            --registry-username $ACR_USERNAME \
+            --registry-password $ACR_PASSWORD \
             --set-env-vars \
               APPLICATIONINSIGHTS_CONNECTION_STRING=secretref:appinsights-connection-string \
               GITHUB_TOKEN=secretref:github-token \
@@ -350,12 +361,24 @@ jobs:
 
       - name: Deploy Frontend Container App
         run: |
+          ACR_NAME="${{ needs.setup-infrastructure.outputs.acr_name }}"
+          ACR_LOGIN_SERVER="${{ needs.setup-infrastructure.outputs.acr_login_server }}"
+          
+          # ACR 인증 정보 가져오기
+          ACR_USERNAME=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query username -o tsv)
+          ACR_PASSWORD=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query passwords[0].value -o tsv)
+          
+          # 백엔드 FQDN 가져오기
           BACKEND_FQDN=$(az containerapp show --name ca-showmethemoney-backend-${{ env.ENVIRONMENT }} --resource-group ${{ env.RESOURCE_GROUP }} --query properties.configuration.ingress.fqdn -o tsv)
           
+          # Container App 업데이트
           az containerapp update \
             --name ca-showmethemoney-frontend-${{ env.ENVIRONMENT }} \
             --resource-group ${{ env.RESOURCE_GROUP }} \
             --image ${{ needs.setup-infrastructure.outputs.acr_login_server }}/frontend:${{ github.sha }} \
+            --registry-server $ACR_LOGIN_SERVER \
+            --registry-username $ACR_USERNAME \
+            --registry-password $ACR_PASSWORD \
             --set-env-vars \
               REACT_APP_API_URL="https://${BACKEND_FQDN}"
           

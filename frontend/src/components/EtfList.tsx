@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useCallback, useRef } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import { getAllETFs, ETF } from "../services/etfApi";
 
 type SortField =
@@ -42,39 +42,6 @@ const EtfList = () => {
 
     loadETFs();
   }, []);
-
-  // 무한 스크롤 구현
-  const loadMore = useCallback(() => {
-    setDisplayCount((prev) => prev + 50);
-  }, []);
-
-  useEffect(() => {
-    if (observerRef.current) {
-      observerRef.current.disconnect();
-    }
-
-    observerRef.current = new IntersectionObserver(
-      (entries) => {
-        if (
-          entries[0].isIntersecting &&
-          displayCount < filteredAndSorted.length
-        ) {
-          loadMore();
-        }
-      },
-      { threshold: 0.1 }
-    );
-
-    if (loadMoreRef.current) {
-      observerRef.current.observe(loadMoreRef.current);
-    }
-
-    return () => {
-      if (observerRef.current) {
-        observerRef.current.disconnect();
-      }
-    };
-  }, [displayCount, loadMore]);
 
   // 검색 및 필터링
   const filtered = useMemo(() => {
@@ -125,6 +92,35 @@ const EtfList = () => {
   const displayedEtfs = useMemo(() => {
     return filteredAndSorted.slice(0, displayCount);
   }, [filteredAndSorted, displayCount]);
+
+  // 무한 스크롤 구현
+  useEffect(() => {
+    if (observerRef.current) {
+      observerRef.current.disconnect();
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (
+          entries[0].isIntersecting &&
+          displayCount < filteredAndSorted.length
+        ) {
+          setDisplayCount((prev) => prev + 50);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    observerRef.current = observer;
+
+    if (loadMoreRef.current) {
+      observer.observe(loadMoreRef.current);
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, [displayCount, filteredAndSorted.length]);
 
   // 정렬 핸들러
   const handleSort = (field: SortField) => {
