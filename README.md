@@ -331,10 +331,3 @@ cd frontend && npm run lint
 ## 📞 문의
 
 - **GitHub Issues**: [이슈 등록](https://github.com/dotnetpower/showmethemoney/issues)
-- **Author**: Moonhyuk Choi
-
----
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/dotnetpower">dotnetpower</a>
-</p>

@@ -139,12 +139,14 @@ const EtfList = () => {
       style: "currency",
       currency: "USD",
       minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
     }).format(parseFloat(value));
   };
 
   const formatPercent = (value: string | null) => {
     if (!value) return "N/A";
-    return `${parseFloat(value).toFixed(2)}%`;
+    const num = parseFloat(value);
+    return `${num.toFixed(2)}%`;
   };
 
   const formatDate = (dateStr: string | null) => {

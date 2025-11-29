@@ -1,5 +1,10 @@
 {
-  "last_updated": "2025-11-29T15:04:20.365044",
+  "provider": "Alpha Architect",
+  "data_type": "etf_list",
+  "updated_at": "2025-11-29T16:24:01.951734",
   "total_count": 8,
-  "provider": "Alpha Architect"
+  "total_size": 5170,
+  "use_msgpack": false,
+  "chunked": false,
+  "file": "etf_list.json"
 }

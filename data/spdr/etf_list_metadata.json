@@ -1,6 +1,10 @@
 {
-  "provider": "spdr",
-  "total_etfs": 176,
-  "last_updated": "2025-11-29T15:47:55.752799",
-  "data_source": "web_crawler"
+  "provider": "SPDR",
+  "data_type": "etf_list",
+  "updated_at": "2025-11-29T16:24:01.330652",
+  "total_count": 176,
+  "total_size": 152557,
+  "use_msgpack": false,
+  "chunked": false,
+  "file": "etf_list.json"
 }

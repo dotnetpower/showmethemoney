@@ -1,6 +1,10 @@
 {
-  "provider": "direxion",
-  "total_etfs": 484,
-  "last_updated": "2025-11-29T15:51:09.546980",
-  "data_source": "web_crawler"
+  "provider": "Direxion",
+  "data_type": "etf_list",
+  "updated_at": "2025-11-29T16:24:00.210022",
+  "total_count": 51,
+  "total_size": 36679,
+  "use_msgpack": false,
+  "chunked": false,
+  "file": "etf_list.json"
 }
