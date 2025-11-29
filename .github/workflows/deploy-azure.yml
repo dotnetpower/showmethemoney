@@ -152,6 +152,9 @@ jobs:
           CONTAINERAPP_ENV_NAME="${{ steps.create_container_env.outputs.container_env_name }}"
 
           if ! az containerapp show --name $BACKEND_APP_NAME --resource-group ${{ env.RESOURCE_GROUP }} 2>/dev/null; then
+            # 프론트엔드 FQDN을 미리 예측 (후에 업데이트 가능)
+            FRONTEND_FQDN="ca-${{ env.APP_NAME }}-frontend-${{ env.ENVIRONMENT }}.bravewater-46e243b4.koreacentral.azurecontainerapps.io"
+            
             az containerapp create \
               --name $BACKEND_APP_NAME \
               --resource-group ${{ env.RESOURCE_GROUP }} \
@@ -169,6 +172,7 @@ jobs:
                 GITHUB_TOKEN=secretref:github-token \
                 GITHUB_REPO_OWNER=dotnetpower \
                 GITHUB_REPO_NAME=showmethemoney \
+                CORS_ORIGINS="https://${FRONTEND_FQDN},http://localhost:3000,http://localhost:5173" \
               --cpu 0.5 \
               --memory 1Gi \
               --min-replicas 1 \
@@ -314,8 +318,12 @@ jobs:
 
       - name: Build and Push Frontend Image
         run: |
+          # 백엔드 URL 설정
+          BACKEND_URL="https://ca-${{ env.APP_NAME }}-backend-${{ env.ENVIRONMENT }}.bravewater-46e243b4.koreacentral.azurecontainerapps.io"
+          
           docker build -t ${{ needs.setup-infrastructure.outputs.acr_login_server }}/frontend:${{ github.sha }} \
             -t ${{ needs.setup-infrastructure.outputs.acr_login_server }}/frontend:latest \
+            --build-arg VITE_API_BASE_URL="$BACKEND_URL" \
             -f frontend/Dockerfile ./frontend
           docker push ${{ needs.setup-infrastructure.outputs.acr_login_server }}/frontend:${{ github.sha }}
           docker push ${{ needs.setup-infrastructure.outputs.acr_login_server }}/frontend:latest
@@ -357,6 +365,9 @@ jobs:
             --password $ACR_PASSWORD || true
           
           # Container App 업데이트
+          # 프론트엔드 FQDN 가져오기
+          FRONTEND_FQDN=$(az containerapp show --name ca-showmethemoney-frontend-${{ env.ENVIRONMENT }} --resource-group ${{ env.RESOURCE_GROUP }} --query properties.configuration.ingress.fqdn -o tsv 2>/dev/null || echo "ca-${{ env.APP_NAME }}-frontend-${{ env.ENVIRONMENT }}.bravewater-46e243b4.koreacentral.azurecontainerapps.io")
+          
           az containerapp update \
             --name ca-showmethemoney-backend-${{ env.ENVIRONMENT }} \
             --resource-group ${{ env.RESOURCE_GROUP }} \
@@ -365,7 +376,8 @@ jobs:
               APPLICATIONINSIGHTS_CONNECTION_STRING=secretref:appinsights-connection-string \
               GITHUB_TOKEN=secretref:github-token \
               GITHUB_REPO_OWNER=dotnetpower \
-              GITHUB_REPO_NAME=showmethemoney
+              GITHUB_REPO_NAME=showmethemoney \
+              CORS_ORIGINS="https://${FRONTEND_FQDN},http://localhost:3000,http://localhost:5173"
           
           # Ingress 설정 확인 및 업데이트
           az containerapp ingress update \
