@@ -12,7 +12,7 @@ const Layout = ({ children }: LayoutProps) => {
     <div className="app-container">
       <header className="app-header">
         <div className="header-content">
-          <h1 className="app-title">Show Me The Money</h1>
+          <h1 className="app-title">Show Me The Dollar</h1>
           <button
             className="theme-toggle"
             onClick={toggleTheme}

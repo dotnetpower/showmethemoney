@@ -202,8 +202,12 @@ class ETFUpdater:
         Returns:
             ETF 모델 리스트
         """
-        data = await self.data_manager.load_data(provider_name, "etf_list")
-        return [ETF(**item) for item in data]
+        try:
+            data = await self.data_manager.load_data(provider_name, "etf_list")
+            return [ETF(**item) for item in data]
+        except Exception as e:
+            print(f"[{provider_name}] Error loading ETF list: {e}")
+            return []
     
     async def get_all_etfs(self) -> Dict[str, List[ETF]]:
         """
@@ -215,5 +219,11 @@ class ETFUpdater:
         result = {}
         for crawler in self.crawlers:
             provider_name = crawler.get_provider_name()
-            result[provider_name] = await self.get_etf_list(provider_name)
+            try:
+                etf_list = await self.get_etf_list(provider_name)
+                if etf_list:  # 빈 리스트가 아닌 경우만 추가
+                    result[provider_name] = etf_list
+            except Exception as e:
+                print(f"[{provider_name}] Error in get_all_etfs: {e}")
+                continue
         return result

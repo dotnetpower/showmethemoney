@@ -36,6 +36,21 @@ async def get_all_etf_lists() -> Dict[str, List[ETF]]:
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@router.get("/all")
+async def get_all_etfs_combined() -> List[ETF]:
+    """
+    모든 운용사의 ETF를 하나의 리스트로 통합하여 조회합니다.
+    """
+    try:
+        all_etfs = await etf_updater.get_all_etfs()
+        combined_list = []
+        for provider_etfs in all_etfs.values():
+            combined_list.extend(provider_etfs)
+        return combined_list
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @router.post("/update/{provider}")
 async def update_provider_data(provider: str) -> Dict:
     """

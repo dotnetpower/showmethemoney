@@ -212,6 +212,17 @@ body {
   white-space: nowrap;
 }
 
+.etf-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s ease;
+}
+
+.etf-table th.sortable:hover {
+  background: var(--bg-primary);
+  color: var(--accent);
+}
+
 .etf-table td {
   padding: 0.75rem 0.5rem;
   border-bottom: 1px solid var(--border-color);
@@ -224,6 +235,90 @@ body {
 .etf-table .ticker {
   font-weight: 700;
   color: var(--accent);
+  white-space: nowrap;
+}
+
+.etf-table .fund-name {
+  font-weight: 500;
+  min-width: 200px;
+}
+
+.etf-table .nav,
+.etf-table .expense-ratio,
+.etf-table .ytd-return,
+.etf-table .distribution-yield {
+  text-align: right;
+  font-weight: 600;
+}
+
+.etf-table .ytd-return.positive {
+  color: var(--positive);
+}
+
+.etf-table .ytd-return.negative {
+  color: var(--negative);
+}
+
+.etf-table .asset-class,
+.etf-table .region {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+/* 검색 컨테이너 */
+.search-container {
+  margin-bottom: 1.5rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  color: var(--text-primary);
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.search-info {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+/* 로딩 및 에러 상태 */
+.loading-container,
+.error-container {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.error-message {
+  color: var(--negative);
+  font-weight: 500;
+}
+
+/* 무한 스크롤 트리거 */
+.load-more-trigger {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--text-secondary);
+}
+
+.end-of-list {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  border-top: 1px solid var(--border-color);
+  margin-top: 1rem;
 }
 
 .etf-table .name-kr {
