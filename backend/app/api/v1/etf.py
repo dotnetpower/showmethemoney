@@ -1,7 +1,12 @@
 """ETF API 엔드포인트"""
+from decimal import Decimal
 from typing import Dict, List
 
-from app.models.etf import ETF
+from app.models.etf import (
+    ETF, 
+    DividendSimulationRequest, 
+    DividendSimulationResult
+)
 from app.services.etf_updater import ETFUpdater
 from app.services.scheduler import scheduler
 from fastapi import APIRouter, HTTPException, Path, Query
@@ -152,3 +157,70 @@ async def run_scheduler_now() -> Dict:
     """스케줄러를 즉시 실행합니다."""
     scheduler.run_now()
     return {"message": "Update job started", "status": "running"}
+
+
+@router.post(
+    "/simulate-dividend",
+    response_model=DividendSimulationResult,
+    summary="배당금 시뮬레이션",
+    description="""
+    특정 ETF에 대한 배당금 시뮬레이션을 수행합니다.
+    투자 금액과 보유 기간을 입력하면 예상 배당금을 계산합니다.
+    """,
+)
+async def simulate_dividend(
+    request: DividendSimulationRequest
+) -> DividendSimulationResult:
+    """배당금 시뮬레이션을 수행합니다."""
+    try:
+        # 모든 ETF에서 해당 티커 찾기
+        all_etfs = await etf_updater.get_all_etfs()
+        target_etf = None
+        
+        for provider_etfs in all_etfs.values():
+            for etf in provider_etfs:
+                if etf.ticker.upper() == request.ticker.upper():
+                    target_etf = etf
+                    break
+            if target_etf:
+                break
+        
+        if not target_etf:
+            raise HTTPException(
+                status_code=404, 
+                detail=f"ETF '{request.ticker}' not found"
+            )
+        
+        # 배당 수익률이 없는 경우
+        if not target_etf.distribution_yield:
+            raise HTTPException(
+                status_code=400, 
+                detail=f"ETF '{request.ticker}' does not have distribution yield data"
+            )
+        
+        # 시뮬레이션 계산
+        nav = Decimal(str(target_etf.nav_amount))
+        yield_rate = Decimal(str(target_etf.distribution_yield)) / Decimal("100")
+        investment = Decimal(str(request.investment_amount))
+        
+        shares = investment / nav
+        annual_dividend = investment * yield_rate
+        monthly_dividend = annual_dividend / Decimal("12")
+        total_dividend = monthly_dividend * Decimal(str(request.holding_period_months))
+        
+        return DividendSimulationResult(
+            ticker=target_etf.ticker,
+            fund_name=target_etf.fund_name,
+            investment_amount=investment,
+            shares_purchased=shares.quantize(Decimal("0.01")),
+            current_price=nav,
+            distribution_yield=target_etf.distribution_yield,
+            annual_dividend_estimate=annual_dividend.quantize(Decimal("0.01")),
+            monthly_dividend_estimate=monthly_dividend.quantize(Decimal("0.01")),
+            holding_period_months=request.holding_period_months,
+            total_dividend_estimate=total_dividend.quantize(Decimal("0.01"))
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

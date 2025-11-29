@@ -7,7 +7,9 @@ type SortField =
   | "nav_amount"
   | "expense_ratio"
   | "ytd_return"
-  | "distribution_yield";
+  | "distribution_yield"
+  | "sector"
+  | "theme";
 type SortDirection = "asc" | "desc";
 
 const EtfList = () => {
@@ -18,6 +20,8 @@ const EtfList = () => {
   const [sortField, setSortField] = useState<SortField>("ticker");
   const [sortDirection, setSortDirection] = useState<SortDirection>("asc");
   const [displayCount, setDisplayCount] = useState(50);
+  const [sectorFilter, setSectorFilter] = useState<string>("");
+  const [themeFilter, setThemeFilter] = useState<string>("");
   const observerRef = useRef<IntersectionObserver | null>(null);
   const loadMoreRef = useRef<HTMLDivElement | null>(null);
 
@@ -43,24 +47,52 @@ const EtfList = () => {
     loadETFs();
   }, []);
 
+  // 고유 섹터 및 테마 목록 추출
+  const { uniqueSectors, uniqueThemes } = useMemo(() => {
+    const sectors = new Set<string>();
+    const themes = new Set<string>();
+    etfs.forEach((etf) => {
+      if (etf.sector) sectors.add(etf.sector);
+      if (etf.theme) themes.add(etf.theme);
+    });
+    return {
+      uniqueSectors: Array.from(sectors).sort(),
+      uniqueThemes: Array.from(themes).sort(),
+    };
+  }, [etfs]);
+
   // 검색 및 필터링
   const filtered = useMemo(() => {
-    if (!searchTerm) return etfs;
+    let result = etfs;
 
-    const lowerSearch = searchTerm.toLowerCase();
-    return etfs.filter(
-      (etf) =>
-        etf.ticker.toLowerCase().includes(lowerSearch) ||
-        etf.fund_name.toLowerCase().includes(lowerSearch) ||
-        etf.asset_class.toLowerCase().includes(lowerSearch)
-    );
-  }, [etfs, searchTerm]);
+    if (searchTerm) {
+      const lowerSearch = searchTerm.toLowerCase();
+      result = result.filter(
+        (etf) =>
+          etf.ticker.toLowerCase().includes(lowerSearch) ||
+          etf.fund_name.toLowerCase().includes(lowerSearch) ||
+          etf.asset_class.toLowerCase().includes(lowerSearch) ||
+          (etf.sector && etf.sector.toLowerCase().includes(lowerSearch)) ||
+          (etf.theme && etf.theme.toLowerCase().includes(lowerSearch))
+      );
+    }
+
+    if (sectorFilter) {
+      result = result.filter((etf) => etf.sector === sectorFilter);
+    }
+
+    if (themeFilter) {
+      result = result.filter((etf) => etf.theme === themeFilter);
+    }
+
+    return result;
+  }, [etfs, searchTerm, sectorFilter, themeFilter]);
 
   // 정렬
   const filteredAndSorted = useMemo(() => {
     const sorted = [...filtered].sort((a, b) => {
-      let aValue: any = a[sortField];
-      let bValue: any = b[sortField];
+      let aValue: string | number | null = a[sortField as keyof ETF] as string | null;
+      let bValue: string | number | null = b[sortField as keyof ETF] as string | null;
 
       // null 값 처리
       if (aValue === null && bValue === null) return 0;
@@ -76,8 +108,8 @@ const EtfList = () => {
           "distribution_yield",
         ].includes(sortField)
       ) {
-        aValue = parseFloat(aValue);
-        bValue = parseFloat(bValue);
+        aValue = parseFloat(aValue as string);
+        bValue = parseFloat(bValue as string);
       }
 
       if (aValue < bValue) return sortDirection === "asc" ? -1 : 1;
@@ -149,20 +181,6 @@ const EtfList = () => {
     return `${num.toFixed(2)}%`;
   };
 
-  const formatDate = (dateStr: string | null) => {
-    if (!dateStr) return "N/A";
-    try {
-      const date = new Date(dateStr);
-      return date.toLocaleDateString("ko-KR", {
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit",
-      });
-    } catch {
-      return "N/A";
-    }
-  };
-
   const formatFrequency = (frequency: string) => {
     const frequencyMap: { [key: string]: string } = {
       Weekly: "주배당",
@@ -180,6 +198,15 @@ const EtfList = () => {
   const getSortIndicator = (field: SortField) => {
     if (sortField !== field) return "";
     return sortDirection === "asc" ? " ▲" : " ▼";
+  };
+
+  // 투자자 평가 렌더링
+  const renderRating = (etf: ETF) => {
+    if (!etf.ratings || etf.ratings.length === 0) return "N/A";
+    const rating = etf.ratings[0];
+    if (rating.rating) return rating.rating;
+    if (rating.score) return `${rating.score}점`;
+    return "N/A";
   };
 
   if (loading) {
@@ -206,15 +233,59 @@ const EtfList = () => {
     <article className="card etf-list-card">
       <h2>전체 ETF 목록</h2>
 
-      {/* 검색 바 */}
+      {/* 검색 및 필터 바 */}
       <div className="search-container">
         <input
           type="text"
-          placeholder="티커, 펀드명, 자산군으로 검색..."
+          placeholder="티커, 펀드명, 자산군, 섹터, 테마로 검색..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           className="search-input"
         />
+        
+        {/* 필터 영역 */}
+        <div className="filter-container">
+          <select
+            value={sectorFilter}
+            onChange={(e) => setSectorFilter(e.target.value)}
+            className="filter-select"
+            aria-label="섹터 필터"
+          >
+            <option value="">모든 섹터</option>
+            {uniqueSectors.map((sector) => (
+              <option key={sector} value={sector}>
+                {sector}
+              </option>
+            ))}
+          </select>
+          
+          <select
+            value={themeFilter}
+            onChange={(e) => setThemeFilter(e.target.value)}
+            className="filter-select"
+            aria-label="테마 필터"
+          >
+            <option value="">모든 테마</option>
+            {uniqueThemes.map((theme) => (
+              <option key={theme} value={theme}>
+                {theme}
+              </option>
+            ))}
+          </select>
+          
+          {(sectorFilter || themeFilter) && (
+            <button
+              onClick={() => {
+                setSectorFilter("");
+                setThemeFilter("");
+              }}
+              className="filter-reset-btn"
+            >
+              필터 초기화
+            </button>
+          )}
+        </div>
+        
         <div className="search-info">
           전체 {etfs.length}개 중 {filteredAndSorted.length}개 표시 (현재{" "}
           {displayedEtfs.length}개 로드됨)
@@ -251,9 +322,13 @@ const EtfList = () => {
                 배당수익률{getSortIndicator("distribution_yield")}
               </th>
               <th>배당주기</th>
-              <th>NAV 기준일</th>
-              <th>자산군</th>
-              <th>지역</th>
+              <th onClick={() => handleSort("sector")} className="sortable">
+                섹터{getSortIndicator("sector")}
+              </th>
+              <th onClick={() => handleSort("theme")} className="sortable">
+                테마{getSortIndicator("theme")}
+              </th>
+              <th>평가</th>
             </tr>
           </thead>
           <tbody>
@@ -280,9 +355,15 @@ const EtfList = () => {
                 <td className="distribution-frequency">
                   {formatFrequency(etf.distribution_frequency)}
                 </td>
-                <td className="nav-as-of">{formatDate(etf.nav_as_of)}</td>
-                <td className="asset-class">{etf.asset_class}</td>
-                <td className="region">{etf.region}</td>
+                <td className="sector">
+                  {etf.sector || "-"}
+                </td>
+                <td className="theme">
+                  {etf.theme || "-"}
+                </td>
+                <td className="rating">
+                  {renderRating(etf)}
+                </td>
               </tr>
             ))}
           </tbody>

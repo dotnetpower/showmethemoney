@@ -1,10 +1,10 @@
 """ETF 데이터 모델"""
-from datetime import date
+from datetime import date, datetime
 from decimal import Decimal
 from enum import Enum
-from typing import Optional
+from typing import List, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class DistributionFrequency(str, Enum):
@@ -17,6 +17,48 @@ class DistributionFrequency(str, Enum):
     VARIABLE = "Variable"  # 가변
     NONE = "None"  # 무배당
     UNKNOWN = "Unknown"  # 알 수 없음
+
+
+class InvestorRating(BaseModel):
+    """투자자 평가 정보"""
+    source: str = Field(..., description="평가 출처 (Morningstar, ETF.com, Seeking Alpha 등)")
+    rating: Optional[str] = Field(None, description="평가 등급 (예: 5 stars, Gold, Buy)")
+    score: Optional[Decimal] = Field(None, description="평가 점수 (0-100)")
+    analyst_rating: Optional[str] = Field(None, description="애널리스트 평가")
+    url: Optional[str] = Field(None, description="평가 페이지 URL")
+    last_updated: Optional[date] = Field(None, description="평가 최종 업데이트 일자")
+
+    model_config = ConfigDict(
+        json_schema_extra={
+            "example": {
+                "source": "Morningstar",
+                "rating": "4 stars",
+                "score": "85.5",
+                "analyst_rating": "Gold",
+                "url": "https://morningstar.com/etfs/arcx/schd/quote",
+                "last_updated": "2025-11-28"
+            }
+        }
+    )
+
+
+class DividendHistory(BaseModel):
+    """배당 이력"""
+    ex_date: date = Field(..., description="배당락일")
+    pay_date: Optional[date] = Field(None, description="지급일")
+    amount: Decimal = Field(..., description="배당금")
+    currency: str = Field(default="USD", description="통화")
+
+    model_config = ConfigDict(
+        json_schema_extra={
+            "example": {
+                "ex_date": "2025-11-15",
+                "pay_date": "2025-11-20",
+                "amount": "0.75",
+                "currency": "USD"
+            }
+        }
+    )
 
 
 class ETF(BaseModel):
@@ -52,6 +94,10 @@ class ETF(BaseModel):
     region: str = Field(..., description="지역 (North America, Global 등)")
     market_type: str = Field(..., description="시장 유형 (Developed, Emerging 등)")
     
+    # 섹터 및 테마 정보
+    sector: Optional[str] = Field(None, description="투자 섹터 (Technology, Healthcare, Financial 등)")
+    theme: Optional[str] = Field(None, description="투자 테마 (Dividend Growth, Value, Growth, ESG 등)")
+    
     # 배당 정보 (있는 경우)
     distribution_yield: Optional[Decimal] = Field(None, description="배당 수익률 (%)")
     distribution_frequency: DistributionFrequency = Field(
@@ -59,12 +105,28 @@ class ETF(BaseModel):
         description="배당 주기 (Monthly, Quarterly, Semi-Annual, Annual, Variable, None, Unknown)"
     )
     
+    # 투자자 평가 정보
+    ratings: Optional[List[InvestorRating]] = Field(
+        default=None, 
+        description="투자자 평가 (Morningstar, ETF.com, Seeking Alpha 등)"
+    )
+    
+    # 배당 이력
+    dividend_history: Optional[List[DividendHistory]] = Field(
+        default=None, 
+        description="배당 이력 (최근 12개월)"
+    )
+    
+    # 데이터 출처 및 정확도 정보
+    data_source: Optional[str] = Field(None, description="데이터 출처")
+    last_updated: Optional[datetime] = Field(None, description="데이터 최종 업데이트 시간")
+    
     # URL
     product_page_url: str = Field(..., description="상품 페이지 URL")
     detail_page_url: Optional[str] = Field(None, description="상세 정보 페이지 URL (ETF 정보 갱신용)")
     
-    class Config:
-        json_schema_extra = {
+    model_config = ConfigDict(
+        json_schema_extra={
             "example": {
                 "ticker": "SCHD",
                 "fund_name": "Schwab U.S. Dividend Equity ETF",
@@ -83,12 +145,32 @@ class ETF(BaseModel):
                 "asset_class": "Equity",
                 "region": "North America",
                 "market_type": "Developed",
+                "sector": "Dividend",
+                "theme": "Dividend Growth",
                 "distribution_yield": "3.45",
                 "distribution_frequency": "Quarterly",
+                "ratings": [
+                    {
+                        "source": "Morningstar",
+                        "rating": "4 stars",
+                        "score": "85.5",
+                        "analyst_rating": "Gold"
+                    }
+                ],
+                "dividend_history": [
+                    {
+                        "ex_date": "2025-11-15",
+                        "pay_date": "2025-11-20",
+                        "amount": "0.75"
+                    }
+                ],
+                "data_source": "Schwab",
+                "last_updated": "2025-11-28T10:30:00",
                 "product_page_url": "/us/products/239737/schwab-us-dividend-equity-etf",
                 "detail_page_url": "https://www.schwabassetmanagement.com/products/schd"
             }
         }
+    )
 
 
 class ETFDetail(ETF):
@@ -106,18 +188,13 @@ class ETFDetail(ETF):
     # 투자 스타일
     investment_style: Optional[str] = Field(None, description="투자 스타일 (Index, Active 등)")
     
-    class Config:
-        json_schema_extra = {
-            "example": {
-                **ETF.Config.json_schema_extra["example"],
-                "portfolio_id": 239737,
-                "quarterly_nav_ytd": "12.35",
-                "quarterly_nav_one_year": "15.20",
-                "quarterly_nav_three_year": "18.10",
-                "quarterly_nav_five_year": "12.00",
-                "investment_style": "Index"
-            }
-        }
+    # 자산 규모 정보 (데이터 정확도 향상)
+    total_assets: Optional[Decimal] = Field(None, description="총 운용 자산 (AUM)")
+    avg_volume: Optional[int] = Field(None, description="평균 거래량")
+    
+    # 보유 종목 정보
+    holdings_count: Optional[int] = Field(None, description="보유 종목 수")
+    top_holdings: Optional[List[str]] = Field(None, description="상위 보유 종목 티커 목록")
 
 
 class ETFDividendInfo(BaseModel):
@@ -138,17 +215,32 @@ class ETFDividendInfo(BaseModel):
     # 요일 정보 (배당금 지급 요일별 분류용)
     ex_dividend_day_of_week: Optional[str] = Field(None, description="배당락일 요일")
     
-    class Config:
-        json_schema_extra = {
-            "example": {
-                "ticker": "SCHD",
-                "fund_name": "Schwab U.S. Dividend Equity ETF",
-                "distribution_yield": "3.45",
-                "distribution_frequency": "Quarterly",
-                "next_ex_dividend_date": "2025-12-15",
-                "ex_dividend_day_of_week": "Monday"
-            }
-        }
+    # 배당 이력 (추이 시각화용)
+    dividend_history: Optional[List[DividendHistory]] = Field(
+        default=None, 
+        description="배당 이력 (최근 12개월)"
+    )
+
+
+class DividendSimulationRequest(BaseModel):
+    """배당금 시뮬레이션 요청"""
+    ticker: str = Field(..., description="티커 심볼")
+    investment_amount: Decimal = Field(..., description="투자 금액 (USD)")
+    holding_period_months: int = Field(default=12, description="보유 기간 (개월)")
+
+
+class DividendSimulationResult(BaseModel):
+    """배당금 시뮬레이션 결과"""
+    ticker: str = Field(..., description="티커 심볼")
+    fund_name: str = Field(..., description="펀드명")
+    investment_amount: Decimal = Field(..., description="투자 금액 (USD)")
+    shares_purchased: Decimal = Field(..., description="구매 가능 주식 수")
+    current_price: Decimal = Field(..., description="현재 가격")
+    distribution_yield: Decimal = Field(..., description="배당 수익률 (%)")
+    annual_dividend_estimate: Decimal = Field(..., description="연간 예상 배당금")
+    monthly_dividend_estimate: Decimal = Field(..., description="월간 예상 배당금")
+    holding_period_months: int = Field(..., description="보유 기간 (개월)")
+    total_dividend_estimate: Decimal = Field(..., description="보유 기간 동안 총 예상 배당금")
 
 
 class TotalReturnETF(BaseModel):
@@ -168,17 +260,3 @@ class TotalReturnETF(BaseModel):
     
     # 현재 가격
     nav_amount: Decimal = Field(..., description="현재 NAV")
-    
-    class Config:
-        json_schema_extra = {
-            "example": {
-                "ticker": "SCHD",
-                "fund_name": "Schwab U.S. Dividend Equity ETF",
-                "is_total_return": True,
-                "ytd_return": "12.50",
-                "one_year_return": "15.30",
-                "three_year_return": "18.20",
-                "five_year_return": "12.10",
-                "nav_amount": "31.45"
-            }
-        }
