@@ -17,11 +17,13 @@ from datetime import datetime, timedelta
 from applicationinsights import TelemetryClient
 from applicationinsights.channel import TelemetryChannel
 from azure.monitor.opentelemetry import configure_azure_monitor
+from dotenv import load_dotenv
 from opentelemetry import metrics, trace
 from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
 from opentelemetry.instrumentation.httpx import HTTPXClientInstrumentor
 from opentelemetry.sdk.resources import Resource
 
+load_dotenv()
 logger = logging.getLogger(__name__)
 
 # Application Insights TelemetryClient (pageViews 및 customEvents 전송용)
@@ -112,10 +114,13 @@ def setup_telemetry(app=None):
         root_logger.setLevel(logging.INFO)
         
         # 애플리케이션 로거들도 INFO 레벨로 설정
-        app_loggers = ["etf-agent", "src", "uvicorn", "fastapi"]
+        app_loggers = ["show-me-the-money", "etf-agent", "app", "uvicorn.error"]
         for logger_name in app_loggers:
             app_logger = logging.getLogger(logger_name)
             app_logger.setLevel(logging.INFO)
+        
+        # uvicorn.access 로그는 WARNING 레벨로 설정 (너무 많은 로그 방지)
+        logging.getLogger("uvicorn.access").setLevel(logging.WARNING)
         
         logger.info("✅ Logging handler configured → traces 테이블")
         

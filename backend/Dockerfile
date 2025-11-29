@@ -8,6 +8,8 @@ COPY README.md ./
 RUN pip install uv && uv pip install --system --break-system-packages .
 
 COPY backend/app ./app
+# Copy observability module for Application Insights
+COPY backend/observability ./observability
 # Copy data directory to the image
 COPY data ./data
 

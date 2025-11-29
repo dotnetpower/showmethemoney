@@ -5,16 +5,16 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from observability import (TracingMiddleware, initialize_metrics,
                            setup_telemetry)
-from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
-from opentelemetry.instrumentation.httpx import HTTPXClientInstrumentor
 
 from .api import api_router
 from .core.config import get_settings
-from .core.logger import configure_tracing, logger
 from .services.scheduler import scheduler
 
 # 설정 가져오기
 settings = get_settings()
+
+# 로거 초기화
+logger = logging.getLogger(__name__)
 
 # Swagger/OpenAPI 메타데이터
 app = FastAPI(
@@ -47,15 +47,10 @@ app = FastAPI(
     redoc_url="/redoc",  # ReDoc
     openapi_url="/openapi.json",
 )
+
+# Application Insights 텔레메트리 설정 (app 전달로 자동 instrumentation)
 setup_telemetry(app)
 
-# 로깅 설정 (텔레메트리 설정 이후)
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    force=True  # 기존 핸들러를 유지하면서 설정 적용
-)
-logger = logging.getLogger(__name__)
 app.include_router(api_router, prefix="/api")
 
 # CORS 설정: 환경 변수 CORS_ORIGINS에서 허용 도메인을 로드
@@ -76,10 +71,6 @@ app.add_middleware(TracingMiddleware)
 
 @app.on_event("startup")
 async def startup_event() -> None:
-    settings = get_settings()
-    configure_tracing(settings.application_insights_connection_string, settings.app_name)
-    FastAPIInstrumentor.instrument_app(app)
-    HTTPXClientInstrumentor().instrument()
     logger.info("show-me-the-money API started")
     
     # 데이터 디렉토리 확인

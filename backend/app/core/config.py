@@ -23,11 +23,11 @@ class Settings(BaseSettings):
     app_name: str = "show-me-the-money"
     # 환경변수 DATA_DIR로 재정의 가능, 기본값은 /app/data
     github_data_dir: Path = Path(os.getenv("DATA_DIR", str(_DEFAULT_DATA_DIR)))
-    application_insights_connection_string: str | None = None
+    applicationinsights_connection_string: str | None = None
     # CORS 허용 도메인 (콤마로 구분된 문자열 또는 기본값 사용)
     cors_origins: str | None = None
 
-    model_config = {"env_file": ".env", "extra": "allow"}
+    model_config = {"env_file": ".env", "extra": "allow", "case_sensitive": False}
 
     def get_cors_origins(self) -> List[str]:
         """CORS 허용 도메인 목록을 반환합니다."""
