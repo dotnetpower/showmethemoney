@@ -265,6 +265,20 @@ body {
   color: var(--text-secondary);
 }
 
+.etf-table .distribution-frequency {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.etf-table .nav-as-of {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
 /* 검색 컨테이너 */
 .search-container {
   margin-bottom: 1.5rem;

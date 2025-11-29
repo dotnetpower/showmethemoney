@@ -1,10 +1,5 @@
 {
-  "provider": "GoldmanSachs",
-  "data_type": "etf_list",
-  "updated_at": "2025-11-29T13:18:23.830955",
-  "total_count": 4,
-  "total_size": 3053,
-  "use_msgpack": false,
-  "chunked": false,
-  "file": "etf_list.json"
+  "last_updated": "2025-11-29T14:59:28.703732",
+  "total_count": 48,
+  "provider": "Goldman Sachs"
 }

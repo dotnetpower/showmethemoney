@@ -147,6 +147,34 @@ const EtfList = () => {
     return `${parseFloat(value).toFixed(2)}%`;
   };
 
+  const formatDate = (dateStr: string | null) => {
+    if (!dateStr) return "N/A";
+    try {
+      const date = new Date(dateStr);
+      return date.toLocaleDateString("ko-KR", {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+      });
+    } catch {
+      return "N/A";
+    }
+  };
+
+  const formatFrequency = (frequency: string) => {
+    const frequencyMap: { [key: string]: string } = {
+      Weekly: "주배당",
+      Monthly: "월배당",
+      Quarterly: "분기배당",
+      "Semi-Annual": "반기배당",
+      Annual: "연배당",
+      Variable: "가변",
+      None: "무배당",
+      Unknown: "알 수 없음",
+    };
+    return frequencyMap[frequency] || frequency;
+  };
+
   const getSortIndicator = (field: SortField) => {
     if (sortField !== field) return "";
     return sortDirection === "asc" ? " ▲" : " ▼";
@@ -220,6 +248,8 @@ const EtfList = () => {
               >
                 배당수익률{getSortIndicator("distribution_yield")}
               </th>
+              <th>배당주기</th>
+              <th>NAV 기준일</th>
               <th>자산군</th>
               <th>지역</th>
             </tr>
@@ -245,6 +275,10 @@ const EtfList = () => {
                 <td className="distribution-yield">
                   {formatPercent(etf.distribution_yield)}
                 </td>
+                <td className="distribution-frequency">
+                  {formatFrequency(etf.distribution_frequency)}
+                </td>
+                <td className="nav-as-of">{formatDate(etf.nav_as_of)}</td>
                 <td className="asset-class">{etf.asset_class}</td>
                 <td className="region">{etf.region}</td>
               </tr>

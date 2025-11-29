@@ -38,6 +38,7 @@ class AlphaArchitectCrawler(BaseCrawler):
 
         soup = BeautifulSoup(html, "html.parser")
         etf_list = []
+        seen_tickers = set()
 
         # 모든 링크에서 티커 패턴 찾기
         for link in soup.find_all("a", href=True):
@@ -45,19 +46,28 @@ class AlphaArchitectCrawler(BaseCrawler):
             if not isinstance(href, str):
                 continue
 
-            # /fund/ticker 또는 /etf/ticker 패턴 매칭
-            match = re.search(r"/(fund|etf)/([A-Z]{1,5})/?", href, re.IGNORECASE)
+            # /ticker 패턴 매칭 (예: /aaeq/, /qval, /ival 등)
+            # funds는 ETF 티커가 아니므로 제외
+            match = re.search(r'^/([a-z]{3,5})/?$', href, re.IGNORECASE)
             if match:
-                ticker = match.group(2).upper()
+                ticker = match.group(1).upper()
+                
+                # 'FUNDS' 같은 일반 단어는 제외
+                if ticker in ('FUNDS', 'HOME', 'ABOUT', 'NEWS', 'BLOG'):
+                    continue
 
                 # 중복 체크
-                if any(etf.ticker == ticker for etf in etf_list):
+                if ticker in seen_tickers:
                     continue
+                seen_tickers.add(ticker)
 
                 # 펀드명 추출
                 text = link.get_text(strip=True)
                 title = link.get("title", "")
                 fund_name = str(text or title or ticker)
+
+                # 전체 URL 생성
+                full_url = f"https://funds.alphaarchitect.com{href}" if href.startswith('/') else href
 
                 etf_list.append(
                     ETF(
@@ -76,11 +86,11 @@ class AlphaArchitectCrawler(BaseCrawler):
                         ten_year_return=None,
                         since_inception_return=None,
                         asset_class="",
-                        region="",
-                        market_type="",
+                        region="US",
+                        market_type="ETF",
                         distribution_yield=None,
-                        product_page_url=href,
-                        detail_page_url=href
+                        product_page_url=full_url,
+                        detail_page_url=full_url
                     )
                 )
 

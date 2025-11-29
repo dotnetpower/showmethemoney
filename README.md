@@ -44,6 +44,8 @@ uv sync
 uvicorn app.main:app --reload
 ```
 
+**Swagger UI 접속**: 서버 실행 후 http://localhost:8000/docs
+
 ### 프론트엔드
 
 ```bash
@@ -69,6 +71,23 @@ docker compose up --build
 - `.env` 파일에 `APPLICATION_INSIGHTS_CONNECTION_STRING` 값을 정의하면 Application Insights로 트레이스를 보낼 수 있습니다.
 - FastAPI와 HTTPX에 대해 OpenTelemetry 인스트루멘테이션이 기본 적용되어 있습니다.
 
+## API 문서 (Swagger)
+
+서버 실행 후 다음 URL에서 대화형 API 문서를 확인할 수 있습니다:
+
+- **Swagger UI**: http://localhost:8000/docs
+- **ReDoc**: http://localhost:8000/redoc
+- **OpenAPI Schema**: http://localhost:8000/openapi.json
+
+### 주요 API 엔드포인트:
+
+- `GET /api/v1/etf/all` - 전체 ETF 조회 (3,600개 이상)
+- `GET /api/v1/etf/list/{provider}` - 특정 운용사 ETF 조회
+- `GET /api/v1/etf/list` - 운용사별 ETF 목록
+- `POST /api/v1/etf/update` - 전체 데이터 업데이트
+- `GET /api/v1/etf/scheduler/status` - 스케줄러 상태 조회
+- `GET /health` - 헬스 체크
+
 ## 테스트
 
 ```bash
@@ -77,8 +96,39 @@ cd backend
 pytest -v
 ```
 
+## ETF 크롤러 상태
+
+### ✅ 정상 작동 (14개 운용사)
+
+총 **3,666개 ETF** 데이터 수집 중
+
+- **IShares** (513)
+- **FirstTrust** (1,572)
+- **Direxion** (484)
+- **Invesco** (240)
+- **SPDR** (176)
+- **GlobalX** (204)
+- **Vanguard** (102)
+- **Franklin Templeton** (95)
+- **JPMorgan** (68)
+- **Pacer Advisors** (47)
+- **Roundhill** (45)
+- **Dimensional Fund Advisors** (41)
+- **PIMCO** (23)
+- **Goldman Sachs** (48)
+- **Alpha Architect** (8)
+
+### ⚠️ TODO: 수정 필요 (5개 운용사)
+
+1. **Fidelity**: 웹사이트 구조 변경, React/JS 동적 렌더링 필요
+2. **GraniteShares**: 크롤러 로직 점검 필요
+3. **VanEck**: 크롤러 로직 점검 필요
+4. **WisdomTree**: 403 Forbidden (접근 차단) - User-Agent 및 헤더 조정 필요
+5. **Yieldmax**: JavaScript 렌더링 필요 (Playwright/Selenium 또는 API 엔드포인트 탐색)
+
 ## 다음 단계
 
-1. ETF/주식 실데이터 수집기 구현
-2. MessagePack 직렬화 및 분할 저장 전략 강화
-3. React 컴포넌트에 실제 API 연동 및 시각화 보완
+1. ~~ETF/주식 실데이터 수집기 구현~~ ✅ 완료 (14/19 운용사)
+2. 나머지 5개 운용사 크롤러 수정
+3. MessagePack 직렬화 및 분할 저장 전략 강화
+4. React 컴포넌트에 실제 API 연동 및 시각화 보완

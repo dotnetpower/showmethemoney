@@ -69,7 +69,7 @@ class GoldmanSachsCrawler(BaseCrawler):
                     "language": "en",
                     "audience": "institutions",
                     "disabledFunds": [],
-                    "limit": 100,  # 한 번에 많이 가져오기
+                    "limit": 500,  # 전체 펀드를 가져오기 위해 충분히 큰 값 설정
                     "offset": 0,
                     "sortBy": "FN",
                     "sortOrder": "ASC",
@@ -192,9 +192,16 @@ class GoldmanSachsCrawler(BaseCrawler):
         if value is None:
             return None
         
+        # 문자열 변환 및 검증
+        str_value = str(value).strip()
+        
+        # '--', 'N/A', 빈 문자열 등은 None 반환
+        if not str_value or str_value in ('--', 'N/A', 'n/a'):
+            return None
+        
         try:
-            return Decimal(str(value))
-        except (ValueError, TypeError):
+            return Decimal(str_value)
+        except (ValueError, TypeError, Exception):
             return None
 
     def _map_distribution_frequency(self, freq_str: str) -> DistributionFrequency:
