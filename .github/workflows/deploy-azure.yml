@@ -136,8 +136,7 @@ jobs:
         run: |
           BACKEND_APP_NAME="ca-${{ env.APP_NAME }}-backend-${{ env.ENVIRONMENT }}"
           ACR_LOGIN_SERVER="${{ steps.create_acr.outputs.login_server }}"
-          ACR_USERNAME="${{ steps.create_acr.outputs.username }}"
-          ACR_PASSWORD="${{ steps.create_acr.outputs.password }}"
+          ACR_NAME="${{ steps.create_acr.outputs.acr_name }}"
           APPINSIGHTS_CONNECTION_STRING="${{ steps.create_app_insights.outputs.connection_string }}"
           CONTAINERAPP_ENV_NAME="${{ steps.create_container_env.outputs.container_env_name }}"
 
@@ -150,8 +149,7 @@ jobs:
               --target-port 8000 \
               --ingress external \
               --registry-server $ACR_LOGIN_SERVER \
-              --registry-username $ACR_USERNAME \
-              --registry-password $ACR_PASSWORD \
+              --system-assigned \
               --secrets \
                 appinsights-connection-string="$APPINSIGHTS_CONNECTION_STRING" \
                 github-token="${{ secrets.GH_TOKEN }}" \
@@ -164,6 +162,13 @@ jobs:
               --memory 1Gi \
               --min-replicas 1 \
               --max-replicas 3
+
+            # Get the managed identity principal ID
+            PRINCIPAL_ID=$(az containerapp show --name $BACKEND_APP_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query identity.principalId -o tsv)
+            
+            # Grant AcrPull role to the managed identity
+            ACR_ID=$(az acr show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query id -o tsv)
+            az role assignment create --assignee $PRINCIPAL_ID --role AcrPull --scope $ACR_ID
           fi
 
           BACKEND_FQDN=$(az containerapp show --name $BACKEND_APP_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query properties.configuration.ingress.fqdn -o tsv)
@@ -176,8 +181,7 @@ jobs:
         run: |
           FRONTEND_APP_NAME="ca-${{ env.APP_NAME }}-frontend-${{ env.ENVIRONMENT }}"
           ACR_LOGIN_SERVER="${{ steps.create_acr.outputs.login_server }}"
-          ACR_USERNAME="${{ steps.create_acr.outputs.username }}"
-          ACR_PASSWORD="${{ steps.create_acr.outputs.password }}"
+          ACR_NAME="${{ steps.create_acr.outputs.acr_name }}"
           CONTAINERAPP_ENV_NAME="${{ steps.create_container_env.outputs.container_env_name }}"
           BACKEND_FQDN="${{ steps.create_backend_app.outputs.backend_fqdn }}"
 
@@ -190,14 +194,20 @@ jobs:
               --target-port 80 \
               --ingress external \
               --registry-server $ACR_LOGIN_SERVER \
-              --registry-username $ACR_USERNAME \
-              --registry-password $ACR_PASSWORD \
+              --system-assigned \
               --env-vars \
                 REACT_APP_API_URL="https://${BACKEND_FQDN}" \
               --cpu 0.5 \
               --memory 1Gi \
               --min-replicas 1 \
               --max-replicas 5
+
+            # Get the managed identity principal ID
+            PRINCIPAL_ID=$(az containerapp show --name $FRONTEND_APP_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query identity.principalId -o tsv)
+            
+            # Grant AcrPull role to the managed identity
+            ACR_ID=$(az acr show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query id -o tsv)
+            az role assignment create --assignee $PRINCIPAL_ID --role AcrPull --scope $ACR_ID
           fi
 
           FRONTEND_FQDN=$(az containerapp show --name $FRONTEND_APP_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query properties.configuration.ingress.fqdn -o tsv)
