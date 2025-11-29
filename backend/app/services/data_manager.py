@@ -16,8 +16,8 @@ class DataManager:
     # 최대 파일 크기 (4MB)
     MAX_FILE_SIZE = 4 * 1024 * 1024
     
-    # 허용된 문자 패턴 (영문자/숫자로 시작, 이후 영문, 숫자, 하이픈, 언더스코어 허용)
-    SAFE_NAME_PATTERN = re.compile(r'^[a-zA-Z0-9][a-zA-Z0-9_-]*$')
+    # 허용된 문자 패턴 (영문자/숫자로 시작, 이후 영문, 숫자, 하이픈, 언더스코어, 공백 허용)
+    SAFE_NAME_PATTERN = re.compile(r'^[a-zA-Z0-9][a-zA-Z0-9_ -]*$')
     
     def __init__(self):
         self.settings = get_settings()

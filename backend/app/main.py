@@ -65,6 +65,22 @@ async def startup_event() -> None:
     HTTPXClientInstrumentor().instrument()
     logger.info("show-me-the-money API started")
     
+    # 초기 데이터 로드 확인
+    from .services.etf_updater import ETFUpdater
+    etf_updater = ETFUpdater()
+    
+    try:
+        all_etfs = await etf_updater.get_all_etfs()
+        total_etfs = sum(len(etfs) for etfs in all_etfs.values())
+        logger.info(f"Loaded {total_etfs} ETFs from {len(all_etfs)} providers")
+        
+        # 데이터가 없으면 경고
+        if total_etfs == 0:
+            logger.warning("No ETF data found. Please run initial data collection using /api/v1/etf/update/all endpoint")
+            logger.warning("You can trigger it manually or wait for the scheduled update")
+    except Exception as e:
+        logger.error(f"Error checking initial data: {e}")
+    
     # 데이터 업데이트 스케줄러 시작 (매일 미국 동부시간 오후 6시)
     scheduler.start(hour=18, minute=0, timezone="America/New_York")
 

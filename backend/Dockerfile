@@ -8,6 +8,8 @@ COPY README.md ./
 RUN pip install uv && uv pip install --system --break-system-packages .
 
 COPY backend/app ./app
+# Copy data directory to the image
+COPY data ./data
 
 EXPOSE 8000
 
