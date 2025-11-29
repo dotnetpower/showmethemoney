@@ -63,30 +63,16 @@ const EtfList = () => {
 
   // 검색 및 필터링
   const filtered = useMemo(() => {
-    let result = etfs;
+    if (!searchTerm) return etfs;
 
-    if (searchTerm) {
-      const lowerSearch = searchTerm.toLowerCase();
-      result = result.filter(
-        (etf) =>
-          etf.ticker.toLowerCase().includes(lowerSearch) ||
-          etf.fund_name.toLowerCase().includes(lowerSearch) ||
-          etf.asset_class.toLowerCase().includes(lowerSearch) ||
-          (etf.sector && etf.sector.toLowerCase().includes(lowerSearch)) ||
-          (etf.theme && etf.theme.toLowerCase().includes(lowerSearch))
-      );
-    }
-
-    if (sectorFilter) {
-      result = result.filter((etf) => etf.sector === sectorFilter);
-    }
-
-    if (themeFilter) {
-      result = result.filter((etf) => etf.theme === themeFilter);
-    }
-
-    return result;
-  }, [etfs, searchTerm, sectorFilter, themeFilter]);
+    const lowerSearch = searchTerm.toLowerCase();
+    return etfs.filter(
+      (etf) =>
+        (etf.ticker?.toLowerCase() || "").includes(lowerSearch) ||
+        (etf.fund_name?.toLowerCase() || "").includes(lowerSearch) ||
+        (etf.asset_class?.toLowerCase() || "").includes(lowerSearch)
+    );
+  }, [etfs, searchTerm]);
 
   // 정렬
   const filteredAndSorted = useMemo(() => {
@@ -94,10 +80,10 @@ const EtfList = () => {
       let aValue: string | number | null = a[sortField as keyof ETF] as string | null;
       let bValue: string | number | null = b[sortField as keyof ETF] as string | null;
 
-      // null 값 처리
-      if (aValue === null && bValue === null) return 0;
-      if (aValue === null) return 1;
-      if (bValue === null) return -1;
+      // null/undefined 값 처리 (== null은 null과 undefined 둘 다 체크)
+      if (aValue == null && bValue == null) return 0;
+      if (aValue == null) return 1;
+      if (bValue == null) return -1;
 
       // 숫자 필드는 문자열을 숫자로 변환
       if (
@@ -108,8 +94,12 @@ const EtfList = () => {
           "distribution_yield",
         ].includes(sortField)
       ) {
-        aValue = parseFloat(aValue as string);
-        bValue = parseFloat(bValue as string);
+        aValue = parseFloat(aValue);
+        bValue = parseFloat(bValue);
+        // NaN 처리
+        if (isNaN(aValue) && isNaN(bValue)) return 0;
+        if (isNaN(aValue)) return 1;
+        if (isNaN(bValue)) return -1;
       }
 
       if (aValue < bValue) return sortDirection === "asc" ? -1 : 1;
@@ -181,7 +171,22 @@ const EtfList = () => {
     return `${num.toFixed(2)}%`;
   };
 
-  const formatFrequency = (frequency: string) => {
+  const formatDate = (dateStr: string | null) => {
+    if (!dateStr) return "N/A";
+    try {
+      const date = new Date(dateStr);
+      return date.toLocaleDateString("ko-KR", {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+      });
+    } catch {
+      return "N/A";
+    }
+  };
+
+  const formatFrequency = (frequency: string | null | undefined) => {
+    if (!frequency) return "알 수 없음";
     const frequencyMap: { [key: string]: string } = {
       Weekly: "주배당",
       Monthly: "월배당",
@@ -332,10 +337,10 @@ const EtfList = () => {
             </tr>
           </thead>
           <tbody>
-            {displayedEtfs.map((etf) => (
-              <tr key={`${etf.ticker}-${etf.isin}`}>
-                <td className="ticker">{etf.ticker}</td>
-                <td className="fund-name">{etf.fund_name}</td>
+            {displayedEtfs.map((etf, index) => (
+              <tr key={`etf-${index}`}>
+                <td className="ticker">{etf.ticker || "-"}</td>
+                <td className="fund-name">{etf.fund_name || "-"}</td>
                 <td className="nav">{formatCurrency(etf.nav_amount)}</td>
                 <td className="expense-ratio">
                   {formatPercent(etf.expense_ratio)}
@@ -355,15 +360,9 @@ const EtfList = () => {
                 <td className="distribution-frequency">
                   {formatFrequency(etf.distribution_frequency)}
                 </td>
-                <td className="sector">
-                  {etf.sector || "-"}
-                </td>
-                <td className="theme">
-                  {etf.theme || "-"}
-                </td>
-                <td className="rating">
-                  {renderRating(etf)}
-                </td>
+                <td className="nav-as-of">{formatDate(etf.nav_as_of)}</td>
+                <td className="asset-class">{etf.asset_class || "-"}</td>
+                <td className="region">{etf.region || "-"}</td>
               </tr>
             ))}
           </tbody>

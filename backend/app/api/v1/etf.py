@@ -1,7 +1,9 @@
 """ETF API 엔드포인트"""
+
 from decimal import Decimal
 from typing import Dict, List, Union
-
+import logging
+import re
 from app.models.etf import (
     ETF, 
     DividendSimulationRequest, 
@@ -9,7 +11,9 @@ from app.models.etf import (
 )
 from app.services.etf_updater import ETFUpdater
 from app.services.scheduler import scheduler
-from fastapi import APIRouter, HTTPException, Path, Query
+from fastapi import APIRouter, HTTPException, Path
+
+logger = logging.getLogger(__name__)
 
 
 def to_decimal(value: Union[str, int, float, Decimal]) -> Decimal:
@@ -22,6 +26,37 @@ router = APIRouter(
     tags=["ETF"],
 )
 etf_updater = ETFUpdater()
+
+# 허용된 문자 패턴 (영문자/숫자로 시작, 이후 영문, 숫자, 하이픈, 언더스코어 허용)
+SAFE_PROVIDER_PATTERN = re.compile(r'^[a-zA-Z0-9][a-zA-Z0-9_ -]*$')
+
+
+def validate_provider_name(provider: str) -> str:
+    """
+    Provider 이름을 검증합니다.
+    
+    Args:
+        provider: 검증할 provider 이름
+        
+    Returns:
+        검증된 provider 이름
+        
+    Raises:
+        HTTPException: 유효하지 않은 provider 이름인 경우
+    """
+    if not provider or len(provider) > 100:
+        raise HTTPException(
+            status_code=400,
+            detail="Invalid provider name: must be 1-100 characters"
+        )
+    
+    if not SAFE_PROVIDER_PATTERN.match(provider):
+        raise HTTPException(
+            status_code=400,
+            detail="Invalid provider name: contains disallowed characters"
+        )
+    
+    return provider.strip()
 
 
 @router.get(
@@ -40,22 +75,30 @@ async def get_etf_list(
     provider: str = Path(
         ...,
         description="운용사 이름 (예: ishares, vanguard, goldmansachs)",
-        example="ishares"
+        examples=["ishares"]
     )
 ) -> List[ETF]:
     """특정 운용사의 ETF 목록을 조회합니다."""
     try:
-        etf_list = await etf_updater.get_etf_list(provider)
+        # Provider 이름 검증
+        safe_provider = validate_provider_name(provider)
+        
+        etf_list = await etf_updater.get_etf_list(safe_provider)
         if not etf_list:
             raise HTTPException(
                 status_code=404, 
-                detail=f"Provider '{provider}' not found or has no data"
+                detail=f"Provider '{safe_provider}' not found or has no data"
             )
         return etf_list
     except HTTPException:
         raise
+    except ValueError as e:
+        # 입력 유효성 검사 오류는 400으로 반환
+        raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        # 내부 오류는 로깅하고 일반적인 메시지만 반환
+        logger.error(f"Error getting ETF list for provider {provider}: {e}")
+        raise HTTPException(status_code=500, detail="Internal server error")
 
 
 @router.get(
@@ -69,7 +112,8 @@ async def get_all_etf_lists() -> Dict[str, List[ETF]]:
     try:
         return await etf_updater.get_all_etfs()
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"Error getting all ETF lists: {e}")
+        raise HTTPException(status_code=500, detail="Internal server error")
 
 
 @router.get(
@@ -87,7 +131,8 @@ async def get_all_etfs_combined() -> List[ETF]:
             combined_list.extend(provider_etfs)
         return combined_list
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"Error getting combined ETF list: {e}")
+        raise HTTPException(status_code=500, detail="Internal server error")
 
 
 @router.post(
@@ -100,26 +145,32 @@ async def update_provider_data(
     provider: str = Path(
         ...,
         description="업데이트할 운용사 이름",
-        example="ishares"
+        examples=["ishares"]
     )
 ) -> Dict:
     """특정 운용사의 데이터를 즉시 업데이트합니다."""
     try:
+        # Provider 이름 검증
+        safe_provider = validate_provider_name(provider)
+        
         # 해당 provider의 crawler 찾기
         crawler = next(
-            (c for c in etf_updater.crawlers if c.get_provider_name().lower() == provider.lower()),
+            (c for c in etf_updater.crawlers if c.get_provider_name().lower() == safe_provider.lower()),
             None
         )
         
         if not crawler:
-            raise HTTPException(status_code=404, detail=f"Provider '{provider}' not found")
+            raise HTTPException(status_code=404, detail=f"Provider '{safe_provider}' not found")
         
         result = await etf_updater.update_single_provider(crawler)
         return result
     except HTTPException:
         raise
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"Error updating provider {provider}: {e}")
+        raise HTTPException(status_code=500, detail="Internal server error")
 
 
 @router.post(
@@ -133,7 +184,8 @@ async def update_all_data() -> Dict:
     try:
         return await etf_updater.update_all_providers()
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"Error updating all providers: {e}")
+        raise HTTPException(status_code=500, detail="Internal server error")
 
 
 @router.get(
