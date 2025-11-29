@@ -2,6 +2,22 @@
  * ETF API 서비스
  */
 
+export interface InvestorRating {
+  source: string;
+  rating: string | null;
+  score: string | null;
+  analyst_rating: string | null;
+  url: string | null;
+  last_updated: string | null;
+}
+
+export interface DividendHistory {
+  ex_date: string;
+  pay_date: string | null;
+  amount: string;
+  currency: string;
+}
+
 export interface ETF {
   ticker: string;
   fund_name: string;
@@ -20,10 +36,35 @@ export interface ETF {
   asset_class: string;
   region: string;
   market_type: string;
+  sector: string | null;
+  theme: string | null;
   distribution_yield: string | null;
   distribution_frequency: string;
+  ratings: InvestorRating[] | null;
+  dividend_history: DividendHistory[] | null;
+  data_source: string | null;
+  last_updated: string | null;
   product_page_url: string;
   detail_page_url: string;
+}
+
+export interface DividendSimulationRequest {
+  ticker: string;
+  investment_amount: number;
+  holding_period_months: number;
+}
+
+export interface DividendSimulationResult {
+  ticker: string;
+  fund_name: string;
+  investment_amount: string;
+  shares_purchased: string;
+  current_price: string;
+  distribution_yield: string;
+  annual_dividend_estimate: string;
+  monthly_dividend_estimate: string;
+  holding_period_months: number;
+  total_dividend_estimate: string;
 }
 
 const API_BASE_URL =
@@ -59,6 +100,30 @@ export async function getETFsByProvider(provider: string): Promise<ETF[]> {
     return await response.json();
   } catch (error) {
     console.error(`Error fetching ETFs for ${provider}:`, error);
+    throw error;
+  }
+}
+
+/**
+ * 배당금 시뮬레이션을 수행합니다.
+ */
+export async function simulateDividend(
+  request: DividendSimulationRequest
+): Promise<DividendSimulationResult> {
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/v1/etf/simulate-dividend`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(request),
+    });
+    if (!response.ok) {
+      throw new Error(`Failed to simulate dividend: ${response.statusText}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error("Error simulating dividend:", error);
     throw error;
   }
 }

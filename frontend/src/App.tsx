@@ -7,6 +7,7 @@ import Navigation from "./components/Navigation";
 import EtfList from "./components/EtfList";
 import DividendSchedule from "./components/DividendSchedule";
 import TotalReturnSection from "./components/TotalReturnSection";
+import DividendSimulator from "./components/DividendSimulator";
 
 function App() {
   const [currentView, setCurrentView] = useState("etf-list");
@@ -17,6 +18,8 @@ function App() {
         return <EtfList />;
       case "dividend-schedule":
         return <DividendSchedule />;
+      case "dividend-simulator":
+        return <DividendSimulator />;
       case "total-return":
         return <TotalReturnSection />;
       default:

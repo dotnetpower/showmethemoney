@@ -9,9 +9,10 @@ const Navigation = ({ currentView, onViewChange }: NavigationProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
-    { id: "etf-list", label: "전체 ETF" },
-    { id: "dividend-schedule", label: "배당 일정" },
-    { id: "total-return", label: "Total Return" },
+    { id: "etf-list", label: "전체 ETF", icon: "📊" },
+    { id: "dividend-schedule", label: "배당 일정", icon: "📅" },
+    { id: "dividend-simulator", label: "배당 시뮬레이터", icon: "💰" },
+    { id: "total-return", label: "Total Return", icon: "📈" },
   ];
 
   const toggleMenu = () => {
@@ -45,7 +46,8 @@ const Navigation = ({ currentView, onViewChange }: NavigationProps) => {
               className={`nav-link ${currentView === item.id ? "active" : ""}`}
               onClick={() => handleNavClick(item.id)}
             >
-              {item.label}
+              <span className="nav-icon">{item.icon}</span>
+              <span className="nav-label">{item.label}</span>
             </button>
           </li>
         ))}
