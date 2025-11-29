@@ -4,6 +4,7 @@ WORKDIR /app
 
 COPY pyproject.toml ./
 COPY uv.lock ./
+COPY README.md ./
 RUN pip install uv && uv pip install --system --break-system-packages .
 
 COPY backend/app ./app
