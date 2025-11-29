@@ -1,5 +1,6 @@
 // Azure Container Apps 인프라 구성
 // FastAPI 백엔드와 React 프론트엔드를 위한 Container Apps 배포
+// 기존 Container Registry 사용
 targetScope = 'resourceGroup'
 
 @description('리소스의 위치')
@@ -11,8 +12,13 @@ param environmentName string = 'dev'
 @description('애플리케이션 이름')
 param appName string = 'showmethemoney'
 
-@description('Container Registry 이름')
-param acrName string = 'acr${appName}${uniqueString(resourceGroup().id)}'
+@description('기존 Container Registry 이름 (필수, 5-50자, 영숫자만)')
+@minLength(5)
+@maxLength(50)
+param acrName string
+
+@description('기존 Container Registry가 속한 리소스 그룹 (현재 리소스 그룹과 다른 경우 지정)')
+param acrResourceGroup string = resourceGroup().name
 
 @description('Container Apps 환경 이름')
 param containerAppsEnvironmentName string = 'cae-${appName}-${environmentName}'
@@ -43,19 +49,10 @@ param appInsightsConnectionString string = ''
 @secure()
 param githubToken string = ''
 
-// Container Registry
-resource acr 'Microsoft.ContainerRegistry/registries@2023-11-01-preview' = {
+// 기존 Container Registry 참조
+resource acr 'Microsoft.ContainerRegistry/registries@2023-11-01-preview' existing = {
   name: acrName
-  location: location
-  sku: {
-    name: 'Basic'
-  }
-  properties: {
-    adminUserEnabled: true
-    anonymousPullEnabled: false
-    publicNetworkAccess: 'Enabled'
-    networkRuleBypassOptions: 'AzureServices'
-  }
+  scope: resourceGroup(acrResourceGroup)
 }
 
 // Log Analytics Workspace
