@@ -456,6 +456,267 @@ body {
   }
 }
 
+/* ====================================
+   배당 일정 - Teams 모바일 스타일
+   ==================================== */
+
+.dividend-schedule-container {
+  background: var(--bg-secondary);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px var(--shadow);
+}
+
+/* 탭 네비게이션 */
+.schedule-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-tertiary);
+}
+
+.schedule-tab {
+  flex: 1;
+  padding: 1rem;
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.schedule-tab:hover {
+  color: var(--text-primary);
+  background: var(--bg-secondary);
+}
+
+.schedule-tab.active {
+  color: var(--accent);
+  background: var(--bg-secondary);
+}
+
+.schedule-tab.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 3px 3px 0 0;
+}
+
+/* 타임라인 */
+.schedule-timeline {
+  padding: 1.25rem;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.timeline-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-item {
+  display: flex;
+  position: relative;
+  min-height: 80px;
+}
+
+.timeline-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+  flex-shrink: 0;
+}
+
+.timeline-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--bg-secondary);
+  box-shadow: 0 0 0 2px var(--bg-tertiary);
+  z-index: 1;
+  flex-shrink: 0;
+}
+
+.timeline-connector {
+  width: 2px;
+  flex: 1;
+  background: var(--border-color);
+  margin-top: -2px;
+}
+
+/* 일정 카드 */
+.timeline-content {
+  flex: 1;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.schedule-card {
+  background: var(--bg-primary);
+  border-radius: 0.75rem;
+  border-left: 4px solid var(--accent);
+  padding: 0.875rem 1rem;
+  box-shadow: 0 2px 8px var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.schedule-card:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 12px var(--shadow);
+}
+
+.schedule-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.625rem;
+}
+
+.schedule-day {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.schedule-count {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  background: var(--bg-tertiary);
+  padding: 0.25rem 0.625rem;
+  border-radius: 1rem;
+  font-weight: 500;
+}
+
+.schedule-card-body {
+  margin-top: 0.5rem;
+}
+
+/* 심볼 칩 */
+.symbol-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.symbol-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: transform 0.15s ease;
+}
+
+.symbol-chip:hover {
+  transform: scale(1.05);
+}
+
+/* 범례 */
+.schedule-legend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.875rem 1.25rem;
+  background: var(--bg-tertiary);
+  border-top: 1px solid var(--border-color);
+  font-size: 0.85rem;
+}
+
+.legend-title {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.legend-info {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* 모바일 반응형 */
+@media (max-width: 768px) {
+  .schedule-timeline {
+    padding: 1rem;
+    max-height: 400px;
+  }
+
+  .timeline-line {
+    width: 32px;
+  }
+
+  .timeline-dot {
+    width: 12px;
+    height: 12px;
+  }
+
+  .schedule-card {
+    padding: 0.75rem;
+  }
+
+  .schedule-day {
+    font-size: 0.95rem;
+  }
+
+  .schedule-count {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .symbol-chip {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  .symbol-chips {
+    gap: 0.375rem;
+  }
+
+  .schedule-legend {
+    flex-direction: column;
+    gap: 0.375rem;
+    text-align: center;
+    padding: 0.75rem;
+  }
+}
+
+/* 태블릿 */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .schedule-timeline {
+    max-height: 450px;
+  }
+}
+
+/* 스크롤바 스타일 */
+.schedule-timeline::-webkit-scrollbar {
+  width: 6px;
+}
+
+.schedule-timeline::-webkit-scrollbar-track {
+  background: var(--bg-tertiary);
+  border-radius: 3px;
+}
+
+.schedule-timeline::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
+}
+
+.schedule-timeline::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* ====================================
+   기존 스타일 통합
+   ==================================== */
+
 /* 기존 스타일 통합 */
 main.layout {
   max-width: 1200px;
