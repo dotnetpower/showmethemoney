@@ -1020,7 +1020,8 @@ tr:nth-child(even) {
   }
 
   .search-input {
-    font-size: 16px; /* iOS 확대 방지 */
+    /* iOS Safari zooms on inputs with font-size < 16px, setting 16px prevents auto-zoom */
+    font-size: 16px;
     padding: 0.625rem 0.875rem;
   }
 

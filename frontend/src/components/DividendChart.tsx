@@ -24,14 +24,18 @@ const DividendChart = ({ dividendHistory, ticker }: DividendChartProps) => {
 
     return dividendHistory
       .sort((a, b) => new Date(a.ex_date).getTime() - new Date(b.ex_date).getTime())
-      .map((item) => ({
-        date: new Date(item.ex_date).toLocaleDateString("ko-KR", {
-          year: "2-digit",
-          month: "short",
-        }),
-        amount: parseFloat(item.amount),
-        fullDate: item.ex_date,
-      }));
+      .map((item) => {
+        const parsedAmount = parseFloat(item.amount);
+        return {
+          date: new Date(item.ex_date).toLocaleDateString("ko-KR", {
+            year: "2-digit",
+            month: "short",
+          }),
+          amount: isNaN(parsedAmount) ? 0 : parsedAmount,
+          fullDate: item.ex_date,
+        };
+      })
+      .filter((item) => item.amount > 0);
   }, [dividendHistory]);
 
   if (!chartData.length) {

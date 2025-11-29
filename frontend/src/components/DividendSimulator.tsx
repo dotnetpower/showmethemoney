@@ -4,6 +4,8 @@ import {
   DividendSimulationResult,
 } from "../services/etfApi";
 
+const MIN_INVESTMENT_AMOUNT = 1;
+
 const DividendSimulator = () => {
   const [ticker, setTicker] = useState("");
   const [investmentAmount, setInvestmentAmount] = useState("");
@@ -19,8 +21,8 @@ const DividendSimulator = () => {
     }
 
     const amount = parseFloat(investmentAmount);
-    if (isNaN(amount) || amount <= 0) {
-      setError("올바른 투자 금액을 입력해주세요.");
+    if (isNaN(amount) || amount < MIN_INVESTMENT_AMOUNT) {
+      setError(`투자 금액은 $${MIN_INVESTMENT_AMOUNT} 이상이어야 합니다.`);
       return;
     }
 

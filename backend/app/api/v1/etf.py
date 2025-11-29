@@ -1,6 +1,6 @@
 """ETF API 엔드포인트"""
 from decimal import Decimal
-from typing import Dict, List
+from typing import Dict, List, Union
 
 from app.models.etf import (
     ETF, 
@@ -10,6 +10,12 @@ from app.models.etf import (
 from app.services.etf_updater import ETFUpdater
 from app.services.scheduler import scheduler
 from fastapi import APIRouter, HTTPException, Path, Query
+
+
+def to_decimal(value: Union[str, int, float, Decimal]) -> Decimal:
+    """Convert various types to Decimal safely."""
+    return Decimal(str(value))
+
 
 router = APIRouter(
     prefix="/etf",
@@ -199,26 +205,26 @@ async def simulate_dividend(
             )
         
         # 시뮬레이션 계산
-        nav = Decimal(str(target_etf.nav_amount))
-        yield_rate = Decimal(str(target_etf.distribution_yield)) / Decimal("100")
-        investment = Decimal(str(request.investment_amount))
+        nav = to_decimal(target_etf.nav_amount)
+        yield_rate = to_decimal(target_etf.distribution_yield) / to_decimal(100)
+        investment = to_decimal(request.investment_amount)
         
         shares = investment / nav
         annual_dividend = investment * yield_rate
-        monthly_dividend = annual_dividend / Decimal("12")
-        total_dividend = monthly_dividend * Decimal(str(request.holding_period_months))
+        monthly_dividend = annual_dividend / to_decimal(12)
+        total_dividend = monthly_dividend * to_decimal(request.holding_period_months)
         
         return DividendSimulationResult(
             ticker=target_etf.ticker,
             fund_name=target_etf.fund_name,
             investment_amount=investment,
-            shares_purchased=shares.quantize(Decimal("0.01")),
+            shares_purchased=shares.quantize(to_decimal("0.01")),
             current_price=nav,
             distribution_yield=target_etf.distribution_yield,
-            annual_dividend_estimate=annual_dividend.quantize(Decimal("0.01")),
-            monthly_dividend_estimate=monthly_dividend.quantize(Decimal("0.01")),
+            annual_dividend_estimate=annual_dividend.quantize(to_decimal("0.01")),
+            monthly_dividend_estimate=monthly_dividend.quantize(to_decimal("0.01")),
             holding_period_months=request.holding_period_months,
-            total_dividend_estimate=total_dividend.quantize(Decimal("0.01"))
+            total_dividend_estimate=total_dividend.quantize(to_decimal("0.01"))
         )
     except HTTPException:
         raise
