@@ -11,6 +11,7 @@ on:
 
 env:
   RESOURCE_GROUP: rg-showmethemoney
+  ACR_RESOURCE_GROUP: rg-smtm
   LOCATION: koreacentral
   ENVIRONMENT: dev
   APP_NAME: showmethemoney
@@ -59,7 +60,7 @@ jobs:
         run: |
           # 기존 컨테이너 레지스트리 사용
           ACR_NAME="${{ env.ACR_NAME }}"
-          ACR_RG="${{ env.RESOURCE_GROUP }}"
+          ACR_RG="${{ env.ACR_RESOURCE_GROUP }}"
           
           echo "✅ Using existing Container Registry: $ACR_NAME"
           echo "   Resource Group: $ACR_RG"
@@ -277,9 +278,17 @@ jobs:
 
       - name: Build and Push Backend Image
         run: |
+          echo "Building backend image with data directory..."
+          ls -la data/ | head -10
+          
           docker build -t ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:${{ github.sha }} \
             -t ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:latest \
             -f backend/Dockerfile .
+          
+          # Verify data is in the image
+          echo "Verifying data directory in image..."
+          docker run --rm ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:latest ls -la /app/data | head -10
+          
           docker push ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:${{ github.sha }}
           docker push ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:latest
 
