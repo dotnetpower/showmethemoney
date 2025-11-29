@@ -95,11 +95,11 @@ class ETF(BaseModel):
     market_type: str = Field(..., description="시장 유형 (Developed, Emerging 등)")
     
     # 섹터 및 테마 정보
-    sector: Optional[str] = Field(None, description="투자 섹터 (Technology, Healthcare, Financial 등)")
-    theme: Optional[str] = Field(None, description="투자 테마 (Dividend Growth, Value, Growth, ESG 등)")
+    sector: Optional[str] = Field(default=None, description="투자 섹터 (Technology, Healthcare, Financial 등)")
+    theme: Optional[str] = Field(default=None, description="투자 테마 (Dividend Growth, Value, Growth, ESG 등)")
     
     # 배당 정보 (있는 경우)
-    distribution_yield: Optional[Decimal] = Field(None, description="배당 수익률 (%)")
+    distribution_yield: Optional[Decimal] = Field(default=None, description="배당 수익률 (%)")
     distribution_frequency: DistributionFrequency = Field(
         default=DistributionFrequency.UNKNOWN, 
         description="배당 주기 (Monthly, Quarterly, Semi-Annual, Annual, Variable, None, Unknown)"
@@ -118,8 +118,8 @@ class ETF(BaseModel):
     )
     
     # 데이터 출처 및 정확도 정보
-    data_source: Optional[str] = Field(None, description="데이터 출처")
-    last_updated: Optional[datetime] = Field(None, description="데이터 최종 업데이트 시간")
+    data_source: Optional[str] = Field(default=None, description="데이터 출처")
+    last_updated: Optional[datetime] = Field(default=None, description="데이터 최종 업데이트 시간")
     
     # URL
     product_page_url: str = Field(..., description="상품 페이지 URL")

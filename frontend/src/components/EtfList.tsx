@@ -77,8 +77,12 @@ const EtfList = () => {
   // 정렬
   const filteredAndSorted = useMemo(() => {
     const sorted = [...filtered].sort((a, b) => {
-      let aValue: string | number | null = a[sortField as keyof ETF] as string | null;
-      let bValue: string | number | null = b[sortField as keyof ETF] as string | null;
+      let aValue: string | number | null = a[sortField as keyof ETF] as
+        | string
+        | null;
+      let bValue: string | number | null = b[sortField as keyof ETF] as
+        | string
+        | null;
 
       // null/undefined 값 처리 (== null은 null과 undefined 둘 다 체크)
       if (aValue == null && bValue == null) return 0;
@@ -205,15 +209,6 @@ const EtfList = () => {
     return sortDirection === "asc" ? " ▲" : " ▼";
   };
 
-  // 투자자 평가 렌더링
-  const renderRating = (etf: ETF) => {
-    if (!etf.ratings || etf.ratings.length === 0) return "N/A";
-    const rating = etf.ratings[0];
-    if (rating.rating) return rating.rating;
-    if (rating.score) return `${rating.score}점`;
-    return "N/A";
-  };
-
   if (loading) {
     return (
       <article className="card etf-list-card">
@@ -247,7 +242,7 @@ const EtfList = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
           className="search-input"
         />
-        
+
         {/* 필터 영역 */}
         <div className="filter-container">
           <select
@@ -263,7 +258,7 @@ const EtfList = () => {
               </option>
             ))}
           </select>
-          
+
           <select
             value={themeFilter}
             onChange={(e) => setThemeFilter(e.target.value)}
@@ -277,7 +272,7 @@ const EtfList = () => {
               </option>
             ))}
           </select>
-          
+
           {(sectorFilter || themeFilter) && (
             <button
               onClick={() => {
@@ -290,7 +285,7 @@ const EtfList = () => {
             </button>
           )}
         </div>
-        
+
         <div className="search-info">
           전체 {etfs.length}개 중 {filteredAndSorted.length}개 표시 (현재{" "}
           {displayedEtfs.length}개 로드됨)
