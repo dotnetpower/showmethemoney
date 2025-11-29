@@ -1,0 +1,394 @@
+name: Deploy to Azure Container Apps
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  RESOURCE_GROUP: rg-showmethemoney
+  LOCATION: koreacentral
+  ENVIRONMENT: dev
+  APP_NAME: showmethemoney
+
+jobs:
+  setup-infrastructure:
+    name: Setup Azure Infrastructure
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    outputs:
+      acr_login_server: ${{ steps.publish_outputs.outputs.acr_login_server }}
+      acr_name: ${{ steps.publish_outputs.outputs.acr_name }}
+      backend_url: ${{ steps.publish_outputs.outputs.backend_url }}
+      frontend_url: ${{ steps.publish_outputs.outputs.frontend_url }}
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Azure CLI Login
+        shell: bash
+        run: |
+          set -euo pipefail
+          CREDS='${{ secrets.AZURE_CREDENTIALS }}'
+          CLIENT_ID=$(echo "$CREDS" | jq -r '.clientId')
+          CLIENT_SECRET=$(echo "$CREDS" | jq -r '.clientSecret')
+          TENANT_ID=$(echo "$CREDS" | jq -r '.tenantId')
+          SUBSCRIPTION_ID=$(echo "$CREDS" | jq -r '.subscriptionId')
+          az login --service-principal -u "$CLIENT_ID" -p "$CLIENT_SECRET" --tenant "$TENANT_ID" >/dev/null
+          az account set --subscription "$SUBSCRIPTION_ID"
+
+      - name: Install Container Apps Extension
+        run: |
+          az extension add --name containerapp --upgrade
+
+      - name: Create Resource Group
+        run: |
+          az group create \
+            --name ${{ env.RESOURCE_GROUP }} \
+            --location ${{ env.LOCATION }}
+
+      - name: Create Container Registry
+        id: create_acr
+        run: |
+          ACR_NAME="${{ secrets.ACR_NAME }}"
+          if [ -z "$ACR_NAME" ]; then
+            ACR_NAME="acr${{ env.APP_NAME }}$(echo $RANDOM | md5sum | head -c 8)"
+          fi
+
+          if ! az acr show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} 2>/dev/null; then
+            az acr create \
+              --resource-group ${{ env.RESOURCE_GROUP }} \
+              --name $ACR_NAME \
+              --sku Basic \
+              --admin-enabled true \
+              --location ${{ env.LOCATION }}
+          fi
+
+          ACR_LOGIN_SERVER=$(az acr show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query loginServer -o tsv)
+          ACR_USERNAME=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query username -o tsv)
+          ACR_PASSWORD=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query passwords[0].value -o tsv)
+
+          echo "acr_name=$ACR_NAME" >> $GITHUB_OUTPUT
+          echo "login_server=$ACR_LOGIN_SERVER" >> $GITHUB_OUTPUT
+          echo "username=$ACR_USERNAME" >> $GITHUB_OUTPUT
+          echo "password=$ACR_PASSWORD" >> $GITHUB_OUTPUT
+
+      - name: Create Log Analytics Workspace
+        id: create_log_workspace
+        run: |
+          LOG_WORKSPACE_NAME="log-${{ env.APP_NAME }}-${{ env.ENVIRONMENT }}"
+          if ! az monitor log-analytics workspace show --resource-group ${{ env.RESOURCE_GROUP }} --workspace-name $LOG_WORKSPACE_NAME 2>/dev/null; then
+            az monitor log-analytics workspace create \
+              --resource-group ${{ env.RESOURCE_GROUP }} \
+              --workspace-name $LOG_WORKSPACE_NAME \
+              --location ${{ env.LOCATION }}
+          fi
+
+          LOG_CUSTOMER_ID=$(az monitor log-analytics workspace show --resource-group ${{ env.RESOURCE_GROUP }} --workspace-name $LOG_WORKSPACE_NAME --query customerId -o tsv)
+          LOG_SHARED_KEY=$(az monitor log-analytics workspace get-shared-keys --resource-group ${{ env.RESOURCE_GROUP }} --workspace-name $LOG_WORKSPACE_NAME --query primarySharedKey -o tsv)
+
+          echo "workspace_name=$LOG_WORKSPACE_NAME" >> $GITHUB_OUTPUT
+          echo "customer_id=$LOG_CUSTOMER_ID" >> $GITHUB_OUTPUT
+          echo "shared_key=$LOG_SHARED_KEY" >> $GITHUB_OUTPUT
+
+      - name: Create Application Insights
+        id: create_app_insights
+        run: |
+          APPINSIGHTS_NAME="appi-${{ env.APP_NAME }}-${{ env.ENVIRONMENT }}"
+          if ! az monitor app-insights component show --app $APPINSIGHTS_NAME --resource-group ${{ env.RESOURCE_GROUP }} 2>/dev/null; then
+            az monitor app-insights component create \
+              --app $APPINSIGHTS_NAME \
+              --location ${{ env.LOCATION }} \
+              --resource-group ${{ env.RESOURCE_GROUP }} \
+              --workspace ${{ steps.create_log_workspace.outputs.workspace_name }}
+          fi
+
+          CONNECTION_STRING=$(az monitor app-insights component show --app $APPINSIGHTS_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query connectionString -o tsv)
+
+          echo "appinsights_name=$APPINSIGHTS_NAME" >> $GITHUB_OUTPUT
+          echo "connection_string=$CONNECTION_STRING" >> $GITHUB_OUTPUT
+
+      - name: Create Container Apps Environment
+        id: create_container_env
+        run: |
+          CONTAINERAPP_ENV_NAME="cae-${{ env.APP_NAME }}-${{ env.ENVIRONMENT }}"
+          LOG_CUSTOMER_ID="${{ steps.create_log_workspace.outputs.customer_id }}"
+          LOG_SHARED_KEY="${{ steps.create_log_workspace.outputs.shared_key }}"
+
+          if ! az containerapp env show --name $CONTAINERAPP_ENV_NAME --resource-group ${{ env.RESOURCE_GROUP }} 2>/dev/null; then
+            az containerapp env create \
+              --name $CONTAINERAPP_ENV_NAME \
+              --resource-group ${{ env.RESOURCE_GROUP }} \
+              --location ${{ env.LOCATION }} \
+              --logs-workspace-id $LOG_CUSTOMER_ID \
+              --logs-workspace-key $LOG_SHARED_KEY
+          fi
+
+          echo "container_env_name=$CONTAINERAPP_ENV_NAME" >> $GITHUB_OUTPUT
+
+      - name: Create Backend Container App
+        id: create_backend_app
+        run: |
+          BACKEND_APP_NAME="ca-${{ env.APP_NAME }}-backend-${{ env.ENVIRONMENT }}"
+          ACR_LOGIN_SERVER="${{ steps.create_acr.outputs.login_server }}"
+          ACR_USERNAME="${{ steps.create_acr.outputs.username }}"
+          ACR_PASSWORD="${{ steps.create_acr.outputs.password }}"
+          APPINSIGHTS_CONNECTION_STRING="${{ steps.create_app_insights.outputs.connection_string }}"
+          CONTAINERAPP_ENV_NAME="${{ steps.create_container_env.outputs.container_env_name }}"
+
+          if ! az containerapp show --name $BACKEND_APP_NAME --resource-group ${{ env.RESOURCE_GROUP }} 2>/dev/null; then
+            az containerapp create \
+              --name $BACKEND_APP_NAME \
+              --resource-group ${{ env.RESOURCE_GROUP }} \
+              --environment $CONTAINERAPP_ENV_NAME \
+              --image mcr.microsoft.com/azuredocs/containerapps-helloworld:latest \
+              --target-port 8000 \
+              --ingress external \
+              --registry-server $ACR_LOGIN_SERVER \
+              --registry-username $ACR_USERNAME \
+              --registry-password $ACR_PASSWORD \
+              --secrets \
+                appinsights-connection-string="$APPINSIGHTS_CONNECTION_STRING" \
+                github-token="${{ secrets.GH_TOKEN }}" \
+              --env-vars \
+                APPLICATIONINSIGHTS_CONNECTION_STRING=secretref:appinsights-connection-string \
+                GITHUB_TOKEN=secretref:github-token \
+                GITHUB_REPO_OWNER=dotnetpower \
+                GITHUB_REPO_NAME=showmethemoney \
+              --cpu 0.5 \
+              --memory 1Gi \
+              --min-replicas 1 \
+              --max-replicas 3
+          fi
+
+          BACKEND_FQDN=$(az containerapp show --name $BACKEND_APP_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query properties.configuration.ingress.fqdn -o tsv)
+
+          echo "backend_app_name=$BACKEND_APP_NAME" >> $GITHUB_OUTPUT
+          echo "backend_fqdn=$BACKEND_FQDN" >> $GITHUB_OUTPUT
+
+      - name: Create Frontend Container App
+        id: create_frontend_app
+        run: |
+          FRONTEND_APP_NAME="ca-${{ env.APP_NAME }}-frontend-${{ env.ENVIRONMENT }}"
+          ACR_LOGIN_SERVER="${{ steps.create_acr.outputs.login_server }}"
+          ACR_USERNAME="${{ steps.create_acr.outputs.username }}"
+          ACR_PASSWORD="${{ steps.create_acr.outputs.password }}"
+          CONTAINERAPP_ENV_NAME="${{ steps.create_container_env.outputs.container_env_name }}"
+          BACKEND_FQDN="${{ steps.create_backend_app.outputs.backend_fqdn }}"
+
+          if ! az containerapp show --name $FRONTEND_APP_NAME --resource-group ${{ env.RESOURCE_GROUP }} 2>/dev/null; then
+            az containerapp create \
+              --name $FRONTEND_APP_NAME \
+              --resource-group ${{ env.RESOURCE_GROUP }} \
+              --environment $CONTAINERAPP_ENV_NAME \
+              --image mcr.microsoft.com/azuredocs/containerapps-helloworld:latest \
+              --target-port 80 \
+              --ingress external \
+              --registry-server $ACR_LOGIN_SERVER \
+              --registry-username $ACR_USERNAME \
+              --registry-password $ACR_PASSWORD \
+              --env-vars \
+                REACT_APP_API_URL="https://${BACKEND_FQDN}" \
+              --cpu 0.5 \
+              --memory 1Gi \
+              --min-replicas 1 \
+              --max-replicas 5
+          fi
+
+          FRONTEND_FQDN=$(az containerapp show --name $FRONTEND_APP_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query properties.configuration.ingress.fqdn -o tsv)
+
+          echo "frontend_app_name=$FRONTEND_APP_NAME" >> $GITHUB_OUTPUT
+          echo "frontend_fqdn=$FRONTEND_FQDN" >> $GITHUB_OUTPUT
+
+      - name: Publish Outputs
+        id: publish_outputs
+        run: |
+          echo "acr_login_server=${{ steps.create_acr.outputs.login_server }}" >> $GITHUB_OUTPUT
+          echo "acr_name=${{ steps.create_acr.outputs.acr_name }}" >> $GITHUB_OUTPUT
+          echo "backend_url=https://${{ steps.create_backend_app.outputs.backend_fqdn }}" >> $GITHUB_OUTPUT
+          echo "frontend_url=https://${{ steps.create_frontend_app.outputs.frontend_fqdn }}" >> $GITHUB_OUTPUT
+
+  build-and-push-backend:
+    name: Build and Push Backend Image
+    runs-on: ubuntu-latest
+    needs: setup-infrastructure
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Azure CLI Login
+        shell: bash
+        run: |
+          set -euo pipefail
+          CREDS='${{ secrets.AZURE_CREDENTIALS }}'
+          CLIENT_ID=$(echo "$CREDS" | jq -r '.clientId')
+          CLIENT_SECRET=$(echo "$CREDS" | jq -r '.clientSecret')
+          TENANT_ID=$(echo "$CREDS" | jq -r '.tenantId')
+          SUBSCRIPTION_ID=$(echo "$CREDS" | jq -r '.subscriptionId')
+          az login --service-principal -u "$CLIENT_ID" -p "$CLIENT_SECRET" --tenant "$TENANT_ID" >/dev/null
+          az account set --subscription "$SUBSCRIPTION_ID"
+
+      - name: ACR Login
+        run: |
+          az acr login --name ${{ needs.setup-infrastructure.outputs.acr_name }}
+
+      - name: Build and Push Backend Image
+        run: |
+          docker build -t ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:${{ github.sha }} \
+            -t ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:latest \
+            -f backend/Dockerfile ./backend
+          docker push ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:${{ github.sha }}
+          docker push ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:latest
+
+  build-and-push-frontend:
+    name: Build and Push Frontend Image
+    runs-on: ubuntu-latest
+    needs: setup-infrastructure
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Azure CLI Login
+        shell: bash
+        run: |
+          set -euo pipefail
+          CREDS='${{ secrets.AZURE_CREDENTIALS }}'
+          CLIENT_ID=$(echo "$CREDS" | jq -r '.clientId')
+          CLIENT_SECRET=$(echo "$CREDS" | jq -r '.clientSecret')
+          TENANT_ID=$(echo "$CREDS" | jq -r '.tenantId')
+          SUBSCRIPTION_ID=$(echo "$CREDS" | jq -r '.subscriptionId')
+          az login --service-principal -u "$CLIENT_ID" -p "$CLIENT_SECRET" --tenant "$TENANT_ID" >/dev/null
+          az account set --subscription "$SUBSCRIPTION_ID"
+
+      - name: ACR Login
+        run: |
+          az acr login --name ${{ needs.setup-infrastructure.outputs.acr_name }}
+
+      - name: Build and Push Frontend Image
+        run: |
+          docker build -t ${{ needs.setup-infrastructure.outputs.acr_login_server }}/frontend:${{ github.sha }} \
+            -t ${{ needs.setup-infrastructure.outputs.acr_login_server }}/frontend:latest \
+            -f frontend/Dockerfile ./frontend
+          docker push ${{ needs.setup-infrastructure.outputs.acr_login_server }}/frontend:${{ github.sha }}
+          docker push ${{ needs.setup-infrastructure.outputs.acr_login_server }}/frontend:latest
+
+  deploy-backend:
+    name: Deploy Backend to Container Apps
+    runs-on: ubuntu-latest
+    needs: [setup-infrastructure, build-and-push-backend]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Azure CLI Login
+        shell: bash
+        run: |
+          set -euo pipefail
+          CREDS='${{ secrets.AZURE_CREDENTIALS }}'
+          CLIENT_ID=$(echo "$CREDS" | jq -r '.clientId')
+          CLIENT_SECRET=$(echo "$CREDS" | jq -r '.clientSecret')
+          TENANT_ID=$(echo "$CREDS" | jq -r '.tenantId')
+          SUBSCRIPTION_ID=$(echo "$CREDS" | jq -r '.subscriptionId')
+          az login --service-principal -u "$CLIENT_ID" -p "$CLIENT_SECRET" --tenant "$TENANT_ID" >/dev/null
+          az account set --subscription "$SUBSCRIPTION_ID"
+
+      - name: Deploy Backend Container App
+        run: |
+          az containerapp update \
+            --name ca-showmethemoney-backend-${{ env.ENVIRONMENT }} \
+            --resource-group ${{ env.RESOURCE_GROUP }} \
+            --image ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:${{ github.sha }}
+
+  deploy-frontend:
+    name: Deploy Frontend to Container Apps
+    runs-on: ubuntu-latest
+    needs: [setup-infrastructure, build-and-push-frontend, deploy-backend]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Azure CLI Login
+        shell: bash
+        run: |
+          set -euo pipefail
+          CREDS='${{ secrets.AZURE_CREDENTIALS }}'
+          CLIENT_ID=$(echo "$CREDS" | jq -r '.clientId')
+          CLIENT_SECRET=$(echo "$CREDS" | jq -r '.clientSecret')
+          TENANT_ID=$(echo "$CREDS" | jq -r '.tenantId')
+          SUBSCRIPTION_ID=$(echo "$CREDS" | jq -r '.subscriptionId')
+          az login --service-principal -u "$CLIENT_ID" -p "$CLIENT_SECRET" --tenant "$TENANT_ID" >/dev/null
+          az account set --subscription "$SUBSCRIPTION_ID"
+
+      - name: Deploy Frontend Container App
+        run: |
+          az containerapp update \
+            --name ca-showmethemoney-frontend-${{ env.ENVIRONMENT }} \
+            --resource-group ${{ env.RESOURCE_GROUP }} \
+            --image ${{ needs.setup-infrastructure.outputs.acr_login_server }}/frontend:${{ github.sha }}
+
+  verify-deployment:
+    name: Verify Deployment
+    runs-on: ubuntu-latest
+    needs: [deploy-backend, deploy-frontend]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Azure CLI Login
+        shell: bash
+        run: |
+          set -euo pipefail
+          CREDS='${{ secrets.AZURE_CREDENTIALS }}'
+          CLIENT_ID=$(echo "$CREDS" | jq -r '.clientId')
+          CLIENT_SECRET=$(echo "$CREDS" | jq -r '.clientSecret')
+          TENANT_ID=$(echo "$CREDS" | jq -r '.tenantId')
+          SUBSCRIPTION_ID=$(echo "$CREDS" | jq -r '.subscriptionId')
+          az login --service-principal -u "$CLIENT_ID" -p "$CLIENT_SECRET" --tenant "$TENANT_ID" >/dev/null
+          az account set --subscription "$SUBSCRIPTION_ID"
+
+      - name: Check Backend Health
+        run: |
+          BACKEND_URL=$(az containerapp show \
+            --name ca-showmethemoney-backend-${{ env.ENVIRONMENT }} \
+            --resource-group ${{ env.RESOURCE_GROUP }} \
+            --query properties.configuration.ingress.fqdn -o tsv)
+          echo "Backend URL: https://${BACKEND_URL}"
+          
+          # Health check
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://${BACKEND_URL}/health || echo "000")
+          if [ "$HTTP_STATUS" != "200" ]; then
+            echo "Backend health check failed with status: $HTTP_STATUS"
+            exit 1
+          fi
+          echo "Backend is healthy"
+
+      - name: Check Frontend Health
+        run: |
+          FRONTEND_URL=$(az containerapp show \
+            --name ca-showmethemoney-frontend-${{ env.ENVIRONMENT }} \
+            --resource-group ${{ env.RESOURCE_GROUP }} \
+            --query properties.configuration.ingress.fqdn -o tsv)
+          echo "Frontend URL: https://${FRONTEND_URL}"
+          
+          # Health check
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://${FRONTEND_URL} || echo "000")
+          if [ "$HTTP_STATUS" != "200" ]; then
+            echo "Frontend health check failed with status: $HTTP_STATUS"
+            exit 1
+          fi
+          echo "Frontend is healthy"
+
+      - name: Display Deployment URLs
+        run: |
+          CREDS='${{ secrets.AZURE_CREDENTIALS }}'
+          SUBSCRIPTION_ID=$(echo "$CREDS" | jq -r '.subscriptionId')
+          echo "🚀 Deployment Complete!"
+          echo "Backend: https://$(az containerapp show --name ca-showmethemoney-backend-${{ env.ENVIRONMENT }} --resource-group ${{ env.RESOURCE_GROUP }} --query properties.configuration.ingress.fqdn -o tsv)"
+          echo "Frontend: https://$(az containerapp show --name ca-showmethemoney-frontend-${{ env.ENVIRONMENT }} --resource-group ${{ env.RESOURCE_GROUP }} --query properties.configuration.ingress.fqdn -o tsv)"
+          echo "Resource Group: https://portal.azure.com/#@/resource/subscriptions/${SUBSCRIPTION_ID}/resourceGroups/${{ env.RESOURCE_GROUP }}/overview"
