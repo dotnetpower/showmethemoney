@@ -10,6 +10,7 @@ from app.models.etf import ETF, DistributionFrequency
 from bs4 import BeautifulSoup
 
 from .base import BaseCrawler
+from .yfinance_enricher import enrich_etf_with_yfinance
 
 logger = logging.getLogger(__name__)
 
@@ -59,16 +60,25 @@ class GlobalXCrawler(BaseCrawler):
                 if ticker and name:
                     detail_url = href if href.startswith("http") else self.base_url + href
                     
+                    # yfinance로 데이터 가져오기
+                    nav_amount = Decimal("0.00")
+                    expense_ratio = Decimal("0.00")
+                    inception_date = datetime.now().date()
+                    
+                    nav_amount, expense_ratio, inception_date = enrich_etf_with_yfinance(
+                        ticker, nav_amount, expense_ratio, inception_date
+                    )
+                    
                     try:
                         etf = ETF(
                             ticker=ticker,
                             fund_name=name,
                             isin="N/A",
                             cusip="N/A",
-                            inception_date=datetime.now().date(),
-                            nav_amount=Decimal("0.00"),
+                            inception_date=inception_date,
+                            nav_amount=nav_amount,
                             nav_as_of=datetime.now().date(),
-                            expense_ratio=Decimal("0.00"),
+                            expense_ratio=expense_ratio,
                             ytd_return=None,
                             one_year_return=None,
                             three_year_return=None,

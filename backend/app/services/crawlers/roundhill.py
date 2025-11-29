@@ -10,6 +10,7 @@ from app.models.etf import ETF
 from bs4 import BeautifulSoup
 
 from .base import BaseCrawler
+from .yfinance_enricher import enrich_etf_with_yfinance
 
 logger = logging.getLogger(__name__)
 
@@ -150,14 +151,22 @@ class RoundhillCrawler(BaseCrawler):
             if expense_match:
                 expense_ratio = Decimal(expense_match.group(1))
             
+            # yfinance로 NAV 및 기타 데이터 보강
+            nav_amount = Decimal("0.00")
+            inception_date = None
+            
+            nav_amount, expense_ratio, inception_date = enrich_etf_with_yfinance(
+                ticker, nav_amount, expense_ratio, inception_date
+            )
+            
             # 기본값 설정 (Roundhill은 제한된 정보만 제공)
             return ETF(
                 ticker=ticker,
                 fund_name=fund_name,
                 isin="N/A",  # Roundhill 웹사이트에서 제공하지 않음
                 cusip="N/A",  # Roundhill 웹사이트에서 제공하지 않음
-                inception_date=None,  # 웹사이트에서 제공하지 않음
-                nav_amount=Decimal("0.00"),  # 웹사이트에서 NAV 정보 추출 필요
+                inception_date=inception_date,
+                nav_amount=nav_amount,
                 nav_as_of=date.today(),
                 expense_ratio=expense_ratio,
                 ytd_return=None,

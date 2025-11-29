@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 
 from ...models.etf import ETF
 from .base import BaseCrawler
+from .yfinance_enricher import enrich_etf_with_yfinance
 
 
 class AlphaArchitectCrawler(BaseCrawler):
@@ -69,16 +70,25 @@ class AlphaArchitectCrawler(BaseCrawler):
                 # 전체 URL 생성
                 full_url = f"https://funds.alphaarchitect.com{href}" if href.startswith('/') else href
 
+                # yfinance로 데이터 보강
+                nav_amount = Decimal("0")
+                expense_ratio = Decimal("0")
+                inception_date = None
+                
+                nav_amount, expense_ratio, inception_date = enrich_etf_with_yfinance(
+                    ticker, nav_amount, expense_ratio, inception_date
+                )
+
                 etf_list.append(
                     ETF(
                         ticker=ticker,
                         fund_name=fund_name,
                         isin="",
                         cusip="",
-                        inception_date=None,
-                        nav_amount=Decimal("0"),
+                        inception_date=inception_date,
+                        nav_amount=nav_amount,
                         nav_as_of=date.today(),
-                        expense_ratio=Decimal("0"),
+                        expense_ratio=expense_ratio,
                         ytd_return=None,
                         one_year_return=None,
                         three_year_return=None,

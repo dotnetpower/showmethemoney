@@ -8,6 +8,7 @@ import httpx
 from app.models.etf import ETF
 
 from .base import BaseCrawler
+from .yfinance_enricher import enrich_etf_with_yfinance
 
 logger = logging.getLogger(__name__)
 
@@ -123,6 +124,12 @@ class InvescoCrawler(BaseCrawler):
         url_path = doc.get('url', '')
         product_page_url = f"https://www.invesco.com{url_path}" if url_path else f"https://www.invesco.com/us/en/financial-products/etfs/{ticker.lower()}"
         
+        # yfinance로 NAV 및 기타 데이터 보강
+        nav_amount = Decimal("0.00")
+        nav_amount, expense_ratio, inception_date = enrich_etf_with_yfinance(
+            ticker, nav_amount, expense_ratio, inception_date
+        )
+        
         try:
             return ETF(
                 ticker=ticker,
@@ -130,7 +137,7 @@ class InvescoCrawler(BaseCrawler):
                 isin=isin,
                 cusip=cusip,
                 inception_date=inception_date,
-                nav_amount=Decimal("0.00"),  # API에서 제공하지 않음
+                nav_amount=nav_amount,
                 nav_as_of=datetime.now().date(),
                 expense_ratio=expense_ratio,
                 ytd_return=None,  # API에서 제공하지 않음

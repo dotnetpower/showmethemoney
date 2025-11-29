@@ -5,6 +5,7 @@ from decimal import Decimal
 from typing import Any, List, Optional
 
 import httpx
+import yfinance as yf
 from app.models.etf import ETF
 
 from .base import BaseCrawler
@@ -95,7 +96,7 @@ class DirexionCrawler(BaseCrawler):
         return self.etf_list
 
     async def parse_data(self, etf_list: List[tuple]) -> List[ETF]:
-        """Parse ETF list and create ETF objects"""
+        """Parse ETF list and create ETF objects with real-time data from yfinance"""
         if not etf_list:
             return []
 
@@ -103,15 +104,50 @@ class DirexionCrawler(BaseCrawler):
         
         for ticker, name in etf_list:
             try:
+                # Fetch real-time data from Yahoo Finance using yfinance
+                nav_amount = Decimal("0.00")
+                expense_ratio = Decimal("0.00")
+                inception_date = datetime.now().date()
+                
+                try:
+                    # Get ticker info from yfinance
+                    stock = yf.Ticker(ticker)
+                    info = stock.info
+                    
+                    # Get NAV (current price)
+                    if "regularMarketPrice" in info and info["regularMarketPrice"]:
+                        nav_amount = Decimal(str(info["regularMarketPrice"]))
+                    elif "previousClose" in info and info["previousClose"]:
+                        nav_amount = Decimal(str(info["previousClose"]))
+                    
+                    # Get expense ratio (use netExpenseRatio or totalExpenseRatio)
+                    if "netExpenseRatio" in info and info["netExpenseRatio"]:
+                        expense_ratio = Decimal(str(info["netExpenseRatio"]))
+                    elif "totalExpenseRatio" in info and info["totalExpenseRatio"]:
+                        # Yahoo returns as decimal (e.g., 0.0095 for 0.95%)
+                        expense_ratio = Decimal(str(info["totalExpenseRatio"] * 100))
+                    
+                    # Get inception date
+                    if "fundInceptionDate" in info and info["fundInceptionDate"]:
+                        try:
+                            inception_date = datetime.fromtimestamp(info["fundInceptionDate"]).date()
+                        except:
+                            pass
+                    
+                    logger.debug(f"{ticker}: NAV=${nav_amount}, Expense={expense_ratio}%")
+                
+                except Exception as e:
+                    logger.debug(f"Could not fetch yfinance data for {ticker}: {e}")
+                
                 etf = ETF(
                     ticker=ticker,
                     fund_name=name,
                     isin="N/A",
                     cusip="N/A",
-                    inception_date=datetime.now().date(),
-                    nav_amount=Decimal("0.00"),
+                    inception_date=inception_date,
+                    nav_amount=nav_amount,
                     nav_as_of=datetime.now().date(),
-                    expense_ratio=Decimal("0.00"),  # Would need to be fetched from another source
+                    expense_ratio=expense_ratio,
                     ytd_return=None,
                     one_year_return=None,
                     three_year_return=None,

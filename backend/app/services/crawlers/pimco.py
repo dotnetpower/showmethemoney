@@ -8,6 +8,7 @@ import httpx
 from app.models.etf import ETF, DistributionFrequency
 
 from .base import BaseCrawler
+from .yfinance_enricher import enrich_etf_with_yfinance
 
 logger = logging.getLogger(__name__)
 
@@ -78,6 +79,19 @@ class PIMCOCrawler(BaseCrawler):
                     or item.get("Gross Expense Ratio %")
                 )
                 
+                # yfinance로 NAV 및 기타 데이터 보강
+                nav_amount = Decimal("0.00")
+                
+                nav_amount, expense_ratio_enriched, inception_date_enriched = enrich_etf_with_yfinance(
+                    ticker.strip().upper(), nav_amount, expense_ratio or Decimal("0.00"), inception_date
+                )
+                
+                # enriched 값이 더 나으면 사용
+                if expense_ratio_enriched and expense_ratio_enriched != Decimal("0.00"):
+                    expense_ratio = expense_ratio_enriched
+                if inception_date_enriched:
+                    inception_date = inception_date_enriched
+                
                 product_url = f"https://www.pimco.com/en-us/investments/etf/{ticker.lower()}"
                 
                 etf = ETF(
@@ -86,7 +100,7 @@ class PIMCOCrawler(BaseCrawler):
                     isin="N/A",
                     cusip="N/A",
                     inception_date=inception_date or datetime.now().date(),
-                    nav_amount=Decimal("0.00"),
+                    nav_amount=nav_amount,
                     nav_as_of=datetime.now().date(),
                     expense_ratio=expense_ratio or Decimal("0.00"),
                     ytd_return=None,

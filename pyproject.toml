@@ -25,6 +25,7 @@ dependencies = [
     "beautifulsoup4>=4.12.3",
     "msgpack>=1.1.0",
     "apscheduler>=3.10.4",
+    "yfinance>=0.2.66",
 ]
 
 [tool.uv]

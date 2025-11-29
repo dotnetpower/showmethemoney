@@ -9,6 +9,7 @@ from app.models.etf import ETF, DistributionFrequency
 from bs4 import BeautifulSoup
 
 from .base import BaseCrawler
+from .yfinance_enricher import enrich_etf_with_yfinance
 
 logger = logging.getLogger(__name__)
 
@@ -134,6 +135,19 @@ class FirstTrustCrawler(BaseCrawler):
             
             if not detail_url:
                 detail_url = f"{self.base_url}/product/{ticker.lower()}"
+
+            # yfinance로 NAV 및 기타 데이터 보강
+            nav_enriched, expense_enriched, inception_enriched = enrich_etf_with_yfinance(
+                ticker, nav or Decimal("0.00"), expense_ratio or Decimal("0.00"), inception_date
+            )
+            
+            # enriched 값이 더 나으면 사용
+            if nav_enriched and nav_enriched != Decimal("0.00"):
+                nav = nav_enriched
+            if expense_enriched and expense_enriched != Decimal("0.00"):
+                expense_ratio = expense_enriched
+            if inception_enriched:
+                inception_date = inception_enriched
 
             # Return ETF model
             return ETF(
