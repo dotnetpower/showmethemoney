@@ -1,11 +1,12 @@
 """Direxion ETF crawler"""
 import logging
 import re
-from datetime import date
+from datetime import date, datetime
 from decimal import Decimal
-from typing import Any, Optional
+from typing import Any, List, Optional
 
 import httpx
+from app.models.etf import ETF, DistributionFrequency
 from bs4 import BeautifulSoup
 
 from .base import BaseCrawler
@@ -37,7 +38,7 @@ class DirexionCrawler(BaseCrawler):
             logger.error(f"Failed to fetch Direxion ETF data: {e}")
             return None
 
-    def parse_data(self, html_content: str) -> list[dict[str, Any]]:
+    def parse_data(self, html_content: str) -> List[ETF]:
         """Parse HTML content to extract ETF data"""
         if not html_content:
             return []
@@ -59,13 +60,28 @@ class DirexionCrawler(BaseCrawler):
                 name = link.get_text(strip=True)
 
                 if ticker and name and len(ticker) <= 5:
-                    etfs.append({
-                        "ticker": ticker,
-                        "name": name,
-                        "detail_url": (
-                            href if href.startswith("http") else self.base_url + href
-                        ),
-                    })
+                    detail_url = href if href.startswith("http") else self.base_url + href
+                    
+                    try:
+                        etf = ETF(
+                            ticker=ticker,
+                            fund_name=name,
+                            isin="N/A",
+                            cusip="N/A",
+                            inception_date=datetime.now().date(),
+                            nav_amount=Decimal("0.00"),
+                            nav_as_of=datetime.now().date(),
+                            expense_ratio=Decimal("0.00"),
+                            asset_class="Unknown",
+                            region="US",
+                            market_type="ETF",
+                            product_page_url=detail_url,
+                            detail_page_url=detail_url,
+                        )
+                        etfs.append(etf)
+                    except Exception as e:
+                        logger.warning(f"Failed to create ETF {ticker}: {e}")
+                        continue
 
         logger.info(f"Parsed {len(etfs)} ETFs from Direxion")
         return etfs

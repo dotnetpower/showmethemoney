@@ -2,8 +2,8 @@
   {
     "ticker": "GEMD",
     "fund_name": "Goldman Sachs Access Emerging Markets USD Bond ETF",
-    "isin": "381430388",
-    "cusip": "N/A",
+    "isin": "US3814303885",
+    "cusip": "381430388",
     "inception_date": "2022-02-15",
     "nav_amount": "42.76",
     "nav_as_of": "2025-11-26",
@@ -19,14 +19,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GEMD",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GEMD"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102979/381430388/goldman-sachs-access-emerging-markets-usd-bond-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102979/381430388/goldman-sachs-access-emerging-markets-usd-bond-etf"
   },
   {
     "ticker": "GHYB",
     "fund_name": "Goldman Sachs Access High Yield Corporate Bond ETF",
-    "isin": "381430453",
-    "cusip": "N/A",
+    "isin": "US3814304537",
+    "cusip": "381430453",
     "inception_date": "2017-09-05",
     "nav_amount": "45.46",
     "nav_as_of": "2025-11-26",
@@ -42,14 +42,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GHYB",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GHYB"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102746/381430453/goldman-sachs-access-high-yield-corporate-bond-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102746/381430453/goldman-sachs-access-high-yield-corporate-bond-etf"
   },
   {
     "ticker": "GTIP",
     "fund_name": "Goldman Sachs Access Inflation Protected USD Bond ETF",
-    "isin": "381430362",
-    "cusip": "N/A",
+    "isin": "US3814303620",
+    "cusip": "381430362",
     "inception_date": "2018-10-02",
     "nav_amount": "49.90",
     "nav_as_of": "2025-11-26",
@@ -65,14 +65,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GTIP",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GTIP"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102998/381430362/goldman-sachs-access-inflation-protected-usd-bond-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102998/381430362/goldman-sachs-access-inflation-protected-usd-bond-etf"
   },
   {
     "ticker": "GSIG",
     "fund_name": "Goldman Sachs Access Investment Grade Corporate 1-5 Year Bond ETF",
-    "isin": "38149W507",
-    "cusip": "N/A",
+    "isin": "US38149W5076",
+    "cusip": "38149W507",
     "inception_date": "2020-07-07",
     "nav_amount": "47.88",
     "nav_as_of": "2025-11-26",
@@ -88,14 +88,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GSIG",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GSIG"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103400/38149W507/goldman-sachs-access-investment-grade-corporate-1-5-year-bond-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103400/38149W507/goldman-sachs-access-investment-grade-corporate-1-5-year-bond-etf"
   },
   {
     "ticker": "GIGB",
     "fund_name": "Goldman Sachs Access Investment Grade Corporate Bond ETF",
-    "isin": "381430479",
-    "cusip": "N/A",
+    "isin": "US3814304792",
+    "cusip": "381430479",
     "inception_date": "2017-06-06",
     "nav_amount": "46.82",
     "nav_as_of": "2025-11-26",
@@ -111,14 +111,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GIGB",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GIGB"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102748/381430479/goldman-sachs-access-investment-grade-corporate-bond-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102748/381430479/goldman-sachs-access-investment-grade-corporate-bond-etf"
   },
   {
     "ticker": "GMUN",
     "fund_name": "Goldman Sachs Access Municipal Bond ETF",
-    "isin": "38149W663",
-    "cusip": "N/A",
+    "isin": "US38149W6637",
+    "cusip": "38149W663",
     "inception_date": "2023-03-07",
     "nav_amount": "50.61",
     "nav_as_of": "2025-11-26",
@@ -134,14 +134,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GMUN",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GMUN"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV104570/38149W663/goldman-sachs-access-municipal-bond-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV104570/38149W663/goldman-sachs-access-municipal-bond-etf"
   },
   {
     "ticker": "GBIL",
     "fund_name": "Goldman Sachs Access Treasury 0-1 Year ETF",
-    "isin": "381430529",
-    "cusip": "N/A",
+    "isin": "US3814305294",
+    "cusip": "381430529",
     "inception_date": "2016-09-06",
     "nav_amount": "100.16",
     "nav_as_of": "2025-11-26",
@@ -157,14 +157,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GBIL",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GBIL"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102645/381430529/goldman-sachs-access-treasury-0-1-year-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102645/381430529/goldman-sachs-access-treasury-0-1-year-etf"
   },
   {
     "ticker": "GCOR",
     "fund_name": "Goldman Sachs Access U.S. Aggregate Bond ETF",
-    "isin": "38149W101",
-    "cusip": "N/A",
+    "isin": "US38149W1018",
+    "cusip": "38149W101",
     "inception_date": "2020-09-08",
     "nav_amount": "41.98",
     "nav_as_of": "2025-11-26",
@@ -180,14 +180,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GCOR",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GCOR"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103404/38149W101/goldman-sachs-access-us-aggregate-bond-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103404/38149W101/goldman-sachs-access-us-aggregate-bond-etf"
   },
   {
     "ticker": "GPRF",
     "fund_name": "Goldman Sachs Access U.S. Preferred Stock and Hybrid Securities ETF",
-    "isin": "38149W127",
-    "cusip": "N/A",
+    "isin": "US38149W1273",
+    "cusip": "38149W127",
     "inception_date": "2024-07-30",
     "nav_amount": "50.84",
     "nav_as_of": "2025-11-26",
@@ -203,14 +203,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GPRF",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GPRF"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105611/38149W127/goldman-sachs-access-us-preferred-stock-and-hybrid-securities-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105611/38149W127/goldman-sachs-access-us-preferred-stock-and-hybrid-securities-etf"
   },
   {
     "ticker": "GEM",
     "fund_name": "Goldman Sachs ActiveBeta Emerging Markets Equity ETF",
-    "isin": "381430206",
-    "cusip": "N/A",
+    "isin": "US3814302069",
+    "cusip": "381430206",
     "inception_date": "2015-09-25",
     "nav_amount": "41.36",
     "nav_as_of": "2025-11-26",
@@ -226,14 +226,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Annual",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GEM",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GEM"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102391/381430206/goldman-sachs-activebeta-emerging-markets-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102391/381430206/goldman-sachs-activebeta-emerging-markets-equity-etf"
   },
   {
     "ticker": "GSEU",
     "fund_name": "Goldman Sachs ActiveBeta Europe Equity ETF",
-    "isin": "381430305",
-    "cusip": "N/A",
+    "isin": "US3814303059",
+    "cusip": "381430305",
     "inception_date": "2016-03-02",
     "nav_amount": "44.09",
     "nav_as_of": "2025-11-26",
@@ -249,14 +249,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GSEU",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GSEU"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102392/381430305/goldman-sachs-activebeta-europe-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102392/381430305/goldman-sachs-activebeta-europe-equity-etf"
   },
   {
     "ticker": "GSIE",
     "fund_name": "Goldman Sachs ActiveBeta International Equity ETF",
-    "isin": "381430107",
-    "cusip": "N/A",
+    "isin": "US3814301079",
+    "cusip": "381430107",
     "inception_date": "2015-11-06",
     "nav_amount": "41.53",
     "nav_as_of": "2025-11-26",
@@ -272,14 +272,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GSIE",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GSIE"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102390/381430107/goldman-sachs-activebeta-international-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102390/381430107/goldman-sachs-activebeta-international-equity-etf"
   },
   {
     "ticker": "GSJY",
     "fund_name": "Goldman Sachs ActiveBeta Japan Equity ETF",
-    "isin": "381430404",
-    "cusip": "N/A",
+    "isin": "US3814304040",
+    "cusip": "381430404",
     "inception_date": "2016-03-02",
     "nav_amount": "46.42",
     "nav_as_of": "2025-11-26",
@@ -295,14 +295,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GSJY",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GSJY"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102393/381430404/goldman-sachs-activebeta-japan-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102393/381430404/goldman-sachs-activebeta-japan-equity-etf"
   },
   {
     "ticker": "GSLC",
     "fund_name": "Goldman Sachs ActiveBeta U.S. Large Cap Equity ETF",
-    "isin": "381430503",
-    "cusip": "N/A",
+    "isin": "US3814305039",
+    "cusip": "381430503",
     "inception_date": "2015-09-17",
     "nav_amount": "131.64",
     "nav_as_of": "2025-11-26",
@@ -318,14 +318,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GSLC",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GSLC"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102394/381430503/goldman-sachs-activebeta-us-large-cap-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102394/381430503/goldman-sachs-activebeta-us-large-cap-equity-etf"
   },
   {
     "ticker": "GSSC",
     "fund_name": "Goldman Sachs ActiveBeta U.S. Small Cap Equity ETF",
-    "isin": "381430602",
-    "cusip": "N/A",
+    "isin": "US3814306029",
+    "cusip": "381430602",
     "inception_date": "2017-06-28",
     "nav_amount": "75.40",
     "nav_as_of": "2025-11-26",
@@ -341,14 +341,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GSSC",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GSSC"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102395/381430602/goldman-sachs-activebeta-us-small-cap-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102395/381430602/goldman-sachs-activebeta-us-small-cap-equity-etf"
   },
   {
     "ticker": "GLOV",
     "fund_name": "Goldman Sachs ActiveBeta World Low Vol Plus Equity ETF",
-    "isin": "38149W739",
-    "cusip": "N/A",
+    "isin": "US38149W7395",
+    "cusip": "38149W739",
     "inception_date": "2022-03-15",
     "nav_amount": "57.60",
     "nav_as_of": "2025-11-26",
@@ -364,14 +364,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GLOV",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GLOV"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV104218/38149W739/goldman-sachs-activebeta-world-low-vol-plus-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV104218/38149W739/goldman-sachs-activebeta-world-low-vol-plus-equity-etf"
   },
   {
     "ticker": "GBND",
     "fund_name": "Goldman Sachs Core Bond ETF",
-    "isin": "38149W473",
-    "cusip": "N/A",
+    "isin": "US38149W4731",
+    "cusip": "38149W473",
     "inception_date": "2025-06-24",
     "nav_amount": "51.30",
     "nav_as_of": "2025-11-26",
@@ -387,14 +387,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GBND",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GBND"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV109040/38149W473/goldman-sachs-core-bond-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV109040/38149W473/goldman-sachs-core-bond-etf"
   },
   {
     "ticker": "GIGL",
     "fund_name": "Goldman Sachs Corporate Bond ETF",
-    "isin": "38149W465",
-    "cusip": "N/A",
+    "isin": "US38149W4657",
+    "cusip": "38149W465",
     "inception_date": "2025-06-24",
     "nav_amount": "51.48",
     "nav_as_of": "2025-11-26",
@@ -410,14 +410,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GIGL",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GIGL"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV109041/38149W465/goldman-sachs-corporate-bond-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV109041/38149W465/goldman-sachs-corporate-bond-etf"
   },
   {
     "ticker": "GCAL",
     "fund_name": "Goldman Sachs Dynamic California Municipal Income ETF",
-    "isin": "38149W564",
-    "cusip": "N/A",
+    "isin": "US38149W5647",
+    "cusip": "38149W564",
     "inception_date": "2024-07-23",
     "nav_amount": "50.98",
     "nav_as_of": "2025-11-26",
@@ -433,14 +433,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GCAL",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GCAL"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105933/38149W564/goldman-sachs-dynamic-california-municipal-income-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105933/38149W564/goldman-sachs-dynamic-california-municipal-income-etf"
   },
   {
     "ticker": "GMNY",
     "fund_name": "Goldman Sachs Dynamic New York Municipal Income ETF",
-    "isin": "38149W556",
-    "cusip": "N/A",
+    "isin": "US38149W5563",
+    "cusip": "38149W556",
     "inception_date": "2024-07-23",
     "nav_amount": "49.97",
     "nav_as_of": "2025-11-26",
@@ -456,14 +456,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GMNY",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GMNY"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105932/38149W556/goldman-sachs-dynamic-new-york-municipal-income-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105932/38149W556/goldman-sachs-dynamic-new-york-municipal-income-etf"
   },
   {
     "ticker": "GUSE",
     "fund_name": "Goldman Sachs Enhanced U.S. Equity ETF",
-    "isin": "38149W424",
-    "cusip": "N/A",
+    "isin": "US38149W4244",
+    "cusip": "38149W424",
     "inception_date": "2008-01-31",
     "nav_amount": "40.58",
     "nav_as_of": "2025-11-26",
@@ -479,14 +479,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Annual",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GUSE",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GUSE"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV109508/38149W424/goldman-sachs-enhanced-us-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV109508/38149W424/goldman-sachs-enhanced-us-equity-etf"
   },
   {
     "ticker": "GSEW",
     "fund_name": "Goldman Sachs Equal Weight U.S. Large Cap Equity ETF",
-    "isin": "381430438",
-    "cusip": "N/A",
+    "isin": "US3814304388",
+    "cusip": "381430438",
     "inception_date": "2017-09-12",
     "nav_amount": "84.53",
     "nav_as_of": "2025-11-26",
@@ -502,14 +502,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GSEW",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GSEW"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102787/381430438/goldman-sachs-equal-weight-us-large-cap-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102787/381430438/goldman-sachs-equal-weight-us-large-cap-equity-etf"
   },
   {
     "ticker": "GDOC",
     "fund_name": "Goldman Sachs Future Health Care Equity ETF",
-    "isin": "38149W770",
-    "cusip": "N/A",
+    "isin": "US38149W7700",
+    "cusip": "38149W770",
     "inception_date": "2021-11-09",
     "nav_amount": "37.22",
     "nav_as_of": "2025-11-26",
@@ -525,14 +525,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GDOC",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GDOC"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103944/38149W770/goldman-sachs-future-health-care-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103944/38149W770/goldman-sachs-future-health-care-equity-etf"
   },
   {
     "ticker": "GTEK",
     "fund_name": "Goldman Sachs Future Tech Leaders Equity ETF",
-    "isin": "38149W812",
-    "cusip": "N/A",
+    "isin": "US38149W8120",
+    "cusip": "38149W812",
     "inception_date": "2021-09-14",
     "nav_amount": "38.56",
     "nav_as_of": "2025-11-26",
@@ -548,14 +548,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GTEK",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GTEK"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103849/38149W812/goldman-sachs-future-tech-leaders-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103849/38149W812/goldman-sachs-future-tech-leaders-equity-etf"
   },
   {
     "ticker": "GSGO",
     "fund_name": "Goldman Sachs Growth Opportunities ETF",
-    "isin": "38149W440",
-    "cusip": "N/A",
+    "isin": "US38149W4400",
+    "cusip": "38149W440",
     "inception_date": "1999-05-24",
     "nav_amount": "40.24",
     "nav_as_of": "2025-11-26",
@@ -571,14 +571,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Annual",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GSGO",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GSGO"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV109510/38149W440/goldman-sachs-growth-opportunities-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV109510/38149W440/goldman-sachs-growth-opportunities-etf"
   },
   {
     "ticker": "GVIP",
     "fund_name": "Goldman Sachs Hedge Industry VIP ETF",
-    "isin": "381430545",
-    "cusip": "N/A",
+    "isin": "US3814305450",
+    "cusip": "381430545",
     "inception_date": "2016-11-01",
     "nav_amount": "152.14",
     "nav_as_of": "2025-11-26",
@@ -594,14 +594,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GVIP",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GVIP"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102634/381430545/goldman-sachs-hedge-industry-vip-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102634/381430545/goldman-sachs-hedge-industry-vip-etf"
   },
   {
     "ticker": "GIND",
     "fund_name": "Goldman Sachs India Equity ETF",
-    "isin": "38149W481",
-    "cusip": "N/A",
+    "isin": "US38149W4814",
+    "cusip": "38149W481",
     "inception_date": "2025-04-01",
     "nav_amount": "26.55",
     "nav_as_of": "2025-11-26",
@@ -617,14 +617,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GIND",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GIND"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV106306/38149W481/goldman-sachs-india-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV106306/38149W481/goldman-sachs-india-equity-etf"
   },
   {
     "ticker": "GINN",
     "fund_name": "Goldman Sachs Innovate Equity ETF",
-    "isin": "38149W820",
-    "cusip": "N/A",
+    "isin": "US38149W8203",
+    "cusip": "38149W820",
     "inception_date": "2020-11-06",
     "nav_amount": "73.88",
     "nav_as_of": "2025-11-26",
@@ -640,14 +640,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GINN",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GINN"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103686/38149W820/goldman-sachs-innovate-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103686/38149W820/goldman-sachs-innovate-equity-etf"
   },
   {
     "ticker": "JUST",
     "fund_name": "Goldman Sachs JUST U.S. Large Cap Equity ETF",
-    "isin": "381430396",
-    "cusip": "N/A",
+    "isin": "US3814303968",
+    "cusip": "381430396",
     "inception_date": "2018-06-07",
     "nav_amount": "96.18",
     "nav_as_of": "2025-11-26",
@@ -663,14 +663,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/JUST",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/JUST"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102957/381430396/goldman-sachs-just-us-large-cap-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV102957/381430396/goldman-sachs-just-us-large-cap-equity-etf"
   },
   {
     "ticker": "GSEE",
     "fund_name": "Goldman Sachs MarketBeta Emerging Markets Equity ETF",
-    "isin": "381430164",
-    "cusip": "N/A",
+    "isin": "US3814301640",
+    "cusip": "381430164",
     "inception_date": "2020-05-12",
     "nav_amount": "56.46",
     "nav_as_of": "2025-11-26",
@@ -686,14 +686,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Annual",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GSEE",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GSEE"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103363/381430164/goldman-sachs-marketbeta-emerging-markets-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103363/381430164/goldman-sachs-marketbeta-emerging-markets-equity-etf"
   },
   {
     "ticker": "GSID",
     "fund_name": "Goldman Sachs MarketBeta International Equity ETF",
-    "isin": "381430180",
-    "cusip": "N/A",
+    "isin": "US3814301806",
+    "cusip": "381430180",
     "inception_date": "2020-05-12",
     "nav_amount": "67.32",
     "nav_as_of": "2025-11-26",
@@ -709,14 +709,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GSID",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GSID"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103362/381430180/goldman-sachs-marketbeta-international-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103362/381430180/goldman-sachs-marketbeta-international-equity-etf"
   },
   {
     "ticker": "GGUS",
     "fund_name": "Goldman Sachs MarketBeta Russell 1000 Growth Equity ETF",
-    "isin": "38149W598",
-    "cusip": "N/A",
+    "isin": "US38149W5985",
+    "cusip": "38149W598",
     "inception_date": "2023-11-28",
     "nav_amount": "63.61",
     "nav_as_of": "2025-11-26",
@@ -732,14 +732,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GGUS",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GGUS"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105434/38149W598/goldman-sachs-marketbeta-russell-1000-growth-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105434/38149W598/goldman-sachs-marketbeta-russell-1000-growth-equity-etf"
   },
   {
     "ticker": "GVUS",
     "fund_name": "Goldman Sachs MarketBeta Russell 1000 Value Equity ETF",
-    "isin": "38149W580",
-    "cusip": "N/A",
+    "isin": "US38149W5803",
+    "cusip": "38149W580",
     "inception_date": "2023-11-28",
     "nav_amount": "53.55",
     "nav_as_of": "2025-11-26",
@@ -755,14 +755,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GVUS",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GVUS"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105433/38149W580/goldman-sachs-marketbeta-russell-1000-value-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105433/38149W580/goldman-sachs-marketbeta-russell-1000-value-equity-etf"
   },
   {
     "ticker": "GXUS",
     "fund_name": "Goldman Sachs MarketBeta Total International Equity ETF",
-    "isin": "38150W206",
-    "cusip": "N/A",
+    "isin": "US38150W2061",
+    "cusip": "38150W206",
     "inception_date": "2023-05-31",
     "nav_amount": "54.54",
     "nav_as_of": "2025-11-26",
@@ -778,14 +778,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GXUS",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GXUS"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV104572/38150W206/goldman-sachs-marketbeta-total-international-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV104572/38150W206/goldman-sachs-marketbeta-total-international-equity-etf"
   },
   {
     "ticker": "GSUS",
     "fund_name": "Goldman Sachs MarketBeta U.S. Equity ETF",
-    "isin": "381430123",
-    "cusip": "N/A",
+    "isin": "US3814301236",
+    "cusip": "381430123",
     "inception_date": "2020-05-12",
     "nav_amount": "94.12",
     "nav_as_of": "2025-11-26",
@@ -801,14 +801,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GSUS",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GSUS"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103365/381430123/goldman-sachs-marketbeta-us-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103365/381430123/goldman-sachs-marketbeta-us-equity-etf"
   },
   {
     "ticker": "GUSA",
     "fund_name": "Goldman Sachs MarketBeta US 1000 Equity ETF",
-    "isin": "38150W107",
-    "cusip": "N/A",
+    "isin": "US38150W1071",
+    "cusip": "38150W107",
     "inception_date": "2022-04-05",
     "nav_amount": "58.82",
     "nav_as_of": "2025-11-26",
@@ -824,14 +824,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GUSA",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GUSA"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV104276/38150W107/goldman-sachs-marketbeta-us-1000-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV104276/38150W107/goldman-sachs-marketbeta-us-1000-equity-etf"
   },
   {
     "ticker": "GTPE",
     "fund_name": "Goldman Sachs MSCI World Private Equity Return Tracker ETF",
-    "isin": "38149W457",
-    "cusip": "N/A",
+    "isin": "US38149W4574",
+    "cusip": "38149W457",
     "inception_date": "2025-10-21",
     "nav_amount": "50.04",
     "nav_as_of": "2025-11-26",
@@ -847,14 +847,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Annual",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GTPE",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GTPE"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV109407/38149W457/goldman-sachs-msci-world-private-equity-return-tracker-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV109407/38149W457/goldman-sachs-msci-world-private-equity-return-tracker-etf"
   },
   {
     "ticker": "GMUB",
     "fund_name": "Goldman Sachs Municipal Income ETF",
-    "isin": "38149W549",
-    "cusip": "N/A",
+    "isin": "US38149W5498",
+    "cusip": "38149W549",
     "inception_date": "2024-07-23",
     "nav_amount": "51.13",
     "nav_as_of": "2025-11-26",
@@ -870,14 +870,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GMUB",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GMUB"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105934/38149W549/goldman-sachs-municipal-income-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105934/38149W549/goldman-sachs-municipal-income-etf"
   },
   {
     "ticker": "GPIQ",
     "fund_name": "Goldman Sachs Nasdaq-100 Premium Income ETF",
-    "isin": "38149W630",
-    "cusip": "N/A",
+    "isin": "US38149W6306",
+    "cusip": "38149W630",
     "inception_date": "2023-10-24",
     "nav_amount": "52.95",
     "nav_as_of": "2025-11-26",
@@ -893,14 +893,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GPIQ",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GPIQ"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105259/38149W630/goldman-sachs-nasdaq-100-premium-income-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105259/38149W630/goldman-sachs-nasdaq-100-premium-income-etf"
   },
   {
     "ticker": "AAAU",
     "fund_name": "Goldman Sachs Physical Gold ETF",
-    "isin": "38150K103",
-    "cusip": "N/A",
+    "isin": "US38150K1034",
+    "cusip": "38150K103",
     "inception_date": "2018-07-26",
     "nav_amount": "40.86",
     "nav_as_of": "2025-11-26",
@@ -916,14 +916,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "None",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/AAAU",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/AAAU"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103623/38150K103/goldman-sachs-physical-gold-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103623/38150K103/goldman-sachs-physical-gold-etf"
   },
   {
     "ticker": "GPIX",
     "fund_name": "Goldman Sachs S&P 500 Premium Income ETF",
-    "isin": "38149W622",
-    "cusip": "N/A",
+    "isin": "US38149W6223",
+    "cusip": "38149W622",
     "inception_date": "2023-10-24",
     "nav_amount": "52.65",
     "nav_as_of": "2025-11-26",
@@ -939,14 +939,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GPIX",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GPIX"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105258/38149W622/goldman-sachs-sandp-500-premium-income-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105258/38149W622/goldman-sachs-sandp-500-premium-income-etf"
   },
   {
     "ticker": "GSC",
     "fund_name": "Goldman Sachs Small Cap Equity ETF",
-    "isin": "38149W614",
-    "cusip": "N/A",
+    "isin": "US38149W6140",
+    "cusip": "38149W614",
     "inception_date": "2023-10-03",
     "nav_amount": "54.56",
     "nav_as_of": "2025-11-26",
@@ -962,14 +962,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Quarterly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GSC",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GSC"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105332/38149W614/goldman-sachs-small-cap-equity-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105332/38149W614/goldman-sachs-small-cap-equity-etf"
   },
   {
     "ticker": "GBXA",
     "fund_name": "Goldman Sachs U.S. Large Cap Buffer 1 ETF",
-    "isin": "38149W531",
-    "cusip": "N/A",
+    "isin": "US38149W5316",
+    "cusip": "38149W531",
     "inception_date": "2024-12-30",
     "nav_amount": "27.12",
     "nav_as_of": "2025-11-26",
@@ -985,14 +985,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Annual",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GBXA",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GBXA"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV106081/38149W531/goldman-sachs-us-large-cap-buffer-1-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV106081/38149W531/goldman-sachs-us-large-cap-buffer-1-etf"
   },
   {
     "ticker": "GBXB",
     "fund_name": "Goldman Sachs U.S. Large Cap Buffer 2 ETF",
-    "isin": "38149W523",
-    "cusip": "N/A",
+    "isin": "US38149W5233",
+    "cusip": "38149W523",
     "inception_date": "2025-01-30",
     "nav_amount": "26.50",
     "nav_as_of": "2025-11-26",
@@ -1008,14 +1008,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Annual",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GBXB",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GBXB"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV106079/38149W523/goldman-sachs-us-large-cap-buffer-2-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV106079/38149W523/goldman-sachs-us-large-cap-buffer-2-etf"
   },
   {
     "ticker": "GBXC",
     "fund_name": "Goldman Sachs U.S. Large Cap Buffer 3 ETF",
-    "isin": "38149W515",
-    "cusip": "N/A",
+    "isin": "US38149W5159",
+    "cusip": "38149W515",
     "inception_date": "2025-02-27",
     "nav_amount": "27.16",
     "nav_as_of": "2025-11-26",
@@ -1031,14 +1031,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Annual",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GBXC",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GBXC"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV106080/38149W515/goldman-sachs-us-large-cap-buffer-3-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV106080/38149W515/goldman-sachs-us-large-cap-buffer-3-etf"
   },
   {
     "ticker": "GSST",
     "fund_name": "Goldman Sachs Ultra Short Bond ETF",
-    "isin": "381430230",
-    "cusip": "N/A",
+    "isin": "US3814302309",
+    "cusip": "381430230",
     "inception_date": "2019-04-15",
     "nav_amount": "50.63",
     "nav_as_of": "2025-11-26",
@@ -1054,14 +1054,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GSST",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GSST"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103157/381430230/goldman-sachs-ultra-short-bond-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV103157/381430230/goldman-sachs-ultra-short-bond-etf"
   },
   {
     "ticker": "GUMI",
     "fund_name": "Goldman Sachs Ultra Short Municipal Income ETF",
-    "isin": "38149W572",
-    "cusip": "N/A",
+    "isin": "US38149W5720",
+    "cusip": "38149W572",
     "inception_date": "2024-07-23",
     "nav_amount": "50.32",
     "nav_as_of": "2025-11-26",
@@ -1077,14 +1077,14 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Monthly",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GUMI",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GUMI"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105931/38149W572/goldman-sachs-ultra-short-municipal-income-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV105931/38149W572/goldman-sachs-ultra-short-municipal-income-etf"
   },
   {
     "ticker": "GVLE",
     "fund_name": "Goldman Sachs Value Opportunities ETF",
-    "isin": "38149W416",
-    "cusip": "N/A",
+    "isin": "US38149W4160",
+    "cusip": "38149W416",
     "inception_date": "2015-07-31",
     "nav_amount": "40.62",
     "nav_as_of": "2025-11-26",
@@ -1100,7 +1100,7 @@
     "market_type": "ETF",
     "distribution_yield": null,
     "distribution_frequency": "Annual",
-    "product_page_url": "https://am.gs.com/en-us/institutions/products/GVLE",
-    "detail_page_url": "https://am.gs.com/en-us/institutions/products/GVLE"
+    "product_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV109509/38149W416/goldman-sachs-value-opportunities-etf",
+    "detail_page_url": "https://am.gs.com/en-us/institutions/funds/detail/PV109509/38149W416/goldman-sachs-value-opportunities-etf"
   }
 ]

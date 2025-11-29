@@ -26,6 +26,8 @@ class GoldmanSachsCrawler(BaseCrawler):
             shareClassId
             ticker
             shareClassInceptionDate
+            isin
+            cusip
             baseCurrency
             distributionFrequency
             dailyPerformance {
@@ -101,6 +103,7 @@ class GoldmanSachsCrawler(BaseCrawler):
                 continue
             
             fund_name = fund.get("fundName", "")
+            pv_number = fund.get("pvNumber", "")
             share_classes = fund.get("shareClasses", [])
             
             # 각 share class는 별도 ticker를 가질 수 있음
@@ -143,15 +146,33 @@ class GoldmanSachsCrawler(BaseCrawler):
                     distribution_frequency = self._map_distribution_frequency(dist_freq_str)
                     
                     # 상세 페이지 URL 생성
-                    detail_url = f"https://am.gs.com/en-us/institutions/products/{ticker}"
+                    # pvNumber와 shareClassId를 사용하여 정확한 detail URL 구성
+                    share_class_id = share_class.get("shareClassId", "")
+                    if pv_number and share_class_id:
+                        # fund_name을 URL slug로 변환
+                        name_slug = fund_name.lower().replace(" ", "-").replace("&", "and")
+                        # 특수문자 제거
+                        import re
+                        name_slug = re.sub(r'[^a-z0-9-]', '', name_slug)
+                        detail_url = f"https://am.gs.com/en-us/institutions/funds/detail/{pv_number}/{share_class_id}/{name_slug}"
+                    else:
+                        # fallback to products URL
+                        detail_url = f"https://am.gs.com/en-us/institutions/products/{ticker}"
                     
+                    # ISIN과 CUSIP 가져오기 (GraphQL API에서 직접 제공)
+                    isin = share_class.get("isin", "N/A")
+                    cusip = share_class.get("cusip", "N/A")
+                    
+                    # NAV는 ETF의 순자산가치로, 실질적으로 ETF의 가격 역할을 함
+                    # detail_page_url을 통해 추가 정보를 수집할 수 있지만,
+                    # GraphQL API에서 이미 대부분의 핵심 데이터를 제공함
                     etf = ETF(
                         ticker=ticker,
                         fund_name=fund_name,
-                        isin=share_class.get("shareClassId", "N/A"),  # shareClassId를 ISIN 대신 사용
-                        cusip="N/A",  # API에서 제공하지 않음
+                        isin=isin,
+                        cusip=cusip,
                         inception_date=inception_date or date.today(),
-                        nav_amount=nav_amount or Decimal("0.00"),
+                        nav_amount=nav_amount or Decimal("0.00"),  # ETF의 실질 가격
                         nav_as_of=nav_as_of or date.today(),
                         expense_ratio=Decimal("0.00"),  # API 응답에 없음
                         ytd_return=ytd_return,

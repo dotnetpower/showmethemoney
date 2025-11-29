@@ -1,10 +1,6 @@
 {
-  "provider": "Pacer Advisors",
-  "data_type": "etf_list",
-  "updated_at": "2025-11-29T13:18:23.131690",
-  "total_count": 47,
-  "total_size": 28111,
-  "use_msgpack": false,
-  "chunked": false,
-  "file": "etf_list.json"
+  "provider": "pacer advisors",
+  "total_etfs": 47,
+  "last_updated": "2025-11-29T15:48:01.457071",
+  "data_source": "web_crawler"
 }

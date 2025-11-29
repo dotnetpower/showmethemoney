@@ -1,10 +1,11 @@
 """PIMCO ETF crawler"""
 import logging
-from datetime import date
+from datetime import date, datetime
 from decimal import Decimal
-from typing import Any, Optional
+from typing import Any, List, Optional
 
 import httpx
+from app.models.etf import ETF, DistributionFrequency
 
 from .base import BaseCrawler
 
@@ -44,7 +45,7 @@ class PIMCOCrawler(BaseCrawler):
             logger.error(f"Failed to fetch PIMCO ETF data: {e}")
             return None
 
-    def parse_data(self, raw_data: Optional[dict]) -> list[dict[str, Any]]:
+    def parse_data(self, raw_data: Optional[dict]) -> List[ETF]:
         """Parse API response to extract ETF data"""
         if not raw_data or "data" not in raw_data:
             return []
@@ -67,21 +68,35 @@ class PIMCOCrawler(BaseCrawler):
                 if not ticker or not name:
                     continue
 
-                etf_data = {
-                    "ticker": ticker.strip().upper(),
-                    "name": name.strip(),
-                    "inception_date": self._parse_date(
-                        item.get("Share Class Inception Date")
-                        or item.get("Share Class Perf Inception Date")
-                    ),
-                    "nav": None,  # NAV is in returns, not basic info
-                    "expense_ratio": self._parse_decimal(
-                        item.get("Net Expense Ratio %2")
-                        or item.get("Gross Expense Ratio %")
-                    ),
-                }
-
-                etfs.append(etf_data)
+                inception_date = self._parse_date(
+                    item.get("Share Class Inception Date")
+                    or item.get("Share Class Perf Inception Date")
+                )
+                
+                expense_ratio = self._parse_decimal(
+                    item.get("Net Expense Ratio %2")
+                    or item.get("Gross Expense Ratio %")
+                )
+                
+                product_url = f"https://www.pimco.com/en-us/investments/etf/{ticker.lower()}"
+                
+                etf = ETF(
+                    ticker=ticker.strip().upper(),
+                    fund_name=name.strip(),
+                    isin="N/A",
+                    cusip="N/A",
+                    inception_date=inception_date or datetime.now().date(),
+                    nav_amount=Decimal("0.00"),
+                    nav_as_of=datetime.now().date(),
+                    expense_ratio=expense_ratio or Decimal("0.00"),
+                    asset_class="Unknown",
+                    region="US",
+                    market_type="ETF",
+                    product_page_url=product_url,
+                    detail_page_url=product_url,
+                )
+                
+                etfs.append(etf)
 
             except Exception as e:
                 logger.warning(f"Failed to parse PIMCO fund data: {e}")

@@ -1,10 +1,6 @@
 {
-  "provider": "Invesco",
-  "data_type": "etf_list",
-  "updated_at": "2025-11-29T13:18:23.492043",
-  "total_count": 240,
-  "total_size": 214148,
-  "use_msgpack": false,
-  "chunked": false,
-  "file": "etf_list.json"
+  "provider": "invesco",
+  "total_etfs": 240,
+  "last_updated": "2025-11-29T15:47:55.535273",
+  "data_source": "web_crawler"
 }

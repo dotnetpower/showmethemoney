@@ -1,10 +1,6 @@
 {
-  "provider": "Roundhill",
-  "data_type": "etf_list",
-  "updated_at": "2025-11-29T13:18:37.236067",
-  "total_count": 45,
-  "total_size": 32030,
-  "use_msgpack": false,
-  "chunked": false,
-  "file": "etf_list.json"
+  "provider": "roundhill",
+  "total_etfs": 45,
+  "last_updated": "2025-11-29T15:48:14.377270",
+  "data_source": "web_crawler"
 }

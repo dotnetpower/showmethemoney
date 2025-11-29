@@ -1,5 +1,6 @@
 {
-  "last_updated": "2025-11-29T14:59:28.703732",
-  "total_count": 48,
-  "provider": "Goldman Sachs"
+  "provider": "Goldman Sachs",
+  "total_etfs": 48,
+  "last_updated": "2025-11-29T15:43:44.762468",
+  "data_source": "GraphQL API"
 }

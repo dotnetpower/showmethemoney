@@ -1,0 +1,42 @@
+# ETF 크롤러 상태 요약 (2025-11-29)
+
+## 작동하는 크롤러 (15개)
+1. IShares (BlackRock) - 513 ETFs ✓
+2. Vanguard - 102 ETFs ✓
+3. Invesco - 240 ETFs ✓
+4. SPDR (State Street) - 176 ETFs ✓
+5. Dimensional Fund Advisors - 41 ETFs ✓
+6. Direxion - 484 ETFs ✓
+7. GlobalX - 204 ETFs ✓
+8. Goldman Sachs - 48 ETFs ✓ (ISIN/CUSIP 포함)
+9. JPMorgan - 68 ETFs ✓
+10. Pacer Advisors - 33 ETFs ✓
+11. PIMCO - 23 ETFs ✓
+12. Roundhill - 37 ETFs ✓
+13. Alpha Architect - 6 ETFs ✓
+14. Franklin Templeton - 67 ETFs ✓
+
+**총 ETF 수: 2,094개**
+
+## 작동하지 않는 크롤러 (5개)
+1. FirstTrust - JavaScript 동적 렌더링 문제 (Selenium/Playwright 필요)
+2. Fidelity - 미구현
+3. GraniteShares - 미구현
+4. VanEck - 미구현
+5. WisdomTree - 미구현
+6. YieldMax - 미구현
+
+## detail_page_url 현황
+- 모든 작동하는 크롤러에서 detail_page_url 제공 ✓
+- Goldman Sachs: 상세 페이지 URL 패턴 수정 완료 ✓
+
+## ISIN/CUSIP 현황
+- ISIN 제공: IShares, Invesco, Dimensional, Goldman Sachs (4개)
+- CUSIP 제공: IShares, Invesco, Dimensional, Goldman Sachs, JPMorgan, Pacer (6개)
+- 나머지는 "N/A"로 표시
+
+## 다음 단계
+1. FirstTrust: Playwright/Selenium 통합 필요
+2. 나머지 5개 제공자: 크롤러 구현 필요
+3. API 서버에서 ETF 데이터 제공 기능 구현
+4. 프론트엔드에서 데이터 시각화

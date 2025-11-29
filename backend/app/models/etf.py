@@ -30,7 +30,10 @@ class ETF(BaseModel):
     inception_date: Optional[date] = Field(None, description="설정일")
     
     # 가격 정보
-    nav_amount: Decimal = Field(..., description="현재 NAV")
+    # NAV (Net Asset Value)는 ETF의 순자산가치로, 일반적으로 시장 가격(market price)과 유사합니다.
+    # ETF는 NAV를 기준으로 거래되므로, nav_amount가 실질적으로 price의 역할을 합니다.
+    # 대부분의 ETF는 NAV와 시장 가격의 차이가 1% 미만입니다.
+    nav_amount: Decimal = Field(..., description="현재 NAV (순자산가치, ETF의 실질 가격)")
     nav_as_of: date = Field(..., description="NAV 기준일")
     
     # 비용 정보

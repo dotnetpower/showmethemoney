@@ -1,10 +1,11 @@
-"""First Trust ETF crawler"""
+"""FirstTrust ETF Crawler"""
 import logging
-from datetime import date
+from datetime import date, datetime
 from decimal import Decimal
-from typing import Any, Optional
+from typing import Any, List, Optional
 
 import httpx
+from app.models.etf import ETF, DistributionFrequency
 from bs4 import BeautifulSoup
 
 from .base import BaseCrawler
@@ -33,7 +34,7 @@ class FirstTrustCrawler(BaseCrawler):
             logger.error(f"Failed to fetch First Trust ETF data: {e}")
             return None
 
-    def parse_data(self, html_content: str) -> list[dict[str, Any]]:
+    def parse_data(self, html_content: str) -> List[ETF]:
         """Parse HTML content to extract ETF data"""
         if not html_content:
             return []
@@ -80,7 +81,7 @@ class FirstTrustCrawler(BaseCrawler):
 
     def _extract_etf_from_row(
         self, row, headers: list[str]
-    ) -> Optional[dict[str, Any]]:
+    ) -> Optional[ETF]:
         """Extract ETF data from a table row"""
         cells = row.find_all(["td", "th"])
         if len(cells) < 3:
@@ -130,16 +131,26 @@ class FirstTrustCrawler(BaseCrawler):
                 link = ticker_cell.find("a", href=True)
                 if link:
                     detail_url = self.base_url + link["href"]
+            
+            if not detail_url:
+                detail_url = f"{self.base_url}/product/{ticker.lower()}"
 
-            # Return dictionary instead of ETF model
-            return {
-                "ticker": ticker,
-                "fund_name": name,
-                "inception_date": inception_date.isoformat() if inception_date else None,
-                "nav_amount": float(nav) if nav else None,
-                "expense_ratio": float(expense_ratio) if expense_ratio else None,
-                "detail_page_url": detail_url,
-            }
+            # Return ETF model
+            return ETF(
+                ticker=ticker,
+                fund_name=name,
+                isin="N/A",
+                cusip="N/A",
+                inception_date=inception_date or datetime.now().date(),
+                nav_amount=nav or Decimal("0.00"),
+                nav_as_of=datetime.now().date(),
+                expense_ratio=expense_ratio or Decimal("0.00"),
+                asset_class="Unknown",
+                region="US",
+                market_type="ETF",
+                product_page_url=detail_url,
+                detail_page_url=detail_url,
+            )
 
         except Exception as e:
             logger.warning(f"Failed to extract ETF data from row: {e}")

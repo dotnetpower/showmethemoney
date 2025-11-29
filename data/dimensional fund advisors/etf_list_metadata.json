@@ -1,10 +1,6 @@
 {
-  "provider": "Dimensional Fund Advisors",
-  "data_type": "etf_list",
-  "updated_at": "2025-11-29T13:18:25.207700",
-  "total_count": 41,
-  "total_size": 31962,
-  "use_msgpack": false,
-  "chunked": false,
-  "file": "etf_list.json"
+  "provider": "dimensional fund advisors",
+  "total_etfs": 41,
+  "last_updated": "2025-11-29T15:48:17.206769",
+  "data_source": "web_crawler"
 }

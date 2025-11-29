@@ -1,10 +1,6 @@
 {
-  "provider": "Vanguard",
-  "data_type": "etf_list",
-  "updated_at": "2025-11-29T13:18:22.936129",
-  "total_count": 102,
-  "total_size": 80980,
-  "use_msgpack": false,
-  "chunked": false,
-  "file": "etf_list.json"
+  "provider": "vanguard",
+  "total_etfs": 102,
+  "last_updated": "2025-11-29T15:47:55.450278",
+  "data_source": "web_crawler"
 }
