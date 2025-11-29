@@ -1,5 +1,6 @@
 """데이터 관리 서비스 - GitHub repo를 DB로 사용"""
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence
@@ -15,14 +16,56 @@ class DataManager:
     # 최대 파일 크기 (4MB)
     MAX_FILE_SIZE = 4 * 1024 * 1024
     
+    # 허용된 문자 패턴 (영문자/숫자로 시작, 이후 영문, 숫자, 하이픈, 언더스코어 허용)
+    SAFE_NAME_PATTERN = re.compile(r'^[a-zA-Z0-9][a-zA-Z0-9_-]*$')
+    
     def __init__(self):
         self.settings = get_settings()
         self.data_dir = self.settings.github_data_dir
         self.data_dir.mkdir(parents=True, exist_ok=True)
     
+    def _sanitize_name(self, name: str) -> str:
+        """
+        이름을 검증하고 안전한 형태로 반환합니다.
+        Path Traversal 공격을 방지합니다.
+        
+        Args:
+            name: 검증할 이름
+            
+        Returns:
+            안전한 이름
+            
+        Raises:
+            ValueError: 유효하지 않은 이름인 경우
+        """
+        if not name:
+            raise ValueError("Name cannot be empty")
+        
+        # 위험한 문자 제거 및 검증
+        sanitized = name.strip().lower()
+        
+        # Path traversal 시도 방지
+        if '..' in sanitized or '/' in sanitized or '\\' in sanitized:
+            raise ValueError("Invalid name: contains path traversal characters")
+        
+        # 허용된 문자만 사용하는지 확인
+        if not self.SAFE_NAME_PATTERN.match(sanitized):
+            raise ValueError("Invalid name: contains disallowed characters")
+        
+        return sanitized
+    
     def _get_provider_dir(self, provider_name: str) -> Path:
         """운용사별 데이터 디렉토리를 반환합니다."""
-        provider_dir = self.data_dir / provider_name.lower()
+        # 입력 검증
+        safe_name = self._sanitize_name(provider_name)
+        provider_dir = self.data_dir / safe_name
+        
+        # 경로가 data_dir 내에 있는지 확인 (추가 보안 검증)
+        try:
+            provider_dir.resolve().relative_to(self.data_dir.resolve())
+        except ValueError:
+            raise ValueError("Invalid provider name: path traversal detected")
+        
         provider_dir.mkdir(parents=True, exist_ok=True)
         return provider_dir
     
@@ -35,19 +78,26 @@ class DataManager:
     ) -> Path:
         """데이터 파일 경로를 반환합니다."""
         provider_dir = self._get_provider_dir(provider_name)
+        # data_type 검증
+        safe_data_type = self._sanitize_name(data_type)
         extension = "msgpack" if use_msgpack else "json"
         
         if chunk_index is not None:
-            filename = f"{data_type}_part{chunk_index}.{extension}"
+            # chunk_index가 음수가 아닌 정수인지 확인
+            if not isinstance(chunk_index, int) or chunk_index < 0:
+                raise ValueError("chunk_index must be a non-negative integer")
+            filename = f"{safe_data_type}_part{chunk_index}.{extension}"
         else:
-            filename = f"{data_type}.{extension}"
+            filename = f"{safe_data_type}.{extension}"
         
         return provider_dir / filename
     
     def _get_metadata_path(self, provider_name: str, data_type: str) -> Path:
         """메타데이터 파일 경로를 반환합니다."""
         provider_dir = self._get_provider_dir(provider_name)
-        return provider_dir / f"{data_type}_metadata.json"
+        # data_type 검증
+        safe_data_type = self._sanitize_name(data_type)
+        return provider_dir / f"{safe_data_type}_metadata.json"
     
     def _serialize_data(self, data: Any, use_msgpack: bool = False) -> bytes:
         """데이터를 직렬화합니다."""
