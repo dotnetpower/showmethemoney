@@ -43,29 +43,16 @@ class FirstTrustCrawler(BaseCrawler):
         soup = BeautifulSoup(html_content, "html.parser")
         etfs = []
 
-        # Find all tables in the page
-        tables = soup.find_all("table")
+        # Find ETF data tables by class name
+        tables = soup.find_all("table", class_="searchResults")
+        logger.info(f"Found {len(tables)} ETF tables")
 
         for table in tables:
-            # Check if this table has ETF data by looking for header row
-            header_row = table.find("tr")
-            if not header_row:
-                continue
-
-            headers = [
-                cell.get_text(strip=True)
-                for cell in header_row.find_all(["th", "td"])
-            ]
-
-            # Verify this is an ETF data table
-            if not self._is_etf_table(headers):
-                continue
-
-            # Process data rows (skip header row)
-            data_rows = table.find_all("tr")[1:]
-
-            for row in data_rows:
-                etf = self._extract_etf_from_row(row, headers)
+            # Get all rows (skip the header row)
+            rows = table.find_all("tr")[1:]  # Skip header row
+            
+            for row in rows:
+                etf = self._extract_etf_from_row(row)
                 if etf:
                     etfs.append(etf)
 
@@ -80,72 +67,63 @@ class FirstTrustCrawler(BaseCrawler):
 
         return all(field in header_text for field in required_fields)
 
-    def _extract_etf_from_row(
-        self, row, headers: list[str]
-    ) -> Optional[ETF]:
-        """Extract ETF data from a table row"""
-        cells = row.find_all(["td", "th"])
-        if len(cells) < 3:
+    def _extract_etf_from_row(self, row) -> Optional[ETF]:
+        """Extract ETF data from a table row
+        
+        Expected column order:
+        0: Fund Name (with link)
+        1: Ticker Symbol
+        2: Inception Date
+        3: Close NAV
+        4: 30-Day SEC Yield
+        5: Unsubsidized 30-Day SEC Yield
+        6: Index Yield
+        7: Yield As Of Date
+        8: Fact Sheet
+        """
+        cells = row.find_all("td")
+        if len(cells) < 4:  # Need at least Name, Ticker, Inception, NAV
             return None
 
         try:
-            # Map cells to data
-            cell_texts = [cell.get_text(strip=True) for cell in cells]
-
-            # Find column indices
-            ticker_idx = self._find_column_index(headers, "ticker")
-            name_idx = self._find_column_index(headers, "fund")
-            inception_idx = self._find_column_index(headers, "inception")
-            nav_idx = self._find_column_index(headers, "nav")
-            expense_idx = self._find_column_index(headers, "sec yield")
-
-            if (
-                ticker_idx is None
-                or name_idx is None
-                or inception_idx is None
-            ):
+            # Extract data from cells based on column position
+            # Column 0: Fund Name (with link)
+            name_cell = cells[0]
+            name_link = name_cell.find("a")
+            if not name_link:
                 return None
-
-            ticker = cell_texts[ticker_idx] if ticker_idx < len(cell_texts) else ""
-            name = cell_texts[name_idx] if name_idx < len(cell_texts) else ""
-
-            # Skip empty rows or invalid tickers
-            if not ticker or not name or ticker == "TickerSymbol":
-                return None
-
-            inception_date = None
-            if inception_idx is not None and inception_idx < len(cell_texts):
-                inception_date = self._parse_date(cell_texts[inception_idx])
-
-            nav = None
-            if nav_idx is not None and nav_idx < len(cell_texts):
-                nav = self._parse_price(cell_texts[nav_idx])
-
-            expense_ratio = None
-            if expense_idx is not None and expense_idx < len(cell_texts):
-                expense_ratio = self._parse_percentage(cell_texts[expense_idx])
-
-            # Get detail URL from ticker link
-            detail_url = None
-            ticker_cell = cells[ticker_idx] if ticker_idx < len(cells) else None
-            if ticker_cell:
-                link = ticker_cell.find("a", href=True)
-                if link:
-                    detail_url = self.base_url + link["href"]
             
-            if not detail_url:
-                detail_url = f"{self.base_url}/product/{ticker.lower()}"
+            name = name_link.get_text(strip=True)
+            detail_url = self.base_url + name_link.get("href", "")
+            
+            # Column 1: Ticker
+            ticker = cells[1].get_text(strip=True) if len(cells) > 1 else ""
+            
+            # Skip if ticker is empty or invalid
+            if not ticker or len(ticker) > 10:
+                return None
+            
+            # Column 2: Inception Date
+            inception_str = cells[2].get_text(strip=True) if len(cells) > 2 else ""
+            inception_date = self._parse_date(inception_str)
+            
+            # Column 3: Close NAV
+            nav_str = cells[3].get_text(strip=True) if len(cells) > 3 else ""
+            nav = self._parse_price(nav_str)
+            
+            # Column 4: 30-Day SEC Yield (can use as distribution yield)
+            yield_str = cells[4].get_text(strip=True) if len(cells) > 4 else ""
+            distribution_yield = self._parse_percentage(yield_str)
 
             # yfinance로 NAV 및 기타 데이터 보강
             nav_enriched, expense_enriched, inception_enriched = enrich_etf_with_yfinance(
-                ticker, nav or Decimal("0.00"), expense_ratio or Decimal("0.00"), inception_date
+                ticker, nav or Decimal("0.00"), Decimal("0.00"), inception_date
             )
             
             # enriched 값이 더 나으면 사용
             if nav_enriched and nav_enriched != Decimal("0.00"):
                 nav = nav_enriched
-            if expense_enriched and expense_enriched != Decimal("0.00"):
-                expense_ratio = expense_enriched
+            expense_ratio = expense_enriched if expense_enriched and expense_enriched != Decimal("0.00") else Decimal("0.00")
             if inception_enriched:
                 inception_date = inception_enriched
 
@@ -158,17 +136,17 @@ class FirstTrustCrawler(BaseCrawler):
                 inception_date=inception_date or datetime.now().date(),
                 nav_amount=nav or Decimal("0.00"),
                 nav_as_of=datetime.now().date(),
-                expense_ratio=expense_ratio or Decimal("0.00"),
+                expense_ratio=expense_ratio,
                 ytd_return=None,
                 one_year_return=None,
                 three_year_return=None,
                 five_year_return=None,
                 ten_year_return=None,
                 since_inception_return=None,
-                asset_class="Unknown",
-                region="US",
-                market_type="ETF",
-                distribution_yield=None,
+                asset_class="Equity",
+                region="North America",
+                market_type="Developed",
+                distribution_yield=distribution_yield,
                 product_page_url=detail_url,
                 detail_page_url=detail_url,
             )

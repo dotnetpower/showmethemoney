@@ -17,11 +17,9 @@ const EtfList = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState("");
-  const [sortField, setSortField] = useState<SortField>("ticker");
-  const [sortDirection, setSortDirection] = useState<SortDirection>("asc");
+  const [sortField, setSortField] = useState<SortField>("ytd_return");
+  const [sortDirection, setSortDirection] = useState<SortDirection>("desc");
   const [displayCount, setDisplayCount] = useState(50);
-  const [sectorFilter, setSectorFilter] = useState<string>("");
-  const [themeFilter, setThemeFilter] = useState<string>("");
   const observerRef = useRef<IntersectionObserver | null>(null);
   const loadMoreRef = useRef<HTMLDivElement | null>(null);
 
@@ -30,10 +28,13 @@ const EtfList = () => {
     const loadETFs = async () => {
       try {
         setLoading(true);
+        console.log("Fetching ETFs from API...");
         const data = await getAllETFs();
+        console.log(`Loaded ${data.length} ETFs:`, data.slice(0, 3));
         setEtfs(data);
         setError(null);
       } catch (err) {
+        console.error("Error loading ETFs:", err);
         setError(
           err instanceof Error
             ? err.message
@@ -47,19 +48,10 @@ const EtfList = () => {
     loadETFs();
   }, []);
 
-  // 고유 섹터 및 테마 목록 추출
-  const { uniqueSectors, uniqueThemes } = useMemo(() => {
-    const sectors = new Set<string>();
-    const themes = new Set<string>();
-    etfs.forEach((etf) => {
-      if (etf.sector) sectors.add(etf.sector);
-      if (etf.theme) themes.add(etf.theme);
-    });
-    return {
-      uniqueSectors: Array.from(sectors).sort(),
-      uniqueThemes: Array.from(themes).sort(),
-    };
-  }, [etfs]);
+  // 검색/필터/정렬 변경 시 displayCount 리셋
+  useEffect(() => {
+    setDisplayCount(50);
+  }, [searchTerm, sortField, sortDirection]);
 
   // 검색 및 필터링
   const filtered = useMemo(() => {
@@ -116,22 +108,26 @@ const EtfList = () => {
 
   // 표시할 데이터
   const displayedEtfs = useMemo(() => {
-    return filteredAndSorted.slice(0, displayCount);
+    const result = filteredAndSorted.slice(0, displayCount);
+    console.log(
+      `Displaying ${result.length} ETFs out of ${filteredAndSorted.length} filtered`
+    );
+    if (result.length > 0) {
+      console.log("Sample ETF:", result[0]);
+    }
+    return result;
   }, [filteredAndSorted, displayCount]);
 
   // 무한 스크롤 구현
   useEffect(() => {
-    if (observerRef.current) {
-      observerRef.current.disconnect();
-    }
-
     const observer = new IntersectionObserver(
       (entries) => {
-        if (
-          entries[0].isIntersecting &&
-          displayCount < filteredAndSorted.length
-        ) {
-          setDisplayCount((prev) => prev + 50);
+        if (entries[0].isIntersecting) {
+          setDisplayCount((prev) => {
+            const newCount = prev + 50;
+            console.log(`Loading more: ${prev} → ${newCount}`);
+            return newCount;
+          });
         }
       },
       { threshold: 0.1 }
@@ -139,14 +135,18 @@ const EtfList = () => {
 
     observerRef.current = observer;
 
-    if (loadMoreRef.current) {
-      observer.observe(loadMoreRef.current);
+    const currentRef = loadMoreRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
+      }
       observer.disconnect();
     };
-  }, [displayCount, filteredAndSorted.length]);
+  }, [filteredAndSorted.length]); // displayCount 제거하여 observer 재생성 최소화
 
   // 정렬 핸들러
   const handleSort = (field: SortField) => {
@@ -170,27 +170,14 @@ const EtfList = () => {
   };
 
   const formatPercent = (value: string | null) => {
-    if (!value) return "N/A";
+    if (!value) return "-";
     const num = parseFloat(value);
     return `${num.toFixed(2)}%`;
   };
 
-  const formatDate = (dateStr: string | null) => {
-    if (!dateStr) return "N/A";
-    try {
-      const date = new Date(dateStr);
-      return date.toLocaleDateString("ko-KR", {
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit",
-      });
-    } catch {
-      return "N/A";
-    }
-  };
-
   const formatFrequency = (frequency: string | null | undefined) => {
-    if (!frequency) return "알 수 없음";
+    if (!frequency || frequency === "Unknown" || frequency === "None")
+      return "-";
     const frequencyMap: { [key: string]: string } = {
       Weekly: "주배당",
       Monthly: "월배당",
@@ -198,10 +185,8 @@ const EtfList = () => {
       "Semi-Annual": "반기배당",
       Annual: "연배당",
       Variable: "가변",
-      None: "무배당",
-      Unknown: "알 수 없음",
     };
-    return frequencyMap[frequency] || frequency;
+    return frequencyMap[frequency] || "-";
   };
 
   const getSortIndicator = (field: SortField) => {
@@ -242,49 +227,6 @@ const EtfList = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
           className="search-input"
         />
-
-        {/* 필터 영역 */}
-        <div className="filter-container">
-          <select
-            value={sectorFilter}
-            onChange={(e) => setSectorFilter(e.target.value)}
-            className="filter-select"
-            aria-label="섹터 필터"
-          >
-            <option value="">모든 섹터</option>
-            {uniqueSectors.map((sector) => (
-              <option key={sector} value={sector}>
-                {sector}
-              </option>
-            ))}
-          </select>
-
-          <select
-            value={themeFilter}
-            onChange={(e) => setThemeFilter(e.target.value)}
-            className="filter-select"
-            aria-label="테마 필터"
-          >
-            <option value="">모든 테마</option>
-            {uniqueThemes.map((theme) => (
-              <option key={theme} value={theme}>
-                {theme}
-              </option>
-            ))}
-          </select>
-
-          {(sectorFilter || themeFilter) && (
-            <button
-              onClick={() => {
-                setSectorFilter("");
-                setThemeFilter("");
-              }}
-              className="filter-reset-btn"
-            >
-              필터 초기화
-            </button>
-          )}
-        </div>
 
         <div className="search-info">
           전체 {etfs.length}개 중 {filteredAndSorted.length}개 표시 (현재{" "}
@@ -355,9 +297,13 @@ const EtfList = () => {
                 <td className="distribution-frequency">
                   {formatFrequency(etf.distribution_frequency)}
                 </td>
-                <td className="nav-as-of">{formatDate(etf.nav_as_of)}</td>
-                <td className="asset-class">{etf.asset_class || "-"}</td>
-                <td className="region">{etf.region || "-"}</td>
+                <td className="sector">{etf.sector || "-"}</td>
+                <td className="theme">{etf.theme || "-"}</td>
+                <td className="ratings">
+                  {etf.ratings && etf.ratings.length > 0
+                    ? `${etf.ratings[0].rating || etf.ratings[0].score || "-"}`
+                    : "-"}
+                </td>
               </tr>
             ))}
           </tbody>

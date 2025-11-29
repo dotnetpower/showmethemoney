@@ -3,6 +3,7 @@
   font-family: "Pretendard", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  --app-header-height: 64px;
 }
 
 [data-theme="light"] {
@@ -58,8 +59,9 @@ body {
   padding: 1rem;
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 200;
   box-shadow: 0 2px 4px var(--shadow);
+  min-height: var(--app-header-height);
 }
 
 .header-content {
@@ -192,12 +194,22 @@ body {
 .table-container {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  position: relative;
 }
 
 .etf-table {
   width: 100%;
-  border-collapse: collapse;
+  min-width: 1200px;
+  border-collapse: separate; /* Safari에서 sticky header가 동작하도록 separate 사용 */
+  border-spacing: 0;
   font-size: 0.875rem;
+}
+
+.etf-table thead {
+  position: sticky;
+  top: var(--app-header-height);
+  z-index: 150;
+  background: var(--bg-tertiary);
 }
 
 .etf-table th {
@@ -208,8 +220,10 @@ body {
   color: var(--text-secondary);
   border-bottom: 2px solid var(--border-color);
   position: sticky;
-  top: 0;
+  top: var(--app-header-height);
+  z-index: 160;
   white-space: nowrap;
+  box-shadow: 0 2px 4px var(--shadow);
 }
 
 .etf-table th.sortable {
@@ -266,6 +280,20 @@ body {
 }
 
 .etf-table .distribution-frequency {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.etf-table .sector,
+.etf-table .theme {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.etf-table .ratings {
   text-align: center;
   font-size: 0.85rem;
   color: var(--text-primary);
@@ -393,6 +421,10 @@ body {
 
 /* 모바일 최적화 */
 @media (max-width: 768px) {
+  :root {
+    --app-header-height: 56px;
+  }
+
   .app-title {
     font-size: 1rem;
   }
@@ -420,17 +452,84 @@ body {
   }
 
   .etf-table {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
+    min-width: 100%;
   }
 
   .etf-table th,
   .etf-table td {
-    padding: 0.5rem 0.25rem;
+    padding: 0.4rem 0.15rem;
+    font-size: 0.65rem;
+  }
+
+  /* 모바일에서 펀드명 숨기기 */
+  .etf-table th:nth-child(2),
+  .etf-table td:nth-child(2) {
+    display: none;
+  }
+
+  /* 모바일에서 섹터, 테마, 평가 숨기기 */
+  .etf-table th:nth-child(8),
+  .etf-table td:nth-child(8),
+  .etf-table th:nth-child(9),
+  .etf-table td:nth-child(9),
+  .etf-table th:nth-child(10),
+  .etf-table td:nth-child(10) {
+    display: none;
+  }
+
+  /* 티커 컬럼 폭 */
+  .etf-table .ticker {
+    min-width: 40px;
+    max-width: 45px;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
+  /* NAV 컬럼 폭 */
+  .etf-table .nav {
+    min-width: 50px;
+    max-width: 55px;
+    font-size: 0.65rem;
+  }
+
+  /* 운용보수 컬럼 폭 */
+  .etf-table .expense-ratio {
+    min-width: 45px;
+    max-width: 50px;
+    font-size: 0.6rem;
+  }
+
+  /* YTD 수익률 컬럼 폭 */
+  .etf-table .ytd-return {
+    min-width: 50px;
+    max-width: 55px;
+    font-size: 0.65rem;
+  }
+
+  /* 배당수익률 컬럼 폭 */
+  .etf-table .distribution-yield {
+    min-width: 45px;
+    max-width: 50px;
+    font-size: 0.6rem;
+  }
+
+  /* 배당주기 컬럼 폭 */
+  .etf-table .distribution-frequency {
+    min-width: 45px;
+    max-width: 50px;
+    font-size: 0.6rem;
   }
 
   .etf-table .name-kr {
     min-width: 120px;
     font-size: 0.8rem;
+  }
+
+  /* 테이블 헤더를 앱 헤더 아래에 고정 */
+  .etf-table th {
+    top: 0;
+    padding: 0.4rem 0.1rem;
   }
 }
 

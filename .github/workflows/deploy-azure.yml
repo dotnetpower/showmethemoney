@@ -234,10 +234,21 @@ jobs:
       - name: Publish Outputs
         id: publish_outputs
         run: |
-          echo "acr_login_server=${{ steps.create_acr.outputs.login_server }}" >> $GITHUB_OUTPUT
-          echo "acr_name=${{ steps.create_acr.outputs.acr_name }}" >> $GITHUB_OUTPUT
-          echo "backend_url=https://${{ steps.create_backend_app.outputs.backend_fqdn }}" >> $GITHUB_OUTPUT
-          echo "frontend_url=https://${{ steps.create_frontend_app.outputs.frontend_fqdn }}" >> $GITHUB_OUTPUT
+          ACR_NAME="${{ steps.create_acr.outputs.acr_name }}"
+          ACR_LOGIN_SERVER="${{ steps.create_acr.outputs.login_server }}"
+          BACKEND_FQDN="${{ steps.create_backend_app.outputs.backend_fqdn }}"
+          FRONTEND_FQDN="${{ steps.create_frontend_app.outputs.frontend_fqdn }}"
+          
+          echo "Publishing outputs:"
+          echo "  ACR Name: $ACR_NAME"
+          echo "  ACR Login Server: $ACR_LOGIN_SERVER"
+          echo "  Backend FQDN: $BACKEND_FQDN"
+          echo "  Frontend FQDN: $FRONTEND_FQDN"
+          
+          echo "acr_login_server=$ACR_LOGIN_SERVER" >> $GITHUB_OUTPUT
+          echo "acr_name=$ACR_NAME" >> $GITHUB_OUTPUT
+          echo "backend_url=https://$BACKEND_FQDN" >> $GITHUB_OUTPUT
+          echo "frontend_url=https://$FRONTEND_FQDN" >> $GITHUB_OUTPUT
 
   build-and-push-backend:
     name: Build and Push Backend Image
@@ -297,7 +308,14 @@ jobs:
 
       - name: ACR Login
         run: |
-          az acr login --name ${{ needs.setup-infrastructure.outputs.acr_name }}
+          ACR_NAME="${{ needs.setup-infrastructure.outputs.acr_name }}"
+          if [ -z "$ACR_NAME" ]; then
+            echo "❌ Error: ACR name is empty"
+            echo "Available outputs: acr_name=$ACR_NAME"
+            exit 1
+          fi
+          echo "Logging into ACR: $ACR_NAME"
+          az acr login --name "$ACR_NAME"
 
       - name: Build and Push Frontend Image
         run: |
