@@ -10,6 +10,9 @@ from .core.config import get_settings
 from .core.logger import configure_tracing, logger
 from .services.scheduler import scheduler
 
+# 설정 가져오기
+settings = get_settings()
+
 # Swagger/OpenAPI 메타데이터
 app = FastAPI(
     title="Show Me The Money API",
@@ -43,18 +46,11 @@ app = FastAPI(
 )
 app.include_router(api_router, prefix="/api")
 
-# CORS 설정: 프로덕션 환경에서는 특정 도메인만 허용하도록 설정
-# allow_origins을 환경변수로 설정하는 것이 권장됨
-ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://localhost:5173",
-    "http://127.0.0.1:3000",
-    "http://127.0.0.1:5173",
-]
-
+# CORS 설정: 환경 변수 CORS_ORIGINS에서 허용 도메인을 로드
+# 예: CORS_ORIGINS="https://example.com,https://api.example.com"
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=ALLOWED_ORIGINS,
+    allow_origins=settings.get_cors_origins(),
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["Content-Type", "Authorization", "X-Requested-With"],

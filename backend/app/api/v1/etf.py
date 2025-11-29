@@ -16,8 +16,8 @@ router = APIRouter(
 )
 etf_updater = ETFUpdater()
 
-# 허용된 문자 패턴 (영문, 숫자, 하이픈, 언더스코어, 공백만 허용)
-SAFE_PROVIDER_PATTERN = re.compile(r'^[a-zA-Z0-9_\- ]+$')
+# 허용된 문자 패턴 (영문자/숫자로 시작, 이후 영문, 숫자, 하이픈, 언더스코어 허용)
+SAFE_PROVIDER_PATTERN = re.compile(r'^[a-zA-Z0-9][a-zA-Z0-9_ -]*$')
 
 
 def validate_provider_name(provider: str) -> str:

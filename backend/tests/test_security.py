@@ -15,6 +15,17 @@ class TestDataManagerSecurity:
         assert dm._sanitize_name("Alpha_Architect") == "alpha_architect"
         assert dm._sanitize_name("First-Trust") == "first-trust"
         assert dm._sanitize_name("Test123") == "test123"
+        assert dm._sanitize_name("a") == "a"  # 최소 1문자
+    
+    def test_sanitize_name_starting_with_special_char(self):
+        """하이픈이나 언더스코어로 시작하는 이름은 차단되어야 함"""
+        dm = DataManager()
+        
+        with pytest.raises(ValueError, match="disallowed characters"):
+            dm._sanitize_name("-ishares")
+        
+        with pytest.raises(ValueError, match="disallowed characters"):
+            dm._sanitize_name("_ishares")
     
     def test_sanitize_name_empty(self):
         """빈 이름은 ValueError를 발생시켜야 함"""
