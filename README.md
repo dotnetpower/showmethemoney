@@ -247,11 +247,14 @@ graph LR
 
 ### 필요한 GitHub Secrets
 
-| Secret | 설명 |
-|--------|------|
-| `AZURE_CREDENTIALS` | Azure 서비스 주체 JSON |
-| `GH_TOKEN` | GitHub Personal Access Token |
-| `ACR_NAME` | Azure Container Registry 이름 (선택) |
+| Secret | 설명 | 필수 |
+|--------|------|------|
+| `AZURE_CREDENTIALS` | Azure 서비스 주체 JSON | ✅ |
+| `GH_TOKEN` | GitHub Personal Access Token | ✅ |
+| `ACR_NAME` | Azure Container Registry 이름 | ✅ |
+| `ACR_LOGIN_SERVER` | ACR 로그인 서버 (예: acrshowmethemoney.azurecr.io) | ✅ |
+
+> ⚠️ **중요**: 기존 Azure Container Registry를 사용합니다. 새로운 ACR을 생성하지 않으므로, 반드시 `ACR_NAME`과 `ACR_LOGIN_SERVER` secrets를 설정해야 합니다.
 
 > 📌 자세한 배포 가이드는 [docs/QUICKSTART.md](./docs/QUICKSTART.md)를 참조하세요.
 

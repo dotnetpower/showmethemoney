@@ -14,6 +14,9 @@ env:
   LOCATION: koreacentral
   ENVIRONMENT: dev
   APP_NAME: showmethemoney
+  # 기존 컨테이너 레지스트리 사용 (secrets.ACR_NAME, secrets.ACR_LOGIN_SERVER 필수)
+  # ACR_NAME: GitHub Secrets에서 설정 (예: acrshowmethemoney)
+  # ACR_LOGIN_SERVER: GitHub Secrets에서 설정 (예: acrshowmethemoney.azurecr.io)
 
 jobs:
   setup-infrastructure:
@@ -52,27 +55,40 @@ jobs:
             --name ${{ env.RESOURCE_GROUP }} \
             --location ${{ env.LOCATION }}
 
-      - name: Create Container Registry
+      - name: Use Existing Container Registry
         id: create_acr
         run: |
+          # 기존 컨테이너 레지스트리 사용 (GitHub Secrets에서 설정 필수)
           ACR_NAME="${{ secrets.ACR_NAME }}"
-          if [ -z "$ACR_NAME" ]; then
-            ACR_NAME="acr${{ env.APP_NAME }}$(echo $RANDOM | md5sum | head -c 8)"
+          ACR_LOGIN_SERVER="${{ secrets.ACR_LOGIN_SERVER }}"
+          
+          if [ -z "$ACR_NAME" ] || [ -z "$ACR_LOGIN_SERVER" ]; then
+            echo "❌ Error: ACR_NAME and ACR_LOGIN_SERVER secrets are required."
+            echo "Please set the following secrets in your GitHub repository:"
+            echo "  - ACR_NAME: Azure Container Registry name (e.g., acrshowmethemoney)"
+            echo "  - ACR_LOGIN_SERVER: ACR login server (e.g., acrshowmethemoney.azurecr.io)"
+            exit 1
           fi
-
-          if ! az acr show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} 2>/dev/null; then
-            az acr create \
-              --resource-group ${{ env.RESOURCE_GROUP }} \
-              --name $ACR_NAME \
-              --sku Basic \
-              --admin-enabled true \
-              --location ${{ env.LOCATION }}
+          
+          echo "✅ Using existing Container Registry: $ACR_NAME"
+          echo "   Login Server: $ACR_LOGIN_SERVER"
+          
+          # 기존 ACR 존재 여부 및 접근 권한 확인
+          if ! az acr show --name $ACR_NAME 2>/dev/null; then
+            echo "❌ Error: Container Registry '$ACR_NAME' not found or no access permission."
+            echo "Please ensure the ACR exists and the service principal has access to it."
+            exit 1
           fi
-
-          ACR_LOGIN_SERVER=$(az acr show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query loginServer -o tsv)
-          ACR_USERNAME=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query username -o tsv)
-          ACR_PASSWORD=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query passwords[0].value -o tsv)
-
+          
+          # ACR 인증 정보 가져오기 (접근 권한 검증)
+          ACR_USERNAME=$(az acr credential show --name $ACR_NAME --query username -o tsv 2>/dev/null)
+          if [ -z "$ACR_USERNAME" ]; then
+            echo "❌ Error: Unable to retrieve ACR credentials."
+            echo "Please ensure admin user is enabled and you have permission to access it."
+            exit 1
+          fi
+          ACR_PASSWORD=$(az acr credential show --name $ACR_NAME --query passwords[0].value -o tsv)
+          
           echo "acr_name=$ACR_NAME" >> $GITHUB_OUTPUT
           echo "login_server=$ACR_LOGIN_SERVER" >> $GITHUB_OUTPUT
           echo "username=$ACR_USERNAME" >> $GITHUB_OUTPUT
