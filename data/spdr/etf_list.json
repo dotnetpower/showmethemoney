@@ -18,7 +18,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bloomberg-emerging-markets-local-bond-etf-ebnd"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bloomberg-emerging-markets-local-bond-etf-ebnd",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bloomberg-emerging-markets-local-bond-etf-ebnd"
   },
   {
     "ticker": "CERY",
@@ -39,7 +41,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bloomberg-enhanced-roll-yield-commodity-strategy-no-k-1-etf-cery"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bloomberg-enhanced-roll-yield-commodity-strategy-no-k-1-etf-cery",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bloomberg-enhanced-roll-yield-commodity-strategy-no-k-1-etf-cery"
   },
   {
     "ticker": "IBND",
@@ -60,7 +64,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bloomberg-international-corporate-bond-etf-ibnd"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bloomberg-international-corporate-bond-etf-ibnd",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bloomberg-international-corporate-bond-etf-ibnd"
   },
   {
     "ticker": "BWX",
@@ -81,7 +87,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bloomberg-international-treasury-bond-etf-bwx"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bloomberg-international-treasury-bond-etf-bwx",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bloomberg-international-treasury-bond-etf-bwx"
   },
   {
     "ticker": "BWZ",
@@ -102,7 +110,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bloomberg-short-term-international-treasury-bond-etf-bwz"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bloomberg-short-term-international-treasury-bond-etf-bwz",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bloomberg-short-term-international-treasury-bond-etf-bwz"
   },
   {
     "ticker": "ALLW",
@@ -123,7 +133,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bridgewater-all-weather-etf-allw"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bridgewater-all-weather-etf-allw",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-bridgewater-all-weather-etf-allw"
   },
   {
     "ticker": "RWO",
@@ -144,7 +156,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-dow-jones-global-real-estate-etf-rwo"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-dow-jones-global-real-estate-etf-rwo",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-dow-jones-global-real-estate-etf-rwo"
   },
   {
     "ticker": "DIA",
@@ -165,7 +179,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-dow-jones-industrial-average-etf-trust-dia"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-dow-jones-industrial-average-etf-trust-dia",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-dow-jones-industrial-average-etf-trust-dia"
   },
   {
     "ticker": "RWX",
@@ -186,7 +202,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-dow-jones-international-real-estate-etf-rwx"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-dow-jones-international-real-estate-etf-rwx",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-dow-jones-international-real-estate-etf-rwx"
   },
   {
     "ticker": "FEZ",
@@ -207,7 +225,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-euro-stoxx-50-etf-fez"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-euro-stoxx-50-etf-fez",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-euro-stoxx-50-etf-fez"
   },
   {
     "ticker": "WIP",
@@ -228,7 +248,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ftse-international-government-inflation-protected-bond-etf-wip"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ftse-international-government-inflation-protected-bond-etf-wip",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ftse-international-government-inflation-protected-bond-etf-wip"
   },
   {
     "ticker": "DECO",
@@ -249,7 +271,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-galaxy-digital-asset-ecosystem-etf-deco"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-galaxy-digital-asset-ecosystem-etf-deco",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-galaxy-digital-asset-ecosystem-etf-deco"
   },
   {
     "ticker": "HECO",
@@ -270,7 +294,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-galaxy-hedged-digital-asset-ecosystem-etf-heco"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-galaxy-hedged-digital-asset-ecosystem-etf-heco",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-galaxy-hedged-digital-asset-ecosystem-etf-heco"
   },
   {
     "ticker": "TEKX",
@@ -291,7 +317,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-galaxy-transformative-tech-accelerators-etf-tekx"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-galaxy-transformative-tech-accelerators-etf-tekx",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-galaxy-transformative-tech-accelerators-etf-tekx"
   },
   {
     "ticker": "GLDM®",
@@ -312,7 +340,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-gold-minishares-trust-gldm"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-gold-minishares-trust-gldm",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-gold-minishares-trust-gldm"
   },
   {
     "ticker": "GLD®",
@@ -333,7 +363,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-gold-shares-gld"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-gold-shares-gld",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-gold-shares-gld"
   },
   {
     "ticker": "NZAC",
@@ -354,7 +386,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-acwi-climate-paris-aligned-etf-nzac"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-acwi-climate-paris-aligned-etf-nzac",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-acwi-climate-paris-aligned-etf-nzac"
   },
   {
     "ticker": "CWI",
@@ -375,7 +409,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-acwi-ex-us-etf-cwi"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-acwi-ex-us-etf-cwi",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-acwi-ex-us-etf-cwi"
   },
   {
     "ticker": "EFAX",
@@ -396,7 +432,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-eafe-fossil-fuel-reserves-free-etf-efax"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-eafe-fossil-fuel-reserves-free-etf-efax",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-eafe-fossil-fuel-reserves-free-etf-efax"
   },
   {
     "ticker": "QEFA",
@@ -417,7 +455,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-eafe-strategicfactors-etf-qefa"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-eafe-strategicfactors-etf-qefa",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-eafe-strategicfactors-etf-qefa"
   },
   {
     "ticker": "EEMX",
@@ -438,7 +478,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-emerging-markets-fossil-fuel-reserves-free-etf-eemx"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-emerging-markets-fossil-fuel-reserves-free-etf-eemx",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-emerging-markets-fossil-fuel-reserves-free-etf-eemx"
   },
   {
     "ticker": "QEMM",
@@ -459,7 +501,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-emerging-markets-strategicfactors-etf-qemm"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-emerging-markets-strategicfactors-etf-qemm",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-emerging-markets-strategicfactors-etf-qemm"
   },
   {
     "ticker": "QWLD",
@@ -480,7 +524,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-world-strategicfactors-etf-qwld"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-world-strategicfactors-etf-qwld",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-msci-world-strategicfactors-etf-qwld"
   },
   {
     "ticker": "SPDW",
@@ -501,7 +547,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-portfolio-developed-world-ex-us-etf-spdw"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-portfolio-developed-world-ex-us-etf-spdw",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-portfolio-developed-world-ex-us-etf-spdw"
   },
   {
     "ticker": "SPEM",
@@ -522,7 +570,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-portfolio-emerging-markets-etf-spem"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-portfolio-emerging-markets-etf-spem",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-portfolio-emerging-markets-etf-spem"
   },
   {
     "ticker": "SPEU",
@@ -543,7 +593,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-portfolio-europe-etf-speu"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-portfolio-europe-etf-speu",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-portfolio-europe-etf-speu"
   },
   {
     "ticker": "SPGM",
@@ -564,7 +616,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-portfolio-msci-global-stock-market-etf-spgm"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-portfolio-msci-global-stock-market-etf-spgm",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-portfolio-msci-global-stock-market-etf-spgm"
   },
   {
     "ticker": "SPY",
@@ -585,7 +639,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
   },
   {
     "ticker": "EDIV",
@@ -606,7 +662,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-emerging-markets-dividend-etf-ediv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-emerging-markets-dividend-etf-ediv",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-emerging-markets-dividend-etf-ediv"
   },
   {
     "ticker": "XCNY",
@@ -627,7 +685,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-emerging-markets-ex-china-etf-xcny"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-emerging-markets-ex-china-etf-xcny",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-emerging-markets-ex-china-etf-xcny"
   },
   {
     "ticker": "MDY",
@@ -648,7 +708,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-midcap-400-etf-trust-mdy"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-midcap-400-etf-trust-mdy",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-midcap-400-etf-trust-mdy"
   },
   {
     "ticker": "GXC",
@@ -669,7 +731,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-china-etf-gxc"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-china-etf-gxc",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-china-etf-gxc"
   },
   {
     "ticker": "GMF",
@@ -690,7 +754,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-emerging-asia-pacific-etf-gmf"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-emerging-asia-pacific-etf-gmf",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-emerging-asia-pacific-etf-gmf"
   },
   {
     "ticker": "EWX",
@@ -711,7 +777,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-emerging-markets-small-cap-etf-ewx"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-emerging-markets-small-cap-etf-ewx",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-emerging-markets-small-cap-etf-ewx"
   },
   {
     "ticker": "WDIV",
@@ -732,7 +800,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-global-dividend-etf-wdiv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-global-dividend-etf-wdiv",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-global-dividend-etf-wdiv"
   },
   {
     "ticker": "GII",
@@ -753,7 +823,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-global-infrastructure-etf-gii"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-global-infrastructure-etf-gii",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-global-infrastructure-etf-gii"
   },
   {
     "ticker": "GNR",
@@ -774,7 +846,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-global-natural-resources-etf-gnr"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-global-natural-resources-etf-gnr",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-global-natural-resources-etf-gnr"
   },
   {
     "ticker": "DWX",
@@ -795,7 +869,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-international-dividend-etf-dwx"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-international-dividend-etf-dwx",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-international-dividend-etf-dwx"
   },
   {
     "ticker": "GWX",
@@ -816,7 +892,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-international-small-cap-etf-gwx"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-international-small-cap-etf-gwx",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-international-small-cap-etf-gwx"
   },
   {
     "ticker": "NANR",
@@ -837,7 +915,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-north-american-natural-resources-etf-nanr"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-north-american-natural-resources-etf-nanr",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-north-american-natural-resources-etf-nanr"
   },
   {
     "ticker": "PRIV",
@@ -858,7 +938,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-ig-public-private-credit-etf-priv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-ig-public-private-credit-etf-priv",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-ig-public-private-credit-etf-priv"
   },
   {
     "ticker": "MYCF",
@@ -879,7 +961,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2026-corporate-bond-etf-mycf"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2026-corporate-bond-etf-mycf",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2026-corporate-bond-etf-mycf"
   },
   {
     "ticker": "MYMF",
@@ -900,7 +984,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2026-municipal-bond-etf-mymf"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2026-municipal-bond-etf-mymf",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2026-municipal-bond-etf-mymf"
   },
   {
     "ticker": "MYCG",
@@ -921,7 +1007,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2027-corporate-bond-etf-mycg"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2027-corporate-bond-etf-mycg",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2027-corporate-bond-etf-mycg"
   },
   {
     "ticker": "MYMG",
@@ -942,7 +1030,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2027-municipal-bond-etf-mymg"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2027-municipal-bond-etf-mymg",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2027-municipal-bond-etf-mymg"
   },
   {
     "ticker": "MYCH",
@@ -963,7 +1053,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2028-corporate-bond-etf-mych"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2028-corporate-bond-etf-mych",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2028-corporate-bond-etf-mych"
   },
   {
     "ticker": "MYMH",
@@ -984,7 +1076,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2028-municipal-bond-etf-mymh"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2028-municipal-bond-etf-mymh",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2028-municipal-bond-etf-mymh"
   },
   {
     "ticker": "MYCI",
@@ -1005,7 +1099,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2029-corporate-bond-etf-myci"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2029-corporate-bond-etf-myci",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2029-corporate-bond-etf-myci"
   },
   {
     "ticker": "MYMI",
@@ -1026,7 +1122,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2029-municipal-bond-etf-mymi"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2029-municipal-bond-etf-mymi",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2029-municipal-bond-etf-mymi"
   },
   {
     "ticker": "MYCJ",
@@ -1047,7 +1145,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2030-corporate-bond-etf-mycj"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2030-corporate-bond-etf-mycj",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2030-corporate-bond-etf-mycj"
   },
   {
     "ticker": "MYMJ",
@@ -1068,7 +1168,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2030-municipal-bond-etf-mymj"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2030-municipal-bond-etf-mymj",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2030-municipal-bond-etf-mymj"
   },
   {
     "ticker": "MYCK",
@@ -1089,7 +1191,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2031-corporate-bond-etf-myck"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2031-corporate-bond-etf-myck",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2031-corporate-bond-etf-myck"
   },
   {
     "ticker": "MYMK",
@@ -1110,7 +1214,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2031-municipal-bond-etf-mymk"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2031-municipal-bond-etf-mymk",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2031-municipal-bond-etf-mymk"
   },
   {
     "ticker": "MYCL",
@@ -1131,7 +1237,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2032-corporate-bond-etf-mycl"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2032-corporate-bond-etf-mycl",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2032-corporate-bond-etf-mycl"
   },
   {
     "ticker": "MYCM",
@@ -1152,7 +1260,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2033-corporate-bond-etf-mycm"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2033-corporate-bond-etf-mycm",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2033-corporate-bond-etf-mycm"
   },
   {
     "ticker": "MYCN",
@@ -1173,7 +1283,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2034-corporate-bond-etf-mycn"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2034-corporate-bond-etf-mycn",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2034-corporate-bond-etf-mycn"
   },
   {
     "ticker": "MYCO",
@@ -1194,7 +1306,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2035-corporate-bond-etf-myco"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2035-corporate-bond-etf-myco",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-ssga-my2035-corporate-bond-etf-myco"
   },
   {
     "ticker": "HYBL",
@@ -1215,7 +1329,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-blackstone-high-income-etf-hybl"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-blackstone-high-income-etf-hybl",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-blackstone-high-income-etf-hybl"
   },
   {
     "ticker": "SRLN",
@@ -1236,7 +1352,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-blackstone-senior-loan-etf-srln"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-blackstone-senior-loan-etf-srln",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-blackstone-senior-loan-etf-srln"
   },
   {
     "ticker": "XLC",
@@ -1257,7 +1375,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-communication-services-select-sector-spdr-etf-xlc"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-communication-services-select-sector-spdr-etf-xlc",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-communication-services-select-sector-spdr-etf-xlc"
   },
   {
     "ticker": "XLCI",
@@ -1278,7 +1398,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-communication-services-select-sector-spdr-premium-income-etf-xlci"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-communication-services-select-sector-spdr-premium-income-etf-xlci",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-communication-services-select-sector-spdr-premium-income-etf-xlci"
   },
   {
     "ticker": "XLY",
@@ -1299,7 +1421,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-discretionary-select-sector-spdr-etf-xly"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-discretionary-select-sector-spdr-etf-xly",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-discretionary-select-sector-spdr-etf-xly"
   },
   {
     "ticker": "XLYI",
@@ -1320,7 +1444,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-discretionary-select-sector-spdr-premium-income-etf-xlyi"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-discretionary-select-sector-spdr-premium-income-etf-xlyi",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-discretionary-select-sector-spdr-premium-income-etf-xlyi"
   },
   {
     "ticker": "XLP",
@@ -1341,7 +1467,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-staples-select-sector-spdr-etf-xlp"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-staples-select-sector-spdr-etf-xlp",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-staples-select-sector-spdr-etf-xlp"
   },
   {
     "ticker": "XLSI",
@@ -1362,7 +1490,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-staples-select-sector-spdr-premium-income-etf-xlsi"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-staples-select-sector-spdr-premium-income-etf-xlsi",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-staples-select-sector-spdr-premium-income-etf-xlsi"
   },
   {
     "ticker": "EMTL",
@@ -1383,7 +1513,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-doubleline-emerging-markets-fixed-income-etf-emtl"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-doubleline-emerging-markets-fixed-income-etf-emtl",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-doubleline-emerging-markets-fixed-income-etf-emtl"
   },
   {
     "ticker": "STOT",
@@ -1404,7 +1536,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-doubleline-short-duration-total-return-tactical-etf-stot"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-doubleline-short-duration-total-return-tactical-etf-stot",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-doubleline-short-duration-total-return-tactical-etf-stot"
   },
   {
     "ticker": "TOTL",
@@ -1425,7 +1559,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-doubleline-total-return-tactical-etf-totl"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-doubleline-total-return-tactical-etf-totl",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-doubleline-total-return-tactical-etf-totl"
   },
   {
     "ticker": "XLE",
@@ -1446,7 +1582,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
   },
   {
     "ticker": "XLEI",
@@ -1467,7 +1605,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-premium-income-etf-xlei"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-premium-income-etf-xlei",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-premium-income-etf-xlei"
   },
   {
     "ticker": "XLF",
@@ -1488,7 +1628,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-financial-select-sector-spdr-etf-xlf"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-financial-select-sector-spdr-etf-xlf",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-financial-select-sector-spdr-etf-xlf"
   },
   {
     "ticker": "XLFI",
@@ -1509,7 +1651,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-financial-select-sector-spdr-premium-income-etf-xlfi"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-financial-select-sector-spdr-premium-income-etf-xlfi",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-financial-select-sector-spdr-premium-income-etf-xlfi"
   },
   {
     "ticker": "FISR",
@@ -1530,7 +1674,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-fixed-income-sector-rotation-etf-fisr"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-fixed-income-sector-rotation-etf-fisr",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-fixed-income-sector-rotation-etf-fisr"
   },
   {
     "ticker": "GAL",
@@ -1551,7 +1697,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-global-allocation-etf-gal"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-global-allocation-etf-gal",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-global-allocation-etf-gal"
   },
   {
     "ticker": "XLV",
@@ -1572,7 +1720,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-health-care-select-sector-spdr-etf-xlv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-health-care-select-sector-spdr-etf-xlv",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-health-care-select-sector-spdr-etf-xlv"
   },
   {
     "ticker": "XLVI",
@@ -1593,7 +1743,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-health-care-select-sector-spdr-premium-income-etf-xlvi"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-health-care-select-sector-spdr-premium-income-etf-xlvi",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-health-care-select-sector-spdr-premium-income-etf-xlvi"
   },
   {
     "ticker": "INKM",
@@ -1614,7 +1766,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-income-allocation-etf-inkm"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-income-allocation-etf-inkm",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-income-allocation-etf-inkm"
   },
   {
     "ticker": "XLI",
@@ -1635,7 +1789,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-industrial-select-sector-spdr-etf-xli"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-industrial-select-sector-spdr-etf-xli",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-industrial-select-sector-spdr-etf-xli"
   },
   {
     "ticker": "XLII",
@@ -1656,7 +1812,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-industrial-select-sector-spdr-premium-income-etf-xlii"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-industrial-select-sector-spdr-premium-income-etf-xlii",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-industrial-select-sector-spdr-premium-income-etf-xlii"
   },
   {
     "ticker": "OBND",
@@ -1677,7 +1835,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-loomis-sayles-opportunistic-bond-etf-obnd"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-loomis-sayles-opportunistic-bond-etf-obnd",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-loomis-sayles-opportunistic-bond-etf-obnd"
   },
   {
     "ticker": "XLB",
@@ -1698,7 +1858,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-materials-select-sector-spdr-etf-xlb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-materials-select-sector-spdr-etf-xlb",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-materials-select-sector-spdr-etf-xlb"
   },
   {
     "ticker": "XLBI",
@@ -1719,7 +1881,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-materials-select-sector-spdr-premium-income-etf-xlbi"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-materials-select-sector-spdr-premium-income-etf-xlbi",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-materials-select-sector-spdr-premium-income-etf-xlbi"
   },
   {
     "ticker": "RLY",
@@ -1740,7 +1904,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-multi-asset-real-return-etf-rly"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-multi-asset-real-return-etf-rly",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-multi-asset-real-return-etf-rly"
   },
   {
     "ticker": "MBNE",
@@ -1761,7 +1927,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-nuveen-municipal-bond-esg-etf-mbne"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-nuveen-municipal-bond-esg-etf-mbne",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-nuveen-municipal-bond-esg-etf-mbne"
   },
   {
     "ticker": "MBND",
@@ -1782,7 +1950,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-nuveen-municipal-bond-etf-mbnd"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-nuveen-municipal-bond-etf-mbnd",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-nuveen-municipal-bond-etf-mbnd"
   },
   {
     "ticker": "XLRE",
@@ -1803,7 +1973,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-real-estate-select-sector-spdr-etf-xlre"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-real-estate-select-sector-spdr-etf-xlre",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-real-estate-select-sector-spdr-etf-xlre"
   },
   {
     "ticker": "XLRI",
@@ -1824,7 +1996,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-real-estate-select-sector-spdr-premium-income-etf-xlri"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-real-estate-select-sector-spdr-premium-income-etf-xlri",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-real-estate-select-sector-spdr-premium-income-etf-xlri"
   },
   {
     "ticker": "TIPX",
@@ -1845,7 +2019,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-1-10-year-tips-etf-tipx"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-1-10-year-tips-etf-tipx",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-1-10-year-tips-etf-tipx"
   },
   {
     "ticker": "BIL",
@@ -1866,7 +2042,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-1-3-month-t-bill-etf-bil"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-1-3-month-t-bill-etf-bil",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-1-3-month-t-bill-etf-bil"
   },
   {
     "ticker": "BILS",
@@ -1887,7 +2065,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-3-12-month-t-bill-etf-bils"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-3-12-month-t-bill-etf-bils",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-3-12-month-t-bill-etf-bils"
   },
   {
     "ticker": "CWB",
@@ -1908,7 +2088,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-convertible-securities-etf-cwb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-convertible-securities-etf-cwb",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-convertible-securities-etf-cwb"
   },
   {
     "ticker": "EMHC",
@@ -1929,7 +2111,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-emerging-markets-usd-bond-etf-emhc"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-emerging-markets-usd-bond-etf-emhc",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-emerging-markets-usd-bond-etf-emhc"
   },
   {
     "ticker": "JNK",
@@ -1950,7 +2134,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-high-yield-bond-etf-jnk"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-high-yield-bond-etf-jnk",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-high-yield-bond-etf-jnk"
   },
   {
     "ticker": "FLRN",
@@ -1971,7 +2157,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-investment-grade-floating-rate-etf-flrn"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-investment-grade-floating-rate-etf-flrn",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-investment-grade-floating-rate-etf-flrn"
   },
   {
     "ticker": "SJNK",
@@ -1992,7 +2180,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-short-term-high-yield-bond-etf-sjnk"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-short-term-high-yield-bond-etf-sjnk",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-bloomberg-short-term-high-yield-bond-etf-sjnk"
   },
   {
     "ticker": "RWR",
@@ -2013,7 +2203,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-dow-jones-reit-etf-rwr"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-dow-jones-reit-etf-rwr",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-dow-jones-reit-etf-rwr"
   },
   {
     "ticker": "XITK",
@@ -2034,7 +2226,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-factset-innovative-technology-etf-xitk"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-factset-innovative-technology-etf-xitk",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-factset-innovative-technology-etf-xitk"
   },
   {
     "ticker": "DGT",
@@ -2055,7 +2249,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-global-dow-etf-dgt"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-global-dow-etf-dgt",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-global-dow-etf-dgt"
   },
   {
     "ticker": "PSK",
@@ -2076,7 +2272,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-ice-preferred-securities-etf-psk"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-ice-preferred-securities-etf-psk",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-ice-preferred-securities-etf-psk"
   },
   {
     "ticker": "NZUS",
@@ -2097,7 +2295,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-msci-usa-climate-paris-aligned-etf-nzus"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-msci-usa-climate-paris-aligned-etf-nzus",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-msci-usa-climate-paris-aligned-etf-nzus"
   },
   {
     "ticker": "SHE",
@@ -2118,7 +2318,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-msci-usa-gender-diversity-etf-she"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-msci-usa-gender-diversity-etf-she",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-msci-usa-gender-diversity-etf-she"
   },
   {
     "ticker": "QUS",
@@ -2139,7 +2341,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-msci-usa-strategicfactors-etf-qus"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-msci-usa-strategicfactors-etf-qus",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-msci-usa-strategicfactors-etf-qus"
   },
   {
     "ticker": "LQIG",
@@ -2160,7 +2364,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-marketaxess-investment-grade-400-corporate-bond-etf-lqig"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-marketaxess-investment-grade-400-corporate-bond-etf-lqig",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-marketaxess-investment-grade-400-corporate-bond-etf-lqig"
   },
   {
     "ticker": "XNTK",
@@ -2181,7 +2387,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-nyse-technology-etf-xntk"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-nyse-technology-etf-xntk",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-nyse-technology-etf-xntk"
   },
   {
     "ticker": "HYMB",
@@ -2202,7 +2410,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-nuveen-ice-high-yield-municipal-bond-etf-hymb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-nuveen-ice-high-yield-municipal-bond-etf-hymb",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-nuveen-ice-high-yield-municipal-bond-etf-hymb"
   },
   {
     "ticker": "TFI",
@@ -2223,7 +2433,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-nuveen-ice-municipal-bond-etf-tfi"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-nuveen-ice-municipal-bond-etf-tfi",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-nuveen-ice-municipal-bond-etf-tfi"
   },
   {
     "ticker": "SHM",
@@ -2244,7 +2456,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-nuveen-ice-short-term-municipal-bond-etf-shm"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-nuveen-ice-short-term-municipal-bond-etf-shm",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-nuveen-ice-short-term-municipal-bond-etf-shm"
   },
   {
     "ticker": "SPAB",
@@ -2265,7 +2479,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-aggregate-bond-etf-spab"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-aggregate-bond-etf-spab",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-aggregate-bond-etf-spab"
   },
   {
     "ticker": "SPBO",
@@ -2286,7 +2502,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-corporate-bond-etf-spbo"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-corporate-bond-etf-spbo",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-corporate-bond-etf-spbo"
   },
   {
     "ticker": "SPHY",
@@ -2307,7 +2525,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-high-yield-bond-etf-sphy"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-high-yield-bond-etf-sphy",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-high-yield-bond-etf-sphy"
   },
   {
     "ticker": "SPIB",
@@ -2328,7 +2548,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-intermediate-term-corporate-bond-etf-spib"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-intermediate-term-corporate-bond-etf-spib",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-intermediate-term-corporate-bond-etf-spib"
   },
   {
     "ticker": "SPTI",
@@ -2349,7 +2571,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-intermediate-term-treasury-etf-spti"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-intermediate-term-treasury-etf-spti",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-intermediate-term-treasury-etf-spti"
   },
   {
     "ticker": "SPLB",
@@ -2370,7 +2594,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-long-term-corporate-bond-etf-splb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-long-term-corporate-bond-etf-splb",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-long-term-corporate-bond-etf-splb"
   },
   {
     "ticker": "SPTL",
@@ -2391,7 +2617,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-long-term-treasury-etf-sptl"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-long-term-treasury-etf-sptl",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-long-term-treasury-etf-sptl"
   },
   {
     "ticker": "SPMB",
@@ -2412,7 +2640,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-mortgage-backed-bond-etf-spmb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-mortgage-backed-bond-etf-spmb",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-mortgage-backed-bond-etf-spmb"
   },
   {
     "ticker": "SPTM",
@@ -2433,7 +2663,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-1500-composite-stock-market-etf-sptm"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-1500-composite-stock-market-etf-sptm",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-1500-composite-stock-market-etf-sptm"
   },
   {
     "ticker": "SPMD",
@@ -2454,7 +2686,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-400-mid-cap-etf-spmd"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-400-mid-cap-etf-spmd",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-400-mid-cap-etf-spmd"
   },
   {
     "ticker": "SPYM",
@@ -2475,7 +2709,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-500-etf-spym"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-500-etf-spym",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-500-etf-spym"
   },
   {
     "ticker": "SPYG",
@@ -2496,7 +2732,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-500-growth-etf-spyg"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-500-growth-etf-spyg",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-500-growth-etf-spyg"
   },
   {
     "ticker": "SPYD",
@@ -2517,7 +2755,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-500-high-dividend-etf-spyd"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-500-high-dividend-etf-spyd",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-500-high-dividend-etf-spyd"
   },
   {
     "ticker": "SPYV",
@@ -2538,7 +2778,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-500-value-etf-spyv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-500-value-etf-spyv",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-500-value-etf-spyv"
   },
   {
     "ticker": "SPSM",
@@ -2559,7 +2801,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-600-small-cap-etf-spsm"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-600-small-cap-etf-spsm",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-600-small-cap-etf-spsm"
   },
   {
     "ticker": "SPDG",
@@ -2580,7 +2824,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-sector-neutral-dividend-etf-spdg"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-sector-neutral-dividend-etf-spdg",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-sector-neutral-dividend-etf-spdg"
   },
   {
     "ticker": "SPSB",
@@ -2601,7 +2847,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-short-term-corporate-bond-etf-spsb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-short-term-corporate-bond-etf-spsb",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-short-term-corporate-bond-etf-spsb"
   },
   {
     "ticker": "SPTS",
@@ -2622,7 +2870,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-short-term-treasury-etf-spts"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-short-term-treasury-etf-spts",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-short-term-treasury-etf-spts"
   },
   {
     "ticker": "SPIP",
@@ -2643,7 +2893,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-tips-etf-spip"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-tips-etf-spip",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-tips-etf-spip"
   },
   {
     "ticker": "SPTB",
@@ -2664,7 +2916,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-treasury-etf-sptb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-treasury-etf-sptb",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-treasury-etf-sptb"
   },
   {
     "ticker": "SPTU",
@@ -2685,7 +2939,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-ultra-short-t-bill-etf-sptu"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-ultra-short-t-bill-etf-sptu",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-ultra-short-t-bill-etf-sptu"
   },
   {
     "ticker": "ONEV",
@@ -2706,7 +2962,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-russell-1000-low-volatility-focus-etf-onev"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-russell-1000-low-volatility-focus-etf-onev",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-russell-1000-low-volatility-focus-etf-onev"
   },
   {
     "ticker": "ONEO",
@@ -2727,7 +2985,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-russell-1000-momentum-focus-etf-oneo"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-russell-1000-momentum-focus-etf-oneo",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-russell-1000-momentum-focus-etf-oneo"
   },
   {
     "ticker": "ONEY",
@@ -2748,7 +3008,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-russell-1000-yield-focus-etf-oney"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-russell-1000-yield-focus-etf-oney",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-russell-1000-yield-focus-etf-oney"
   },
   {
     "ticker": "MDYG",
@@ -2769,7 +3031,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-400-mid-cap-growth-etf-mdyg"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-400-mid-cap-growth-etf-mdyg",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-400-mid-cap-growth-etf-mdyg"
   },
   {
     "ticker": "MDYV",
@@ -2790,7 +3054,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-400-mid-cap-value-etf-mdyv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-400-mid-cap-value-etf-mdyv",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-400-mid-cap-value-etf-mdyv"
   },
   {
     "ticker": "EFIV",
@@ -2811,7 +3077,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-esg-etf-efiv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-esg-etf-efiv",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-esg-etf-efiv"
   },
   {
     "ticker": "SLYG",
@@ -2832,7 +3100,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-600-small-cap-growth-etf-slyg"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-600-small-cap-growth-etf-slyg",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-600-small-cap-growth-etf-slyg"
   },
   {
     "ticker": "SLYV",
@@ -2853,7 +3123,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-600-small-cap-value-etf-slyv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-600-small-cap-value-etf-slyv",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-600-small-cap-value-etf-slyv"
   },
   {
     "ticker": "CNRG",
@@ -2874,7 +3146,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-clean-power-etf-cnrg"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-clean-power-etf-cnrg",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-clean-power-etf-cnrg"
   },
   {
     "ticker": "ROKT",
@@ -2895,7 +3169,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-final-frontiers-etf-rokt"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-final-frontiers-etf-rokt",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-final-frontiers-etf-rokt"
   },
   {
     "ticker": "FITE",
@@ -2916,7 +3192,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-future-security-etf-fite"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-future-security-etf-fite",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-future-security-etf-fite"
   },
   {
     "ticker": "SIMS",
@@ -2937,7 +3215,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-intelligent-structures-etf-sims"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-intelligent-structures-etf-sims",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-intelligent-structures-etf-sims"
   },
   {
     "ticker": "KOMP",
@@ -2958,7 +3238,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-new-economies-composite-etf-komp"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-new-economies-composite-etf-komp",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-new-economies-composite-etf-komp"
   },
   {
     "ticker": "HAIL",
@@ -2979,7 +3261,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-smart-mobility-etf-hail"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-smart-mobility-etf-hail",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-kensho-smart-mobility-etf-hail"
   },
   {
     "ticker": "ESIX",
@@ -3000,7 +3284,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-smallcap-600-esg-etf-esix"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-smallcap-600-esg-etf-esix",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-smallcap-600-esg-etf-esix"
   },
   {
     "ticker": "MMTM",
@@ -3021,7 +3307,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-1500-momentum-tilt-etf-mmtm"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-1500-momentum-tilt-etf-mmtm",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-1500-momentum-tilt-etf-mmtm"
   },
   {
     "ticker": "VLU",
@@ -3042,7 +3330,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-1500-value-tilt-etf-vlu"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-1500-value-tilt-etf-vlu",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-1500-value-tilt-etf-vlu"
   },
   {
     "ticker": "SPYX",
@@ -3063,7 +3353,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-fossil-fuel-reserves-free-etf-spyx"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-fossil-fuel-reserves-free-etf-spyx",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-fossil-fuel-reserves-free-etf-spyx"
   },
   {
     "ticker": "XAR",
@@ -3084,7 +3376,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-aerospace-defense-etf-xar"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-aerospace-defense-etf-xar",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-aerospace-defense-etf-xar"
   },
   {
     "ticker": "KBE",
@@ -3105,7 +3399,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-bank-etf-kbe"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-bank-etf-kbe",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-bank-etf-kbe"
   },
   {
     "ticker": "XBI",
@@ -3126,7 +3422,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-biotech-etf-xbi"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-biotech-etf-xbi",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-biotech-etf-xbi"
   },
   {
     "ticker": "KCE",
@@ -3147,7 +3445,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-capital-markets-etf-kce"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-capital-markets-etf-kce",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-capital-markets-etf-kce"
   },
   {
     "ticker": "SDY",
@@ -3168,7 +3468,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-dividend-etf-sdy"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-dividend-etf-sdy",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-dividend-etf-sdy"
   },
   {
     "ticker": "XHE",
@@ -3189,7 +3491,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-health-care-equipment-etf-xhe"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-health-care-equipment-etf-xhe",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-health-care-equipment-etf-xhe"
   },
   {
     "ticker": "XHS",
@@ -3210,7 +3514,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-health-care-services-etf-xhs"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-health-care-services-etf-xhs",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-health-care-services-etf-xhs"
   },
   {
     "ticker": "XHB",
@@ -3231,7 +3537,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-homebuilders-etf-xhb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-homebuilders-etf-xhb",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-homebuilders-etf-xhb"
   },
   {
     "ticker": "KIE",
@@ -3252,7 +3560,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-insurance-etf-kie"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-insurance-etf-kie",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-insurance-etf-kie"
   },
   {
     "ticker": "LVLN",
@@ -3273,7 +3583,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-leveraged-loan-etf-lvln"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-leveraged-loan-etf-lvln",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-leveraged-loan-etf-lvln"
   },
   {
     "ticker": "XME",
@@ -3294,7 +3606,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-metals-mining-etf-xme"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-metals-mining-etf-xme",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-metals-mining-etf-xme"
   },
   {
     "ticker": "XES",
@@ -3315,7 +3629,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-oil-gas-equipment-services-etf-xes"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-oil-gas-equipment-services-etf-xes",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-oil-gas-equipment-services-etf-xes"
   },
   {
     "ticker": "XOP",
@@ -3336,7 +3652,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-oil-gas-exploration-production-etf-xop"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-oil-gas-exploration-production-etf-xop",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-oil-gas-exploration-production-etf-xop"
   },
   {
     "ticker": "XPH",
@@ -3357,7 +3675,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-pharmaceuticals-etf-xph"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-pharmaceuticals-etf-xph",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-pharmaceuticals-etf-xph"
   },
   {
     "ticker": "KRE",
@@ -3378,7 +3698,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-regional-banking-etf-kre"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-regional-banking-etf-kre",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-regional-banking-etf-kre"
   },
   {
     "ticker": "XRT",
@@ -3399,7 +3721,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-retail-etf-xrt"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-retail-etf-xrt",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-retail-etf-xrt"
   },
   {
     "ticker": "XSD",
@@ -3420,7 +3744,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-semiconductor-etf-xsd"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-semiconductor-etf-xsd",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-semiconductor-etf-xsd"
   },
   {
     "ticker": "XSW",
@@ -3441,7 +3767,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-software-services-etf-xsw"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-software-services-etf-xsw",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-software-services-etf-xsw"
   },
   {
     "ticker": "XTL",
@@ -3462,7 +3790,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-telecom-etf-xtl"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-telecom-etf-xtl",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-telecom-etf-xtl"
   },
   {
     "ticker": "XTN",
@@ -3483,7 +3813,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-transportation-etf-xtn"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-transportation-etf-xtn",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-transportation-etf-xtn"
   },
   {
     "ticker": "LGLV",
@@ -3504,7 +3836,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-us-large-cap-low-volatility-index-etf-lglv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-us-large-cap-low-volatility-index-etf-lglv",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-us-large-cap-low-volatility-index-etf-lglv"
   },
   {
     "ticker": "SMLV",
@@ -3525,7 +3859,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-us-small-cap-low-volatility-index-etf-smlv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-us-small-cap-low-volatility-index-etf-smlv",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-us-small-cap-low-volatility-index-etf-smlv"
   },
   {
     "ticker": "PRSD",
@@ -3546,7 +3882,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-short-duration-ig-public-private-credit-etf-prsd"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-short-duration-ig-public-private-credit-etf-prsd",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-short-duration-ig-public-private-credit-etf-prsd"
   },
   {
     "ticker": "XLK",
@@ -3567,7 +3905,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-technology-select-sector-spdr-etf-xlk"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-technology-select-sector-spdr-etf-xlk",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-technology-select-sector-spdr-etf-xlk"
   },
   {
     "ticker": "XLKI",
@@ -3588,7 +3928,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-technology-select-sector-spdr-premium-income-etf-xlki"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-technology-select-sector-spdr-premium-income-etf-xlki",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-technology-select-sector-spdr-premium-income-etf-xlki"
   },
   {
     "ticker": "SPIN",
@@ -3609,7 +3951,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-us-equity-premium-income-etf-spin"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-us-equity-premium-income-etf-spin",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-us-equity-premium-income-etf-spin"
   },
   {
     "ticker": "XLSR",
@@ -3630,7 +3974,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-us-sector-rotation-etf-xlsr"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-us-sector-rotation-etf-xlsr",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-us-sector-rotation-etf-xlsr"
   },
   {
     "ticker": "ULST",
@@ -3651,7 +3997,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-ultra-short-term-bond-etf-ulst"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-ultra-short-term-bond-etf-ulst",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-ultra-short-term-bond-etf-ulst"
   },
   {
     "ticker": "XLU",
@@ -3672,7 +4020,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-utilities-select-sector-spdr-etf-xlu"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-utilities-select-sector-spdr-etf-xlu",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-utilities-select-sector-spdr-etf-xlu"
   },
   {
     "ticker": "XLUI",
@@ -3693,6 +4043,8 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-utilities-select-sector-spdr-premium-income-etf-xlui"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-utilities-select-sector-spdr-premium-income-etf-xlui",
+    "detail_page_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-utilities-select-sector-spdr-premium-income-etf-xlui"
   }
 ]

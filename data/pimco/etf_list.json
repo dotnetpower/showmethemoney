@@ -1,0 +1,163 @@
+[
+  {
+    "ticker": "RAFE",
+    "name": "PIMCO RAFI ESG U.S. ETF",
+    "inception_date": "2019-12-18",
+    "nav": null,
+    "expense_ratio": "0.29"
+  },
+  {
+    "ticker": "MFDX",
+    "name": "PIMCO RAFI Dynamic Multi-Factor International Equity ETF",
+    "inception_date": "2017-08-31",
+    "nav": null,
+    "expense_ratio": "0.39"
+  },
+  {
+    "ticker": "MFUS",
+    "name": "PIMCO RAFI Dynamic Multi-Factor U.S. Equity ETF",
+    "inception_date": "2017-08-31",
+    "nav": null,
+    "expense_ratio": "0.29"
+  },
+  {
+    "ticker": "MFEM",
+    "name": "PIMCO RAFI Dynamic Multi-Factor Emerging Markets Equity ETF",
+    "inception_date": "2017-08-31",
+    "nav": null,
+    "expense_ratio": "0.49"
+  },
+  {
+    "ticker": "MINT",
+    "name": "PIMCO Enhanced Short Maturity Active Exchange-Traded Fund",
+    "inception_date": "2009-11-16",
+    "nav": null,
+    "expense_ratio": "0.36"
+  },
+  {
+    "ticker": "CORP",
+    "name": "PIMCO Investment Grade Corporate Bond Index Exchange-Traded Fund",
+    "inception_date": "2010-09-20",
+    "nav": null,
+    "expense_ratio": "0.41"
+  },
+  {
+    "ticker": "LONZ",
+    "name": "PIMCO Senior Loan Active Exchange-Traded Fund",
+    "inception_date": "2022-06-08",
+    "nav": null,
+    "expense_ratio": "0.63"
+  },
+  {
+    "ticker": "MINO",
+    "name": "PIMCO Municipal Income Opportunities Active Exchange-Traded Fund",
+    "inception_date": "2021-09-08",
+    "nav": null,
+    "expense_ratio": "0.39"
+  },
+  {
+    "ticker": "SMMU",
+    "name": "PIMCO Short Term Municipal Bond Active Exchange-Traded Fund",
+    "inception_date": "2010-02-01",
+    "nav": null,
+    "expense_ratio": "0.35"
+  },
+  {
+    "ticker": "PRFD",
+    "name": "PIMCO Preferred and Capital Securities Active Exchange-Traded Fund",
+    "inception_date": "2023-01-18",
+    "nav": null,
+    "expense_ratio": "0.73"
+  },
+  {
+    "ticker": "MUNI",
+    "name": "PIMCO Intermediate Municipal Bond Active Exchange-Traded Fund",
+    "inception_date": "2009-11-30",
+    "nav": null,
+    "expense_ratio": "0.35"
+  },
+  {
+    "ticker": "LDUR",
+    "name": "PIMCO Enhanced Low Duration Active Exchange-Traded Fund",
+    "inception_date": "2014-01-22",
+    "nav": null,
+    "expense_ratio": "0.54"
+  },
+  {
+    "ticker": "LTPZ",
+    "name": "PIMCO 15+ Year U.S. TIPS Index Exchange-Traded Fund",
+    "inception_date": "2009-09-03",
+    "nav": null,
+    "expense_ratio": "0.2"
+  },
+  {
+    "ticker": "HYS",
+    "name": "PIMCO 0-5 Year High Yield Corporate Bond Index Exchange-Traded Fund",
+    "inception_date": "2011-06-16",
+    "nav": null,
+    "expense_ratio": "0.56"
+  },
+  {
+    "ticker": "BOND",
+    "name": "PIMCO Active Bond Exchange-Traded Fund",
+    "inception_date": "2012-02-29",
+    "nav": null,
+    "expense_ratio": "0.54"
+  },
+  {
+    "ticker": "TIPZ",
+    "name": "PIMCO Broad U.S. TIPS Index Exchange-Traded Fund",
+    "inception_date": "2009-09-03",
+    "nav": null,
+    "expense_ratio": "0.2"
+  },
+  {
+    "ticker": "EMNT",
+    "name": "PIMCO Enhanced Short Maturity Active ESG Exchange-Traded Fund",
+    "inception_date": "2019-12-10",
+    "nav": null,
+    "expense_ratio": "0.24"
+  },
+  {
+    "ticker": "ZROZ",
+    "name": "PIMCO 25+ Year Zero Coupon U.S. Treasury Index Exchange-Traded Fund",
+    "inception_date": "2009-10-30",
+    "nav": null,
+    "expense_ratio": "0.15"
+  },
+  {
+    "ticker": "CMDT",
+    "name": "PIMCO Commodity Strategy Active Exchange-Traded Fund",
+    "inception_date": "2023-05-09",
+    "nav": null,
+    "expense_ratio": "0.65"
+  },
+  {
+    "ticker": "PYLD",
+    "name": "PIMCO Multisector Bond Active Exchange-Traded Fund",
+    "inception_date": "2023-06-21",
+    "nav": null,
+    "expense_ratio": "0.64"
+  },
+  {
+    "ticker": "BILZ",
+    "name": "PIMCO Ultra Short Government Active Exchange-Traded Fund",
+    "inception_date": "2023-06-21",
+    "nav": null,
+    "expense_ratio": "0.14"
+  },
+  {
+    "ticker": "PMBS",
+    "name": "PIMCO Mortgage-Backed Securities Active Exchange-Traded Fund",
+    "inception_date": "2024-09-20",
+    "nav": null,
+    "expense_ratio": "0.71"
+  },
+  {
+    "ticker": "STPZ",
+    "name": "PIMCO 1-5 Year U.S. TIPS Index Exchange-Traded Fund",
+    "inception_date": "2009-08-20",
+    "nav": null,
+    "expense_ratio": "0.2"
+  }
+]

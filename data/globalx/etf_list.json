@@ -1,0 +1,1022 @@
+[
+  {
+    "ticker": "PAVE",
+    "name": "PAVE",
+    "detail_url": "https://www.globalxetfs.com/funds/PAVE"
+  },
+  {
+    "ticker": "PAVE",
+    "name": "U.S. Infrastructure Development ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/PAVE"
+  },
+  {
+    "ticker": "QYLD",
+    "name": "QYLD",
+    "detail_url": "https://www.globalxetfs.com/funds/QYLD"
+  },
+  {
+    "ticker": "QYLD",
+    "name": "Nasdaq 100 Covered Call ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/QYLD"
+  },
+  {
+    "ticker": "AIQ",
+    "name": "AIQ",
+    "detail_url": "https://www.globalxetfs.com/funds/AIQ"
+  },
+  {
+    "ticker": "AIQ",
+    "name": "Artificial Intelligence & Technology ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/AIQ"
+  },
+  {
+    "ticker": "URA",
+    "name": "URA",
+    "detail_url": "https://www.globalxetfs.com/funds/URA"
+  },
+  {
+    "ticker": "URA",
+    "name": "Uranium ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/URA"
+  },
+  {
+    "ticker": "SHLD",
+    "name": "SHLD",
+    "detail_url": "https://www.globalxetfs.com/funds/SHLD"
+  },
+  {
+    "ticker": "SHLD",
+    "name": "Defense Tech ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/SHLD"
+  },
+  {
+    "ticker": "SIL",
+    "name": "SIL",
+    "detail_url": "https://www.globalxetfs.com/funds/SIL"
+  },
+  {
+    "ticker": "SIL",
+    "name": "Silver Miners ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/SIL"
+  },
+  {
+    "ticker": "COPX",
+    "name": "COPX",
+    "detail_url": "https://www.globalxetfs.com/funds/COPX"
+  },
+  {
+    "ticker": "COPX",
+    "name": "Copper Miners ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/COPX"
+  },
+  {
+    "ticker": "XYLD",
+    "name": "XYLD",
+    "detail_url": "https://www.globalxetfs.com/funds/XYLD"
+  },
+  {
+    "ticker": "XYLD",
+    "name": "S&P 500 Covered Call ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/XYLD"
+  },
+  {
+    "ticker": "BOTZ",
+    "name": "BOTZ",
+    "detail_url": "https://www.globalxetfs.com/funds/BOTZ"
+  },
+  {
+    "ticker": "BOTZ",
+    "name": "Robotics & Artificial Intelligence ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/BOTZ"
+  },
+  {
+    "ticker": "MLPX",
+    "name": "MLPX",
+    "detail_url": "https://www.globalxetfs.com/funds/MLPX"
+  },
+  {
+    "ticker": "MLPX",
+    "name": "MLP & Energy Infrastructure ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/MLPX"
+  },
+  {
+    "ticker": "PFFD",
+    "name": "PFFD",
+    "detail_url": "https://www.globalxetfs.com/funds/PFFD"
+  },
+  {
+    "ticker": "PFFD",
+    "name": "U.S. Preferred ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/PFFD"
+  },
+  {
+    "ticker": "MLPA",
+    "name": "MLPA",
+    "detail_url": "https://www.globalxetfs.com/funds/MLPA"
+  },
+  {
+    "ticker": "MLPA",
+    "name": "MLP ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/MLPA"
+  },
+  {
+    "ticker": "CLIP",
+    "name": "CLIP",
+    "detail_url": "https://www.globalxetfs.com/funds/CLIP"
+  },
+  {
+    "ticker": "CLIP",
+    "name": "1-3 Month T-Bill ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/CLIP"
+  },
+  {
+    "ticker": "LIT",
+    "name": "LIT",
+    "detail_url": "https://www.globalxetfs.com/funds/LIT"
+  },
+  {
+    "ticker": "LIT",
+    "name": "Lithium & Battery Tech ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/LIT"
+  },
+  {
+    "ticker": "RSSL",
+    "name": "RSSL",
+    "detail_url": "https://www.globalxetfs.com/funds/RSSL"
+  },
+  {
+    "ticker": "RSSL",
+    "name": "Russell 2000 ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/RSSL"
+  },
+  {
+    "ticker": "RYLD",
+    "name": "RYLD",
+    "detail_url": "https://www.globalxetfs.com/funds/RYLD"
+  },
+  {
+    "ticker": "RYLD",
+    "name": "Russell 2000 Covered Call ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/RYLD"
+  },
+  {
+    "ticker": "CATH",
+    "name": "CATH",
+    "detail_url": "https://www.globalxetfs.com/funds/CATH"
+  },
+  {
+    "ticker": "CATH",
+    "name": "S&P 500 Catholic Values ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/CATH"
+  },
+  {
+    "ticker": "SDIV",
+    "name": "SDIV",
+    "detail_url": "https://www.globalxetfs.com/funds/SDIV"
+  },
+  {
+    "ticker": "SDIV",
+    "name": "SuperDividend® ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/SDIV"
+  },
+  {
+    "ticker": "BUG",
+    "name": "BUG",
+    "detail_url": "https://www.globalxetfs.com/funds/BUG"
+  },
+  {
+    "ticker": "BUG",
+    "name": "Cybersecurity ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/BUG"
+  },
+  {
+    "ticker": "ARGT",
+    "name": "ARGT",
+    "detail_url": "https://www.globalxetfs.com/funds/ARGT"
+  },
+  {
+    "ticker": "ARGT",
+    "name": "MSCI Argentina ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/ARGT"
+  },
+  {
+    "ticker": "AUSF",
+    "name": "AUSF",
+    "detail_url": "https://www.globalxetfs.com/funds/AUSF"
+  },
+  {
+    "ticker": "AUSF",
+    "name": "Adaptive U.S. Factor ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/AUSF"
+  },
+  {
+    "ticker": "DIV",
+    "name": "DIV",
+    "detail_url": "https://www.globalxetfs.com/funds/DIV"
+  },
+  {
+    "ticker": "DIV",
+    "name": "SuperDividend® U.S. ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/DIV"
+  },
+  {
+    "ticker": "DTCR",
+    "name": "DTCR",
+    "detail_url": "https://www.globalxetfs.com/funds/DTCR"
+  },
+  {
+    "ticker": "DTCR",
+    "name": "Data Center & Digital Infrastructure ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/DTCR"
+  },
+  {
+    "ticker": "BKCH",
+    "name": "BKCH",
+    "detail_url": "https://www.globalxetfs.com/funds/BKCH"
+  },
+  {
+    "ticker": "BKCH",
+    "name": "Blockchain ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/BKCH"
+  },
+  {
+    "ticker": "DRIV",
+    "name": "DRIV",
+    "detail_url": "https://www.globalxetfs.com/funds/DRIV"
+  },
+  {
+    "ticker": "DRIV",
+    "name": "Autonomous & Electric Vehicles ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/DRIV"
+  },
+  {
+    "ticker": "PFFV",
+    "name": "PFFV",
+    "detail_url": "https://www.globalxetfs.com/funds/PFFV"
+  },
+  {
+    "ticker": "PFFV",
+    "name": "Variable Rate Preferred ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/PFFV"
+  },
+  {
+    "ticker": "GREK",
+    "name": "GREK",
+    "detail_url": "https://www.globalxetfs.com/funds/GREK"
+  },
+  {
+    "ticker": "GREK",
+    "name": "MSCI Greece ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/GREK"
+  },
+  {
+    "ticker": "EMBD",
+    "name": "EMBD",
+    "detail_url": "https://www.globalxetfs.com/funds/EMBD"
+  },
+  {
+    "ticker": "EMBD",
+    "name": "Emerging Markets Bond ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/EMBD"
+  },
+  {
+    "ticker": "CLOU",
+    "name": "CLOU",
+    "detail_url": "https://www.globalxetfs.com/funds/CLOU"
+  },
+  {
+    "ticker": "CLOU",
+    "name": "Cloud Computing ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/CLOU"
+  },
+  {
+    "ticker": "DAX",
+    "name": "DAX",
+    "detail_url": "https://www.globalxetfs.com/funds/DAX"
+  },
+  {
+    "ticker": "DAX",
+    "name": "DAX Germany ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/DAX"
+  },
+  {
+    "ticker": "FINX",
+    "name": "FINX",
+    "detail_url": "https://www.globalxetfs.com/funds/FINX"
+  },
+  {
+    "ticker": "FINX",
+    "name": "FinTech ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/FINX"
+  },
+  {
+    "ticker": "ZAP",
+    "name": "ZAP",
+    "detail_url": "https://www.globalxetfs.com/funds/ZAP"
+  },
+  {
+    "ticker": "ZAP",
+    "name": "U.S. Electrification ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/ZAP"
+  },
+  {
+    "ticker": "CHIQ",
+    "name": "CHIQ",
+    "detail_url": "https://www.globalxetfs.com/funds/CHIQ"
+  },
+  {
+    "ticker": "CHIQ",
+    "name": "MSCI China Consumer Discretionary ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/CHIQ"
+  },
+  {
+    "ticker": "SRET",
+    "name": "SRET",
+    "detail_url": "https://www.globalxetfs.com/funds/SRET"
+  },
+  {
+    "ticker": "SRET",
+    "name": "SuperDividend® REIT ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/SRET"
+  },
+  {
+    "ticker": "SNSR",
+    "name": "SNSR",
+    "detail_url": "https://www.globalxetfs.com/funds/SNSR"
+  },
+  {
+    "ticker": "SNSR",
+    "name": "Internet of Things ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/SNSR"
+  },
+  {
+    "ticker": "GXIG",
+    "name": "GXIG",
+    "detail_url": "https://www.globalxetfs.com/funds/GXIG"
+  },
+  {
+    "ticker": "GXIG",
+    "name": "Investment Grade Corporate Bond ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/GXIG"
+  },
+  {
+    "ticker": "KRMA",
+    "name": "KRMA",
+    "detail_url": "https://www.globalxetfs.com/funds/KRMA"
+  },
+  {
+    "ticker": "KRMA",
+    "name": "Conscious Companies ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/KRMA"
+  },
+  {
+    "ticker": "ONOF",
+    "name": "ONOF",
+    "detail_url": "https://www.globalxetfs.com/funds/ONOF"
+  },
+  {
+    "ticker": "ONOF",
+    "name": "Adaptive U.S. Risk Management ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/ONOF"
+  },
+  {
+    "ticker": "DJIA",
+    "name": "DJIA",
+    "detail_url": "https://www.globalxetfs.com/funds/DJIA"
+  },
+  {
+    "ticker": "DJIA",
+    "name": "Dow 30 Covered Call ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/DJIA"
+  },
+  {
+    "ticker": "SOCL",
+    "name": "SOCL",
+    "detail_url": "https://www.globalxetfs.com/funds/SOCL"
+  },
+  {
+    "ticker": "SOCL",
+    "name": "Social Media ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/SOCL"
+  },
+  {
+    "ticker": "SPFF",
+    "name": "SPFF",
+    "detail_url": "https://www.globalxetfs.com/funds/SPFF"
+  },
+  {
+    "ticker": "SPFF",
+    "name": "SuperIncome℠ Preferred ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/SPFF"
+  },
+  {
+    "ticker": "QYLG",
+    "name": "QYLG",
+    "detail_url": "https://www.globalxetfs.com/funds/QYLG"
+  },
+  {
+    "ticker": "QYLG",
+    "name": "Nasdaq 100 Covered Call & Growth ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/QYLG"
+  },
+  {
+    "ticker": "HERO",
+    "name": "HERO",
+    "detail_url": "https://www.globalxetfs.com/funds/HERO"
+  },
+  {
+    "ticker": "HERO",
+    "name": "Video Games & Esports ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/HERO"
+  },
+  {
+    "ticker": "GOEX",
+    "name": "GOEX",
+    "detail_url": "https://www.globalxetfs.com/funds/GOEX"
+  },
+  {
+    "ticker": "GOEX",
+    "name": "Gold Explorers ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/GOEX"
+  },
+  {
+    "ticker": "COLO",
+    "name": "COLO",
+    "detail_url": "https://www.globalxetfs.com/funds/COLO"
+  },
+  {
+    "ticker": "COLO",
+    "name": "MSCI Colombia ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/COLO"
+  },
+  {
+    "ticker": "MILN",
+    "name": "MILN",
+    "detail_url": "https://www.globalxetfs.com/funds/MILN"
+  },
+  {
+    "ticker": "MILN",
+    "name": "Millennial Consumer ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/MILN"
+  },
+  {
+    "ticker": "EMC",
+    "name": "EMC",
+    "detail_url": "https://www.globalxetfs.com/funds/EMC"
+  },
+  {
+    "ticker": "EMC",
+    "name": "Emerging Markets Great Consumer ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/EMC"
+  },
+  {
+    "ticker": "AGNG",
+    "name": "AGNG",
+    "detail_url": "https://www.globalxetfs.com/funds/AGNG"
+  },
+  {
+    "ticker": "AGNG",
+    "name": "Aging Population ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/AGNG"
+  },
+  {
+    "ticker": "ASEA",
+    "name": "ASEA",
+    "detail_url": "https://www.globalxetfs.com/funds/ASEA"
+  },
+  {
+    "ticker": "ASEA",
+    "name": "FTSE Southeast Asia ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/ASEA"
+  },
+  {
+    "ticker": "HYDR",
+    "name": "HYDR",
+    "detail_url": "https://www.globalxetfs.com/funds/HYDR"
+  },
+  {
+    "ticker": "HYDR",
+    "name": "Hydrogen ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/HYDR"
+  },
+  {
+    "ticker": "XYLG",
+    "name": "XYLG",
+    "detail_url": "https://www.globalxetfs.com/funds/XYLG"
+  },
+  {
+    "ticker": "XYLG",
+    "name": "S&P 500 Covered Call & Growth ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/XYLG"
+  },
+  {
+    "ticker": "GURU",
+    "name": "GURU",
+    "detail_url": "https://www.globalxetfs.com/funds/GURU"
+  },
+  {
+    "ticker": "GURU",
+    "name": "Guru Index ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/GURU"
+  },
+  {
+    "ticker": "GNOM",
+    "name": "GNOM",
+    "detail_url": "https://www.globalxetfs.com/funds/GNOM"
+  },
+  {
+    "ticker": "GNOM",
+    "name": "Genomics & Biotechnology ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/GNOM"
+  },
+  {
+    "ticker": "NORW",
+    "name": "NORW",
+    "detail_url": "https://www.globalxetfs.com/funds/NORW"
+  },
+  {
+    "ticker": "NORW",
+    "name": "MSCI Norway ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/NORW"
+  },
+  {
+    "ticker": "NDIA",
+    "name": "NDIA",
+    "detail_url": "https://www.globalxetfs.com/funds/NDIA"
+  },
+  {
+    "ticker": "NDIA",
+    "name": "India Active ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/NDIA"
+  },
+  {
+    "ticker": "EBIZ",
+    "name": "EBIZ",
+    "detail_url": "https://www.globalxetfs.com/funds/EBIZ"
+  },
+  {
+    "ticker": "EBIZ",
+    "name": "E-commerce ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/EBIZ"
+  },
+  {
+    "ticker": "HEAL",
+    "name": "HEAL",
+    "detail_url": "https://www.globalxetfs.com/funds/HEAL"
+  },
+  {
+    "ticker": "HEAL",
+    "name": "HealthTech ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/HEAL"
+  },
+  {
+    "ticker": "GXPT",
+    "name": "GXPT",
+    "detail_url": "https://www.globalxetfs.com/funds/GXPT"
+  },
+  {
+    "ticker": "GXPT",
+    "name": "PureCap℠ MSCI Information Technology ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/GXPT"
+  },
+  {
+    "ticker": "GXPC",
+    "name": "GXPC",
+    "detail_url": "https://www.globalxetfs.com/funds/GXPC"
+  },
+  {
+    "ticker": "GXPC",
+    "name": "PureCap℠ MSCI Communication Services ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/GXPC"
+  },
+  {
+    "ticker": "XRMI",
+    "name": "XRMI",
+    "detail_url": "https://www.globalxetfs.com/funds/XRMI"
+  },
+  {
+    "ticker": "XRMI",
+    "name": "S&P 500 Risk Managed Income ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/XRMI"
+  },
+  {
+    "ticker": "SDEM",
+    "name": "SDEM",
+    "detail_url": "https://www.globalxetfs.com/funds/SDEM"
+  },
+  {
+    "ticker": "SDEM",
+    "name": "MSCI SuperDividend® Emerging Markets ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/SDEM"
+  },
+  {
+    "ticker": "ALTY",
+    "name": "ALTY",
+    "detail_url": "https://www.globalxetfs.com/funds/ALTY"
+  },
+  {
+    "ticker": "ALTY",
+    "name": "Alternative Income ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/ALTY"
+  },
+  {
+    "ticker": "BITS",
+    "name": "BITS",
+    "detail_url": "https://www.globalxetfs.com/funds/BITS"
+  },
+  {
+    "ticker": "BITS",
+    "name": "Blockchain & Bitcoin Strategy ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/BITS"
+  },
+  {
+    "ticker": "EFAS",
+    "name": "EFAS",
+    "detail_url": "https://www.globalxetfs.com/funds/EFAS"
+  },
+  {
+    "ticker": "EFAS",
+    "name": "MSCI SuperDividend® EAFE ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/EFAS"
+  },
+  {
+    "ticker": "LLDR",
+    "name": "LLDR",
+    "detail_url": "https://www.globalxetfs.com/funds/LLDR"
+  },
+  {
+    "ticker": "LLDR",
+    "name": "Long-Term Treasury Ladder ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/LLDR"
+  },
+  {
+    "ticker": "SLDR",
+    "name": "SLDR",
+    "detail_url": "https://www.globalxetfs.com/funds/SLDR"
+  },
+  {
+    "ticker": "SLDR",
+    "name": "Short-Term Treasury Ladder ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/SLDR"
+  },
+  {
+    "ticker": "QDIV",
+    "name": "QDIV",
+    "detail_url": "https://www.globalxetfs.com/funds/QDIV"
+  },
+  {
+    "ticker": "QDIV",
+    "name": "S&P 500 Quality Dividend ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/QDIV"
+  },
+  {
+    "ticker": "CTEC",
+    "name": "CTEC",
+    "detail_url": "https://www.globalxetfs.com/funds/CTEC"
+  },
+  {
+    "ticker": "CTEC",
+    "name": "CleanTech ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/CTEC"
+  },
+  {
+    "ticker": "GXPS",
+    "name": "GXPS",
+    "detail_url": "https://www.globalxetfs.com/funds/GXPS"
+  },
+  {
+    "ticker": "GXPS",
+    "name": "PureCap℠ MSCI Consumer Staples ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/GXPS"
+  },
+  {
+    "ticker": "RNRG",
+    "name": "RNRG",
+    "detail_url": "https://www.globalxetfs.com/funds/RNRG"
+  },
+  {
+    "ticker": "RNRG",
+    "name": "Renewable Energy Producers ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/RNRG"
+  },
+  {
+    "ticker": "CEFA",
+    "name": "CEFA",
+    "detail_url": "https://www.globalxetfs.com/funds/CEFA"
+  },
+  {
+    "ticker": "CEFA",
+    "name": "S&P Catholic Values Developed ex-U.S. ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/CEFA"
+  },
+  {
+    "ticker": "VNAM",
+    "name": "VNAM",
+    "detail_url": "https://www.globalxetfs.com/funds/VNAM"
+  },
+  {
+    "ticker": "VNAM",
+    "name": "MSCI Vietnam ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/VNAM"
+  },
+  {
+    "ticker": "FLOW",
+    "name": "FLOW",
+    "detail_url": "https://www.globalxetfs.com/funds/FLOW"
+  },
+  {
+    "ticker": "FLOW",
+    "name": "U.S. Cash Flow Kings 100 ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/FLOW"
+  },
+  {
+    "ticker": "EMM",
+    "name": "EMM",
+    "detail_url": "https://www.globalxetfs.com/funds/EMM"
+  },
+  {
+    "ticker": "EMM",
+    "name": "Emerging Markets ex-China ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/EMM"
+  },
+  {
+    "ticker": "AQWA",
+    "name": "AQWA",
+    "detail_url": "https://www.globalxetfs.com/funds/AQWA"
+  },
+  {
+    "ticker": "AQWA",
+    "name": "Clean Water ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/AQWA"
+  },
+  {
+    "ticker": "QRMI",
+    "name": "QRMI",
+    "detail_url": "https://www.globalxetfs.com/funds/QRMI"
+  },
+  {
+    "ticker": "QRMI",
+    "name": "Nasdaq 100 Risk Managed Income ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/QRMI"
+  },
+  {
+    "ticker": "GXPD",
+    "name": "GXPD",
+    "detail_url": "https://www.globalxetfs.com/funds/GXPD"
+  },
+  {
+    "ticker": "GXPD",
+    "name": "PureCap℠ MSCI Consumer Discretionary ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/GXPD"
+  },
+  {
+    "ticker": "MLPD",
+    "name": "MLPD",
+    "detail_url": "https://www.globalxetfs.com/funds/MLPD"
+  },
+  {
+    "ticker": "MLPD",
+    "name": "MLP & Energy Infrastructure Covered Call ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/MLPD"
+  },
+  {
+    "ticker": "BCCC",
+    "name": "BCCC",
+    "detail_url": "https://www.globalxetfs.com/funds/BCCC"
+  },
+  {
+    "ticker": "BCCC",
+    "name": "Bitcoin Covered Call ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/BCCC"
+  },
+  {
+    "ticker": "DMAT",
+    "name": "DMAT",
+    "detail_url": "https://www.globalxetfs.com/funds/DMAT"
+  },
+  {
+    "ticker": "DMAT",
+    "name": "Disruptive Materials ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/DMAT"
+  },
+  {
+    "ticker": "TYLG",
+    "name": "TYLG",
+    "detail_url": "https://www.globalxetfs.com/funds/TYLG"
+  },
+  {
+    "ticker": "TYLG",
+    "name": "Information Technology Covered Call & Growth ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/TYLG"
+  },
+  {
+    "ticker": "CHPX",
+    "name": "CHPX",
+    "detail_url": "https://www.globalxetfs.com/funds/CHPX"
+  },
+  {
+    "ticker": "CHPX",
+    "name": "AI Semiconductor & Quantum ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/CHPX"
+  },
+  {
+    "ticker": "GXDW",
+    "name": "GXDW",
+    "detail_url": "https://www.globalxetfs.com/funds/GXDW"
+  },
+  {
+    "ticker": "GXDW",
+    "name": "Dorsey Wright Thematic ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/GXDW"
+  },
+  {
+    "ticker": "MLDR",
+    "name": "MLDR",
+    "detail_url": "https://www.globalxetfs.com/funds/MLDR"
+  },
+  {
+    "ticker": "MLDR",
+    "name": "Intermediate-Term Treasury Ladder ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/MLDR"
+  },
+  {
+    "ticker": "RYLG",
+    "name": "RYLG",
+    "detail_url": "https://www.globalxetfs.com/funds/RYLG"
+  },
+  {
+    "ticker": "RYLG",
+    "name": "Russell 2000 Covered Call & Growth ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/RYLG"
+  },
+  {
+    "ticker": "BRAZ",
+    "name": "BRAZ",
+    "detail_url": "https://www.globalxetfs.com/funds/BRAZ"
+  },
+  {
+    "ticker": "BRAZ",
+    "name": "Brazil Active ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/BRAZ"
+  },
+  {
+    "ticker": "KROP",
+    "name": "KROP",
+    "detail_url": "https://www.globalxetfs.com/funds/KROP"
+  },
+  {
+    "ticker": "KROP",
+    "name": "AgTech & Food Innovation ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/KROP"
+  },
+  {
+    "ticker": "BTRN",
+    "name": "BTRN",
+    "detail_url": "https://www.globalxetfs.com/funds/BTRN"
+  },
+  {
+    "ticker": "BTRN",
+    "name": "Bitcoin Trend Strategy ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/BTRN"
+  },
+  {
+    "ticker": "IPAV",
+    "name": "IPAV",
+    "detail_url": "https://www.globalxetfs.com/funds/IPAV"
+  },
+  {
+    "ticker": "IPAV",
+    "name": "Infrastructure Development ex-U.S. ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/IPAV"
+  },
+  {
+    "ticker": "DYLG",
+    "name": "DYLG",
+    "detail_url": "https://www.globalxetfs.com/funds/DYLG"
+  },
+  {
+    "ticker": "DYLG",
+    "name": "Dow 30 Covered Call & Growth ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/DYLG"
+  },
+  {
+    "ticker": "TLTX",
+    "name": "TLTX",
+    "detail_url": "https://www.globalxetfs.com/funds/TLTX"
+  },
+  {
+    "ticker": "TLTX",
+    "name": "Treasury Bond Enhanced Income ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/TLTX"
+  },
+  {
+    "ticker": "GXLC",
+    "name": "GXLC",
+    "detail_url": "https://www.globalxetfs.com/funds/GXLC"
+  },
+  {
+    "ticker": "GXLC",
+    "name": "U.S. 500 ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/GXLC"
+  },
+  {
+    "ticker": "XCLR",
+    "name": "XCLR",
+    "detail_url": "https://www.globalxetfs.com/funds/XCLR"
+  },
+  {
+    "ticker": "XCLR",
+    "name": "S&P 500 Collar 95-110 ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/XCLR"
+  },
+  {
+    "ticker": "QCLR",
+    "name": "QCLR",
+    "detail_url": "https://www.globalxetfs.com/funds/QCLR"
+  },
+  {
+    "ticker": "QCLR",
+    "name": "Nasdaq 100 Collar 95-110 ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/QCLR"
+  },
+  {
+    "ticker": "QTR",
+    "name": "QTR",
+    "detail_url": "https://www.globalxetfs.com/funds/QTR"
+  },
+  {
+    "ticker": "QTR",
+    "name": "Nasdaq 100 Tail Risk ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/QTR"
+  },
+  {
+    "ticker": "LNGX",
+    "name": "LNGX",
+    "detail_url": "https://www.globalxetfs.com/funds/LNGX"
+  },
+  {
+    "ticker": "LNGX",
+    "name": "U.S. Natural Gas ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/LNGX"
+  },
+  {
+    "ticker": "XTR",
+    "name": "XTR",
+    "detail_url": "https://www.globalxetfs.com/funds/XTR"
+  },
+  {
+    "ticker": "XTR",
+    "name": "S&P 500 Tail Risk ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/XTR"
+  },
+  {
+    "ticker": "CHRI",
+    "name": "CHRI",
+    "detail_url": "https://www.globalxetfs.com/funds/CHRI"
+  },
+  {
+    "ticker": "CHRI",
+    "name": "S&P 500 Christian Values ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/CHRI"
+  },
+  {
+    "ticker": "EGLE",
+    "name": "EGLE",
+    "detail_url": "https://www.globalxetfs.com/funds/EGLE"
+  },
+  {
+    "ticker": "EGLE",
+    "name": "S&P 500 U.S. Revenue Leaders ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/EGLE"
+  },
+  {
+    "ticker": "FLAG",
+    "name": "FLAG",
+    "detail_url": "https://www.globalxetfs.com/funds/FLAG"
+  },
+  {
+    "ticker": "FLAG",
+    "name": "S&P 500 U.S. Market Leaders Top 50 ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/FLAG"
+  },
+  {
+    "ticker": "IRVH",
+    "name": "IRVH",
+    "detail_url": "https://www.globalxetfs.com/funds/IRVH"
+  },
+  {
+    "ticker": "IRVH",
+    "name": "Interest Rate Volatility & Inflation Hedge ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/IRVH"
+  },
+  {
+    "ticker": "GXPE",
+    "name": "GXPE",
+    "detail_url": "https://www.globalxetfs.com/funds/GXPE"
+  },
+  {
+    "ticker": "GXPE",
+    "name": "PureCap℠ MSCI Energy ETF",
+    "detail_url": "https://www.globalxetfs.com/funds/GXPE"
+  }
+]

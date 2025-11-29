@@ -1,0 +1,2422 @@
+[
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily ORCL Bull 2X and Bear 1X ETFs",
+    "detail_url": "https://www.direxion.com/product/daily-orcl-bull-bear-leveraged-inverse-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily COIN Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-coin-bull-leveraged-single-stock-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily HOOD Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-hood-bull-leveraged-single-stock-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily INTC Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-intc-bull-leveraged-single-stock-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SPDN",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bear-1x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P 500 Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bear-1x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SPDN",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bear-1x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P 500 Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bear-1x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "REKT",
+    "detail_url": "https://www.direxion.com/product/daily-crypto-industry-bull-2x-and-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Crypto Industry Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-crypto-industry-bull-2x-and-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "REKT",
+    "detail_url": "https://www.direxion.com/product/daily-crypto-industry-bull-2x-and-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Crypto Industry Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-crypto-industry-bull-2x-and-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "QQQD",
+    "detail_url": "https://www.direxion.com/product/daily-magnificent-7-bull-2x-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Magnificent 7 Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-magnificent-7-bull-2x-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "QQQD",
+    "detail_url": "https://www.direxion.com/product/daily-magnificent-7-bull-2x-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Magnificent 7 Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-magnificent-7-bull-2x-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "CHAU",
+    "detail_url": "https://www.direxion.com/product/daily-csi-300-china-a-share-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily CSI 300 China A Share Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-csi-300-china-a-share-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "CHAU",
+    "detail_url": "https://www.direxion.com/product/daily-csi-300-china-a-share-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily CSI 300 China A Share Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-csi-300-china-a-share-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "CWEB",
+    "detail_url": "https://www.direxion.com/product/daily-csi-china-internet-index-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily CSI China Internet Index Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-csi-china-internet-index-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "CWEB",
+    "detail_url": "https://www.direxion.com/product/daily-csi-china-internet-index-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily CSI China Internet Index Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-csi-china-internet-index-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "BRZU",
+    "detail_url": "https://www.direxion.com/product/daily-msci-brazil-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSCI Brazil Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msci-brazil-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "BRZU",
+    "detail_url": "https://www.direxion.com/product/daily-msci-brazil-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSCI Brazil Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msci-brazil-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "INDL",
+    "detail_url": "https://www.direxion.com/product/daily-msci-india-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSCI India Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msci-india-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "INDL",
+    "detail_url": "https://www.direxion.com/product/daily-msci-india-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSCI India Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msci-india-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SPUU",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P 500 Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SPUU",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P 500 Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AIBU",
+    "detail_url": "https://www.direxion.com/product/daily-ai-big-data-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AI and Big Data Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-ai-big-data-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AIBD",
+    "detail_url": "https://www.direxion.com/product/daily-ai-big-data-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AI and Big Data Bear 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-ai-big-data-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AIBU",
+    "detail_url": "https://www.direxion.com/product/daily-ai-big-data-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AI and Big Data Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-ai-big-data-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AIBD",
+    "detail_url": "https://www.direxion.com/product/daily-ai-big-data-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AI and Big Data Bear 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-ai-big-data-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "LMBO",
+    "detail_url": "https://www.direxion.com/product/daily-crypto-industry-bull-2x-and-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Crypto Industry Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-crypto-industry-bull-2x-and-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "LMBO",
+    "detail_url": "https://www.direxion.com/product/daily-crypto-industry-bull-2x-and-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Crypto Industry Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-crypto-industry-bull-2x-and-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "ERX",
+    "detail_url": "https://www.direxion.com/product/daily-energy-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Energy Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-energy-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "ERY",
+    "detail_url": "https://www.direxion.com/product/daily-energy-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Energy Bear 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-energy-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "ERX",
+    "detail_url": "https://www.direxion.com/product/daily-energy-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Energy Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-energy-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "ERY",
+    "detail_url": "https://www.direxion.com/product/daily-energy-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Energy Bear 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-energy-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "NUGT",
+    "detail_url": "https://www.direxion.com/product/daily-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Gold Miners Index Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "DUST",
+    "detail_url": "https://www.direxion.com/product/daily-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Gold Miners Index Bear 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "NUGT",
+    "detail_url": "https://www.direxion.com/product/daily-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Gold Miners Index Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "DUST",
+    "detail_url": "https://www.direxion.com/product/daily-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Gold Miners Index Bear 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "JNUG",
+    "detail_url": "https://www.direxion.com/product/daily-junior-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Junior Gold Miners Index Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-junior-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "JDST",
+    "detail_url": "https://www.direxion.com/product/daily-junior-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Junior Gold Miners Index Bear 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-junior-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "JNUG",
+    "detail_url": "https://www.direxion.com/product/daily-junior-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Junior Gold Miners Index Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-junior-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "JDST",
+    "detail_url": "https://www.direxion.com/product/daily-junior-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Junior Gold Miners Index Bear 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-junior-gold-miners-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "QQQU",
+    "detail_url": "https://www.direxion.com/product/daily-magnificent-7-bull-2x-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Magnificent 7 Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-magnificent-7-bull-2x-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "QQQU",
+    "detail_url": "https://www.direxion.com/product/daily-magnificent-7-bull-2x-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Magnificent 7 Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-magnificent-7-bull-2x-bear-1x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "FNGG",
+    "detail_url": "https://www.direxion.com/product/daily-nyse-fang-bull-2x-shares"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily NYSE FANG+ Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-nyse-fang-bull-2x-shares"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "FNGG",
+    "detail_url": "https://www.direxion.com/product/daily-nyse-fang-bull-2x-shares"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily NYSE FANG+ Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-nyse-fang-bull-2x-shares"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "UBOT",
+    "detail_url": "https://www.direxion.com/product/daily-robotics-artificial-intelligence-automation-index-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Robotics, Artificial Intelligence & Automation Index Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-robotics-artificial-intelligence-automation-index-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "UBOT",
+    "detail_url": "https://www.direxion.com/product/daily-robotics-artificial-intelligence-automation-index-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Robotics, Artificial Intelligence & Automation Index Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-robotics-artificial-intelligence-automation-index-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "GUSH",
+    "detail_url": "https://www.direxion.com/product/daily-sp-oil-gas-exp-prod-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-oil-gas-exp-prod-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "DRIP",
+    "detail_url": "https://www.direxion.com/product/daily-sp-oil-gas-exp-prod-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P Oil & Gas Exp. & Prod. Bear 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-oil-gas-exp-prod-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "GUSH",
+    "detail_url": "https://www.direxion.com/product/daily-sp-oil-gas-exp-prod-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-oil-gas-exp-prod-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "DRIP",
+    "detail_url": "https://www.direxion.com/product/daily-sp-oil-gas-exp-prod-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P Oil & Gas Exp. & Prod. Bear 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-oil-gas-exp-prod-bull-bear-2x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "URAA",
+    "detail_url": "https://www.direxion.com/product/daily-uranium-industry-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Uranium Industry Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-uranium-industry-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "URAA",
+    "detail_url": "https://www.direxion.com/product/daily-uranium-industry-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Uranium Industry Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-uranium-industry-bull-2x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TMF",
+    "detail_url": "https://www.direxion.com/product/daily-20-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily 20+ Year Treasury Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-20-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TMV",
+    "detail_url": "https://www.direxion.com/product/daily-20-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily 20+ Year Treasury Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-20-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TMF",
+    "detail_url": "https://www.direxion.com/product/daily-20-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily 20+ Year Treasury Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-20-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TMV",
+    "detail_url": "https://www.direxion.com/product/daily-20-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily 20+ Year Treasury Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-20-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TYD",
+    "detail_url": "https://www.direxion.com/product/daily-7-10-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily 7-10 Year Treasury Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-7-10-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TYO",
+    "detail_url": "https://www.direxion.com/product/daily-7-10-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily 7-10 Year Treasury Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-7-10-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TYD",
+    "detail_url": "https://www.direxion.com/product/daily-7-10-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily 7-10 Year Treasury Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-7-10-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TYO",
+    "detail_url": "https://www.direxion.com/product/daily-7-10-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily 7-10 Year Treasury Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-7-10-year-treasury-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "YINN",
+    "detail_url": "https://www.direxion.com/product/daily-ftse-china-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily FTSE China Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-ftse-china-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "YANG",
+    "detail_url": "https://www.direxion.com/product/daily-ftse-china-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily FTSE China Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-ftse-china-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "YINN",
+    "detail_url": "https://www.direxion.com/product/daily-ftse-china-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily FTSE China Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-ftse-china-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "YANG",
+    "detail_url": "https://www.direxion.com/product/daily-ftse-china-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily FTSE China Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-ftse-china-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "EURL",
+    "detail_url": "https://www.direxion.com/product/daily-ftse-europe-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily FTSE Europe Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-ftse-europe-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "EURL",
+    "detail_url": "https://www.direxion.com/product/daily-ftse-europe-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily FTSE Europe Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-ftse-europe-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "EDC",
+    "detail_url": "https://www.direxion.com/product/daily-msci-emerging-markets-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSCI Emerging Markets Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msci-emerging-markets-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "EDZ",
+    "detail_url": "https://www.direxion.com/product/daily-msci-emerging-markets-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSCI Emerging Markets Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msci-emerging-markets-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "EDC",
+    "detail_url": "https://www.direxion.com/product/daily-msci-emerging-markets-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSCI Emerging Markets Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msci-emerging-markets-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "EDZ",
+    "detail_url": "https://www.direxion.com/product/daily-msci-emerging-markets-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSCI Emerging Markets Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msci-emerging-markets-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "MEXX",
+    "detail_url": "https://www.direxion.com/product/daily-msci-mexico-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSCI Mexico Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msci-mexico-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "MEXX",
+    "detail_url": "https://www.direxion.com/product/daily-msci-mexico-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSCI Mexico Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msci-mexico-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "KORU",
+    "detail_url": "https://www.direxion.com/product/daily-msci-south-korea-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSCI South Korea Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msci-south-korea-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "KORU",
+    "detail_url": "https://www.direxion.com/product/daily-msci-south-korea-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSCI South Korea Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msci-south-korea-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "MIDU",
+    "detail_url": "https://www.direxion.com/product/daily-mid-cap-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Mid Cap Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-mid-cap-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "MIDU",
+    "detail_url": "https://www.direxion.com/product/daily-mid-cap-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Mid Cap Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-mid-cap-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SPXL",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P 500 Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SPXS",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P 500 Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SPXL",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P 500 Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SPXS",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P 500 Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TNA",
+    "detail_url": "https://www.direxion.com/product/daily-small-cap-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Small Cap Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-small-cap-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TZA",
+    "detail_url": "https://www.direxion.com/product/daily-small-cap-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Small Cap Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-small-cap-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TNA",
+    "detail_url": "https://www.direxion.com/product/daily-small-cap-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Small Cap Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-small-cap-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TZA",
+    "detail_url": "https://www.direxion.com/product/daily-small-cap-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Small Cap Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-small-cap-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "DFEN",
+    "detail_url": "https://www.direxion.com/product/daily-aerospace-defense-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Aerospace & Defense Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-aerospace-defense-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "DFEN",
+    "detail_url": "https://www.direxion.com/product/daily-aerospace-defense-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Aerospace & Defense Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-aerospace-defense-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "WANT",
+    "detail_url": "https://www.direxion.com/product/daily-consumer-discretionary-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Consumer Discretionary Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-consumer-discretionary-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "WANT",
+    "detail_url": "https://www.direxion.com/product/daily-consumer-discretionary-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Consumer Discretionary Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-consumer-discretionary-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "WEBL",
+    "detail_url": "https://www.direxion.com/product/daily-dow-jones-internet-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Dow Jones Internet Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-dow-jones-internet-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "WEBS",
+    "detail_url": "https://www.direxion.com/product/daily-dow-jones-internet-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Dow Jones Internet Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-dow-jones-internet-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "WEBL",
+    "detail_url": "https://www.direxion.com/product/daily-dow-jones-internet-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Dow Jones Internet Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-dow-jones-internet-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "WEBS",
+    "detail_url": "https://www.direxion.com/product/daily-dow-jones-internet-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Dow Jones Internet Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-dow-jones-internet-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "FAS",
+    "detail_url": "https://www.direxion.com/product/daily-financial-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Financial Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-financial-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "FAZ",
+    "detail_url": "https://www.direxion.com/product/daily-financial-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Financial Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-financial-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "FAS",
+    "detail_url": "https://www.direxion.com/product/daily-financial-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Financial Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-financial-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "FAZ",
+    "detail_url": "https://www.direxion.com/product/daily-financial-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Financial Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-financial-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "CURE",
+    "detail_url": "https://www.direxion.com/product/daily-healthcare-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Healthcare Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-healthcare-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "CURE",
+    "detail_url": "https://www.direxion.com/product/daily-healthcare-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Healthcare Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-healthcare-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "NAIL",
+    "detail_url": "https://www.direxion.com/product/daily-homebuilders-supplies-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Homebuilders & Supplies Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-homebuilders-supplies-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "NAIL",
+    "detail_url": "https://www.direxion.com/product/daily-homebuilders-supplies-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Homebuilders & Supplies Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-homebuilders-supplies-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "DUSL",
+    "detail_url": "https://www.direxion.com/product/daily-industrials-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Industrials Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-industrials-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "DUSL",
+    "detail_url": "https://www.direxion.com/product/daily-industrials-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Industrials Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-industrials-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "PILL",
+    "detail_url": "https://www.direxion.com/product/daily-pharmaceutical-medical-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Pharmaceutical & Medical Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-pharmaceutical-medical-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "PILL",
+    "detail_url": "https://www.direxion.com/product/daily-pharmaceutical-medical-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Pharmaceutical & Medical Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-pharmaceutical-medical-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "DRN",
+    "detail_url": "https://www.direxion.com/product/daily-real-estate-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Real Estate Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-real-estate-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "DRV",
+    "detail_url": "https://www.direxion.com/product/daily-real-estate-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Real Estate Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-real-estate-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "DRN",
+    "detail_url": "https://www.direxion.com/product/daily-real-estate-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Real Estate Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-real-estate-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "DRV",
+    "detail_url": "https://www.direxion.com/product/daily-real-estate-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Real Estate Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-real-estate-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "DPST",
+    "detail_url": "https://www.direxion.com/product/daily-regional-banks-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Regional Banks Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-regional-banks-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "DPST",
+    "detail_url": "https://www.direxion.com/product/daily-regional-banks-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Regional Banks Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-regional-banks-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "RETL",
+    "detail_url": "https://www.direxion.com/product/daily-retail-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Retail Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-retail-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "RETL",
+    "detail_url": "https://www.direxion.com/product/daily-retail-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Retail Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-retail-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "HIBL",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-high-beta-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P 500® High Beta Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-high-beta-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "HIBS",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-high-beta-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P 500® High Beta Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-high-beta-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "HIBL",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-high-beta-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P 500® High Beta Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-high-beta-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "HIBS",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-high-beta-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P 500® High Beta Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-500-high-beta-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "LABU",
+    "detail_url": "https://www.direxion.com/product/daily-sp-biotech-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P Biotech Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-biotech-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "LABD",
+    "detail_url": "https://www.direxion.com/product/daily-sp-biotech-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P Biotech Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-biotech-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "LABU",
+    "detail_url": "https://www.direxion.com/product/daily-sp-biotech-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P Biotech Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-biotech-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "LABD",
+    "detail_url": "https://www.direxion.com/product/daily-sp-biotech-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily S&P Biotech Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-sp-biotech-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SOXL",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductor-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Semiconductor Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductor-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SOXS",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductor-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Semiconductor Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductor-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SOXL",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductor-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Semiconductor Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductor-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SOXS",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductor-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Semiconductor Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductor-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TECL",
+    "detail_url": "https://www.direxion.com/product/daily-technology-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Technology Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-technology-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TECS",
+    "detail_url": "https://www.direxion.com/product/daily-technology-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Technology Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-technology-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TECL",
+    "detail_url": "https://www.direxion.com/product/daily-technology-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Technology Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-technology-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TECS",
+    "detail_url": "https://www.direxion.com/product/daily-technology-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Technology Bear 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-technology-bull-bear-3x-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TPOR",
+    "detail_url": "https://www.direxion.com/product/daily-transportation-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Transportation Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-transportation-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TPOR",
+    "detail_url": "https://www.direxion.com/product/daily-transportation-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Transportation Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-transportation-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "UTSL",
+    "detail_url": "https://www.direxion.com/product/daily-utilities-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Utilities Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-utilities-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "UTSL",
+    "detail_url": "https://www.direxion.com/product/daily-utilities-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Utilities Bull 3X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-utilities-bull-3x-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AAPU",
+    "detail_url": "https://www.direxion.com/product/daily-aapl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AAPL Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-aapl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AAPD",
+    "detail_url": "https://www.direxion.com/product/daily-aapl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AAPL Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-aapl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AAPU",
+    "detail_url": "https://www.direxion.com/product/daily-aapl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AAPL Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-aapl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AAPD",
+    "detail_url": "https://www.direxion.com/product/daily-aapl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AAPL Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-aapl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AMUU",
+    "detail_url": "https://www.direxion.com/product/daily-amd-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AMD Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-amd-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AMDD",
+    "detail_url": "https://www.direxion.com/product/daily-amd-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AMD Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-amd-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AMUU",
+    "detail_url": "https://www.direxion.com/product/daily-amd-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AMD Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-amd-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AMDD",
+    "detail_url": "https://www.direxion.com/product/daily-amd-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AMD Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-amd-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AMZU",
+    "detail_url": "https://www.direxion.com/product/daily-amzn-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AMZN Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-amzn-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AMZD",
+    "detail_url": "https://www.direxion.com/product/daily-amzn-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AMZN Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-amzn-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AMZU",
+    "detail_url": "https://www.direxion.com/product/daily-amzn-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AMZN Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-amzn-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AMZD",
+    "detail_url": "https://www.direxion.com/product/daily-amzn-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AMZN Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-amzn-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AVL",
+    "detail_url": "https://www.direxion.com/product/daily-avgo-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AVGO Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-avgo-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AVS",
+    "detail_url": "https://www.direxion.com/product/daily-avgo-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AVGO Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-avgo-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AVL",
+    "detail_url": "https://www.direxion.com/product/daily-avgo-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AVGO Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-avgo-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "AVS",
+    "detail_url": "https://www.direxion.com/product/daily-avgo-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily AVGO Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-avgo-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "BOEU",
+    "detail_url": "https://www.direxion.com/product/daily-ba-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily BA Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-ba-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "BOED",
+    "detail_url": "https://www.direxion.com/product/daily-ba-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily BA Bear 1X  Shares",
+    "detail_url": "https://www.direxion.com/product/daily-ba-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "BOEU",
+    "detail_url": "https://www.direxion.com/product/daily-ba-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily BA Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-ba-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "BOED",
+    "detail_url": "https://www.direxion.com/product/daily-ba-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily BA Bear 1X  Shares",
+    "detail_url": "https://www.direxion.com/product/daily-ba-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "BRKU",
+    "detail_url": "https://www.direxion.com/product/daily-brkb-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily BRKB Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-brkb-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "BRKD",
+    "detail_url": "https://www.direxion.com/product/daily-brkb-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily BRKB Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-brkb-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "BRKU",
+    "detail_url": "https://www.direxion.com/product/daily-brkb-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily BRKB Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-brkb-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "BRKD",
+    "detail_url": "https://www.direxion.com/product/daily-brkb-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily BRKB Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-brkb-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "CONX",
+    "detail_url": "https://www.direxion.com/product/daily-coin-bull-leveraged-single-stock-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily COIN Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-coin-bull-leveraged-single-stock-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "CONX",
+    "detail_url": "https://www.direxion.com/product/daily-coin-bull-leveraged-single-stock-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily COIN Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-coin-bull-leveraged-single-stock-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "CSCL",
+    "detail_url": "https://www.direxion.com/product/daily-csco-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily CSCO Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-csco-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "CSCS",
+    "detail_url": "https://www.direxion.com/product/daily-csco-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily CSCO Bear 1X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-csco-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "CSCL",
+    "detail_url": "https://www.direxion.com/product/daily-csco-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily CSCO Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-csco-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "CSCS",
+    "detail_url": "https://www.direxion.com/product/daily-csco-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily CSCO Bear 1X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-csco-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "FRDU",
+    "detail_url": "https://www.direxion.com/product/daily-ford-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily F Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-ford-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "FRDD",
+    "detail_url": "https://www.direxion.com/product/daily-ford-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily F Bear 1X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-ford-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "FRDU",
+    "detail_url": "https://www.direxion.com/product/daily-ford-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily F Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-ford-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "FRDD",
+    "detail_url": "https://www.direxion.com/product/daily-ford-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily F Bear 1X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-ford-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "GGLL",
+    "detail_url": "https://www.direxion.com/product/daily-googl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily GOOGL Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-googl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "GGLS",
+    "detail_url": "https://www.direxion.com/product/daily-googl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily GOOGL Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-googl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "GGLL",
+    "detail_url": "https://www.direxion.com/product/daily-googl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily GOOGL Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-googl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "GGLS",
+    "detail_url": "https://www.direxion.com/product/daily-googl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily GOOGL Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-googl-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "HODU",
+    "detail_url": "https://www.direxion.com/product/daily-hood-bull-leveraged-single-stock-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily HOOD Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-hood-bull-leveraged-single-stock-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "HODU",
+    "detail_url": "https://www.direxion.com/product/daily-hood-bull-leveraged-single-stock-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily HOOD Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-hood-bull-leveraged-single-stock-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "LINT",
+    "detail_url": "https://www.direxion.com/product/daily-intc-bull-leveraged-single-stock-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily INTC Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-intc-bull-leveraged-single-stock-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "LINT",
+    "detail_url": "https://www.direxion.com/product/daily-intc-bull-leveraged-single-stock-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily INTC Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-intc-bull-leveraged-single-stock-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "ELIL",
+    "detail_url": "https://www.direxion.com/product/daily-lly-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily LLY Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-lly-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "ELIS",
+    "detail_url": "https://www.direxion.com/product/daily-lly-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily LLY Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-lly-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "ELIL",
+    "detail_url": "https://www.direxion.com/product/daily-lly-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily LLY Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-lly-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "ELIS",
+    "detail_url": "https://www.direxion.com/product/daily-lly-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily LLY Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-lly-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "LMTL",
+    "detail_url": "https://www.direxion.com/product/daily-lmt-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily LMT Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-lmt-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "LMTS",
+    "detail_url": "https://www.direxion.com/product/daily-lmt-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily LMT Bear 1X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-lmt-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "LMTL",
+    "detail_url": "https://www.direxion.com/product/daily-lmt-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily LMT Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-lmt-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "LMTS",
+    "detail_url": "https://www.direxion.com/product/daily-lmt-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily LMT Bear 1X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-lmt-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "METU",
+    "detail_url": "https://www.direxion.com/product/daily-meta-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily META Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-meta-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "METD",
+    "detail_url": "https://www.direxion.com/product/daily-meta-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily META Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-meta-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "METU",
+    "detail_url": "https://www.direxion.com/product/daily-meta-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily META Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-meta-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "METD",
+    "detail_url": "https://www.direxion.com/product/daily-meta-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily META Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-meta-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "MSFU",
+    "detail_url": "https://www.direxion.com/product/daily-msft-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSFT Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msft-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "MSFD",
+    "detail_url": "https://www.direxion.com/product/daily-msft-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSFT Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msft-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "MSFU",
+    "detail_url": "https://www.direxion.com/product/daily-msft-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSFT Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msft-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "MSFD",
+    "detail_url": "https://www.direxion.com/product/daily-msft-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MSFT Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-msft-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "MUU",
+    "detail_url": "https://www.direxion.com/product/daily-mu-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MU Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-mu-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "MUD",
+    "detail_url": "https://www.direxion.com/product/daily-mu-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MU Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-mu-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "MUU",
+    "detail_url": "https://www.direxion.com/product/daily-mu-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MU Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-mu-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "MUD",
+    "detail_url": "https://www.direxion.com/product/daily-mu-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily MU Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-mu-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "NFXL",
+    "detail_url": "https://www.direxion.com/product/daily-nflx-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily NFLX Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-nflx-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "NFXS",
+    "detail_url": "https://www.direxion.com/product/daily-nflx-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily NFLX Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-nflx-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "NFXL",
+    "detail_url": "https://www.direxion.com/product/daily-nflx-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily NFLX Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-nflx-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "NFXS",
+    "detail_url": "https://www.direxion.com/product/daily-nflx-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily NFLX Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-nflx-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "NVDU",
+    "detail_url": "https://www.direxion.com/product/daily-nvda-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily NVDA Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-nvda-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "NVDD",
+    "detail_url": "https://www.direxion.com/product/daily-nvda-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily NVDA Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-nvda-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "NVDU",
+    "detail_url": "https://www.direxion.com/product/daily-nvda-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily NVDA Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-nvda-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "NVDD",
+    "detail_url": "https://www.direxion.com/product/daily-nvda-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily NVDA Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-nvda-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "ORCU",
+    "detail_url": "https://www.direxion.com/product/daily-orcl-bull-bear-leveraged-inverse-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily ORCL Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-orcl-bull-bear-leveraged-inverse-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "ORCS",
+    "detail_url": "https://www.direxion.com/product/daily-orcl-bull-bear-leveraged-inverse-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily ORCL Bear 1X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-orcl-bull-bear-leveraged-inverse-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "ORCU",
+    "detail_url": "https://www.direxion.com/product/daily-orcl-bull-bear-leveraged-inverse-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily ORCL Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-orcl-bull-bear-leveraged-inverse-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "ORCS",
+    "detail_url": "https://www.direxion.com/product/daily-orcl-bull-bear-leveraged-inverse-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily ORCL Bear 1X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-orcl-bull-bear-leveraged-inverse-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "PALU",
+    "detail_url": "https://www.direxion.com/product/daily-panw-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily PANW Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-panw-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "PALD",
+    "detail_url": "https://www.direxion.com/product/daily-panw-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily PANW Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-panw-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "PALU",
+    "detail_url": "https://www.direxion.com/product/daily-panw-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily PANW Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-panw-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "PALD",
+    "detail_url": "https://www.direxion.com/product/daily-panw-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily PANW Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-panw-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "PLTU",
+    "detail_url": "https://www.direxion.com/product/daily-pltr-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily PLTR Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-pltr-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "PLTD",
+    "detail_url": "https://www.direxion.com/product/daily-pltr-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily PLTR Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-pltr-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "PLTU",
+    "detail_url": "https://www.direxion.com/product/daily-pltr-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily PLTR Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-pltr-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "PLTD",
+    "detail_url": "https://www.direxion.com/product/daily-pltr-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily PLTR Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-pltr-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "QCMU",
+    "detail_url": "https://www.direxion.com/product/daily-qcom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily QCOM Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-qcom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "QCMD",
+    "detail_url": "https://www.direxion.com/product/daily-qcom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily QCOM Bear 1X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-qcom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "QCMU",
+    "detail_url": "https://www.direxion.com/product/daily-qcom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily QCOM Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-qcom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "QCMD",
+    "detail_url": "https://www.direxion.com/product/daily-qcom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily QCOM Bear 1X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-qcom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SHPU",
+    "detail_url": "https://www.direxion.com/product/daily-shop-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily SHOP Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-shop-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SHPD",
+    "detail_url": "https://www.direxion.com/product/daily-shop-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily SHOP Bear 1X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-shop-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SHPU",
+    "detail_url": "https://www.direxion.com/product/daily-shop-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily SHOP Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-shop-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "SHPD",
+    "detail_url": "https://www.direxion.com/product/daily-shop-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily SHOP Bear 1X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-shop-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TSLL",
+    "detail_url": "https://www.direxion.com/product/daily-tsla-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily TSLA Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-tsla-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TSLS",
+    "detail_url": "https://www.direxion.com/product/daily-tsla-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily TSLA Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-tsla-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TSLL",
+    "detail_url": "https://www.direxion.com/product/daily-tsla-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily TSLA Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-tsla-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TSLS",
+    "detail_url": "https://www.direxion.com/product/daily-tsla-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily TSLA Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-tsla-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TSMX",
+    "detail_url": "https://www.direxion.com/product/daily-tsm-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily TSM Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-tsm-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TSMZ",
+    "detail_url": "https://www.direxion.com/product/daily-tsm-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily TSM Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-tsm-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TSMX",
+    "detail_url": "https://www.direxion.com/product/daily-tsm-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily TSM Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-tsm-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TSMZ",
+    "detail_url": "https://www.direxion.com/product/daily-tsm-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily TSM Bear 1X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-tsm-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "XOMX",
+    "detail_url": "https://www.direxion.com/product/daily-xom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily XOM Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-xom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "XOMZ",
+    "detail_url": "https://www.direxion.com/product/daily-xom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily XOM Bear 1X  Shares",
+    "detail_url": "https://www.direxion.com/product/daily-xom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "XOMX",
+    "detail_url": "https://www.direxion.com/product/daily-xom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily XOM Bull 2X Shares",
+    "detail_url": "https://www.direxion.com/product/daily-xom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "XOMZ",
+    "detail_url": "https://www.direxion.com/product/daily-xom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily XOM Bear 1X  Shares",
+    "detail_url": "https://www.direxion.com/product/daily-xom-bull-and-bear-leveraged-single-stock-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TBXU",
+    "detail_url": "https://www.direxion.com/product/daily-biotech-top-5-bull-leveraged-titans-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Biotech Top 5 Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-biotech-top-5-bull-leveraged-titans-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TBXU",
+    "detail_url": "https://www.direxion.com/product/daily-biotech-top-5-bull-leveraged-titans-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Biotech Top 5 Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-biotech-top-5-bull-leveraged-titans-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TEXU",
+    "detail_url": "https://www.direxion.com/product/daily-energy-top-5-bull-leveraged-titans-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Energy Top 5 Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-energy-top-5-bull-leveraged-titans-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TEXU",
+    "detail_url": "https://www.direxion.com/product/daily-energy-top-5-bull-leveraged-titans-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Energy Top 5 Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-energy-top-5-bull-leveraged-titans-etf"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TSXU",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductors-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Semiconductors Top 5 Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductors-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TSXD",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductors-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Semiconductors Top 5 Bear 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductors-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TSXU",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductors-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Semiconductors Top 5 Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductors-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TSXD",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductors-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Semiconductors Top 5 Bear 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-semiconductors-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TTXU",
+    "detail_url": "https://www.direxion.com/product/daily-technology-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Technology Top 5 Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-technology-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TTXD",
+    "detail_url": "https://www.direxion.com/product/daily-technology-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Technology Top 5 Bear 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-technology-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TTXU",
+    "detail_url": "https://www.direxion.com/product/daily-technology-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Technology Top 5 Bull 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-technology-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "TTXD",
+    "detail_url": "https://www.direxion.com/product/daily-technology-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  },
+  {
+    "ticker": "DAILY",
+    "name": "Direxion Daily Technology Top 5 Bear 2X ETF",
+    "detail_url": "https://www.direxion.com/product/daily-technology-top-5-bull-bear-leveraged-inverse-titans-etfs"
+  }
+]

@@ -90,7 +90,7 @@ class DataManager:
         self,
         provider_name: str,
         data_type: str,
-        data: Sequence[BaseModel],
+        data: Sequence[BaseModel | Dict[str, Any]],
         use_msgpack: bool = False
     ) -> Dict[str, Any]:
         """
@@ -99,14 +99,21 @@ class DataManager:
         Args:
             provider_name: 운용사 이름 (ishares, roundhill 등)
             data_type: 데이터 타입 (etf_list, dividend_info 등)
-            data: 저장할 데이터 (Pydantic 모델 리스트)
+            data: 저장할 데이터 (Pydantic 모델 리스트 또는 딕셔너리 리스트)
             use_msgpack: MessagePack 사용 여부
             
         Returns:
             저장 정보 (파일 경로, 청크 개수 등)
         """
-        # Pydantic 모델을 딕셔너리로 변환
-        data_dicts = [item.model_dump(mode='json') for item in data]
+        # Pydantic 모델 또는 딕셔너리를 딕셔너리로 변환
+        data_dicts = []
+        for item in data:
+            if isinstance(item, BaseModel):
+                data_dicts.append(item.model_dump(mode='json'))
+            elif isinstance(item, dict):
+                data_dicts.append(item)
+            else:
+                raise ValueError(f"Unsupported data type: {type(item)}")
         
         # 전체 데이터 크기 확인
         serialized = self._serialize_data(data_dicts, use_msgpack)

@@ -18,7 +18,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-0-5-yr-us-tips-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-0-5-yr-us-tips-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-0-5-yr-us-tips-etf.html"
   },
   {
     "ticker": "ICLO",
@@ -39,7 +41,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-aaa-clo-floating-rate-note-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-aaa-clo-floating-rate-note-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-aaa-clo-floating-rate-note-etf.html"
   },
   {
     "ticker": "IGPT",
@@ -60,7 +64,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-ai-and-next-gen-software-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-ai-and-next-gen-software-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-ai-and-next-gen-software-etf.html"
   },
   {
     "ticker": "PSR",
@@ -81,7 +87,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-active-u-s-real-estate-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-active-u-s-real-estate-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-active-u-s-real-estate-etf.html"
   },
   {
     "ticker": "PPA",
@@ -102,7 +110,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-aerospace-defense-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-aerospace-defense-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-aerospace-defense-etf.html"
   },
   {
     "ticker": "PDBA",
@@ -123,7 +133,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-agriculture-commodity-strategy-no-k-1-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-agriculture-commodity-strategy-no-k-1-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-agriculture-commodity-strategy-no-k-1-etf.html"
   },
   {
     "ticker": "BLKC",
@@ -144,7 +156,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-alerian-galaxy-blockchain-users-and-decentralized-commerce-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-alerian-galaxy-blockchain-users-and-decentralized-commerce-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-alerian-galaxy-blockchain-users-and-decentralized-commerce-etf.html"
   },
   {
     "ticker": "SATO",
@@ -165,7 +179,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-alerian-galaxy-crypto-economy-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-alerian-galaxy-crypto-economy-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-alerian-galaxy-crypto-economy-etf.html"
   },
   {
     "ticker": "PBE",
@@ -186,7 +202,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-biotechnology-genome-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-biotechnology-genome-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-biotechnology-genome-etf.html"
   },
   {
     "ticker": "UPGD",
@@ -207,7 +225,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bloomberg-analyst-rating-improvers-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bloomberg-analyst-rating-improvers-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bloomberg-analyst-rating-improvers-etf.html"
   },
   {
     "ticker": "BMVP",
@@ -228,7 +248,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bloomberg-mvp-multi-factor-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bloomberg-mvp-multi-factor-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bloomberg-mvp-multi-factor-etf.html"
   },
   {
     "ticker": "POWA",
@@ -249,7 +271,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bloomberg-pricing-power-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bloomberg-pricing-power-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bloomberg-pricing-power-etf.html"
   },
   {
     "ticker": "PKB",
@@ -270,7 +294,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-building-construction-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-building-construction-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-building-construction-etf.html"
   },
   {
     "ticker": "BSCP",
@@ -291,7 +317,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2025-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2025-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2025-corporate-bond-etf.html"
   },
   {
     "ticker": "BSJP",
@@ -312,7 +340,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2025-high-yield-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2025-high-yield-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2025-high-yield-corporate-bond-etf.html"
   },
   {
     "ticker": "BSMP",
@@ -333,7 +363,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2025-municipal-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2025-municipal-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2025-municipal-bond-etf.html"
   },
   {
     "ticker": "BSCQ",
@@ -354,7 +386,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2026-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2026-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2026-corporate-bond-etf.html"
   },
   {
     "ticker": "BSJQ",
@@ -375,7 +409,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2026-high-yield-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2026-high-yield-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2026-high-yield-corporate-bond-etf.html"
   },
   {
     "ticker": "BSMQ",
@@ -396,7 +432,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2026-municipal-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2026-municipal-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2026-municipal-bond-etf.html"
   },
   {
     "ticker": "BSCR",
@@ -417,7 +455,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2027-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2027-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2027-corporate-bond-etf.html"
   },
   {
     "ticker": "BSJR",
@@ -438,7 +478,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2027-high-yield-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2027-high-yield-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2027-high-yield-corporate-bond-etf.html"
   },
   {
     "ticker": "BSMR",
@@ -459,7 +501,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2027-municipal-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2027-municipal-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2027-municipal-bond-etf.html"
   },
   {
     "ticker": "BSCS",
@@ -480,7 +524,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2028-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2028-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2028-corporate-bond-etf.html"
   },
   {
     "ticker": "BSJS",
@@ -501,7 +547,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2028-high-yield-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2028-high-yield-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2028-high-yield-corporate-bond-etf.html"
   },
   {
     "ticker": "BSMS",
@@ -522,7 +570,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2028-municipal-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2028-municipal-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2028-municipal-bond-etf.html"
   },
   {
     "ticker": "BSCT",
@@ -543,7 +593,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2029-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2029-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2029-corporate-bond-etf.html"
   },
   {
     "ticker": "BSJT",
@@ -564,7 +616,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2029-high-yield-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2029-high-yield-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2029-high-yield-corporate-bond-etf.html"
   },
   {
     "ticker": "BSMT",
@@ -585,7 +639,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2029-municipal-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2029-municipal-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2029-municipal-bond-etf.html"
   },
   {
     "ticker": "BSCU",
@@ -606,7 +662,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2030-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2030-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2030-corporate-bond-etf.html"
   },
   {
     "ticker": "BSJU",
@@ -627,7 +685,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2030-high-yield-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2030-high-yield-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2030-high-yield-corporate-bond-etf.html"
   },
   {
     "ticker": "BSMU",
@@ -648,7 +708,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2030-municipal-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2030-municipal-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2030-municipal-bond-etf.html"
   },
   {
     "ticker": "BSCV",
@@ -669,7 +731,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2031-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2031-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2031-corporate-bond-etf.html"
   },
   {
     "ticker": "BSJV",
@@ -690,7 +754,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2031-high-yield-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2031-high-yield-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2031-high-yield-corporate-bond-etf.html"
   },
   {
     "ticker": "BSMV",
@@ -711,7 +777,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2031-municipal-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2031-municipal-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2031-municipal-bond-etf.html"
   },
   {
     "ticker": "BSCW",
@@ -732,7 +800,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2032-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2032-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2032-corporate-bond-etf.html"
   },
   {
     "ticker": "BSJW",
@@ -753,7 +823,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2032-high-yield-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2032-high-yield-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2032-high-yield-corporate-bond-etf.html"
   },
   {
     "ticker": "BSMW",
@@ -774,7 +846,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2032-municipal-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2032-municipal-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2032-municipal-bond-etf.html"
   },
   {
     "ticker": "BSCX",
@@ -795,7 +869,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2033-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2033-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2033-corporate-bond-etf.html"
   },
   {
     "ticker": "BSJX",
@@ -816,7 +892,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2033-high-yield-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2033-high-yield-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2033-high-yield-corporate-bond-etf.html"
   },
   {
     "ticker": "BSSX",
@@ -837,7 +915,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2033-municipal-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2033-municipal-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2033-municipal-bond-etf.html"
   },
   {
     "ticker": "BSCY",
@@ -858,7 +938,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2034-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2034-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2034-corporate-bond-etf.html"
   },
   {
     "ticker": "BSMY",
@@ -879,7 +961,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2034-municipal-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2034-municipal-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2034-municipal-bond-etf.html"
   },
   {
     "ticker": "BSCZ",
@@ -900,7 +984,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2035-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2035-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2035-corporate-bond-etf.html"
   },
   {
     "ticker": "BSMZ",
@@ -921,7 +1007,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2035-municipal-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2035-municipal-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-bulletshares-2035-municipal-bond-etf.html"
   },
   {
     "ticker": "PKW",
@@ -942,7 +1030,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-buyback-achievers-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-buyback-achievers-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-buyback-achievers-etf.html"
   },
   {
     "ticker": "PCEF",
@@ -963,7 +1053,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-cef-income-composite-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-cef-income-composite-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-cef-income-composite-etf.html"
   },
   {
     "ticker": "PWZ",
@@ -984,7 +1076,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-california-amt-free-municipal-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-california-amt-free-municipal-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-california-amt-free-municipal-bond-etf.html"
   },
   {
     "ticker": "CQQQ",
@@ -1005,7 +1099,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-china-technology-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-china-technology-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-china-technology-etf.html"
   },
   {
     "ticker": "CSTK",
@@ -1026,7 +1122,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-comstock-contrarian-equity-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-comstock-contrarian-equity-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-comstock-contrarian-equity-etf.html"
   },
   {
     "ticker": "GTOC",
@@ -1047,7 +1145,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-core-fixed-income-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-core-fixed-income-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-core-fixed-income-etf.html"
   },
   {
     "ticker": "FXA",
@@ -1068,7 +1168,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-australian-dollar-trust.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-australian-dollar-trust.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-australian-dollar-trust.html"
   },
   {
     "ticker": "FXB",
@@ -1089,7 +1191,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-british-pound-sterling-trust.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-british-pound-sterling-trust.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-british-pound-sterling-trust.html"
   },
   {
     "ticker": "FXC",
@@ -1110,7 +1214,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-canadian-dollar-trust.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-canadian-dollar-trust.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-canadian-dollar-trust.html"
   },
   {
     "ticker": "FXE",
@@ -1131,7 +1237,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-euro-trust.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-euro-trust.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-euro-trust.html"
   },
   {
     "ticker": "FXY",
@@ -1152,7 +1260,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-japanese-yen-trust.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-japanese-yen-trust.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-japanese-yen-trust.html"
   },
   {
     "ticker": "FXF",
@@ -1173,7 +1283,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-swiss-franc-trust.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-swiss-franc-trust.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-currencyshares-swiss-franc-trust.html"
   },
   {
     "ticker": "DBA",
@@ -1194,7 +1306,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-agriculture-fund.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-agriculture-fund.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-agriculture-fund.html"
   },
   {
     "ticker": "DBB",
@@ -1215,7 +1329,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-base-metals-fund.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-base-metals-fund.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-base-metals-fund.html"
   },
   {
     "ticker": "DBC",
@@ -1236,7 +1352,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-commodity-index-tracking-fund.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-commodity-index-tracking-fund.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-commodity-index-tracking-fund.html"
   },
   {
     "ticker": "DBE",
@@ -1257,7 +1375,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-energy-fund.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-energy-fund.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-energy-fund.html"
   },
   {
     "ticker": "DBO",
@@ -1278,7 +1398,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-oil-fund.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-oil-fund.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-oil-fund.html"
   },
   {
     "ticker": "DBP",
@@ -1299,7 +1421,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-precious-metals-fund.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-precious-metals-fund.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-precious-metals-fund.html"
   },
   {
     "ticker": "UDN",
@@ -1320,7 +1444,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-us-dollar-index-bearish-fund.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-us-dollar-index-bearish-fund.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-us-dollar-index-bearish-fund.html"
   },
   {
     "ticker": "UUP",
@@ -1341,7 +1467,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-us-dollar-index-bullish-fund.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-us-dollar-index-bullish-fund.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-db-us-dollar-index-bullish-fund.html"
   },
   {
     "ticker": "PFM",
@@ -1362,7 +1490,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dividend-achievers-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dividend-achievers-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dividend-achievers-etf.html"
   },
   {
     "ticker": "PYZ",
@@ -1383,7 +1513,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-basic-materials-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-basic-materials-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-basic-materials-momentum-etf.html"
   },
   {
     "ticker": "PEZ",
@@ -1404,7 +1536,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-consumer-cyclicals-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-consumer-cyclicals-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-consumer-cyclicals-momentum-etf.html"
   },
   {
     "ticker": "PSL",
@@ -1425,7 +1559,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-consumer-staples-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-consumer-staples-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-consumer-staples-momentum-etf.html"
   },
   {
     "ticker": "PIZ",
@@ -1446,7 +1582,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-developed-markets-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-developed-markets-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-developed-markets-momentum-etf.html"
   },
   {
     "ticker": "PIE",
@@ -1467,7 +1605,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-emerging-markets-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-emerging-markets-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-emerging-markets-momentum-etf.html"
   },
   {
     "ticker": "PXI",
@@ -1488,7 +1628,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-energy-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-energy-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-energy-momentum-etf.html"
   },
   {
     "ticker": "PFI",
@@ -1509,7 +1651,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-financial-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-financial-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-financial-momentum-etf.html"
   },
   {
     "ticker": "PTH",
@@ -1530,7 +1674,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-healthcare-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-healthcare-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-healthcare-momentum-etf.html"
   },
   {
     "ticker": "PRN",
@@ -1551,7 +1697,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-industrials-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-industrials-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-industrials-momentum-etf.html"
   },
   {
     "ticker": "PDP",
@@ -1572,7 +1720,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-momentum-etf.html"
   },
   {
     "ticker": "DWAS",
@@ -1593,7 +1743,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-smallcap-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-smallcap-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-smallcap-momentum-etf.html"
   },
   {
     "ticker": "PTF",
@@ -1614,7 +1766,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-technology-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-technology-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-technology-momentum-etf.html"
   },
   {
     "ticker": "PUI",
@@ -1635,7 +1789,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-utilities-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-utilities-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dorsey-wright-utilities-momentum-etf.html"
   },
   {
     "ticker": "DJD",
@@ -1656,7 +1812,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dow-jones-industrial-average-dividend-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dow-jones-industrial-average-dividend-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-dow-jones-industrial-average-dividend-etf.html"
   },
   {
     "ticker": "QQMG",
@@ -1677,7 +1835,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-esg-nasdaq-100-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-esg-nasdaq-100-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-esg-nasdaq-100-etf.html"
   },
   {
     "ticker": "QQJG",
@@ -1698,7 +1858,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-esg-nasdaq-next-gen-100-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-esg-nasdaq-next-gen-100-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-esg-nasdaq-next-gen-100-etf.html"
   },
   {
     "ticker": "RSPE",
@@ -1719,7 +1881,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-esg-sp-500-equal-weight-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-esg-sp-500-equal-weight-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-esg-sp-500-equal-weight-etf.html"
   },
   {
     "ticker": "EVMT",
@@ -1740,7 +1904,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-electric-vehicle-metals-commodity-strategy-no-k-1-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-electric-vehicle-metals-commodity-strategy-no-k-1-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-electric-vehicle-metals-commodity-strategy-no-k-1-etf.html"
   },
   {
     "ticker": "PCY",
@@ -1761,7 +1927,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-emerging-markets-sovereign-debt-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-emerging-markets-sovereign-debt-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-emerging-markets-sovereign-debt-etf.html"
   },
   {
     "ticker": "PXE",
@@ -1782,7 +1950,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-energy-exploration-production-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-energy-exploration-production-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-energy-exploration-production-etf.html"
   },
   {
     "ticker": "GOVI",
@@ -1803,7 +1973,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-equal-weight-0-30-year-treasury-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-equal-weight-0-30-year-treasury-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-equal-weight-0-30-year-treasury-etf.html"
   },
   {
     "ticker": "PGF",
@@ -1824,7 +1996,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-financial-preferred-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-financial-preferred-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-financial-preferred-etf.html"
   },
   {
     "ticker": "PVI",
@@ -1845,7 +2019,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-floating-rate-municipal-income-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-floating-rate-municipal-income-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-floating-rate-municipal-income-etf.html"
   },
   {
     "ticker": "PBJ",
@@ -1866,7 +2042,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-food-beverage-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-food-beverage-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-food-beverage-etf.html"
   },
   {
     "ticker": "PHB",
@@ -1887,7 +2065,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-fundamental-high-yield-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-fundamental-high-yield-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-fundamental-high-yield-corporate-bond-etf.html"
   },
   {
     "ticker": "PFIG",
@@ -1908,7 +2088,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-fundamental-investment-grade-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-fundamental-investment-grade-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-fundamental-investment-grade-corporate-bond-etf.html"
   },
   {
     "ticker": "BTCO",
@@ -1929,7 +2111,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-galaxy-bitcoin-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-galaxy-bitcoin-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-galaxy-bitcoin-etf.html"
   },
   {
     "ticker": "QETH",
@@ -1950,7 +2134,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-galaxy-ethereum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-galaxy-ethereum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-galaxy-ethereum-etf.html"
   },
   {
     "ticker": "PBD",
@@ -1971,7 +2157,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-global-clean-energy-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-global-clean-energy-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-global-clean-energy-etf.html"
   },
   {
     "ticker": "IQSZ",
@@ -1992,7 +2180,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-global-equity-net-zero-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-global-equity-net-zero-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-global-equity-net-zero-etf.html"
   },
   {
     "ticker": "PSP",
@@ -2013,7 +2203,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-global-listed-private-equity-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-global-listed-private-equity-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-global-listed-private-equity-etf.html"
   },
   {
     "ticker": "PIO",
@@ -2034,7 +2226,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-global-water-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-global-water-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-global-water-etf.html"
   },
   {
     "ticker": "PGHY",
@@ -2055,7 +2249,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-global-ex-us-high-yield-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-global-ex-us-high-yield-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-global-ex-us-high-yield-corporate-bond-etf.html"
   },
   {
     "ticker": "PGJ",
@@ -2076,7 +2272,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-golden-dragon-china-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-golden-dragon-china-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-golden-dragon-china-etf.html"
   },
   {
     "ticker": "IHYF",
@@ -2097,7 +2295,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-high-yield-bond-factor-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-high-yield-bond-factor-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-high-yield-bond-factor-etf.html"
   },
   {
     "ticker": "PEY",
@@ -2118,7 +2318,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-high-yield-equity-dividend-achievers-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-high-yield-equity-dividend-achievers-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-high-yield-equity-dividend-achievers-etf.html"
   },
   {
     "ticker": "HIYS",
@@ -2139,7 +2341,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-high-yield-select-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-high-yield-select-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-high-yield-select-etf.html"
   },
   {
     "ticker": "PIN",
@@ -2160,7 +2364,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-india-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-india-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-india-etf.html"
   },
   {
     "ticker": "INTM",
@@ -2181,7 +2387,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-intermediate-municipal-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-intermediate-municipal-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-intermediate-municipal-etf.html"
   },
   {
     "ticker": "IPKW",
@@ -2202,7 +2410,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-international-buyback-achievers-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-international-buyback-achievers-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-international-buyback-achievers-etf.html"
   },
   {
     "ticker": "PICB",
@@ -2223,7 +2433,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-international-corporate-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-international-corporate-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-international-corporate-bond-etf.html"
   },
   {
     "ticker": "IMFL",
@@ -2244,7 +2456,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-international-developed-dynamic-multifactor-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-international-developed-dynamic-multifactor-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-international-developed-dynamic-multifactor-etf.html"
   },
   {
     "ticker": "PID",
@@ -2265,7 +2479,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-international-dividend-achievers-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-international-dividend-achievers-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-international-dividend-achievers-etf.html"
   },
   {
     "ticker": "MTRA",
@@ -2286,7 +2502,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-international-growth-focus-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-international-growth-focus-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-international-growth-focus-etf.html"
   },
   {
     "ticker": "IIGD",
@@ -2307,7 +2525,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-investment-grade-defensive-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-investment-grade-defensive-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-investment-grade-defensive-etf.html"
   },
   {
     "ticker": "KBWB",
@@ -2328,7 +2548,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-kbw-bank-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-kbw-bank-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-kbw-bank-etf.html"
   },
   {
     "ticker": "KBWD",
@@ -2349,7 +2571,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-kbw-high-dividend-yield-financial-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-kbw-high-dividend-yield-financial-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-kbw-high-dividend-yield-financial-etf.html"
   },
   {
     "ticker": "KBWY",
@@ -2370,7 +2594,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-kbw-premium-yield-equity-reit-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-kbw-premium-yield-equity-reit-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-kbw-premium-yield-equity-reit-etf.html"
   },
   {
     "ticker": "KBWP",
@@ -2391,7 +2617,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-kbw-property-casualty-insurance-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-kbw-property-casualty-insurance-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-kbw-property-casualty-insurance-etf.html"
   },
   {
     "ticker": "KBWR",
@@ -2412,7 +2640,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-kbw-regional-banking-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-kbw-regional-banking-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-kbw-regional-banking-etf.html"
   },
   {
     "ticker": "PWB",
@@ -2433,7 +2663,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-large-cap-growth-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-large-cap-growth-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-large-cap-growth-etf.html"
   },
   {
     "ticker": "PWV",
@@ -2454,7 +2686,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-large-cap-value-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-large-cap-value-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-large-cap-value-etf.html"
   },
   {
     "ticker": "PEJ",
@@ -2475,7 +2709,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-leisure-and-entertainment-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-leisure-and-entertainment-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-leisure-and-entertainment-etf.html"
   },
   {
     "ticker": "EFAA",
@@ -2496,7 +2732,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-eafe-income-advantage-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-eafe-income-advantage-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-eafe-income-advantage-etf.html"
   },
   {
     "ticker": "KLMT",
@@ -2517,7 +2755,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-global-climate-500-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-global-climate-500-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-global-climate-500-etf.html"
   },
   {
     "ticker": "CUT",
@@ -2538,7 +2778,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-global-timber-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-global-timber-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-global-timber-etf.html"
   },
   {
     "ticker": "GBLD",
@@ -2559,7 +2801,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-green-building-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-green-building-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-green-building-etf.html"
   },
   {
     "ticker": "KLMN",
@@ -2580,7 +2824,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-north-america-climate-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-north-america-climate-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-north-america-climate-etf.html"
   },
   {
     "ticker": "ERTH",
@@ -2601,7 +2847,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-sustainable-future-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-sustainable-future-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-sustainable-future-etf.html"
   },
   {
     "ticker": "PBUS",
@@ -2622,7 +2870,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-usa-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-usa-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-msci-usa-etf.html"
   },
   {
     "ticker": "IMF",
@@ -2643,7 +2893,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-managed-futures-strategy-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-managed-futures-strategy-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-managed-futures-strategy-etf.html"
   },
   {
     "ticker": "QQQM",
@@ -2664,7 +2916,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-100-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-100-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-100-etf.html"
   },
   {
     "ticker": "QQQS",
@@ -2685,7 +2939,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-future-gen-200-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-future-gen-200-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-future-gen-200-etf.html"
   },
   {
     "ticker": "PNQI",
@@ -2706,7 +2962,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-internet-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-internet-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-internet-etf.html"
   },
   {
     "ticker": "QQQJ",
@@ -2727,7 +2985,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-next-gen-100-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-next-gen-100-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-next-gen-100-etf.html"
   },
   {
     "ticker": "IBBQ",
@@ -2748,7 +3008,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-biotechnology-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-biotechnology-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-biotechnology-etf.html"
   },
   {
     "ticker": "QOWZ",
@@ -2769,7 +3031,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-free-cash-flow-achievers-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-free-cash-flow-achievers-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-nasdaq-free-cash-flow-achievers-etf.html"
   },
   {
     "ticker": "PZA",
@@ -2790,7 +3054,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-national-amt-free-municipal-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-national-amt-free-municipal-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-national-amt-free-municipal-bond-etf.html"
   },
   {
     "ticker": "PZT",
@@ -2811,7 +3077,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-new-york-amt-free-municipal-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-new-york-amt-free-municipal-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-new-york-amt-free-municipal-bond-etf.html"
   },
   {
     "ticker": "KNCT",
@@ -2832,7 +3100,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-next-gen-connectivity-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-next-gen-connectivity-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-next-gen-connectivity-etf.html"
   },
   {
     "ticker": "GGME",
@@ -2853,7 +3123,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-next-gen-media-and-gaming-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-next-gen-media-and-gaming-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-next-gen-media-and-gaming-etf.html"
   },
   {
     "ticker": "PXJ",
@@ -2874,7 +3146,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-oil-gas-services-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-oil-gas-services-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-oil-gas-services-etf.html"
   },
   {
     "ticker": "PDBC",
@@ -2895,7 +3169,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-optimum-yield-diversified-commodity-strategy-no-k-1-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-optimum-yield-diversified-commodity-strategy-no-k-1-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-optimum-yield-diversified-commodity-strategy-no-k-1-etf.html"
   },
   {
     "ticker": "SOXQ",
@@ -2916,7 +3192,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-phlx-semiconductor-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-phlx-semiconductor-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-phlx-semiconductor-etf.html"
   },
   {
     "ticker": "PJP",
@@ -2937,7 +3215,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-pharmaceuticals-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-pharmaceuticals-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-pharmaceuticals-etf.html"
   },
   {
     "ticker": "PGX",
@@ -2958,7 +3238,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-preferred-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-preferred-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-preferred-etf.html"
   },
   {
     "ticker": "QQHG",
@@ -2979,7 +3261,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-qqq-hedged-advantage-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-qqq-hedged-advantage-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-qqq-hedged-advantage-etf.html"
   },
   {
     "ticker": "QQA",
@@ -3000,7 +3284,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-qqq-income-advantage-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-qqq-income-advantage-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-qqq-income-advantage-etf.html"
   },
   {
     "ticker": "QQLV",
@@ -3021,7 +3307,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-qqq-low-volatility-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-qqq-low-volatility-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-qqq-low-volatility-etf.html"
   },
   {
     "ticker": "QQQ",
@@ -3042,7 +3330,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-qqq-trust-series-1.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-qqq-trust-series-1.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-qqq-trust-series-1.html"
   },
   {
     "ticker": "PXF",
@@ -3063,7 +3353,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-developed-markets-ex-u-s-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-developed-markets-ex-u-s-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-developed-markets-ex-u-s-etf.html"
   },
   {
     "ticker": "PDN",
@@ -3084,7 +3376,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-developed-markets-ex-u-s-small-mid-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-developed-markets-ex-u-s-small-mid-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-developed-markets-ex-u-s-small-mid-etf.html"
   },
   {
     "ticker": "PXH",
@@ -3105,7 +3399,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-emerging-markets-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-emerging-markets-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-emerging-markets-etf.html"
   },
   {
     "ticker": "IUS",
@@ -3126,7 +3422,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-strategic-us-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-strategic-us-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-strategic-us-etf.html"
   },
   {
     "ticker": "PRF",
@@ -3147,7 +3445,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-us-1000-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-us-1000-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-us-1000-etf.html"
   },
   {
     "ticker": "PRFZ",
@@ -3168,7 +3468,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-us-1500-small-mid-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-us-1500-small-mid-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rafi-us-1500-small-mid-etf.html"
   },
   {
     "ticker": "IVRA",
@@ -3189,7 +3491,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-real-assets-esg-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-real-assets-esg-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-real-assets-esg-etf.html"
   },
   {
     "ticker": "IROC",
@@ -3210,7 +3514,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rochester-high-yield-municipal-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rochester-high-yield-municipal-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-rochester-high-yield-municipal-etf.html"
   },
   {
     "ticker": "EQAL",
@@ -3231,7 +3537,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-russell-1000-equal-weight-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-russell-1000-equal-weight-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-russell-1000-equal-weight-etf.html"
   },
   {
     "ticker": "OMFL",
@@ -3252,7 +3560,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-russell-1000-dynamic-multifactor-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-russell-1000-dynamic-multifactor-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-russell-1000-dynamic-multifactor-etf.html"
   },
   {
     "ticker": "OMFS",
@@ -3273,7 +3583,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-russell-2000-dynamic-multifactor-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-russell-2000-dynamic-multifactor-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-russell-2000-dynamic-multifactor-etf.html"
   },
   {
     "ticker": "EQWL",
@@ -3294,7 +3606,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-100-equal-weight-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-100-equal-weight-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-100-equal-weight-etf.html"
   },
   {
     "ticker": "PBP",
@@ -3315,7 +3629,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-buywrite-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-buywrite-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-buywrite-etf.html"
   },
   {
     "ticker": "RSPA",
@@ -3336,7 +3652,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-income-advantage-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-income-advantage-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-income-advantage-etf.html"
   },
   {
     "ticker": "SPGP",
@@ -3357,7 +3675,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-garp-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-garp-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-garp-etf.html"
   },
   {
     "ticker": "DIVG",
@@ -3378,7 +3698,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-high-dividend-growers-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-high-dividend-growers-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-high-dividend-growers-etf.html"
   },
   {
     "ticker": "SPMV",
@@ -3399,7 +3721,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-minimum-variance-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-minimum-variance-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-minimum-variance-etf.html"
   },
   {
     "ticker": "QVML",
@@ -3420,7 +3744,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-qvm-multi-factor-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-qvm-multi-factor-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-qvm-multi-factor-etf.html"
   },
   {
     "ticker": "RWL",
@@ -3441,7 +3767,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-revenue-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-revenue-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-revenue-etf.html"
   },
   {
     "ticker": "SPVM",
@@ -3462,7 +3790,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-value-with-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-value-with-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-value-with-momentum-etf.html"
   },
   {
     "ticker": "PHDG",
@@ -3483,7 +3813,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-downside-hedged-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-downside-hedged-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-downside-hedged-etf.html"
   },
   {
     "ticker": "SPVU",
@@ -3504,7 +3836,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-enhanced-value-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-enhanced-value-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-enhanced-value-etf.html"
   },
   {
     "ticker": "RSPC",
@@ -3525,7 +3859,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-communication-services-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-communication-services-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-communication-services-etf.html"
   },
   {
     "ticker": "RSPD",
@@ -3546,7 +3882,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-consumer-discretionary-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-consumer-discretionary-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-consumer-discretionary-etf.html"
   },
   {
     "ticker": "RSPS",
@@ -3567,7 +3905,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-consumer-staples-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-consumer-staples-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-consumer-staples-etf.html"
   },
   {
     "ticker": "RSP",
@@ -3588,7 +3928,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-etf.html"
   },
   {
     "ticker": "RSPG",
@@ -3609,7 +3951,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-energy-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-energy-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-energy-etf.html"
   },
   {
     "ticker": "RSPF",
@@ -3630,7 +3974,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-financials-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-financials-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-financials-etf.html"
   },
   {
     "ticker": "RSPH",
@@ -3651,7 +3997,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-health-care-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-health-care-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-health-care-etf.html"
   },
   {
     "ticker": "RSPN",
@@ -3672,7 +4020,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-industrials-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-industrials-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-industrials-etf.html"
   },
   {
     "ticker": "RSPM",
@@ -3693,7 +4043,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-materials-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-materials-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-materials-etf.html"
   },
   {
     "ticker": "RSPR",
@@ -3714,7 +4066,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-real-estate-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-real-estate-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-real-estate-etf.html"
   },
   {
     "ticker": "RSPT",
@@ -3735,7 +4089,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-technology-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-technology-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-technology-etf.html"
   },
   {
     "ticker": "RSPU",
@@ -3756,7 +4112,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-utilities-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-utilities-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-equal-weight-utilities-etf.html"
   },
   {
     "ticker": "SPHB",
@@ -3777,7 +4135,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-high-beta-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-high-beta-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-high-beta-etf.html"
   },
   {
     "ticker": "SPHD",
@@ -3798,7 +4158,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-high-dividend-low-volatility-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-high-dividend-low-volatility-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-high-dividend-low-volatility-etf.html"
   },
   {
     "ticker": "SPLV",
@@ -3819,7 +4181,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-low-volatility-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-low-volatility-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-low-volatility-etf.html"
   },
   {
     "ticker": "SPMO",
@@ -3840,7 +4204,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-momentum-etf.html"
   },
   {
     "ticker": "RPG",
@@ -3861,7 +4227,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-pure-growth-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-pure-growth-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-pure-growth-etf.html"
   },
   {
     "ticker": "RPV",
@@ -3882,7 +4250,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-pure-value-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-pure-value-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-pure-value-etf.html"
   },
   {
     "ticker": "SPHQ",
@@ -3903,7 +4273,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-quality-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-quality-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-quality-etf.html"
   },
   {
     "ticker": "XLG",
@@ -3924,7 +4296,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-top-50-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-top-50-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-top-50-etf.html"
   },
   {
     "ticker": "XRLV",
@@ -3945,7 +4319,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-ex-rate-sensitive-low-volatility-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-ex-rate-sensitive-low-volatility-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-500-ex-rate-sensitive-low-volatility-etf.html"
   },
   {
     "ticker": "EELV",
@@ -3966,7 +4342,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-emerging-markets-low-volatility-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-emerging-markets-low-volatility-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-emerging-markets-low-volatility-etf.html"
   },
   {
     "ticker": "EEMO",
@@ -3987,7 +4365,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-emerging-markets-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-emerging-markets-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-emerging-markets-momentum-etf.html"
   },
   {
     "ticker": "CGW",
@@ -4008,7 +4388,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-global-water-index-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-global-water-index-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-global-water-index-etf.html"
   },
   {
     "ticker": "IDLV",
@@ -4029,7 +4411,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-international-developed-low-volatility-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-international-developed-low-volatility-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-international-developed-low-volatility-etf.html"
   },
   {
     "ticker": "IDMO",
@@ -4050,7 +4434,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-international-developed-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-international-developed-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-international-developed-momentum-etf.html"
   },
   {
     "ticker": "IDHQ",
@@ -4071,7 +4457,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-international-developed-quality-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-international-developed-quality-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-international-developed-quality-etf.html"
   },
   {
     "ticker": "QVMM",
@@ -4092,7 +4480,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-400-qvm-multi-factor-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-400-qvm-multi-factor-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-400-qvm-multi-factor-etf.html"
   },
   {
     "ticker": "RWK",
@@ -4113,7 +4503,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-400-revenue-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-400-revenue-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-400-revenue-etf.html"
   },
   {
     "ticker": "GRPM",
@@ -4134,7 +4526,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-400-garp-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-400-garp-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-400-garp-etf.html"
   },
   {
     "ticker": "RFG",
@@ -4155,7 +4549,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-400-pure-growth-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-400-pure-growth-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-400-pure-growth-etf.html"
   },
   {
     "ticker": "RFV",
@@ -4176,7 +4572,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-400-pure-value-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-400-pure-value-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-400-pure-value-etf.html"
   },
   {
     "ticker": "XMLV",
@@ -4197,7 +4595,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-low-volatility-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-low-volatility-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-low-volatility-etf.html"
   },
   {
     "ticker": "XMMO",
@@ -4218,7 +4618,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-momentum-etf.html"
   },
   {
     "ticker": "XMHQ",
@@ -4239,7 +4641,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-quality-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-quality-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-quality-etf.html"
   },
   {
     "ticker": "XMVM",
@@ -4260,7 +4664,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-value-with-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-value-with-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-midcap-value-with-momentum-etf.html"
   },
   {
     "ticker": "GRPZ",
@@ -4281,7 +4687,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-600-garp-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-600-garp-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-600-garp-etf.html"
   },
   {
     "ticker": "QVMS",
@@ -4302,7 +4710,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-600-qvm-multi-factor-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-600-qvm-multi-factor-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-600-qvm-multi-factor-etf.html"
   },
   {
     "ticker": "RWJ",
@@ -4323,7 +4733,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-600-revenue-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-600-revenue-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-600-revenue-etf.html"
   },
   {
     "ticker": "RZG",
@@ -4344,7 +4756,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-600-pure-growth-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-600-pure-growth-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-600-pure-growth-etf.html"
   },
   {
     "ticker": "RZV",
@@ -4365,7 +4779,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-600-pure-value-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-600-pure-value-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-600-pure-value-etf.html"
   },
   {
     "ticker": "PSCD",
@@ -4386,7 +4802,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-consumer-discretionary-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-consumer-discretionary-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-consumer-discretionary-etf.html"
   },
   {
     "ticker": "PSCC",
@@ -4407,7 +4825,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-consumer-staples-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-consumer-staples-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-consumer-staples-etf.html"
   },
   {
     "ticker": "PSCE",
@@ -4428,7 +4848,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-energy-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-energy-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-energy-etf.html"
   },
   {
     "ticker": "PSCF",
@@ -4449,7 +4871,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-financials-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-financials-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-financials-etf.html"
   },
   {
     "ticker": "PSCH",
@@ -4470,7 +4894,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-health-care-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-health-care-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-health-care-etf.html"
   },
   {
     "ticker": "XSHD",
@@ -4491,7 +4917,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-high-dividend-low-volatility-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-high-dividend-low-volatility-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-high-dividend-low-volatility-etf.html"
   },
   {
     "ticker": "PSCI",
@@ -4512,7 +4940,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-industrials-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-industrials-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-industrials-etf.html"
   },
   {
     "ticker": "PSCT",
@@ -4533,7 +4963,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-information-technology-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-information-technology-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-information-technology-etf.html"
   },
   {
     "ticker": "XSLV",
@@ -4554,7 +4986,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-low-volatility-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-low-volatility-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-low-volatility-etf.html"
   },
   {
     "ticker": "PSCM",
@@ -4575,7 +5009,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-materials-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-materials-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-materials-etf.html"
   },
   {
     "ticker": "XSMO",
@@ -4596,7 +5032,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-momentum-etf.html"
   },
   {
     "ticker": "XSHQ",
@@ -4617,7 +5055,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-quality-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-quality-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-quality-etf.html"
   },
   {
     "ticker": "PSCU",
@@ -4638,7 +5078,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-utilities-communication-services-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-utilities-communication-services-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-utilities-communication-services-etf.html"
   },
   {
     "ticker": "XSVM",
@@ -4659,7 +5101,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-value-with-momentum-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-value-with-momentum-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-smallcap-value-with-momentum-etf.html"
   },
   {
     "ticker": "CSD",
@@ -4680,7 +5124,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-spin-off-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-spin-off-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-spin-off-etf.html"
   },
   {
     "ticker": "RDIV",
@@ -4701,7 +5147,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-ultra-dividend-revenue-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-ultra-dividend-revenue-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-sp-ultra-dividend-revenue-etf.html"
   },
   {
     "ticker": "PSI",
@@ -4722,7 +5170,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-semiconductors-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-semiconductors-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-semiconductors-etf.html"
   },
   {
     "ticker": "BKLN",
@@ -4743,7 +5193,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-senior-loan-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-senior-loan-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-senior-loan-etf.html"
   },
   {
     "ticker": "GTOS",
@@ -4764,7 +5216,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-short-duration-total-return-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-short-duration-total-return-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-short-duration-total-return-bond-etf.html"
   },
   {
     "ticker": "TBLL",
@@ -4785,7 +5239,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-short-term-treasury-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-short-term-treasury-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-short-term-treasury-etf.html"
   },
   {
     "ticker": "TAN",
@@ -4806,7 +5262,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-solar-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-solar-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-solar-etf.html"
   },
   {
     "ticker": "PIPE",
@@ -4827,7 +5285,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-steelpath-mlp-energy-infrastructure-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-steelpath-mlp-energy-infrastructure-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-steelpath-mlp-energy-infrastructure-etf.html"
   },
   {
     "ticker": "BAB",
@@ -4848,7 +5308,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-taxable-municipal-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-taxable-municipal-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-taxable-municipal-bond-etf.html"
   },
   {
     "ticker": "QBIG",
@@ -4869,7 +5331,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-top-qqq-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-top-qqq-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-top-qqq-etf.html"
   },
   {
     "ticker": "GTO",
@@ -4890,7 +5354,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-total-return-bond-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-total-return-bond-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-total-return-bond-etf.html"
   },
   {
     "ticker": "GSY",
@@ -4911,7 +5377,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-ultra-short-duration-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-ultra-short-duration-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-ultra-short-duration-etf.html"
   },
   {
     "ticker": "VRIG",
@@ -4932,7 +5400,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-variable-rate-investment-grade-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-variable-rate-investment-grade-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-variable-rate-investment-grade-etf.html"
   },
   {
     "ticker": "VRP",
@@ -4953,7 +5423,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-variable-rate-preferred-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-variable-rate-preferred-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-variable-rate-preferred-etf.html"
   },
   {
     "ticker": "PHO",
@@ -4974,7 +5446,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-water-resources-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-water-resources-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-water-resources-etf.html"
   },
   {
     "ticker": "PBW",
@@ -4995,7 +5469,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-wilderhill-clean-energy-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-wilderhill-clean-energy-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-wilderhill-clean-energy-etf.html"
   },
   {
     "ticker": "CZA",
@@ -5016,7 +5492,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-zacks-mid-cap-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-zacks-mid-cap-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-zacks-mid-cap-etf.html"
   },
   {
     "ticker": "CVY",
@@ -5037,6 +5515,8 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-zacks-multi-asset-income-etf.html"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-zacks-multi-asset-income-etf.html",
+    "detail_page_url": "https://www.invesco.com/content/invesco/us/en/financial-products/etfs/invesco-zacks-multi-asset-income-etf.html"
   }
 ]

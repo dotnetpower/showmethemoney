@@ -18,7 +18,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.90",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vbil"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vbil",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vbil"
   },
   {
     "ticker": "VSDB",
@@ -39,7 +41,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.35",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vsdb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vsdb",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vsdb"
   },
   {
     "ticker": "VSDM",
@@ -60,7 +64,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.13",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vsdm"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vsdm",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vsdm"
   },
   {
     "ticker": "BSV",
@@ -81,7 +87,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.76",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/bsv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/bsv",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/bsv"
   },
   {
     "ticker": "VCSH",
@@ -102,7 +110,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.21",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vcsh"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vcsh",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vcsh"
   },
   {
     "ticker": "VTES",
@@ -123,7 +133,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.60",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtes"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtes",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtes"
   },
   {
     "ticker": "VGSH",
@@ -144,7 +156,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.60",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgsh"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgsh",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgsh"
   },
   {
     "ticker": "VUSB",
@@ -165,7 +179,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.26",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vusb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vusb",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vusb"
   },
   {
     "ticker": "VGUS",
@@ -186,7 +202,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.83",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgus"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgus",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgus"
   },
   {
     "ticker": "VTEC",
@@ -207,7 +225,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.13",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtec"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtec",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtec"
   },
   {
     "ticker": "VCRB",
@@ -228,7 +248,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.38",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vcrb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vcrb",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vcrb"
   },
   {
     "ticker": "VCRM",
@@ -249,7 +271,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.83",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vcrm"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vcrm",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vcrm"
   },
   {
     "ticker": "VPLS",
@@ -270,7 +294,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.40",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vpls"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vpls",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vpls"
   },
   {
     "ticker": "VCEB",
@@ -291,7 +317,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.63",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vceb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vceb",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vceb"
   },
   {
     "ticker": "VGVT",
@@ -312,7 +340,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.79",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgvt"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgvt",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgvt"
   },
   {
     "ticker": "VGHY",
@@ -333,7 +363,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "6.21",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vghy"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vghy",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vghy"
   },
   {
     "ticker": "BIV",
@@ -354,7 +386,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.25",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/biv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/biv",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/biv"
   },
   {
     "ticker": "VCIT",
@@ -375,7 +409,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.77",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vcit"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vcit",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vcit"
   },
   {
     "ticker": "VTEI",
@@ -396,7 +432,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.05",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtei"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtei",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtei"
   },
   {
     "ticker": "VGIT",
@@ -417,7 +455,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.74",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgit"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgit",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgit"
   },
   {
     "ticker": "VMBS",
@@ -438,7 +478,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.07",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vmbs"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vmbs",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vmbs"
   },
   {
     "ticker": "MUNY",
@@ -459,7 +501,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.40",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/muny"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/muny",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/muny"
   },
   {
     "ticker": "VTEB",
@@ -480,7 +524,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.48",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vteb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vteb",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vteb"
   },
   {
     "ticker": "BND",
@@ -501,7 +547,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.13",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/bnd"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/bnd",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/bnd"
   },
   {
     "ticker": "VTC",
@@ -522,7 +570,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.75",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtc"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtc",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtc"
   },
   {
     "ticker": "VTG",
@@ -543,7 +593,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.88",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtg"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtg",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtg"
   },
   {
     "ticker": "VTIP",
@@ -564,7 +616,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.32",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtip"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtip",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtip"
   },
   {
     "ticker": "VTP",
@@ -585,7 +639,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.48",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtp"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtp",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtp"
   },
   {
     "ticker": "VWOB",
@@ -606,7 +662,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "5.67",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vwob"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vwob",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vwob"
   },
   {
     "ticker": "EDV",
@@ -627,7 +685,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.94",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/edv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/edv",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/edv"
   },
   {
     "ticker": "BLV",
@@ -648,7 +708,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "5.10",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/blv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/blv",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/blv"
   },
   {
     "ticker": "VCLT",
@@ -669,7 +731,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "5.59",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vclt"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vclt",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vclt"
   },
   {
     "ticker": "VTEL",
@@ -690,7 +754,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.93",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtel"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtel",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtel"
   },
   {
     "ticker": "VGLT",
@@ -711,7 +777,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.67",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vglt"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vglt",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vglt"
   },
   {
     "ticker": "VGMS",
@@ -732,7 +800,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "5.27",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgms"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgms",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgms"
   },
   {
     "ticker": "BNDX",
@@ -753,7 +823,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.96",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/bndx"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/bndx",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/bndx"
   },
   {
     "ticker": "BNDW",
@@ -774,7 +846,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.07",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/bndw"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/bndw",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/bndw"
   },
   {
     "ticker": "VIG",
@@ -795,7 +869,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.59",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vig"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vig",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vig"
   },
   {
     "ticker": "ESGV",
@@ -816,7 +892,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.89",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/esgv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/esgv",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/esgv"
   },
   {
     "ticker": "VUG",
@@ -837,7 +915,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.38",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vug"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vug",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vug"
   },
   {
     "ticker": "VYM",
@@ -858,7 +938,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.47",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vym"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vym",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vym"
   },
   {
     "ticker": "VV",
@@ -879,7 +961,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.05",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vv",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vv"
   },
   {
     "ticker": "MGC",
@@ -900,7 +984,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.93",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/mgc"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/mgc",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/mgc"
   },
   {
     "ticker": "MGK",
@@ -921,7 +1007,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.33",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/mgk"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/mgk",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/mgk"
   },
   {
     "ticker": "MGV",
@@ -942,7 +1030,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.04",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/mgv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/mgv",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/mgv"
   },
   {
     "ticker": "VONE",
@@ -963,7 +1053,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.05",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vone"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vone",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vone"
   },
   {
     "ticker": "VONG",
@@ -984,7 +1076,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.42",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vong"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vong",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vong"
   },
   {
     "ticker": "VONV",
@@ -1005,7 +1099,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.79",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vonv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vonv",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vonv"
   },
   {
     "ticker": "VTHR",
@@ -1026,7 +1122,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.06",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vthr"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vthr",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vthr"
   },
   {
     "ticker": "VOO",
@@ -1047,7 +1145,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.09",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/voo"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/voo",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/voo"
   },
   {
     "ticker": "VOOG",
@@ -1068,7 +1168,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.46",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/voog"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/voog",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/voog"
   },
   {
     "ticker": "VOOV",
@@ -1089,7 +1191,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.78",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/voov"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/voov",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/voov"
   },
   {
     "ticker": "VTI",
@@ -1110,7 +1214,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.09",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vti"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vti",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vti"
   },
   {
     "ticker": "VFMV",
@@ -1131,7 +1237,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.83",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfmv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfmv",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfmv"
   },
   {
     "ticker": "VFMO",
@@ -1152,7 +1260,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.51",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfmo"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfmo",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfmo"
   },
   {
     "ticker": "VFMF",
@@ -1173,7 +1283,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.51",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfmf"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfmf",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfmf"
   },
   {
     "ticker": "VFQY",
@@ -1194,7 +1306,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.10",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfqy"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfqy",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfqy"
   },
   {
     "ticker": "VFVA",
@@ -1215,7 +1329,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.24",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfva"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfva",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfva"
   },
   {
     "ticker": "VTV",
@@ -1236,7 +1352,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.09",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtv",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtv"
   },
   {
     "ticker": "VDIG",
@@ -1257,7 +1375,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vdig"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vdig",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vdig"
   },
   {
     "ticker": "VUSG",
@@ -1278,7 +1398,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vusg"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vusg",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vusg"
   },
   {
     "ticker": "VUSV",
@@ -1299,7 +1421,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vusv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vusv",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vusv"
   },
   {
     "ticker": "VXF",
@@ -1320,7 +1444,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.04",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vxf"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vxf",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vxf"
   },
   {
     "ticker": "VO",
@@ -1341,7 +1467,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.55",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vo"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vo",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vo"
   },
   {
     "ticker": "VOT",
@@ -1362,7 +1490,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.57",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vot"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vot",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vot"
   },
   {
     "ticker": "VOE",
@@ -1383,7 +1513,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.20",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/voe"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/voe",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/voe"
   },
   {
     "ticker": "VTWO",
@@ -1404,7 +1536,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.16",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtwo"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtwo",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtwo"
   },
   {
     "ticker": "VTWG",
@@ -1425,7 +1559,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.39",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtwg"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtwg",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtwg"
   },
   {
     "ticker": "VTWV",
@@ -1446,7 +1582,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.96",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtwv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtwv",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vtwv"
   },
   {
     "ticker": "IVOO",
@@ -1467,7 +1605,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.33",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/ivoo"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/ivoo",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/ivoo"
   },
   {
     "ticker": "IVOG",
@@ -1488,7 +1628,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.72",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/ivog"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/ivog",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/ivog"
   },
   {
     "ticker": "IVOV",
@@ -1509,7 +1651,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.96",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/ivov"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/ivov",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/ivov"
   },
   {
     "ticker": "VIOO",
@@ -1530,7 +1674,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.56",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vioo"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vioo",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vioo"
   },
   {
     "ticker": "VIOG",
@@ -1551,7 +1697,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.06",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/viog"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/viog",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/viog"
   },
   {
     "ticker": "VIOV",
@@ -1572,7 +1720,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.02",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/viov"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/viov",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/viov"
   },
   {
     "ticker": "VB",
@@ -1593,7 +1743,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.35",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vb",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vb"
   },
   {
     "ticker": "VBK",
@@ -1614,7 +1766,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.50",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vbk"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vbk",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vbk"
   },
   {
     "ticker": "VBR",
@@ -1635,7 +1789,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.99",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vbr"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vbr",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vbr"
   },
   {
     "ticker": "VOX",
@@ -1656,7 +1812,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.85",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vox"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vox",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vox"
   },
   {
     "ticker": "VCR",
@@ -1677,7 +1835,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.66",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vcr"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vcr",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vcr"
   },
   {
     "ticker": "VDC",
@@ -1698,7 +1858,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.32",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vdc"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vdc",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vdc"
   },
   {
     "ticker": "VDE",
@@ -1719,7 +1881,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.11",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vde"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vde",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vde"
   },
   {
     "ticker": "VFH",
@@ -1740,7 +1904,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.55",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfh"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfh",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vfh"
   },
   {
     "ticker": "VHT",
@@ -1761,7 +1927,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.48",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vht"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vht",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vht"
   },
   {
     "ticker": "VIS",
@@ -1782,7 +1950,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.02",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vis"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vis",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vis"
   },
   {
     "ticker": "VGT",
@@ -1803,7 +1973,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.36",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgt"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgt",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgt"
   },
   {
     "ticker": "VAW",
@@ -1824,7 +1996,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.76",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vaw"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vaw",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vaw"
   },
   {
     "ticker": "VNQ",
@@ -1845,7 +2019,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vnq"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vnq",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vnq"
   },
   {
     "ticker": "VPU",
@@ -1866,7 +2042,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.60",
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vpu"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vpu",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vpu"
   },
   {
     "ticker": "VEXC",
@@ -1887,7 +2065,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vexc"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vexc",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vexc"
   },
   {
     "ticker": "VSGX",
@@ -1908,7 +2088,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vsgx"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vsgx",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vsgx"
   },
   {
     "ticker": "VEU",
@@ -1929,7 +2111,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/veu"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/veu",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/veu"
   },
   {
     "ticker": "VSS",
@@ -1950,7 +2134,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vss"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vss",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vss"
   },
   {
     "ticker": "VEA",
@@ -1971,7 +2157,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vea"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vea",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vea"
   },
   {
     "ticker": "VWO",
@@ -1992,7 +2180,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vwo"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vwo",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vwo"
   },
   {
     "ticker": "VGK",
@@ -2013,7 +2203,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgk"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgk",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vgk"
   },
   {
     "ticker": "VPL",
@@ -2034,7 +2226,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vpl"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vpl",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vpl"
   },
   {
     "ticker": "VNQI",
@@ -2055,7 +2249,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vnqi"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vnqi",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vnqi"
   },
   {
     "ticker": "VIGI",
@@ -2076,7 +2272,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vigi"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vigi",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vigi"
   },
   {
     "ticker": "VYMI",
@@ -2097,7 +2295,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vymi"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vymi",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vymi"
   },
   {
     "ticker": "VXUS",
@@ -2118,7 +2318,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vxus"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vxus",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vxus"
   },
   {
     "ticker": "VT",
@@ -2139,6 +2341,8 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vt"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vt",
+    "detail_page_url": "https://investor.vanguard.com/investment-products/etfs/profile/vt"
   }
 ]

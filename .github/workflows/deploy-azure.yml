@@ -243,7 +243,7 @@ jobs:
         run: |
           docker build -t ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:${{ github.sha }} \
             -t ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:latest \
-            -f backend/Dockerfile ./backend
+            -f backend/Dockerfile .
           docker push ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:${{ github.sha }}
           docker push ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:latest
 

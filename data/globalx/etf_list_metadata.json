@@ -1,0 +1,10 @@
+{
+  "provider": "GlobalX",
+  "data_type": "etf_list",
+  "updated_at": "2025-11-29T13:18:23.981422",
+  "total_count": 204,
+  "total_size": 24643,
+  "use_msgpack": false,
+  "chunked": false,
+  "file": "etf_list.json"
+}

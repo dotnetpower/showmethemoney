@@ -18,7 +18,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dcor"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dcor",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dcor"
   },
   {
     "ticker": "DFAC",
@@ -39,7 +41,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfac"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfac",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfac"
   },
   {
     "ticker": "DFAU",
@@ -60,7 +64,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfau"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfau",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfau"
   },
   {
     "ticker": "DFUS",
@@ -81,7 +87,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfus"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfus",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfus"
   },
   {
     "ticker": "DUHP",
@@ -102,7 +110,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/duhp"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/duhp",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/duhp"
   },
   {
     "ticker": "DFLV",
@@ -123,7 +133,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dflv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dflv",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dflv"
   },
   {
     "ticker": "DFVX",
@@ -144,7 +156,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfvx"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfvx",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfvx"
   },
   {
     "ticker": "DFUV",
@@ -165,7 +179,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfuv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfuv",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfuv"
   },
   {
     "ticker": "DFAS",
@@ -186,7 +202,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfas"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfas",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfas"
   },
   {
     "ticker": "DFSV",
@@ -207,7 +225,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfsv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfsv",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfsv"
   },
   {
     "ticker": "DFSU",
@@ -228,7 +248,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfsu"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfsu",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfsu"
   },
   {
     "ticker": "DFAT",
@@ -249,7 +271,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfat"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfat",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfat"
   },
   {
     "ticker": "DXUV",
@@ -270,7 +294,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dxuv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dxuv",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dxuv"
   },
   {
     "ticker": "DFIC",
@@ -291,7 +317,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfic"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfic",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfic"
   },
   {
     "ticker": "DFAI",
@@ -312,7 +340,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfai"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfai",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfai"
   },
   {
     "ticker": "DIHP",
@@ -333,7 +363,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dihp"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dihp",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dihp"
   },
   {
     "ticker": "DFIS",
@@ -354,7 +386,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfis"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfis",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfis"
   },
   {
     "ticker": "DISV",
@@ -375,7 +409,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/disv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/disv",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/disv"
   },
   {
     "ticker": "DFSI",
@@ -396,7 +432,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfsi"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfsi",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfsi"
   },
   {
     "ticker": "DFIV",
@@ -417,7 +455,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfiv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfiv",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfiv"
   },
   {
     "ticker": "DXIV",
@@ -438,7 +478,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dxiv"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dxiv",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dxiv"
   },
   {
     "ticker": "DFAE",
@@ -459,7 +501,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfae"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfae",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfae"
   },
   {
     "ticker": "DFEM",
@@ -480,7 +524,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfem"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfem",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfem"
   },
   {
     "ticker": "DEHP",
@@ -501,7 +547,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dehp"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dehp",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dehp"
   },
   {
     "ticker": "DFSE",
@@ -522,7 +570,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfse"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfse",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfse"
   },
   {
     "ticker": "DFEV",
@@ -543,7 +593,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfev"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfev",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfev"
   },
   {
     "ticker": "DEXC",
@@ -564,7 +616,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dexc"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dexc",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dexc"
   },
   {
     "ticker": "DFAW",
@@ -585,7 +639,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfaw"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfaw",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfaw"
   },
   {
     "ticker": "DFAX",
@@ -606,7 +662,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfax"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfax",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfax"
   },
   {
     "ticker": "DFCA",
@@ -627,7 +685,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfca"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfca",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfca"
   },
   {
     "ticker": "DFCF",
@@ -648,7 +708,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfcf"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfcf",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfcf"
   },
   {
     "ticker": "DFGP",
@@ -669,7 +731,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfgp"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfgp",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfgp"
   },
   {
     "ticker": "DGCB",
@@ -690,7 +754,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dgcb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dgcb",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dgcb"
   },
   {
     "ticker": "DFSB",
@@ -711,7 +777,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfsb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfsb",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfsb"
   },
   {
     "ticker": "DFGX",
@@ -732,7 +800,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfgx"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfgx",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfgx"
   },
   {
     "ticker": "DFIP",
@@ -753,7 +823,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfip"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfip",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfip"
   },
   {
     "ticker": "DFNM",
@@ -774,7 +846,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfnm"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfnm",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfnm"
   },
   {
     "ticker": "DFSD",
@@ -795,7 +869,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfsd"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfsd",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfsd"
   },
   {
     "ticker": "DUSB",
@@ -816,7 +892,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dusb"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dusb",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dusb"
   },
   {
     "ticker": "DFGR",
@@ -837,7 +915,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfgr"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfgr",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfgr"
   },
   {
     "ticker": "DFAR",
@@ -858,6 +938,8 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfar"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://etf.dimensional.com/us/en/funds/dfar",
+    "detail_page_url": "https://etf.dimensional.com/us/en/funds/dfar"
   }
 ]

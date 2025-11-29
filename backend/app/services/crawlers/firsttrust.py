@@ -63,9 +63,9 @@ class FirstTrustCrawler(BaseCrawler):
             data_rows = table.find_all("tr")[1:]
 
             for row in data_rows:
-                etf_data = self._extract_etf_from_row(row, headers)
-                if etf_data:
-                    etfs.append(etf_data)
+                etf = self._extract_etf_from_row(row, headers)
+                if etf:
+                    etfs.append(etf)
 
         logger.info(f"Parsed {len(etfs)} ETFs from First Trust")
         return etfs
@@ -131,13 +131,14 @@ class FirstTrustCrawler(BaseCrawler):
                 if link:
                     detail_url = self.base_url + link["href"]
 
+            # Return dictionary instead of ETF model
             return {
                 "ticker": ticker,
-                "name": name,
-                "inception_date": inception_date,
-                "nav": nav,
-                "expense_ratio": expense_ratio,
-                "detail_url": detail_url,
+                "fund_name": name,
+                "inception_date": inception_date.isoformat() if inception_date else None,
+                "nav_amount": float(nav) if nav else None,
+                "expense_ratio": float(expense_ratio) if expense_ratio else None,
+                "detail_page_url": detail_url,
             }
 
         except Exception as e:

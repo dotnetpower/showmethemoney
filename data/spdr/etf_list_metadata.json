@@ -1,9 +1,9 @@
 {
   "provider": "SPDR",
   "data_type": "etf_list",
-  "updated_at": "2025-11-29T11:16:56.898137",
+  "updated_at": "2025-11-29T13:18:22.762739",
   "total_count": 176,
-  "total_size": 124036,
+  "total_size": 152557,
   "use_msgpack": false,
   "chunked": false,
   "file": "etf_list.json"

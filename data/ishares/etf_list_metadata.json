@@ -1,9 +1,9 @@
 {
   "provider": "IShares",
   "data_type": "etf_list",
-  "updated_at": "2025-11-29T11:13:41.480927",
+  "updated_at": "2025-11-29T13:18:24.297488",
   "total_count": 513,
-  "total_size": 346269,
+  "total_size": 410219,
   "use_msgpack": false,
   "chunked": false,
   "file": "etf_list.json"

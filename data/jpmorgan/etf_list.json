@@ -18,7 +18,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "7.24",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JEPI"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JEPI",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JEPI"
   },
   {
     "ticker": "JPST",
@@ -39,7 +41,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.07",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPST"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPST",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPST"
   },
   {
     "ticker": "JEPQ",
@@ -60,7 +64,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "9.74",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JEPQ"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JEPQ",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JEPQ"
   },
   {
     "ticker": "BBJP",
@@ -81,7 +87,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.8800000000000001",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBJP"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBJP",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBJP"
   },
   {
     "ticker": "JIRE",
@@ -102,7 +110,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.68",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JIRE"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JIRE",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JIRE"
   },
   {
     "ticker": "BBCA",
@@ -123,7 +133,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.17",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBCA"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBCA",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBCA"
   },
   {
     "ticker": "JCPB",
@@ -144,7 +156,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.62",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JCPB"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JCPB",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JCPB"
   },
   {
     "ticker": "BBEU",
@@ -165,7 +179,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.11",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBEU"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBEU",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBEU"
   },
   {
     "ticker": "JGRO",
@@ -186,7 +202,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.09",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JGRO"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JGRO",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JGRO"
   },
   {
     "ticker": "JQUA",
@@ -207,7 +225,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.0999999999999999",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JQUA"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JQUA",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JQUA"
   },
   {
     "ticker": "JGLO",
@@ -228,7 +248,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.08",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JGLO"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JGLO",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JGLO"
   },
   {
     "ticker": "BBUS",
@@ -249,7 +271,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.09",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBUS"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBUS",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBUS"
   },
   {
     "ticker": "JPIE",
@@ -270,7 +294,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "5.56",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPIE"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPIE",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPIE"
   },
   {
     "ticker": "JMTG",
@@ -291,7 +317,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.7699999999999996",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMTG"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMTG",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMTG"
   },
   {
     "ticker": "JMUB",
@@ -312,7 +340,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.52",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMUB"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMUB",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMUB"
   },
   {
     "ticker": "BBIN",
@@ -333,7 +363,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.8899999999999997",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBIN"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBIN",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBIN"
   },
   {
     "ticker": "JMST",
@@ -354,7 +386,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.6100000000000003",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMST"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMST",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMST"
   },
   {
     "ticker": "BBAX",
@@ -375,7 +409,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.2199999999999998",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBAX"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBAX",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBAX"
   },
   {
     "ticker": "JAVA",
@@ -396,7 +432,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.44",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JAVA"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JAVA",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JAVA"
   },
   {
     "ticker": "JBND",
@@ -417,7 +455,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.21",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JBND"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JBND",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JBND"
   },
   {
     "ticker": "HELO",
@@ -438,7 +478,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.61",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/HELO"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/HELO",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/HELO"
   },
   {
     "ticker": "JTEK",
@@ -459,7 +501,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": null,
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JTEK"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JTEK",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JTEK"
   },
   {
     "ticker": "JPLD",
@@ -480,7 +524,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.2700000000000005",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPLD"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPLD",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPLD"
   },
   {
     "ticker": "JPHY",
@@ -501,7 +547,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "5.949999999999999",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPHY"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPHY",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPHY"
   },
   {
     "ticker": "JMEE",
@@ -522,7 +570,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.2",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMEE"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMEE",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMEE"
   },
   {
     "ticker": "BBMC",
@@ -543,7 +593,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.24",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBMC"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBMC",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBMC"
   },
   {
     "ticker": "JMOM",
@@ -564,7 +616,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.8",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMOM"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMOM",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMOM"
   },
   {
     "ticker": "JPEF",
@@ -585,7 +639,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.62",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPEF"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPEF",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPEF"
   },
   {
     "ticker": "JPIB",
@@ -606,7 +662,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.49",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPIB"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPIB",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPIB"
   },
   {
     "ticker": "BBAG",
@@ -627,7 +685,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.08",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBAG"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBAG",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBAG"
   },
   {
     "ticker": "JEMA",
@@ -648,7 +708,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.8399999999999999",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JEMA"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JEMA",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JEMA"
   },
   {
     "ticker": "JFLX",
@@ -669,7 +731,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.7",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JFLX"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JFLX",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JFLX"
   },
   {
     "ticker": "JSCP",
@@ -690,7 +754,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.36",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JSCP"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JSCP",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JSCP"
   },
   {
     "ticker": "BBRE",
@@ -711,7 +777,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.03",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBRE"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBRE",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBRE"
   },
   {
     "ticker": "JIVE",
@@ -732,7 +800,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.38",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JIVE"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JIVE",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JIVE"
   },
   {
     "ticker": "JCPI",
@@ -753,7 +823,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.05",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JCPI"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JCPI",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JCPI"
   },
   {
     "ticker": "BBEM",
@@ -774,7 +846,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.0",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBEM"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBEM",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBEM"
   },
   {
     "ticker": "BBHY",
@@ -795,7 +869,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "6.94",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBHY"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBHY",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBHY"
   },
   {
     "ticker": "BBSC",
@@ -816,7 +892,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.18",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBSC"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBSC",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBSC"
   },
   {
     "ticker": "JVAL",
@@ -837,7 +915,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.9300000000000002",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JVAL"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JVAL",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JVAL"
   },
   {
     "ticker": "JPSE",
@@ -858,7 +938,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.5599999999999998",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPSE"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPSE",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPSE"
   },
   {
     "ticker": "JPRE",
@@ -879,7 +961,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.97",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPRE"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPRE",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPRE"
   },
   {
     "ticker": "JPUS",
@@ -900,7 +984,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.18",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPUS"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPUS",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPUS"
   },
   {
     "ticker": "JPME",
@@ -921,7 +1007,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.02",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPME"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPME",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPME"
   },
   {
     "ticker": "JPIN",
@@ -942,7 +1030,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.9899999999999998",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPIN"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPIN",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPIN"
   },
   {
     "ticker": "JPEM",
@@ -963,7 +1053,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.58",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPEM"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPEM",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPEM"
   },
   {
     "ticker": "JMSI",
@@ -984,7 +1076,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.52",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMSI"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMSI",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMSI"
   },
   {
     "ticker": "JIG",
@@ -1005,7 +1099,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.8099999999999999",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JIG"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JIG",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JIG"
   },
   {
     "ticker": "HOLA",
@@ -1026,7 +1122,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "2.45",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/HOLA"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/HOLA",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/HOLA"
   },
   {
     "ticker": "JMHI",
@@ -1047,7 +1145,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.2700000000000005",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMHI"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMHI",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JMHI"
   },
   {
     "ticker": "LVDS",
@@ -1068,7 +1168,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.37",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/LVDS"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/LVDS",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/LVDS"
   },
   {
     "ticker": "JPMB",
@@ -1089,7 +1191,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "5.5",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPMB"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPMB",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPMB"
   },
   {
     "ticker": "JOYT",
@@ -1110,7 +1214,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.83",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JOYT"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JOYT",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JOYT"
   },
   {
     "ticker": "BBCB",
@@ -1131,7 +1237,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.72",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBCB"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBCB",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBCB"
   },
   {
     "ticker": "JFLI",
@@ -1152,7 +1260,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "6.59",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JFLI"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JFLI",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JFLI"
   },
   {
     "ticker": "HEQQ",
@@ -1173,7 +1283,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.2",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/HEQQ"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/HEQQ",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/HEQQ"
   },
   {
     "ticker": "BBSB",
@@ -1194,7 +1306,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.54",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBSB"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBSB",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBSB"
   },
   {
     "ticker": "JUSA",
@@ -1215,7 +1329,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.89",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JUSA"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JUSA",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JUSA"
   },
   {
     "ticker": "BBIB",
@@ -1236,7 +1352,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "3.71",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBIB"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBIB",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBIB"
   },
   {
     "ticker": "JPSV",
@@ -1257,7 +1375,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.53",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPSV"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPSV",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JPSV"
   },
   {
     "ticker": "JADE",
@@ -1278,7 +1398,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.71",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JADE"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JADE",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JADE"
   },
   {
     "ticker": "JCHI",
@@ -1299,7 +1421,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.66",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JCHI"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JCHI",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JCHI"
   },
   {
     "ticker": "LCDS",
@@ -1320,7 +1444,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.83",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/LCDS"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/LCDS",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/LCDS"
   },
   {
     "ticker": "JDIV",
@@ -1341,7 +1467,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.68",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JDIV"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JDIV",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JDIV"
   },
   {
     "ticker": "JDOC",
@@ -1362,7 +1490,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.8500000000000001",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JDOC"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JDOC",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/JDOC"
   },
   {
     "ticker": "SCDS",
@@ -1383,7 +1513,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "0.96",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/SCDS"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/SCDS",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/SCDS"
   },
   {
     "ticker": "MCDS",
@@ -1404,7 +1536,9 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "1.13",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/MCDS"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/MCDS",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/MCDS"
   },
   {
     "ticker": "BBLB",
@@ -1425,6 +1559,8 @@
     "region": "North America",
     "market_type": "Developed",
     "distribution_yield": "4.7",
-    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBLB"
+    "distribution_frequency": "Unknown",
+    "product_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBLB",
+    "detail_page_url": "https://am.jpmorgan.com/us/en/asset-management/adv/products/etfs/BBLB"
   }
 ]
