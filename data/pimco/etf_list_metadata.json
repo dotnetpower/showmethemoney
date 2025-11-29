@@ -1,10 +1,5 @@
 {
   "provider": "PIMCO",
-  "data_type": "etf_list",
-  "updated_at": "2025-11-29T16:24:03.747313",
-  "total_count": 23,
-  "total_size": 17146,
-  "use_msgpack": false,
-  "chunked": false,
-  "file": "etf_list.json"
+  "updated_at": "2025-11-29T17:18:15.626156",
+  "total_count": 23
 }
