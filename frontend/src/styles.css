@@ -1,13 +1,353 @@
+/* CSS 변수 - 라이트/다크 테마 */
 :root {
   font-family: "Pretendard", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #0f172a;
-  color: #f8fafc;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-tertiary: #f1f5f9;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --border-color: #e2e8f0;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --positive: #059669;
+  --negative: #dc2626;
+  --accent: #3b82f6;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --border-color: #334155;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --positive: #10b981;
+  --negative: #ef4444;
+  --accent: #60a5fa;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   margin: 0;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* 앱 컨테이너 */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 헤더 */
+.app-header {
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 4px var(--shadow);
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.theme-toggle {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+.theme-toggle:active {
+  transform: scale(0.95);
+}
+
+/* 메인 콘텐츠 */
+.app-main {
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* 네비게이션 */
+.navigation {
+  margin-bottom: 1.5rem;
+}
+
+.menu-toggle {
+  display: none;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  flex: 1;
+  min-width: 100px;
+}
+
+.nav-link {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.nav-link:hover {
+  background: var(--bg-tertiary);
+  border-color: var(--accent);
+}
+
+.nav-link.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+/* 카드 */
+.card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px var(--shadow);
+  margin-bottom: 1rem;
+}
+
+.card h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+/* ETF 테이블 */
+.table-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.etf-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.etf-table th {
+  background: var(--bg-tertiary);
+  padding: 0.75rem 0.5rem;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-secondary);
+  border-bottom: 2px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  white-space: nowrap;
+}
+
+.etf-table td {
+  padding: 0.75rem 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.etf-table tr:hover {
+  background: var(--bg-tertiary);
+}
+
+.etf-table .ticker {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.etf-table .name-kr {
+  font-weight: 500;
+  min-width: 150px;
+}
+
+.etf-table .price {
+  font-weight: 600;
+  text-align: right;
+}
+
+.etf-table .change {
+  text-align: right;
+  font-weight: 600;
+}
+
+.etf-table .change.positive {
+  color: var(--positive);
+}
+
+.etf-table .change.negative {
+  color: var(--negative);
+}
+
+.etf-table .change-percent {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+.etf-table .dividend {
+  text-align: right;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.etf-table .last-dividend {
+  text-align: right;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+}
+
+/* 콘텐츠 영역 */
+.content-area {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 모바일 최적화 */
+@media (max-width: 768px) {
+  .app-title {
+    font-size: 1rem;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .nav-item {
+    flex: none;
+    width: 100%;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .etf-table {
+    font-size: 0.75rem;
+  }
+
+  .etf-table th,
+  .etf-table td {
+    padding: 0.5rem 0.25rem;
+  }
+
+  .etf-table .name-kr {
+    min-width: 120px;
+    font-size: 0.8rem;
+  }
+}
+
+/* 태블릿 */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .app-main {
+    padding: 1.5rem;
+  }
+
+  .nav-menu {
+    justify-content: center;
+  }
+}
+
+/* 데스크탑 */
+@media (min-width: 1025px) {
+  .app-main {
+    padding: 2rem;
+  }
+
+  .etf-table {
+    font-size: 0.9rem;
+  }
+}
+
+/* 기존 스타일 통합 */
 main.layout {
   max-width: 1200px;
   margin: 0 auto;
@@ -22,13 +362,6 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1rem;
-}
-
-.card {
-  background: #111827;
-  border-radius: 1rem;
-  padding: 1rem;
-  box-shadow: 0 20px 25px -5px rgb(15 23 42 / 0.25);
 }
 
 .two-column {

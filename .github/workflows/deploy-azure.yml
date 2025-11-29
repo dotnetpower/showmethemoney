@@ -315,7 +315,19 @@ jobs:
           az containerapp update \
             --name ca-showmethemoney-backend-${{ env.ENVIRONMENT }} \
             --resource-group ${{ env.RESOURCE_GROUP }} \
-            --image ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:${{ github.sha }}
+            --image ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:${{ github.sha }} \
+            --set-env-vars \
+              APPLICATIONINSIGHTS_CONNECTION_STRING=secretref:appinsights-connection-string \
+              GITHUB_TOKEN=secretref:github-token \
+              GITHUB_REPO_OWNER=dotnetpower \
+              GITHUB_REPO_NAME=showmethemoney
+          
+          # Ingress 설정 확인 및 업데이트
+          az containerapp ingress update \
+            --name ca-showmethemoney-backend-${{ env.ENVIRONMENT }} \
+            --resource-group ${{ env.RESOURCE_GROUP }} \
+            --target-port 8000 \
+            --type external
 
   deploy-frontend:
     name: Deploy Frontend to Container Apps
@@ -338,10 +350,21 @@ jobs:
 
       - name: Deploy Frontend Container App
         run: |
+          BACKEND_FQDN=$(az containerapp show --name ca-showmethemoney-backend-${{ env.ENVIRONMENT }} --resource-group ${{ env.RESOURCE_GROUP }} --query properties.configuration.ingress.fqdn -o tsv)
+          
           az containerapp update \
             --name ca-showmethemoney-frontend-${{ env.ENVIRONMENT }} \
             --resource-group ${{ env.RESOURCE_GROUP }} \
-            --image ${{ needs.setup-infrastructure.outputs.acr_login_server }}/frontend:${{ github.sha }}
+            --image ${{ needs.setup-infrastructure.outputs.acr_login_server }}/frontend:${{ github.sha }} \
+            --set-env-vars \
+              REACT_APP_API_URL="https://${BACKEND_FQDN}"
+          
+          # Ingress 설정 확인 및 업데이트
+          az containerapp ingress update \
+            --name ca-showmethemoney-frontend-${{ env.ENVIRONMENT }} \
+            --resource-group ${{ env.RESOURCE_GROUP }} \
+            --target-port 80 \
+            --type external
 
   verify-deployment:
     name: Verify Deployment

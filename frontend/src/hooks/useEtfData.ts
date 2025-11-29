@@ -4,8 +4,12 @@ import { fetchUsers } from "../services/userApi";
 export interface DashboardDataset {
   etfs: Array<{
     ticker: string;
+    nameKr: string;
     price: number;
+    priceChange: number;
+    priceChangePercent: number;
     dividendYield: number;
+    lastDividendDate: string;
     marketCap: number;
   }>;
   dividendByWeekday: Array<{ day: string; symbols: string[] }>;
@@ -17,15 +21,33 @@ const defaultData: DashboardDataset = {
   etfs: [
     {
       ticker: "SPY",
+      nameKr: "S&P 500 ETF",
       price: 560.22,
+      priceChange: 5.32,
+      priceChangePercent: 0.96,
       dividendYield: 0.014,
+      lastDividendDate: "2024-12-20",
       marketCap: 450_000_000_000,
     },
     {
       ticker: "QQQ",
+      nameKr: "나스닥 100 ETF",
       price: 482.12,
+      priceChange: -2.15,
+      priceChangePercent: -0.44,
       dividendYield: 0.009,
+      lastDividendDate: "2024-12-18",
       marketCap: 220_000_000_000,
+    },
+    {
+      ticker: "JEPI",
+      nameKr: "JP모건 주식 프리미엄 인컴",
+      price: 58.45,
+      priceChange: 0.12,
+      priceChangePercent: 0.21,
+      dividendYield: 0.074,
+      lastDividendDate: "2024-12-23",
+      marketCap: 35_000_000_000,
     },
   ],
   dividendByWeekday: [
