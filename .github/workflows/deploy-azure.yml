@@ -319,14 +319,19 @@ jobs:
           ACR_USERNAME=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query username -o tsv)
           ACR_PASSWORD=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query passwords[0].value -o tsv)
           
+          # Registry 설정 (이미 설정되어 있으면 에러 무시)
+          az containerapp registry set \
+            --name ca-showmethemoney-backend-${{ env.ENVIRONMENT }} \
+            --resource-group ${{ env.RESOURCE_GROUP }} \
+            --server $ACR_LOGIN_SERVER \
+            --username $ACR_USERNAME \
+            --password $ACR_PASSWORD || true
+          
           # Container App 업데이트
           az containerapp update \
             --name ca-showmethemoney-backend-${{ env.ENVIRONMENT }} \
             --resource-group ${{ env.RESOURCE_GROUP }} \
             --image ${{ needs.setup-infrastructure.outputs.acr_login_server }}/backend:${{ github.sha }} \
-            --registry-server $ACR_LOGIN_SERVER \
-            --registry-username $ACR_USERNAME \
-            --registry-password $ACR_PASSWORD \
             --set-env-vars \
               APPLICATIONINSIGHTS_CONNECTION_STRING=secretref:appinsights-connection-string \
               GITHUB_TOKEN=secretref:github-token \
@@ -368,6 +373,14 @@ jobs:
           ACR_USERNAME=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query username -o tsv)
           ACR_PASSWORD=$(az acr credential show --name $ACR_NAME --resource-group ${{ env.RESOURCE_GROUP }} --query passwords[0].value -o tsv)
           
+          # Registry 설정 (이미 설정되어 있으면 에러 무시)
+          az containerapp registry set \
+            --name ca-showmethemoney-frontend-${{ env.ENVIRONMENT }} \
+            --resource-group ${{ env.RESOURCE_GROUP }} \
+            --server $ACR_LOGIN_SERVER \
+            --username $ACR_USERNAME \
+            --password $ACR_PASSWORD || true
+          
           # 백엔드 FQDN 가져오기
           BACKEND_FQDN=$(az containerapp show --name ca-showmethemoney-backend-${{ env.ENVIRONMENT }} --resource-group ${{ env.RESOURCE_GROUP }} --query properties.configuration.ingress.fqdn -o tsv)
           
@@ -376,9 +389,6 @@ jobs:
             --name ca-showmethemoney-frontend-${{ env.ENVIRONMENT }} \
             --resource-group ${{ env.RESOURCE_GROUP }} \
             --image ${{ needs.setup-infrastructure.outputs.acr_login_server }}/frontend:${{ github.sha }} \
-            --registry-server $ACR_LOGIN_SERVER \
-            --registry-username $ACR_USERNAME \
-            --registry-password $ACR_PASSWORD \
             --set-env-vars \
               REACT_APP_API_URL="https://${BACKEND_FQDN}"
           
