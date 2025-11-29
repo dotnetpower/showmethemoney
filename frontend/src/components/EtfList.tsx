@@ -28,18 +28,25 @@ const EtfList = () => {
     const loadETFs = async () => {
       try {
         setLoading(true);
+        setError(null);
         console.log("Fetching ETFs from API...");
         const data = await getAllETFs();
-        console.log(`Loaded ${data.length} ETFs:`, data.slice(0, 3));
+        console.log(`Loaded ${data.length} ETFs`);
+        if (data.length > 0) {
+          console.log("Sample ETF:", data[0]);
+        } else {
+          console.warn("API returned empty array");
+        }
         setEtfs(data);
-        setError(null);
       } catch (err) {
         console.error("Error loading ETFs:", err);
-        setError(
+        const errorMessage =
           err instanceof Error
             ? err.message
-            : "ETF 데이터를 불러오는데 실패했습니다."
-        );
+            : "ETF 데이터를 불러오는데 실패했습니다.";
+        setError(errorMessage);
+        // 에러 발생 시 빈 배열로 설정
+        setEtfs([]);
       } finally {
         setLoading(false);
       }

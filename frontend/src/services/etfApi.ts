@@ -75,11 +75,21 @@ const API_BASE_URL =
  */
 export async function getAllETFs(): Promise<ETF[]> {
   try {
+    console.log(`API URL: ${API_BASE_URL}/api/v1/etf/all`);
     const response = await fetch(`${API_BASE_URL}/api/v1/etf/all`);
     if (!response.ok) {
       throw new Error(`Failed to fetch ETFs: ${response.statusText}`);
     }
-    return await response.json();
+    const data = await response.json();
+
+    // 응답 데이터 검증
+    if (!Array.isArray(data)) {
+      console.error("API response is not an array:", data);
+      throw new Error("Invalid API response: expected an array");
+    }
+
+    console.log(`API returned ${data.length} ETFs`);
+    return data;
   } catch (error) {
     console.error("Error fetching ETFs:", error);
     throw error;
@@ -111,13 +121,16 @@ export async function simulateDividend(
   request: DividendSimulationRequest
 ): Promise<DividendSimulationResult> {
   try {
-    const response = await fetch(`${API_BASE_URL}/api/v1/etf/simulate-dividend`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(request),
-    });
+    const response = await fetch(
+      `${API_BASE_URL}/api/v1/etf/simulate-dividend`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(request),
+      }
+    );
     if (!response.ok) {
       throw new Error(`Failed to simulate dividend: ${response.statusText}`);
     }

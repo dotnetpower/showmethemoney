@@ -74,16 +74,23 @@ export const useEtfData = () => {
       setLoading(true);
       try {
         const users = await fetchUsers();
-        if (users.length) {
-          setData((prev: DashboardDataset) => ({
-            ...prev,
-            dividendByWeekday: prev.dividendByWeekday.map((item) => ({
-              ...item,
-              symbols: Array.from(
-                new Set([...item.symbols, ...users[0].favorite_etfs])
-              ),
-            })),
-          }));
+        if (users.length && users[0]) {
+          // favorite_etfs가 배열인지 확인
+          const favoriteEtfs = Array.isArray(users[0].favorite_etfs)
+            ? users[0].favorite_etfs
+            : [];
+
+          if (favoriteEtfs.length > 0) {
+            setData((prev: DashboardDataset) => ({
+              ...prev,
+              dividendByWeekday: prev.dividendByWeekday.map((item) => ({
+                ...item,
+                symbols: Array.from(
+                  new Set([...item.symbols, ...favoriteEtfs])
+                ),
+              })),
+            }));
+          }
         }
       } catch (error) {
         console.warn("사용자 데이터를 불러오지 못했습니다", error);
