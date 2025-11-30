@@ -1,5 +1,6 @@
 """데이터 관리 서비스 - GitHub repo를 DB로 사용"""
 import json
+import logging
 import re
 from datetime import datetime
 from pathlib import Path
@@ -8,6 +9,9 @@ from typing import Any, Dict, List, Optional, Sequence
 import msgpack
 from app.core.config import get_settings
 from pydantic import BaseModel
+
+# 모듈 레벨 로거 설정
+logger = logging.getLogger(__name__)
 
 
 class DataManager:
@@ -20,9 +24,34 @@ class DataManager:
     SAFE_NAME_PATTERN = re.compile(r'^[a-zA-Z0-9][a-zA-Z0-9_ -]*$')
     
     def __init__(self):
+        logger.info("[DataManager] Initializing DataManager")
         self.settings = get_settings()
         self.data_dir = self.settings.github_data_dir
-        self.data_dir.mkdir(parents=True, exist_ok=True)
+        
+        logger.info(f"[DataManager] Data directory: {self.data_dir}")
+        logger.info(f"[DataManager] Data directory exists: {self.data_dir.exists()}")
+        
+        # 디렉토리가 없으면 생성
+        if not self.data_dir.exists():
+            logger.warning(f"[DataManager] Data directory does not exist, creating: {self.data_dir}")
+            try:
+                self.data_dir.mkdir(parents=True, exist_ok=True)
+                logger.info(f"[DataManager] Created data directory: {self.data_dir}")
+            except Exception as e:
+                logger.error(f"[DataManager] Failed to create data directory: {e}")
+                raise
+        else:
+            # 디렉토리 내용 로깅
+            try:
+                items = list(self.data_dir.iterdir())
+                subdirs = [item for item in items if item.is_dir()]
+                files = [item for item in items if item.is_file()]
+                logger.info(f"[DataManager] Data directory has {len(subdirs)} subdirs, {len(files)} files")
+                logger.info(f"[DataManager] Subdirectories: {[d.name for d in subdirs[:10]]}")
+                if len(subdirs) > 10:
+                    logger.info(f"[DataManager]   ... and {len(subdirs) - 10} more subdirs")
+            except Exception as e:
+                logger.error(f"[DataManager] Error listing data directory: {e}")
     
     def _sanitize_name(self, name: str) -> str:
         """
@@ -224,31 +253,62 @@ class DataManager:
         Returns:
             데이터 리스트
         """
+        logger.debug(f"[DataManager] Loading data for provider={provider_name}, data_type={data_type}")
+        
         # 메타데이터 로드
         metadata_path = self._get_metadata_path(provider_name, data_type)
+        logger.debug(f"[DataManager] Metadata path: {metadata_path}")
+        logger.debug(f"[DataManager] Metadata path exists: {metadata_path.exists()}")
+        
         if not metadata_path.exists():
+            logger.debug(f"[DataManager] Metadata not found for {provider_name}/{data_type}")
+            # 프로바이더 디렉토리 존재 여부 확인
+            provider_dir = self.data_dir / self._sanitize_name(provider_name)
+            logger.debug(f"[DataManager] Provider dir: {provider_dir}, exists: {provider_dir.exists()}")
+            if provider_dir.exists():
+                try:
+                    contents = list(provider_dir.iterdir())
+                    logger.debug(f"[DataManager] Provider dir contents: {[f.name for f in contents]}")
+                except Exception as e:
+                    logger.error(f"[DataManager] Error listing provider dir: {e}")
             return []
         
-        metadata = json.loads(metadata_path.read_text())
-        use_msgpack = metadata.get("use_msgpack", False)
-        
-        # 분할된 데이터인 경우
-        if metadata.get("chunked", False):
-            all_data = []
-            chunk_count = metadata["chunk_count"]
+        try:
+            metadata = json.loads(metadata_path.read_text())
+            use_msgpack = metadata.get("use_msgpack", False)
+            logger.debug(f"[DataManager] Loaded metadata: chunked={metadata.get('chunked')}, total_count={metadata.get('total_count')}")
             
-            for i in range(chunk_count):
-                file_path = self._get_file_path(provider_name, data_type, use_msgpack, i)
-                if file_path.exists():
-                    chunk_data = self._deserialize_data(file_path.read_bytes(), use_msgpack)
-                    all_data.extend(chunk_data)
-            
-            return all_data
-        else:
-            # 단일 파일인 경우
-            file_path = self._get_file_path(provider_name, data_type, use_msgpack)
-            if file_path.exists():
-                return self._deserialize_data(file_path.read_bytes(), use_msgpack)
+            # 분할된 데이터인 경우
+            if metadata.get("chunked", False):
+                all_data = []
+                chunk_count = metadata["chunk_count"]
+                logger.debug(f"[DataManager] Loading {chunk_count} chunks")
+                
+                for i in range(chunk_count):
+                    file_path = self._get_file_path(provider_name, data_type, use_msgpack, i)
+                    file_exists = file_path.exists()
+                    logger.debug(f"[DataManager] Chunk {i} path: {file_path}, exists: {file_exists}")
+                    if file_exists:
+                        chunk_data = self._deserialize_data(file_path.read_bytes(), use_msgpack)
+                        all_data.extend(chunk_data)
+                        logger.debug(f"[DataManager] Loaded chunk {i} with {len(chunk_data)} items")
+                
+                logger.info(f"[DataManager] Loaded total {len(all_data)} items for {provider_name}/{data_type}")
+                return all_data
+            else:
+                # 단일 파일인 경우
+                file_path = self._get_file_path(provider_name, data_type, use_msgpack)
+                file_exists = file_path.exists()
+                logger.debug(f"[DataManager] Single file path: {file_path}, exists: {file_exists}")
+                if file_exists:
+                    data = self._deserialize_data(file_path.read_bytes(), use_msgpack)
+                    logger.info(f"[DataManager] Loaded {len(data)} items for {provider_name}/{data_type}")
+                    return data
+                else:
+                    logger.warning(f"[DataManager] Data file not found: {file_path}")
+                return []
+        except Exception as e:
+            logger.error(f"[DataManager] Error loading data for {provider_name}/{data_type}: {e}", exc_info=True)
             return []
     
     async def get_metadata(self, provider_name: str, data_type: str) -> Optional[Dict]:
