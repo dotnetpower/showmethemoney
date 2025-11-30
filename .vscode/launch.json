@@ -87,7 +87,12 @@
       "url": "http://localhost:5173",
       "webRoot": "${workspaceFolder}/frontend/src",
       "userDataDir": "${workspaceFolder}/.vscode/chrome-debug",
-      "preLaunchTask": "Frontend: Start Dev Server"
+      "preLaunchTask": "Frontend: Start Dev Server",
+      "serverReadyAction": {
+        "pattern": "Local:.+(https?://\\S+)",
+        "uriFormat": "%s",
+        "action": "debugWithChrome"
+      }
     }
   ],
   "compounds": [
