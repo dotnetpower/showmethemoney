@@ -173,7 +173,7 @@ jobs:
                 GITHUB_TOKEN=secretref:github-token \
                 GITHUB_REPO_OWNER=dotnetpower \
                 GITHUB_REPO_NAME=showmethemoney \
-                CORS_ORIGINS="https://${FRONTEND_FQDN},http://localhost:3000,http://localhost:5173" \
+                CORS_ORIGINS="https://${FRONTEND_FQDN},https://www.showmethedollar.kr,http://localhost:3000,http://localhost:5173" \
                 DATA_DIR=/app/data \
               --cpu 0.5 \
               --memory 1Gi \
@@ -401,7 +401,7 @@ jobs:
               GITHUB_TOKEN=secretref:github-token \
               GITHUB_REPO_OWNER=dotnetpower \
               GITHUB_REPO_NAME=showmethemoney \
-              CORS_ORIGINS="https://${FRONTEND_FQDN},http://localhost:3000,http://localhost:5173" \
+              CORS_ORIGINS="https://${FRONTEND_FQDN},https://www.showmethedollar.kr,http://localhost:3000,http://localhost:5173" \
               DATA_DIR=/app/data
           
           # Ingress 설정 확인 및 업데이트

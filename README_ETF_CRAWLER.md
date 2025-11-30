@@ -43,6 +43,21 @@ data/
     └── ...
 ```
 
+## 지원 크롤러
+
+### 운용사 크롤러
+- **iShares** (BlackRock)
+- **Vanguard**
+- **Invesco**
+- **SPDR** (State Street)
+- **First Trust**
+- **Franklin Templeton**
+- **JP Morgan**
+- **Goldman Sachs**
+- **Roundhill**
+- **YieldMax**
+- **Dimensional Fund Advisors**
+
 ## 주요 컴포넌트
 
 ### 1. BaseCrawler (기본 크롤러 인터페이스)
