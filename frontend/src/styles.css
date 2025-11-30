@@ -4,6 +4,18 @@
   font-size: 16px;
   line-height: 1.6;
   --app-header-height: 64px;
+  
+  /* 기본 다크 테마 색상 (깜빡임 방지) */
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --border-color: #334155;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --positive: #10b981;
+  --negative: #ef4444;
+  --accent: #60a5fa;
 }
 
 [data-theme="light"] {

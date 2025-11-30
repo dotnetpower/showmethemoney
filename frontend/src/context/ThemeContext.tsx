@@ -21,10 +21,8 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
     if (saved === "light" || saved === "dark") {
       return saved;
     }
-    // localStorage에 저장된 값이 없으면 시스템 테마 사용
-    return window.matchMedia("(prefers-color-scheme: dark)").matches
-      ? "dark"
-      : "light";
+    // localStorage에 저장된 값이 없으면 기본값으로 dark 테마 사용
+    return "dark";
   });
 
   // 시스템 테마가 변경될 때 자동으로 반영 (사용자가 수동으로 설정하지 않은 경우)

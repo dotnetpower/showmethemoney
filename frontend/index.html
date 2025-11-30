@@ -1,9 +1,24 @@
 <!doctype html>
-<html lang="ko">
+<html lang="ko" style="background-color: #0f172a;">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>show-me-the-money</title>
+    <style>
+      /* FOUC 방지를 위한 즉시 적용 스타일 */
+      html, body {
+        background-color: #0f172a;
+        color: #f8fafc;
+      }
+    </style>
+    <script>
+      // FOUC(Flash of Unstyled Content) 방지: React 로드 전에 테마 적용
+      (function() {
+        const savedTheme = localStorage.getItem('theme');
+        const theme = savedTheme || 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

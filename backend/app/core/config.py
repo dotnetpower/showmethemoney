@@ -35,7 +35,8 @@ DEFAULT_CORS_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://127.0.0.1:5173",
     "https://www.showmethedollar.kr",  # 프로덕션 프론트엔드
-    "https://*.azurecontainerapps.io",  # Azure Container Apps
+    "https://ca-showmethemoney-frontend-dev.bravewater-46e243b4.koreacentral.azurecontainerapps.io",  # Azure Container Apps Frontend
+    "https://ca-showmethemoney-backend-dev.bravewater-46e243b4.koreacentral.azurecontainerapps.io",  # Azure Container Apps Backend
 ]
 
 
