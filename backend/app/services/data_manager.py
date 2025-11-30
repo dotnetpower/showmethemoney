@@ -286,8 +286,9 @@ class DataManager:
                 
                 for i in range(chunk_count):
                     file_path = self._get_file_path(provider_name, data_type, use_msgpack, i)
-                    logger.debug(f"[DataManager] Chunk {i} path: {file_path}, exists: {file_path.exists()}")
-                    if file_path.exists():
+                    file_exists = file_path.exists()
+                    logger.debug(f"[DataManager] Chunk {i} path: {file_path}, exists: {file_exists}")
+                    if file_exists:
                         chunk_data = self._deserialize_data(file_path.read_bytes(), use_msgpack)
                         all_data.extend(chunk_data)
                         logger.debug(f"[DataManager] Loaded chunk {i} with {len(chunk_data)} items")
@@ -297,8 +298,9 @@ class DataManager:
             else:
                 # 단일 파일인 경우
                 file_path = self._get_file_path(provider_name, data_type, use_msgpack)
-                logger.debug(f"[DataManager] Single file path: {file_path}, exists: {file_path.exists()}")
-                if file_path.exists():
+                file_exists = file_path.exists()
+                logger.debug(f"[DataManager] Single file path: {file_path}, exists: {file_exists}")
+                if file_exists:
                     data = self._deserialize_data(file_path.read_bytes(), use_msgpack)
                     logger.info(f"[DataManager] Loaded {len(data)} items for {provider_name}/{data_type}")
                     return data

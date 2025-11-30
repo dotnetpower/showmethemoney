@@ -10,6 +10,9 @@ from pydantic_settings import BaseSettings
 # 모듈 레벨 로거 설정
 logger = logging.getLogger(__name__)
 
+# 디렉토리 상세 로깅이 이미 수행되었는지 추적하는 플래그
+_data_dir_logged = False
+
 
 def _get_local_data_dir() -> Path:
     """
@@ -54,43 +57,52 @@ class Settings(BaseSettings):
         
         Docker 환경에서는 DATA_DIR 환경변수가 반드시 설정되어야 합니다.
         """
+        global _data_dir_logged
+        
         if self.data_dir:
             data_path = Path(self.data_dir)
-            logger.info(f"[Config] Using DATA_DIR from env: {data_path}")
         else:
             data_path = _get_local_data_dir()
-            logger.info(f"[Config] Using calculated local data dir: {data_path}")
         
-        # 디렉토리 존재 여부 확인 및 상세 로깅
-        logger.info(f"[Config] Data directory path: {data_path}")
-        logger.info(f"[Config] Data directory exists: {data_path.exists()}")
-        logger.info(f"[Config] Data directory is_dir: {data_path.is_dir() if data_path.exists() else 'N/A'}")
-        
-        if data_path.exists() and data_path.is_dir():
-            try:
-                items = list(data_path.iterdir())
-                logger.info(f"[Config] Data directory contents count: {len(items)}")
-                # 처음 5개 항목만 로깅
-                for item in items[:5]:
-                    logger.info(f"[Config]   - {item.name} (is_dir: {item.is_dir()})")
-                if len(items) > 5:
-                    logger.info(f"[Config]   ... and {len(items) - 5} more items")
-            except PermissionError as e:
-                logger.error(f"[Config] Permission error reading data directory: {e}")
-            except Exception as e:
-                logger.error(f"[Config] Error reading data directory: {e}")
-        else:
-            logger.warning(f"[Config] Data directory does not exist or is not a directory: {data_path}")
-            # 상위 경로 확인
-            parent_path = data_path.parent
-            logger.info(f"[Config] Parent directory: {parent_path}")
-            logger.info(f"[Config] Parent exists: {parent_path.exists()}")
-            if parent_path.exists():
+        # 상세 로깅은 최초 한 번만 수행 (성능 최적화)
+        if not _data_dir_logged:
+            _data_dir_logged = True
+            
+            if self.data_dir:
+                logger.info(f"[Config] Using DATA_DIR from env: {data_path}")
+            else:
+                logger.info(f"[Config] Using calculated local data dir: {data_path}")
+            
+            # 디렉토리 존재 여부 확인 및 상세 로깅
+            logger.info(f"[Config] Data directory path: {data_path}")
+            logger.info(f"[Config] Data directory exists: {data_path.exists()}")
+            logger.info(f"[Config] Data directory is_dir: {data_path.is_dir() if data_path.exists() else 'N/A'}")
+            
+            if data_path.exists() and data_path.is_dir():
                 try:
-                    parent_items = list(parent_path.iterdir())
-                    logger.info(f"[Config] Parent contents: {[item.name for item in parent_items[:10]]}")
+                    items = list(data_path.iterdir())
+                    logger.info(f"[Config] Data directory contents count: {len(items)}")
+                    # 처음 5개 항목만 로깅
+                    for item in items[:5]:
+                        logger.info(f"[Config]   - {item.name} (is_dir: {item.is_dir()})")
+                    if len(items) > 5:
+                        logger.info(f"[Config]   ... and {len(items) - 5} more items")
+                except PermissionError as e:
+                    logger.error(f"[Config] Permission error reading data directory: {e}")
                 except Exception as e:
-                    logger.error(f"[Config] Error reading parent directory: {e}")
+                    logger.error(f"[Config] Error reading data directory: {e}")
+            else:
+                logger.warning(f"[Config] Data directory does not exist or is not a directory: {data_path}")
+                # 상위 경로 확인
+                parent_path = data_path.parent
+                logger.info(f"[Config] Parent directory: {parent_path}")
+                logger.info(f"[Config] Parent exists: {parent_path.exists()}")
+                if parent_path.exists():
+                    try:
+                        parent_items = list(parent_path.iterdir())
+                        logger.info(f"[Config] Parent contents: {[item.name for item in parent_items[:10]]}")
+                    except Exception as e:
+                        logger.error(f"[Config] Error reading parent directory: {e}")
         
         return data_path
 
