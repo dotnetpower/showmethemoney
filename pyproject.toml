@@ -27,6 +27,9 @@ dependencies = [
     "apscheduler>=3.10.4",
     "yfinance>=0.2.66",
     "applicationinsights>=0.11.10",
+    "azure-identity>=1.19.0",
+    "agent-framework",
+    "agent-framework-ag-ui",
 ]
 
 [tool.uv]

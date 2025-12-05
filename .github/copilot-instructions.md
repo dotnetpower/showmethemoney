@@ -20,6 +20,8 @@
 - ETF 및 주식 종목 데이터를 주기적으로 가져와 github repo에 저장
 - 대시보드를 통해 ETF 데이터를 시각화 및 분석
 - 모바일 및 데스크탑 환경 모두에서 최적화된 UI 제공
+- 실행시 반드시 가상환경 활성화 후 실행
+- 이미 실행중인 포트가 있을수 있으므로 기존 포트 사용여부 확인 필요
 
 ## github repo as DB
 - github repo의 파일 시스템을 데이터 저장소로 활용
@@ -41,6 +43,26 @@
   - 개별 주식 종목 상세 정보 (가격, 거래량, 뉴스 등)
   - 데이터 시각화 (차트, 그래프 등)
 
+## Agents 구성
+- Microsoft Agent Framework (agent-framework) 활용
+- 주요 Agents:
+  - Data Ingestion Agent: ETF 및 주식 종목 데이터를 주기적으로 수집
+    - 운용사별 ETF 데이터 수집
+    - 배당금 지급 종목 데이터 수집
+    - Total Return ETF 데이터 수집(예: ETFDB, totalreturnetf.com 등)
+  - Data Processing Agent: 수집된 데이터를 정제 및 변환
+    - 중복 제거
+    - 형식 변환(JSON, MessagePack)
+    - 유효성 검사
+  - Data Storage Agent: 데이터를 github repo에 저장 및 관리
+  - API Agent: FastAPI 서버를 통해 데이터 제공
+  - Monitoring Agent: Application Insights를 통해 애플리케이션 상태 모니터링
+  - /backend/app/agents 디렉토리에 각 Agent별 코드 구현
+    - 각 Agent는 독립적으로 실행 가능하며, 필요시 상호작용 가능
+    - 검증을 위해 각 Agent별 테스트 케이스 작성
+  - Agent Tools
+    - Web Search 를 위해서는 HostedWebSearchTool 사용
+
 ## 개발환경
 - Python 3.13 이상
 - uv 로 패키지 관리
@@ -57,6 +79,8 @@
         - opentelemetry-instrumentation-httpx
         - opentelemetry-instrumentation-fastapi
         - opentelemetry-instrumentation-openai
+        - agent-framework
+        - agent-framework-ag-ui
 - React (대시보드 프론트엔드)
 - 폴더 구조:
     ```
