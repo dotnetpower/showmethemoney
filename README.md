@@ -22,6 +22,7 @@
 - [API 문서](#-api-문서)
 - [ETF 크롤러 현황](#-etf-크롤러-현황)
 - [배포](#-배포)
+- [보안](#-보안)
 - [기여 가이드](#-기여-가이드)
 - [라이선스](#-라이선스)
 
@@ -316,6 +317,40 @@ ruff check backend/
 # TypeScript 린팅
 cd frontend && npm run lint
 ```
+
+## 🔒 보안
+
+### 보안 정책
+
+프로젝트의 보안을 중요하게 생각합니다. 자세한 보안 정책은 [SECURITY.md](./SECURITY.md)를 참조하세요.
+
+### 주요 보안 기능
+
+- **API 키 인증**: 프로덕션 환경에서 API 엔드포인트 보호
+- **환경 변수 관리**: 모든 민감한 정보는 환경 변수로 관리
+- **입력 검증**: Path Traversal, XSS, Command Injection 방어
+- **Docker 보안**: 비특권 사용자로 컨테이너 실행
+- **CORS 설정**: 허용된 도메인만 접근 가능
+
+### 프로덕션 배포 시 필수 환경 변수
+
+```bash
+# API 보안
+export API_KEY="your-secure-api-key"
+
+# OpenAI API (Agent 기능 사용 시)
+export OPENAI_API_KEY="your-openai-api-key"
+
+# Application Insights
+export APPLICATION_INSIGHTS_CONNECTION_STRING="your-connection-string"
+
+# CORS 설정
+export CORS_ORIGINS="https://your-domain.com"
+```
+
+### 보안 취약점 보고
+
+보안 취약점을 발견하신 경우, GitHub Issues가 아닌 프로젝트 관리자에게 직접 연락해 주시기 바랍니다.
 
 ## 📅 로드맵
 

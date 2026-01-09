@@ -1,5 +1,7 @@
 """보안 관련 테스트"""
 import pytest
+import os
+from unittest.mock import patch
 
 from app.services.data_manager import DataManager
 
@@ -146,3 +148,102 @@ class TestETFApiSecurity:
             validate_provider_name("../etc/passwd")
         
         assert exc_info.value.status_code == 400
+
+
+class TestSecurityConfiguration:
+    """보안 설정 테스트"""
+    
+    def test_api_key_validation_with_key(self):
+        """API 키가 설정된 경우 검증이 작동해야 함"""
+        from app.core.security import verify_api_key
+        from fastapi import HTTPException
+        
+        with patch.dict(os.environ, {"API_KEY": "test-api-key"}):
+            # 올바른 키
+            assert verify_api_key("test-api-key") == "test-api-key"
+            
+            # 잘못된 키
+            with pytest.raises(HTTPException) as exc_info:
+                verify_api_key("wrong-key")
+            assert exc_info.value.status_code == 401
+            
+            # 키 없음
+            with pytest.raises(HTTPException) as exc_info:
+                verify_api_key(None)
+            assert exc_info.value.status_code == 401
+    
+    def test_api_key_validation_without_key(self):
+        """API 키가 설정되지 않은 경우 검증을 건너뛰어야 함"""
+        from app.core.security import verify_api_key
+        
+        with patch.dict(os.environ, {}, clear=True):
+            # 키가 없어도 통과
+            assert verify_api_key(None) == "development"
+            assert verify_api_key("any-key") == "development"
+
+
+class TestAgentSecurity:
+    """Agent 보안 테스트"""
+    
+    def test_base_agent_requires_api_key(self):
+        """BaseAgent는 OpenAI API 키를 요구해야 함"""
+        from app.agents.base_agent import BaseAgent
+        
+        with patch.dict(os.environ, {}, clear=True):
+            with pytest.raises(ValueError, match="OpenAI API key is required"):
+                BaseAgent(
+                    name="test",
+                    instructions="test",
+                    config={}
+                )
+    
+    def test_base_agent_accepts_api_key_from_env(self):
+        """BaseAgent는 환경 변수에서 API 키를 가져와야 함"""
+        from app.agents.base_agent import BaseAgent
+        
+        with patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}):
+            agent = BaseAgent(
+                name="test",
+                instructions="test",
+                config={}
+            )
+            # config에서 먼저 확인하고, 없으면 환경 변수에서 확인
+            api_key = agent.config.get("openai_api_key") or os.getenv("OPENAI_API_KEY")
+            assert api_key == "test-key"
+    
+    def test_base_agent_accepts_api_key_from_config(self):
+        """BaseAgent는 config에서 API 키를 가져와야 함"""
+        from app.agents.base_agent import BaseAgent
+        
+        with patch.dict(os.environ, {}, clear=True):
+            agent = BaseAgent(
+                name="test",
+                instructions="test",
+                config={"openai_api_key": "config-key"}
+            )
+            assert agent.config.get("openai_api_key") == "config-key"
+
+
+class TestCommandInjection:
+    """명령어 주입 취약점 테스트"""
+    
+    def test_git_commit_push_validates_file_path(self):
+        """git_commit_push는 파일 경로를 검증해야 함"""
+        from app.agents.data_storage_agent import git_commit_push
+        
+        # 절대 경로 차단
+        result = git_commit_push("/etc/passwd", "test")
+        assert "Invalid file path" in result or "유효하지 않은" in result
+        
+        # Path traversal 차단
+        result = git_commit_push("../../../etc/passwd", "test")
+        assert "Invalid file path" in result or "path traversal" in result or "유효하지 않은" in result
+    
+    def test_git_commit_push_validates_commit_message(self):
+        """git_commit_push는 커밋 메시지 길이를 제한해야 함"""
+        from app.agents.data_storage_agent import git_commit_push
+        
+        # 너무 긴 메시지
+        long_message = "a" * 501
+        result = git_commit_push("test.json", long_message)
+        assert "too long" in result or "유효하지 않은" in result

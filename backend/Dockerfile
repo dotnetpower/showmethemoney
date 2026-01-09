@@ -1,5 +1,8 @@
 FROM python:3.13-slim
 
+# 보안: 비특권 사용자 생성
+RUN groupadd -r appuser && useradd -r -g appuser appuser
+
 WORKDIR /app
 
 COPY pyproject.toml ./
@@ -12,6 +15,12 @@ COPY backend/app ./app
 COPY backend/observability ./observability
 # Copy data directory to the image
 COPY data ./data
+
+# 보안: 애플리케이션 디렉토리 소유권 변경
+RUN chown -R appuser:appuser /app
+
+# 보안: 비특권 사용자로 전환
+USER appuser
 
 EXPOSE 8000
 
