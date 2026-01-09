@@ -62,8 +62,17 @@ def git_commit_push(
     try:
         # 입력 검증: 파일 경로가 상대 경로이고 안전한지 확인
         file_path_obj = Path(file_path)
-        if file_path_obj.is_absolute() or ".." in str(file_path_obj):
-            raise ValueError("Invalid file path: must be relative and safe")
+        
+        # 절대 경로 차단
+        if file_path_obj.is_absolute():
+            raise ValueError("Invalid file path: must be relative path")
+        
+        # Path traversal 방지: 정규화된 경로가 현재 디렉토리 내에 있는지 확인
+        try:
+            resolved_path = (Path.cwd() / file_path_obj).resolve()
+            resolved_path.relative_to(Path.cwd().resolve())
+        except (ValueError, RuntimeError):
+            raise ValueError("Invalid file path: path traversal detected")
         
         # 커밋 메시지 길이 제한 (명령어 주입 방지)
         if len(commit_message) > 500:

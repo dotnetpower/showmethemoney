@@ -207,7 +207,9 @@ class TestAgentSecurity:
                 instructions="test",
                 config={}
             )
-            assert agent.config.get("openai_api_key") or os.getenv("OPENAI_API_KEY") == "test-key"
+            # config에서 먼저 확인하고, 없으면 환경 변수에서 확인
+            api_key = agent.config.get("openai_api_key") or os.getenv("OPENAI_API_KEY")
+            assert api_key == "test-key"
     
     def test_base_agent_accepts_api_key_from_config(self):
         """BaseAgent는 config에서 API 키를 가져와야 함"""
@@ -231,11 +233,11 @@ class TestCommandInjection:
         
         # 절대 경로 차단
         result = git_commit_push("/etc/passwd", "test")
-        assert "Invalid file path" in result or "유효하지 않은 입력" in result
+        assert "Invalid file path" in result or "유효하지 않은" in result
         
         # Path traversal 차단
         result = git_commit_push("../../../etc/passwd", "test")
-        assert "Invalid file path" in result or "유효하지 않은 입력" in result
+        assert "Invalid file path" in result or "path traversal" in result or "유효하지 않은" in result
     
     def test_git_commit_push_validates_commit_message(self):
         """git_commit_push는 커밋 메시지 길이를 제한해야 함"""
@@ -244,4 +246,4 @@ class TestCommandInjection:
         # 너무 긴 메시지
         long_message = "a" * 501
         result = git_commit_push("test.json", long_message)
-        assert "too long" in result or "유효하지 않은 입력" in result
+        assert "too long" in result or "유효하지 않은" in result

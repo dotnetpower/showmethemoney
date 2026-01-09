@@ -15,7 +15,7 @@ def get_api_key() -> Optional[str]:
     return os.getenv("API_KEY")
 
 
-def verify_api_key(api_key: str = Security(api_key_header)) -> str:
+def verify_api_key(api_key: Optional[str] = Security(api_key_header)) -> str:
     """
     API 키 검증
     
