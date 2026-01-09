@@ -4,6 +4,7 @@ Microsoft Agent Framework 기반의 Agent 구조
 """
 
 import logging
+import os
 from typing import Any, Callable, Dict, List, Optional
 
 from agent_framework import ChatAgent
@@ -31,8 +32,13 @@ class BaseAgent:
         self.config = config or {}
         self.logger = logging.getLogger(f"agent.{name}")
         
-        # OpenAI 클라이언트 설정
-        api_key = self.config.get("openai_api_key", "your-api-key")
+        # OpenAI 클라이언트 설정 - 환경 변수에서 가져오거나 config에서 가져옴
+        api_key = self.config.get("openai_api_key") or os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise ValueError(
+                "OpenAI API key is required. Set OPENAI_API_KEY environment variable "
+                "or provide 'openai_api_key' in config."
+            )
         model = self.config.get("model", "gpt-4")
         
         # ChatAgent 초기화

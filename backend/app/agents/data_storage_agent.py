@@ -54,14 +54,30 @@ def git_commit_push(
     file_path: Annotated[str, Field(description="커밋할 파일 경로")],
     commit_message: Annotated[str, Field(description="커밋 메시지")]
 ) -> str:
-    """Git commit 및 push"""
+    """
+    Git commit 및 push
+    
+    보안: 모든 인자는 리스트로 전달하여 명령어 주입을 방지합니다.
+    """
     try:
-        subprocess.run(["git", "add", file_path], check=True, capture_output=True)
-        subprocess.run(["git", "commit", "-m", commit_message], check=True, capture_output=True)
-        subprocess.run(["git", "push"], check=True, capture_output=True)
+        # 입력 검증: 파일 경로가 상대 경로이고 안전한지 확인
+        file_path_obj = Path(file_path)
+        if file_path_obj.is_absolute() or ".." in str(file_path_obj):
+            raise ValueError("Invalid file path: must be relative and safe")
+        
+        # 커밋 메시지 길이 제한 (명령어 주입 방지)
+        if len(commit_message) > 500:
+            raise ValueError("Commit message too long (max 500 characters)")
+        
+        # shell=False로 실행하여 명령어 주입 방지 (리스트 형태로 인자 전달)
+        subprocess.run(["git", "add", "--", file_path], check=True, capture_output=True, text=True)
+        subprocess.run(["git", "commit", "-m", commit_message], check=True, capture_output=True, text=True)
+        subprocess.run(["git", "push"], check=True, capture_output=True, text=True)
         return f"Git push 완료: {file_path}"
     except subprocess.CalledProcessError as e:
-        return f"Git 작업 실패: {str(e)}"
+        return f"Git 작업 실패: {e.stderr if e.stderr else str(e)}"
+    except ValueError as e:
+        return f"유효하지 않은 입력: {str(e)}"
 
 
 class DataStorageAgent(BaseAgent):
