@@ -118,6 +118,48 @@ async def startup_event() -> None:
     if data_dir.exists():
         try:
             subdirs = [d for d in os.listdir(data_dir) if os.path.isdir(data_dir / d)]
+            logger.info(f"[Startup] Data subdirectories ({len(subdirs)}): {subdirs[:10]}")
+        except Exception as e:
+            logger.error(f"[Startup] Error listing data subdirectories: {e}")
+    
+    # Agent 초기화 및 등록
+    logger.info("=" * 60)
+    logger.info("Initializing Agents...")
+    logger.info("=" * 60)
+    
+    try:
+        from .api.v1.agents import register_agent
+        from .agents.data_ingestion_agent import DataIngestionAgent
+        from .agents.data_processing_agent import DataProcessingAgent
+        from .agents.monitoring_agent import MonitoringAgent
+        
+        # Agent 초기화 (Agent Framework는 선택적)
+        agents_config = {
+            "openai_api_key": settings.openai_api_key if hasattr(settings, 'openai_api_key') else None,
+            "model": "gpt-4",
+            "version": "1.0.0",
+        }
+        
+        # Agent 인스턴스 생성 및 등록
+        logger.info("[Agent] Registering Data Ingestion Agent...")
+        data_ingestion = DataIngestionAgent(config=agents_config)
+        register_agent("data_ingestion", data_ingestion)
+        
+        logger.info("[Agent] Registering Data Processing Agent...")
+        data_processing = DataProcessingAgent(config=agents_config)
+        register_agent("data_processing", data_processing)
+        
+        logger.info("[Agent] Registering Monitoring Agent...")
+        monitoring = MonitoringAgent(config=agents_config)
+        register_agent("monitoring", monitoring)
+        
+        logger.info("[Agent] All agents registered successfully")
+        
+    except Exception as e:
+        logger.warning(f"[Agent] Agent initialization failed (non-critical): {e}")
+        logger.warning("[Agent] Continuing without Agent Framework support")
+    
+    logger.info("=" * 60)
             files = [f for f in os.listdir(data_dir) if os.path.isfile(data_dir / f)]
             logger.info(f"[Startup] Data directory has {len(subdirs)} subdirs, {len(files)} files")
             logger.info(f"[Startup] Subdirectories (first 10): {subdirs[:10]}")
